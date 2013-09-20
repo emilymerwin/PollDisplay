@@ -1,13 +1,13 @@
 $(document).ready(function(){
 	$.ajax({
 		type: "GET",
-		url: "data/poll_legi.xml",
+		url: "data/poll.xml",
 		dataType: "xml",
 		success: parseQuestions
 	});
 });//document ready
 function parseQuestions(xml){
-	var buttonHTML = '<input type="radio" id="radio0" checked="checked" name="radio" /><label for="radio0">Total</label><input type="radio" id="radio1" name="radio" /><label for="radio1">Metro</label><input type="radio" id="radio2" name="radio" /><label for="radio2">Non-metro</label><input type="radio" id="radio3" name="radio" /><label for="radio3">North GA</label><input type="radio" id="radio4" name="radio" /><label for="radio4">Central GA</label><input type="radio" id="radio5" name="radio" /><label for="radio5">South GA</label><input type="radio" id="radio6" name="radio" /><label for="radio6">18-24</label><input type="radio" id="radio7" name="radio" /><label for="radio7">25-34</label><input type="radio" id="radio8" name="radio" /><label for="radio8">35-44</label><input type="radio" id="radio9" name="radio" /><label for="radio9">45-54</label><input type="radio" id="radio10" name="radio" /><label for="radio10">65+</label><input type="radio" id="radio11" name="radio" /><label for="radio11">Male</label><input type="radio" id="radio12" name="radio" /><label for="radio12">Female</label><input type="radio" id="radio13" name="radio" /><label for="radio13">No HS</label><input type="radio" id="radio14" name="radio" /><label for="radio14">HS GED</label><input type="radio" id="radio15" name="radio" /><label for="radio15">Some College</label><input type="radio" id="radio16" name="radio" /><label for="radio16">BA</label><input type="radio" id="radio17" name="radio" /><label for="radio17">Grad/Profession Degree</label><input type="radio" id="radio18" name="radio" /><label for="radio18">Black</label><input type="radio" id="radio19" name="radio" /><label for="radio19">White</label><input type="radio" id="radio20" name="radio" /><label for="radio20">Latino</label><input type="radio" id="radio21" name="radio" /><label for="radio21">Other</label><input type="radio" id="radio22" name="radio" /><label for="radio22">Democrat</label><input type="radio" id="radio23" name="radio" /><label for="radio23">Republican</label><input type="radio" id="radio24" name="radio" /><label for="radio24">Other</label>';
+	var buttonHTML = '<input type="radio" id="radio0" checked="checked" name="radio" /><label for="radio0">Total</label><input type="radio" id="radio1" name="radio" /><label for="radio1">Metro</label><input type="radio" id="radio2" name="radio" /><label for="radio2">Non-metro</label><input type="radio" id="radio3" name="radio" /><label for="radio3">North GA</label><input type="radio" id="radio4" name="radio" /><label for="radio4">Central GA</label><input type="radio" id="radio5" name="radio" /><label for="radio5">South GA</label><input type="radio" id="radio6" name="radio" /><label for="radio6">18-24</label><input type="radio" id="radio7" name="radio" /><label for="radio7">25-34</label>';
 	document.getElementById('radio').innerHTML = buttonHTML;
 	$("#radio").buttonset();
 	var bigArray = [];
