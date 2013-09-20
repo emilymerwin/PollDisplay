@@ -7,8 +7,13 @@ $(document).ready(function(){
 	});
 });//document ready
 function parseQuestions(xml){
-	var buttonHTML = '<input type="radio" id="radio0" checked="checked" name="radio" /><label for="radio0">Total</label><input type="radio" id="radio1" name="radio" /><label for="radio1">Metro</label><input type="radio" id="radio2" name="radio" /><label for="radio2">Non-metro</label><input type="radio" id="radio3" name="radio" /><label for="radio3">North GA</label><input type="radio" id="radio4" name="radio" /><label for="radio4">Central GA</label><input type="radio" id="radio5" name="radio" /><label for="radio5">South GA</label><input type="radio" id="radio6" name="radio" /><label for="radio6">18-24</label><input type="radio" id="radio7" name="radio" /><label for="radio7">25-34</label>';
+	var labelArr = ["Total", "Men", "Women", "White", "Non-white", "Atlanta metro", "Insured", "Uninsured"];
+	var buttonHTML = ""
+	for(var i=0; i<labelArr.length; i++){
+		buttonHTML += '<input type="radio" id="radio'+i+'" name="radio" /><label for="radio'+i+'">'+labelArr[i]+'</label>';
+	}
 	document.getElementById('radio').innerHTML = buttonHTML;
+	$("#radio0").prop("checked", "checked");
 	$("#radio").buttonset();
 	var bigArray = [];
 	var myQs = new Question();
@@ -43,7 +48,6 @@ function parseQuestions(xml){
 					usedResponses ++;
 				}
 			});//Response.each
-			console.log(responseArray)
 			//for (var u=0; u<responseArray.length -1; u++){//-1 only if you have totals as last row
 			for (var u=0; u<responseArray.length; u++){
 				for(var m=0;m<responseArray[u].groupArr.length;m++){
