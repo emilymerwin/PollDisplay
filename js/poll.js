@@ -59,7 +59,14 @@ function parseQuestions(xml){
 					}
 				}
 			}//for
-			$('#qs').append('<div id=q'+Qid+'></div>');
+			var myParent = '#qs';
+			if(Qid == 8){
+				$(myParent).append('<div class="question">Here are several elements of the Affordable Care Act.  For each one, please tell me whether your view of the provision is favorable or unfavorable.</div><div id="groupQ"></div>');
+			}
+			if(Qid >7){
+				myParent = '#groupQ';
+			}
+			$(myParent).append('<div id=q'+Qid+'></div>');
 			startup();
 
 			function loadResults (val){
@@ -99,6 +106,9 @@ function parseQuestions(xml){
 				var multiplier = ($("#qs").width()-10)/100;
 				for(var i=0; i<opts.length; i++){
 					if(opts[i] != undefined){
+						if(Qid > 7){
+							multiplier = ($("#groupQ").width()-10)/100;
+						}
 						var t = multiplier*((100/bigArray[Qid].totalsArr[opts.totes]).toFixed(2));//scale it to account for rounding causing to be more or less than 100
 						var barWidth = opts[i]*t;
 						$('#opt'+i+'q'+Qid).delay(100).animate({'width':barWidth+'px'},'slow').hover(function () {
