@@ -24,7 +24,7 @@ for row in data:
 		QuestionArray.append(myQuestion)
 	myResponse = doc.createElement('Response')
 	myResponse.setAttribute('Label', row['richardResponses'])
-	myAnswers = [checkstring(row['TOTAL RESPONDENTS']), checkstring(row['MALE']), checkstring(row['FEMALE']), checkstring(row['WHITE']), checkstring(row['NON-WHITE']), checkstring(row['ATLANTA METRO']), checkstring(row['insured']), checkstring(row['uninsured'])]
+	myAnswers = [checkstring(row['TOTAL RESPONDENTS']), checkstring(row['ATLANTA METRO']), checkstring(row['MALE']), checkstring(row['FEMALE']), checkstring(row['WHITE']), checkstring(row['NON-WHITE']), checkstring(row['insured']), checkstring(row['uninsured'])]
 	myString = "," #this will be the character that joins our list below
 	myResponse.appendChild(doc.createTextNode(myString.join(myAnswers)))
 	myQuestion.appendChild(myResponse)

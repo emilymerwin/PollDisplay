@@ -7,7 +7,7 @@ $(document).ready(function(){
 	});
 });//document ready
 function parseQuestions(xml){
-	var labelArr = ["Total", "Men", "Women", "White", "Non-white", "Atlanta metro", "Insured", "Uninsured"];
+	var labelArr = ["Statewide", "Atlanta metro", "Men", "Women", "White", "Non-white",  "Insured", "Uninsured"];
 	var buttonHTML = ""
 	for(var i=0; i<labelArr.length; i++){
 		buttonHTML += '<input type="radio" id="radio'+i+'" name="radio" /><label for="radio'+i+'">'+labelArr[i]+'</label>';
