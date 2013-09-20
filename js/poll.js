@@ -38,9 +38,7 @@ function parseQuestions(xml){
 					tempArray = temp.split(',');
 					option.groupArr = [];
 					jQuery.each(tempArray, function(b, c){
-						c=c*100;//get rid of this if data is represented in whole numbers instead of percent
-						var newc = parseInt(c);
-						option.groupArr[b] = newc;
+						option.groupArr[b] = +c;
 					});//format our number and multiply by 6 for chart
 					option.optlabel = optLabel;
 					bigArray[Qid][usedResponses] = option;

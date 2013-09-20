@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 import csv
 from xml.dom.minidom import Document
+import decimal
 
 data = csv.DictReader (open("ACApoll.csv",'U'))
 #Create the XML doc
@@ -13,7 +14,8 @@ def checkstring(n):
 	if "- " == n or "* " == n:
 		return "0"
 	else:
-		return n
+		dec = int(decimal.Decimal(n)*100)
+		return str(dec)
 for row in data:
 	myID = int(row['qnum'])
 	Qid= row['qnum']
