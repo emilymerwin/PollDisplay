@@ -1,3 +1,8 @@
+body {
+	font-family:'Arial',sanserif;
+	font-size:12px;
+	width:610px;
+}
 #radio{
 	margin-left:-7px;
 	margin-right:0;
@@ -10,18 +15,15 @@
 	height:auto;
 	border-bottom:2px solid #ccc;
 	color:#3a3a3a;
-	font-size:14px;	
+	font-size:14px;
 }
-
 #results {
 	width:600px;
-/*	background-color:#CCCCCC;*/
 	height:30px;
 	overflow:hidden;
 	margin:2px 0 17px -5px;
 	margin-bottom:17px;
 }
-
 #response {
 	width:105px;
 	padding:2px;
@@ -37,9 +39,6 @@
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#8E9E82;*/
-/*	background-color:#555936;*/
 	background-color: #A8CF37;
 }
 .opt1percent {
@@ -47,9 +46,6 @@
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#8E9E82;*/
-/*	background-color:#555936;*/
 	background-color:#657C24;
 }
 .opt2percent {
@@ -57,9 +53,6 @@
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#607890;*/
-/*	background-color:#F2CD5C;*/
 	background-color: #A6B985;
 }
 .opt3percent {
@@ -67,43 +60,28 @@
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#CACCB6;*/
-/*	background-color:#637343;*/
 	background-color:#9D8637;
-	
+
 }
 .opt4percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#F2F0DF;*/
-/*	background-color:#A2A633;*/
 	background-color:#D9BE62;
 }
-
 .opt5percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#A9C1D9;*/
-/*	background-color:#F2B138;*/
 	background-color: #F2DF9B;
 }
-
-
 .opt6percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#607890;*/
-/*	background-color:#F2CD5C;*/
 	background-color: #A8CF37;
 }
 .opt7percent {
@@ -111,9 +89,6 @@
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#607890;*/
-/*	background-color:#F2CD5C;*/
 	background-color: #657C24;
 }
 .opt8percent {
@@ -121,9 +96,6 @@
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#607890;*/
-/*	background-color:#F2CD5C;*/
 	background-color: #A6B985;
 }
 .opt9percent {
@@ -131,9 +103,6 @@
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#607890;*/
-/*	background-color:#F2CD5C;*/
 	background-color: #D9BE62;
 }
 .opt10percent {
@@ -141,21 +110,13 @@
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#A9C1D9;*/
-/*	background-color:#F2B138;*/
 	background-color: #F2DF9B;
 }
-
-
 .opt11percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#607890;*/
-/*	background-color:#F2CD5C;*/
 	background-color: #A8CF37;
 }
 .opt12percent {
@@ -163,9 +124,6 @@
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#607890;*/
-/*	background-color:#F2CD5C;*/
 	background-color: #657C24;
 }
 .opt13percent {
@@ -173,9 +131,6 @@
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#607890;*/
-/*	background-color:#F2CD5C;*/
 	background-color: #A6B985;
 }
 .opt14percent {
@@ -183,31 +138,21 @@
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#CACCB6;*/
-/*	background-color:#637343;*/
 	background-color:#9D8637;
-	
+
 }
 .opt15percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#F2F0DF;*/
-/*	background-color:#A2A633;*/
 	background-color:#D9BE62;
 }
-
 .opt16percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#A9C1D9;*/
-/*	background-color:#F2B138;*/
 	background-color: #F2DF9B;
 }
 .opt17percent {
@@ -215,9 +160,6 @@
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#607890;*/
-/*	background-color:#F2CD5C;*/
 	background-color: #A8CF37;
 }
 .opt18percent {
@@ -225,9 +167,6 @@
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#607890;*/
-/*	background-color:#F2CD5C;*/
 	background-color: #657C24;
 }
 .opt19percent {
@@ -235,9 +174,6 @@
 	float:left;
 	display:inline-block;
 	height:30px;
-/*	margin-top:2px;*/
-/*	background-color:#607890;*/
-/*	background-color:#F2CD5C;*/
 	background-color: #A6B985;
 }
 .innerlabel{
