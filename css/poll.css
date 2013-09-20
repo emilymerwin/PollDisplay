@@ -2,13 +2,15 @@ body {
 	max-width:960px;
 }
 #radio{
-	margin-left:-7px;
-	margin-right:0;
+	width:100%;
+	margin:auto;
 }
 #radio .ui-button-text-only .ui-button-text {
-	padding: 5px 9px;
+	padding: 5px 35px;
+}
+@media only screen and (max-width: 767px) { #filters ul li { float:left; margin-right:12px; } }
 #groupQ{
-	margin:10px 0 10px 60px;
+	margin:10px 0 10px 40px;
 }
 .question {
 	width:100%;
@@ -38,71 +40,81 @@ body {
 	float:left;
 	display:inline-block;
 	height:30px;
-	background-color: #A8CF37;
+	/*background-color: #A8CF37;*/
+	background-color: #3182bd;
 }
 .opt1percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-	background-color:#657C24;
+	/*background-color:#657C24;*/
+	background-color: #9ecae1;
 }
 .opt2percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-	background-color: #A6B985;
+	/*background-color: #A6B985;*/
+	background-color: #e6550d;
 }
 .opt3percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-	background-color:#9D8637;
-
+/*	background-color:#9D8637;*/
+	background-color: #fdae6b;
 }
 .opt4percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-	background-color:#D9BE62;
+	/*background-color:#D9BE62;*/
+	background-color: #fdd0a2;
 }
 .opt5percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-	background-color: #F2DF9B;
+	/*background-color: #F2DF9B;*/
+	background-color: #636363;
 }
 .opt6percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-	background-color: #A8CF37;
+	/*background-color: #A8CF37;*/
+		background-color: #969696;
+
 }
 .opt7percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-	background-color: #657C24;
+	/*background-color: #657C24;*/
+	background-color:  #bdbdbd;
 }
 .opt8percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-	background-color: #A6B985;
+	/*background-color: #A6B985;*/
+	background-color: #d9d9d9;
 }
 .opt9percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-	background-color: #D9BE62;
+	/*background-color: #D9BE62;*/
+	background-color: #FFFFFF;
 }
 .opt10percent {
 	width:0px;
