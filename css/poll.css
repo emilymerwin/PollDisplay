@@ -1,7 +1,7 @@
 body {
 	font-family:'Arial',sanserif;
 	font-size:12px;
-	width:610px;
+	max-width:960px;
 }
 #radio{
 	margin-left:-7px;
@@ -11,16 +11,16 @@ body {
 	padding: 5px 9px;
 }
 .question {
-	width:590px;
+	width:100%;
 	height:auto;
 	border-bottom:2px solid #ccc;
 	color:#3a3a3a;
 	font-size:14px;
 }
 #results {
-	width:600px;
+	width:100%;
 	height:30px;
-	overflow:hidden;
+	overflow:hidden; /*we need this so that the bars don't jump onto different lines while tweening. better for them to dissapear for a second*/
 	margin:2px 0 17px -5px;
 	margin-bottom:17px;
 }

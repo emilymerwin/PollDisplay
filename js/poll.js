@@ -98,9 +98,10 @@ function parseQuestions(xml){
 				$('#questionq'+Qid).append(q);
 			}//startup
 			function drawBars(){
+				var multiplier = ($("#qs").width()-10)/100;
 				for(var i=0; i<opts.length; i++){
 					if(opts[i] != undefined){
-						var t = 5.7*((100/bigArray[Qid].totalsArr[opts.totes]).toFixed(2));//scale it to account for rounding causing to be more or less than 100
+						var t = multiplier*((100/bigArray[Qid].totalsArr[opts.totes]).toFixed(2));//scale it to account for rounding causing to be more or less than 100
 						var barWidth = opts[i]*t;
 						$('#opt'+i+'q'+Qid).delay(100).animate({'width':barWidth+'px'},'slow').hover(function () {
 							$(this).css({'opacity':'0.7'});
