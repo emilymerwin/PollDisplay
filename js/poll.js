@@ -117,7 +117,7 @@ function parseQuestions(xml){
 								adjust: { x: 10,  y: 10 }
 							},
 							hide: { fixed: true /*Helps to prevent the tooltip from hiding ocassionally when tracking!*/ },
-							style: { classes: 'ui-tooltip-light ui-tooltip-shadow' }
+							style: { classes: 'ui-tooltip-light ui-tooltip-shadow ttip' }
 						});//qtip
 					}// if opts[i]!undefined
 				}//for(opts.length)

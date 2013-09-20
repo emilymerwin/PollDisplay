@@ -1,6 +1,4 @@
 body {
-	font-family:'Arial',sanserif;
-	font-size:12px;
 	max-width:960px;
 }
 #radio{
@@ -181,6 +179,10 @@ body {
 	text-align:center;
 	padding:3px;
 	overflow:hidden;
+	font-size:11px;
+}
+.ttip{
+	font-family:'Arial',sanserif;
 }
 #radio .ui-widget {
 	font-size:10px;
