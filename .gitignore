@@ -8,3 +8,9 @@ data/poll_legi.xml
 data/ACApoll.csv
 
 data/poll.xml
+
+poll_free.html
+
+js/poll_free.js
+
+data/poll_free.xml
