@@ -24,22 +24,28 @@ function parseQuestions(xml){
 			var totalsArr = [];
 			this.totalsArr = totalsArr;
 			var opts = [];
+			var usedResponses = 0;
 			$(this).find("Response").each(function(index, element){
-				var option = new Object;
-				var temp = $(this).text();
-				tempArray = temp.split(',');
-				option.groupArr = [];
-				jQuery.each(tempArray, function(b, c){
-					c=c*100;//get rid of this if data is represented in whole numbers instead of percent
-					var newc = parseInt(c);
-					option.groupArr[b] = newc;
-				});//format our number and multiply by 6 for chart
-				option.optlabel = $(this).attr('Label');
-				bigArray[Qid][index] = option;
-				responseArray[index] = option;//maybe delete later
+				var optLabel = $(this).attr('Label');
+				if(optLabel !== ""){
+					var option = new Object;
+					var temp = $(this).text();
+					tempArray = temp.split(',');
+					option.groupArr = [];
+					jQuery.each(tempArray, function(b, c){
+						c=c*100;//get rid of this if data is represented in whole numbers instead of percent
+						var newc = parseInt(c);
+						option.groupArr[b] = newc;
+					});//format our number and multiply by 6 for chart
+					option.optlabel = optLabel;
+					bigArray[Qid][usedResponses] = option;
+					responseArray[usedResponses] = option;//maybe delete later
+					usedResponses ++;
+				}
 			});//Response.each
-
-			for (var u=0; u<responseArray.length -1; u++){//-1 only if you have totals as last row
+			console.log(responseArray)
+			//for (var u=0; u<responseArray.length -1; u++){//-1 only if you have totals as last row
+			for (var u=0; u<responseArray.length; u++){
 				for(var m=0;m<responseArray[u].groupArr.length;m++){
 					var temp = responseArray[u].groupArr[m];
 					if (!isNaN(temp)){
@@ -55,7 +61,8 @@ function parseQuestions(xml){
 			startup();
 
 			function loadResults (val){
-				for(var g=0; g<responseArray.length -1; g++){//remove -1 if you don't have totals as your final row
+				//for(var g=0; g<responseArray.length -1; g++){//remove -1 if you don't have totals as your final row
+				for(var g=0; g<responseArray.length; g++){
 					if(responseArray[g].groupArr[val] != undefined){
 						opts[g] = responseArray[g].groupArr[val];
 					} else{
@@ -78,7 +85,8 @@ function parseQuestions(xml){
 			}
 			function startup(){
 				var otherHolder = '<div id="holderq'+Qid+'"><div id="questionq'+Qid+'" class="question"></div><div id="results">';
-				for (var p=0; p<bigArray[Qid].responseArray.length -1; p++){//-1 only if you have last response row as total responses (so that you don't have to calculate total responses - useful for making sure all bars are the same length despite rounding)
+				//for (var p=0; p<bigArray[Qid].responseArray.length -1; p++){//-1 only if you have last response row as total responses (so that you don't have to calculate total responses - useful for making sure all bars are the same length despite rounding)
+				for (var p=0; p<bigArray[Qid].responseArray.length; p++){
 					otherHolder += '<div class="opt'+p+'percent" id="opt'+p+'q'+Qid+'"><div class="innerlabel">'+bigArray[Qid][p].optlabel+'</div></div>'
 				}
 				otherHolder += '</div></div>';

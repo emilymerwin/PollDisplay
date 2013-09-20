@@ -18,7 +18,7 @@ for row in data:
 		myQuestion.setAttribute('label', row['questionRichards'])
 		QuestionArray.append(myQuestion)
 	myResponse = doc.createElement('Response')
-	myResponse.setAttribute('Label', row['responses'])
+	myResponse.setAttribute('Label', row['richardResponses'])
 	myAnswers = [row['TOTAL RESPONDENTS'], row['MALE'], row['FEMALE'], row['WHITE'], row['NON-WHITE'], row['ATLANTA METRO'], row['insured'], row['uninsured']]
 	myString = "," #this will be the character that joins our list below
 	myResponse.appendChild(doc.createTextNode(myString.join(myAnswers)))
