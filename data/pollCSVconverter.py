@@ -9,6 +9,11 @@ doc = Document()
 docbase = doc.createElement("docbase")
 doc.appendChild(docbase)
 QuestionArray = []
+def checkstring(n):
+	if "- " == n or "* " == n:
+		return "0"
+	else:
+		return n
 for row in data:
 	myID = int(row['qnum'])
 	Qid= row['qnum']
@@ -19,7 +24,7 @@ for row in data:
 		QuestionArray.append(myQuestion)
 	myResponse = doc.createElement('Response')
 	myResponse.setAttribute('Label', row['richardResponses'])
-	myAnswers = [row['TOTAL RESPONDENTS'], row['MALE'], row['FEMALE'], row['WHITE'], row['NON-WHITE'], row['ATLANTA METRO'], row['insured'], row['uninsured']]
+	myAnswers = [checkstring(row['TOTAL RESPONDENTS']), checkstring(row['MALE']), checkstring(row['FEMALE']), checkstring(row['WHITE']), checkstring(row['NON-WHITE']), checkstring(row['ATLANTA METRO']), checkstring(row['insured']), checkstring(row['uninsured'])]
 	myString = "," #this will be the character that joins our list below
 	myResponse.appendChild(doc.createTextNode(myString.join(myAnswers)))
 	myQuestion.appendChild(myResponse)
