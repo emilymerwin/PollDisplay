@@ -18,7 +18,7 @@ body {
 	color:#3a3a3a;
 	font-size:14px;
 }
-#results {
+.results {
 	width:100%;
 	height:30px;
 	overflow:hidden; /*we need this so that the bars don't jump onto different lines while tweening. better for them to dissapear for a second*/
