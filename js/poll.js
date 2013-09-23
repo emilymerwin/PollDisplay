@@ -46,12 +46,10 @@ function parseQuestions(xml){
 			for (var u=0; u<responseArray.length; u++){
 				for(var m=0;m<responseArray[u].groupArr.length;m++){
 					var temp = responseArray[u].groupArr[m];
-					if (!isNaN(temp)){
-						if(totalsArr[m] != undefined){
-							totalsArr[m] += temp;
-						} else{
-							totalsArr[m] = temp;
-						}
+					if(totalsArr[m]){
+						totalsArr[m] += temp;
+					} else{
+						totalsArr[m] = temp;
 					}
 				}
 			}//for
@@ -68,11 +66,7 @@ function parseQuestions(xml){
 			function loadResults (val){
 				//for(var g=0; g<responseArray.length -1; g++){//remove -1 if you don't have totals as your final row
 				for(var g=0; g<responseArray.length; g++){
-					if(responseArray[g].groupArr[val] != undefined){
-						opts[g] = responseArray[g].groupArr[val];
-					} else{
-						opts[g] = 0;
-					}
+					opts[g] = responseArray[g].groupArr[val];
 					opts.totes = val;
 				}
 				drawBars();
@@ -101,29 +95,27 @@ function parseQuestions(xml){
 			function drawBars(){
 				var multiplier = ($("#qs").width()-10)/100;
 				for(var i=0; i<opts.length; i++){
-					if(opts[i] != undefined){
-						if(Qid > 7){
-							multiplier = ($("#groupQ").width()-10)/100;
-						}
-						var t = multiplier*((100/bigArray[Qid].totalsArr[opts.totes]).toFixed(2));//scale it to account for rounding causing to be more or less than 100
-						var barWidth = opts[i]*t;
-						$('#opt'+i+'q'+Qid).delay(100).animate({'width':barWidth+'px'},'slow').hover(function () {
-							$(this).css({'opacity':'0.7'});
-						}, function () {
-							$('#opt'+i+'q'+Qid).find("span:last").remove();
-							$(this).css({'opacity':'1.0'});
-						}).qtip({
-							content: bigArray[Qid].responseArray[i].optlabel+': <b>' + opts[i] +'%</b>',
-							position: {
-								my: 'top right',
-								target: 'mouse',
-								viewport: $(window), // Keep it on-screen at all times if possible
-								adjust: { x: 10,  y: 10 }
-							},
-							hide: { fixed: true /*Helps to prevent the tooltip from hiding ocassionally when tracking!*/ },
-							style: { classes: 'ui-tooltip-light ui-tooltip-shadow ttip' }
-						});//qtip
-					}// if opts[i]!undefined
+					if(Qid > 7){
+						multiplier = ($("#groupQ").width()-10)/100;
+					}
+					var t = multiplier*((100/bigArray[Qid].totalsArr[opts.totes]).toFixed(2));//scale it to account for rounding causing to be more or less than 100
+					var barWidth = opts[i]*t;
+					$('#opt'+i+'q'+Qid).delay(100).animate({'width':barWidth+'px'},'slow').hover(function () {
+						$(this).css({'opacity':'0.7'});
+					}, function () {
+						$('#opt'+i+'q'+Qid).find("span:last").remove();
+						$(this).css({'opacity':'1.0'});
+					}).qtip({
+						content: bigArray[Qid].responseArray[i].optlabel+': <b>' + opts[i] +'%</b>',
+						position: {
+							my: 'top right',
+							target: 'mouse',
+							viewport: $(window), // Keep it on-screen at all times if possible
+							adjust: { x: 10,  y: 10 }
+						},
+						hide: { fixed: true /*Helps to prevent the tooltip from hiding ocassionally when tracking!*/ },
+						style: { classes: 'ui-tooltip-light ui-tooltip-shadow ttip' }
+					});//qtip
 				}//for(opts.length)
 			}//drawbars
 		});//xml.find(myQuestion)

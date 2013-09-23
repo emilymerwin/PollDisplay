@@ -11,7 +11,7 @@ docbase = doc.createElement("docbase")
 doc.appendChild(docbase)
 QuestionArray = []
 def checkstring(n):
-	if "- " == n or "* " == n:
+	if "- " == n or "* " == n or " " == n:
 		return "0"
 	else:
 		dec = int(decimal.Decimal(n)*100)
