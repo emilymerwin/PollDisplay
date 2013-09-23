@@ -29,22 +29,18 @@ function parseQuestions(xml){
 			var totalsArr = [];
 			this.totalsArr = totalsArr;
 			var opts = [];
-			var usedResponses = 0;
 			$(this).find("Response").each(function(index, element){
 				var optLabel = $(this).attr('Label');
-				if(optLabel !== ""){
-					var option = new Object;
-					var temp = $(this).text();
-					tempArray = temp.split(',');
-					option.groupArr = [];
-					jQuery.each(tempArray, function(b, c){
-						option.groupArr[b] = +c;
-					});//format our number and multiply by 6 for chart
-					option.optlabel = optLabel;
-					bigArray[Qid][usedResponses] = option;
-					responseArray[usedResponses] = option;//maybe delete later
-					usedResponses ++;
-				}
+				var option = new Object;
+				var temp = $(this).text();
+				tempArray = temp.split(',');
+				option.groupArr = [];
+				jQuery.each(tempArray, function(b, c){
+					option.groupArr[b] = +c;
+				});//convert to integer and add to demographic breakdown array
+				option.optlabel = optLabel;
+				bigArray[Qid][index] = option;
+				responseArray[index] = option;//maybe delete later
 			});//Response.each
 			//for (var u=0; u<responseArray.length -1; u++){//-1 only if you have totals as last row
 			for (var u=0; u<responseArray.length; u++){

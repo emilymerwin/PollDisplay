@@ -11,6 +11,7 @@ This ran 9/22/13 as an exclusive to myajc.com <a href="http://www.myajc.com/aca-
 - note that the demographic group title cells often have a few leading spaces, which could break your python parser if you don't know they are there
 
 - numbers will come in as strings "100%" etc, need to convert before parsing (format --> normal), and python parser will convert to whole numbers
+- ACA poll is using a column of edited "response" fields separate from the defaults, which are in the original .csv - parser checks for this and removes those that do not have text in the edited response field
 
 - make sure to remove "UNWEIGHTED BASE" and "TOTAL RESPONDENTS" from the file you give the parser, as these are not percentages but the actual number of people in each category
 

@@ -24,12 +24,14 @@ for row in data:
 		myQuestion.setAttribute('Qid', Qid)
 		myQuestion.setAttribute('label', row['questionRichards'])
 		QuestionArray.append(myQuestion)
-	myResponse = doc.createElement('Response')
-	myResponse.setAttribute('Label', row['richardResponses'])
-	myAnswers = [checkstring(row['TOTAL RESPONDENTS']), checkstring(row['ATLANTA METRO']), checkstring(row['MALE']), checkstring(row['FEMALE']), checkstring(row['WHITE']), checkstring(row['NON-WHITE']), checkstring(row['insured']), checkstring(row['uninsured'])]
-	myString = "," #this will be the character that joins our list below
-	myResponse.appendChild(doc.createTextNode(myString.join(myAnswers)))
-	myQuestion.appendChild(myResponse)
+	richardResponses = row['richardResponses']
+	if richardResponses != "": #don't need this check if we aren't using a separate column for selected responses
+		myResponse = doc.createElement('Response')
+		myResponse.setAttribute('Label', richardResponses)
+		myAnswers = [checkstring(row['TOTAL RESPONDENTS']), checkstring(row['ATLANTA METRO']), checkstring(row['MALE']), checkstring(row['FEMALE']), checkstring(row['WHITE']), checkstring(row['NON-WHITE']), checkstring(row['insured']), checkstring(row['uninsured'])]
+		myString = "," #this will be the character that joins our list below
+		myResponse.appendChild(doc.createTextNode(myString.join(myAnswers)))
+		myQuestion.appendChild(myResponse)
 
 	docbase.appendChild(myQuestion)
 
