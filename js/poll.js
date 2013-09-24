@@ -51,7 +51,7 @@ function parseQuestions(xml){
 					}
 				}
 			}//for
-			startup();
+			startup(Qid);
 
 			for(var w=0; w < responseArray[0].demogArr.length; w++){
 				$('#radio'+w).click(function(num){
@@ -66,51 +66,52 @@ function parseQuestions(xml){
 					opts[g] = responseArray[g].demogArr[val]; //associate each demographic slice from each response with their corresponding filter button
 					opts.id = val;
 				}
-				drawBars();
+				drawBars(Qid, opts);
 			}//loadResults*/
-
-			function startup(){			
-				var qText = '<div id=q'+Qid+'><div id="questionq'+Qid+'" class="question">'+qLabel+'</div><div class="results">';
-				for (var p=0; p<bigArray[Qid].responseArray.length; p++){ //-1 from .length if you have totals as your final row (so that you don't have to calculate total responses - useful for making sure all bars are the same length despite rounding)
-					qText += '<div class="opt'+p+'percent" id="opt'+p+'q'+Qid+'"><div class="innerlabel">'+bigArray[Qid][p].optlabel+'</div></div>'
-				}
-				qText += '</div></div>';
-				var myParent = '#qs';
-				if(Qid == 8){
-					$(myParent).append('<div class="question">Here are several elements of the Affordable Care Act. For each one, please tell me whether your view of the provision is favorable or unfavorable.</div><div id="groupQ"></div>');
-				}
-				if(Qid > 7){
-					myParent = '#groupQ';
-				}
-				$(myParent).append(qText);
-			}//startup
-			function drawBars(){
-				var multiplier = ($("#qs").width()-10)/100; //subtract 10 to give it enough buffer to prevent it overflowing its container when animating
-				for(var i=0; i<opts.length; i++){
-					if(Qid > 7){
-						multiplier = ($("#groupQ").width()-10)/100;
-					}
-					var t = multiplier*((100/bigArray[Qid].totalsArr[opts.id]).toFixed(2)); //scale it to account for rounding causing to be more or less than 100//not sure we need the .toFixed(2) anymore now that our data uses whole numbers, this may have been to get around the .float rounding error
-					var barWidth = opts[i]*t;
-					$('#opt'+i+'q'+Qid).delay(100).animate({'width':barWidth+'px'},'slow').hover(function () {
-						$(this).css({'opacity':'0.7'});
-					}, function () {
-						$('#opt'+i+'q'+Qid).find("span:last").remove();
-						$(this).css({'opacity':'1.0'});
-					}).qtip({
-						content: bigArray[Qid].responseArray[i].optlabel+': <b>' + opts[i] +'%</b>',
-						position: {
-							my: 'top right',
-							target: 'mouse',
-							viewport: $(window), // Keep it on-screen at all times if possible
-							adjust: { x: 10,  y: 10 }
-						},
-						hide: { fixed: true /*Helps to prevent the tooltip from hiding ocassionally when tracking!*/ },
-						style: { classes: 'ui-tooltip-light ui-tooltip-shadow ttip' }
-					});//qtip
-				}//for(opts.length)
-			}//drawbars
 		});//xml.find(myQuestion)
 	}//question
 	$("#radio0").click(); //default to the first filter
+
+	function startup(Qid){
+		var qText = '<div id=q'+Qid+'><div id="questionq'+Qid+'" class="question">'+qLabel+'</div><div class="results">';
+		for (var p=0; p<bigArray[Qid].responseArray.length; p++){ //-1 from .length if you have totals as your final row (so that you don't have to calculate total responses - useful for making sure all bars are the same length despite rounding)
+			qText += '<div class="opt'+p+'percent" id="opt'+p+'q'+Qid+'"><div class="innerlabel">'+bigArray[Qid][p].optlabel+'</div></div>'
+		}
+		qText += '</div></div>';
+		var myParent = '#qs';
+		if(Qid == 8){
+			$(myParent).append('<div class="question">Here are several elements of the Affordable Care Act. For each one, please tell me whether your view of the provision is favorable or unfavorable.</div><div id="groupQ"></div>');
+		}
+		if(Qid > 7){
+			myParent = '#groupQ';
+		}
+		$(myParent).append(qText);
+	}//startup
+
+	function drawBars(Qid, opts){
+		var multiplier = ($("#qs").width()-10)/100; //subtract 10 to give it enough buffer to prevent it overflowing its container when animating
+		for(var i=0; i<opts.length; i++){
+			if(Qid > 7){
+				multiplier = ($("#groupQ").width()-10)/100;
+			}
+			var t = multiplier*((100/bigArray[Qid].totalsArr[opts.id]).toFixed(2)); //scale it to account for rounding causing to be more or less than 100//not sure we need the .toFixed(2) anymore now that our data uses whole numbers, this may have been to get around the .float rounding error
+			var barWidth = opts[i]*t;
+			$('#opt'+i+'q'+Qid).delay(100).animate({'width':barWidth+'px'},'slow').hover(function () {
+				$(this).css({'opacity':'0.7'});
+			}, function () {
+				$('#opt'+i+'q'+Qid).find("span:last").remove();
+				$(this).css({'opacity':'1.0'});
+			}).qtip({
+				content: bigArray[Qid].responseArray[i].optlabel+': <b>' + opts[i] +'%</b>',
+				position: {
+					my: 'top right',
+					target: 'mouse',
+					viewport: $(window), // Keep it on-screen at all times if possible
+					adjust: { x: 10,  y: 10 }
+				},
+				hide: { fixed: true /*Helps to prevent the tooltip from hiding ocassionally when tracking!*/ },
+				style: { classes: 'ui-tooltip-light ui-tooltip-shadow ttip' }
+			});//qtip
+		}//for(opts.length)
+	}//drawbars
 };//parseQuestions
