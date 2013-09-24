@@ -53,7 +53,7 @@ function parseQuestions(xml){
 			}//for
 			startup(Qid);
 
-			for(var w=0; w < responseArray[0].demogArr.length; w++){
+			for(var w=0; w < labelArr.length; w++){
 				$('#radio'+w).click(function(num){
 					return function (){
 						loadResults(num);
