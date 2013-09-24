@@ -15,61 +15,59 @@ function parseQuestions(xml){
 	document.getElementById('radio').innerHTML = buttonHTML;
 	$("#radio").buttonset();//initialize for jQueryUI
 	var bigArray = [];
-	var myQs = new Question();
-	function Question(){//creating an object to initiate so we can prototype it, even though we aren't doing that here
-		$(xml).find("myQuestion").each(function(index, element){
-			this.id = index;
-			bigArray[index] = this;
-			var Qid = $(this).attr("Qid");
-			qLabel = $(this).attr("label");
-			var responseArray = [];
-			this.responseArray = responseArray;
-			var totalsArr = [];
-			this.totalsArr = totalsArr;
-			var opts = [];
-			$(this).find("Response").each(function(index, element){
-				var optLabel = $(this).attr('Label');
-				var option = new Object;
-				var temp = $(this).text();
-				tempArray = temp.split(',');
-				option.demogArr = [];
-				jQuery.each(tempArray, function(b, c){
-					option.demogArr[b] = +c;
-				});//convert to integer and add to demographic breakdown array
-				option.optlabel = optLabel;
-				bigArray[Qid][index] = option;
-				responseArray[index] = option;//maybe delete later
-			});//Response.each
-			for (var u=0; u<responseArray.length; u++){//-1 from .length if you have totals as your final row
-				//add up each demographic group, so we can use it later to force them to appear to be 100% to account for rounding
-				for(var m=0;m<responseArray[u].demogArr.length;m++){
-					var temp = responseArray[u].demogArr[m];
-					if(totalsArr[m]){
-						totalsArr[m] += temp;
-					} else{
-						totalsArr[m] = temp;
-					}
+	
+	$(xml).find("myQuestion").each(function(index, element){
+		this.id = index;
+		bigArray[index] = this;
+		var Qid = $(this).attr("Qid");
+		qLabel = $(this).attr("label");
+		var responseArray = [];
+		this.responseArray = responseArray;
+		var totalsArr = [];
+		this.totalsArr = totalsArr;
+		var opts = [];
+		$(this).find("Response").each(function(index, element){
+			var optLabel = $(this).attr('Label');
+			var option = new Object;
+			var temp = $(this).text();
+			tempArray = temp.split(',');
+			option.demogArr = [];
+			jQuery.each(tempArray, function(b, c){
+				option.demogArr[b] = +c;
+			});//convert to integer and add to demographic breakdown array
+			option.optlabel = optLabel;
+			bigArray[Qid][index] = option;
+			responseArray[index] = option;//maybe delete later
+		});//Response.each
+		for (var u=0; u<responseArray.length; u++){//-1 from .length if you have totals as your final row
+			//add up each demographic group, so we can use it later to force them to appear to be 100% to account for rounding
+			for(var m=0;m<responseArray[u].demogArr.length;m++){
+				var temp = responseArray[u].demogArr[m];
+				if(totalsArr[m]){
+					totalsArr[m] += temp;
+				} else{
+					totalsArr[m] = temp;
 				}
-			}//for
-			startup(Qid);
-
-			for(var w=0; w < labelArr.length; w++){
-				$('#radio'+w).click(function(num){
-					return function (){
-						loadResults(num);
-					}
-				}(w));
 			}
+		}//for
+		startup(Qid);
 
-			function loadResults (val){
-				for(var g=0; g<responseArray.length; g++){ //-1 from .length if you have totals as your final row
-					opts[g] = responseArray[g].demogArr[val]; //associate each demographic slice from each response with their corresponding filter button
-					opts.id = val;
+		for(var w=0; w < labelArr.length; w++){
+			$('#radio'+w).click(function(num){
+				return function (){
+					loadResults(num);
 				}
-				drawBars(Qid, opts);
-			}//loadResults*/
-		});//xml.find(myQuestion)
-	}//question
+			}(w));
+		}
+
+		function loadResults (val){
+			for(var g=0; g<responseArray.length; g++){ //-1 from .length if you have totals as your final row
+				opts[g] = responseArray[g].demogArr[val]; //associate each demographic slice from each response with their corresponding filter button
+				opts.id = val;
+			}
+			drawBars(Qid, opts);
+		}//loadResults*/
+	});//xml.find(myQuestion)
 	$("#radio0").click(); //default to the first filter
 
 	function startup(Qid){
