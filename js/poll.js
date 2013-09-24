@@ -23,7 +23,6 @@ function parseQuestions(xml){
 			bigArray[index] = this;
 			var Qid = $(this).attr("Qid");
 			qLabel = $(this).attr("label");
-			var q = qLabel;
 			var responseArray = [];
 			this.responseArray = responseArray;
 			var totalsArr = [];
@@ -53,15 +52,16 @@ function parseQuestions(xml){
 					}
 				}
 			}//for
-			var myParent = '#qs';
-			if(Qid == 8){
-				$(myParent).append('<div class="question">Here are several elements of the Affordable Care Act.  For each one, please tell me whether your view of the provision is favorable or unfavorable.</div><div id="groupQ"></div>');
-			}
-			if(Qid > 7){
-				myParent = '#groupQ';
-			}
-			$(myParent).append('<div id=q'+Qid+'></div>');
 			startup();
+			loadResults(0); //default to the first filter
+			
+			for(var w=0; w < responseArray[0].demogArr.length; w++){
+				$('#radio'+w).click(function(num){
+					return function (){
+						loadResults(num);
+					}
+				}(w));
+			}
 
 			function loadResults (val){
 				for(var g=0; g<responseArray.length; g++){ //-1 from .length if you have totals as your final row
@@ -70,24 +70,21 @@ function parseQuestions(xml){
 				}
 				drawBars();
 			}//loadResults*/
-			loadResults(0);//default to the first filter
-			//consolidate these
-			for(var w=0, myRadio; w < responseArray[0].demogArr.length; w++){
-				var myString = '#radio'+w;
-				var myRadio = $(myString);
-				myRadio.click(function(num){
-					return function (){
-						loadResults(num);
-					}
-				}(w));
-			}
-			function startup(){
-				var qText = '<div id="holderq'+Qid+'"><div id="questionq'+Qid+'" class="question"></div><div class="results">';
+
+			function startup(){			
+				var qText = '<div id=q'+Qid+'><div id="questionq'+Qid+'" class="question">'+qLabel+'</div><div class="results">';
 				for (var p=0; p<bigArray[Qid].responseArray.length; p++){ //-1 from .length if you have totals as your final row (so that you don't have to calculate total responses - useful for making sure all bars are the same length despite rounding)
 					qText += '<div class="opt'+p+'percent" id="opt'+p+'q'+Qid+'"><div class="innerlabel">'+bigArray[Qid][p].optlabel+'</div></div>'
 				}
 				qText += '</div></div>';
-				$('#q'+Qid).append(qText);
+				var myParent = '#qs';
+				if(Qid == 8){
+					$(myParent).append('<div class="question">Here are several elements of the Affordable Care Act. For each one, please tell me whether your view of the provision is favorable or unfavorable.</div><div id="groupQ"></div>');
+				}
+				if(Qid > 7){
+					myParent = '#groupQ';
+				}
+				$(myParent).append(qText);
 			}//startup
 			function drawBars(){
 				var multiplier = ($("#qs").width()-10)/100; //subtract 10 to give it enough buffer to prevent it overflowing its container when animating
