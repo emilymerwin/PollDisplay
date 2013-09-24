@@ -13,7 +13,6 @@ function parseQuestions(xml){
 		buttonHTML += '<input type="radio" id="radio'+i+'" name="radio" /><label for="radio'+i+'">'+labelArr[i]+'</label>';
 	}
 	document.getElementById('radio').innerHTML = buttonHTML;
-	$("#radio0").prop("checked", "checked");
 	$("#radio").buttonset();//initialize for jQueryUI
 	var bigArray = [];
 	var myQs = new Question();
@@ -53,8 +52,7 @@ function parseQuestions(xml){
 				}
 			}//for
 			startup();
-			loadResults(0); //default to the first filter
-			
+
 			for(var w=0; w < responseArray[0].demogArr.length; w++){
 				$('#radio'+w).click(function(num){
 					return function (){
@@ -114,4 +112,5 @@ function parseQuestions(xml){
 			}//drawbars
 		});//xml.find(myQuestion)
 	}//question
+	$("#radio0").click(); //default to the first filter
 };//parseQuestions
