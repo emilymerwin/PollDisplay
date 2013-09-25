@@ -31,17 +31,17 @@ function parseQuestions(xml){
 		this.qLabel = $(this).attr("label");
 		var Qid = index;
 		
-		bigArr[index] = this;
+		bigArr.push(this);
 
-		$(this).find("Response").each(function(index){
+		$(this).find("Response").each(function(){
 			var option = new Object;
 			option.optlabel = $(this).attr('Label');
 			option.demogArr = [];
 			tempArr = $(this).text().split(',');
 			jQuery.each(tempArr, function(b, c){
-				option.demogArr[b] = +c;
+				option.demogArr.push(+c);
 			});//convert to integer and add to demographic breakdown array
-			bigArr[Qid].responseArr[index] = option;
+			bigArr[Qid].responseArr.push(option);
 		});//Response.each
 
 		for (var u=0; u<this.responseArr.length; u++){ //-1 from .length if you have totals as your final row
@@ -82,7 +82,7 @@ function parseQuestions(xml){
 		for(var a=0; a<bigArr.length; a++){
 			var opts = [];
 			for(var g=0; g<bigArr[a].responseArr.length; g++){ //-1 from .length if you have totals as your final row
-				opts[g] = bigArr[a].responseArr[g].demogArr[val]; //associate each demographic slice from each response with their corresponding filter button
+				opts.push(bigArr[a].responseArr[g].demogArr[val]); //associate each demographic slice from each response with their corresponding filter button
 				opts.id = val;
 			}
 			drawBars(a, opts);
