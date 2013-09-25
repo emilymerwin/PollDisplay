@@ -17,12 +17,12 @@ function parseQuestions(xml){
 		buttonHTML += '<input type="radio" id="radio'+i+'" name="radio" /><label for="radio'+i+'">'+labelArr[i]+'</label>';
 	}
 	$(document.getElementById('filters')).html(buttonHTML).buttonset(); //.buttonset() initializes the radio buttons for jQueryUI
-	for(var w=0; w < labelArr.length; w++) {
-		$('#radio'+w).click(function(num) {
+	for(var i=0; i < labelArr.length; i++) {
+		$('#radio'+i).click(function(num) {
 			return function () {
 				loadResults(num);
 			}
-		}(w));
+		}(i));
 	}
 
 	$(xml).find("myQuestion").each(function(index){
@@ -44,14 +44,14 @@ function parseQuestions(xml){
 			bigArr[Qid].responseArr.push(option);
 		});//Response.each
 
-		for (var u=0; u<this.responseArr.length; u++){ //-1 from .length if you have totals as your final row
+		for (var i=0; i<this.responseArr.length; i++){ //-1 from .length if you have totals as your final row
 			//add up each demographic group, so we can use it later to force them to appear to be 100% to account for rounding
-			for(var m=0; m<this.responseArr[u].demogArr.length; m++){
-				var temp = this.responseArr[u].demogArr[m];
-				if(this.totalsArr[m]){
-					this.totalsArr[m] += temp;
+			for(var j=0; j<this.responseArr[i].demogArr.length; j++){
+				var temp = this.responseArr[i].demogArr[j];
+				if(this.totalsArr[j]){
+					this.totalsArr[j] += temp;
 				} else{
-					this.totalsArr[m] = temp;
+					this.totalsArr[j] = temp;
 				}
 			}
 		}//for
@@ -64,8 +64,8 @@ function parseQuestions(xml){
 	
 	function startup(Qid){
 		var qText = '<div id=q'+Qid+'><div id="questionq'+Qid+'" class="question">'+bigArr[Qid].qLabel+'</div><div class="results">';
-		for (var p=0; p<bigArr[Qid].responseArr.length; p++){ //-1 from .length if you have totals as your final row (so that you don't have to calculate total responses - useful for making sure all bars are the same length despite rounding)
-			qText += '<div class="opt'+p+'percent" id="opt'+p+'q'+Qid+'"><div class="innerlabel">'+bigArr[Qid].responseArr[p].optlabel+'</div></div>'
+		for (var i=0; i<bigArr[Qid].responseArr.length; i++){ //-1 from .length if you have totals as your final row (so that you don't have to calculate total responses - useful for making sure all bars are the same length despite rounding)
+			qText += '<div class="opt'+i+'percent" id="opt'+i+'q'+Qid+'"><div class="innerlabel">'+bigArr[Qid].responseArr[i].optlabel+'</div></div>'
 		}
 		qText += '</div></div>';
 		var myParent = '#qs';
@@ -79,13 +79,13 @@ function parseQuestions(xml){
 	}//startup
 
 	function loadResults (val){
-		for(var a=0; a<bigArr.length; a++){
+		for(var i=0; i<bigArr.length; i++){
 			var opts = [];
-			for(var g=0; g<bigArr[a].responseArr.length; g++){ //-1 from .length if you have totals as your final row
-				opts.push(bigArr[a].responseArr[g].demogArr[val]); //associate each demographic slice from each response with their corresponding filter button
+			for(var j=0; j<bigArr[i].responseArr.length; j++){ //-1 from .length if you have totals as your final row
+				opts.push(bigArr[i].responseArr[j].demogArr[val]); //associate each demographic slice from each response with their corresponding filter button
 				opts.id = val;
 			}
-			drawBars(a, opts);
+			drawBars(i, opts);
 		}
 	}//loadResults
 	
