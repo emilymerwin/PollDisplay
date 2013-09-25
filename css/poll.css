@@ -97,12 +97,11 @@ body {
 	/*background-color: #A6B985;*/
 	background-color: #d9d9d9;
 }
-.opt9percent {
+/*.opt9percent {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
-	/*background-color: #D9BE62;*/
 	background-color: #FFFFFF;
 }
 .opt10percent {
@@ -175,7 +174,7 @@ body {
 	display:inline-block;
 	height:30px;
 	background-color: #A6B985;
-}
+}*/
 .innerlabel{
 	color:#FFFFFF;
 	text-align:center;
