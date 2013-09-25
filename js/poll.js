@@ -12,8 +12,9 @@ function parseQuestions(xml){
 	for(var i=0; i<labelArr.length; i++){
 		buttonHTML += '<input type="radio" id="radio'+i+'" name="radio" /><label for="radio'+i+'">'+labelArr[i]+'</label>';
 	}
-	document.getElementById('radio').innerHTML = buttonHTML;
-	$("#radio").buttonset();//initialize for jQueryUI
+	
+	document.getElementById('filters').innerHTML = buttonHTML;
+	$("#filters").buttonset();//initialize for jQueryUI
 	var bigArray = [];
 
 	for(var w=0; w < labelArr.length; w++) {

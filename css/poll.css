@@ -1,14 +1,13 @@
 body {
 	max-width:960px;
 }
-#radio{
-	width:100%;
-	margin:auto;
-}
-#radio .ui-button-text-only .ui-button-text {
+#filters .ui-button-text-only .ui-button-text {
 	padding: 5px 35px;
 }
-@media only screen and (max-width: 767px) { #filters ul li { float:left; margin-right:12px; } }
+#filters .ui-widget {
+	font-size:10px;
+}
+@media only screen and (max-width: 767px) { #filters .ui-button-text-only .ui-button-text { padding:5px 15px;; } }
 #groupQ{
 	margin:10px 0 10px 40px;
 }
@@ -196,7 +195,4 @@ body {
 }
 .ttip{
 	font-family:'Arial',sanserif;
-}
-#radio .ui-widget {
-	font-size:10px;
 }
