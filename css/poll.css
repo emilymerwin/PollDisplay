@@ -24,16 +24,6 @@ body {
 	margin:2px 0 17px -5px;
 	margin-bottom:17px;
 }
-#response {
-	width:105px;
-	padding:2px;
-	height:16px;
-	float:left;
-	text-align:right;
-	display:inline-block;
-	margin-right:5px;
-	border-right:1px solid #ccc;
-}
 .opt0percent {
 	width:0px;
 	float:left;
