@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="Are you now covered by any form of health insurance or health plan or do you not have health insurance at this time?">
+  <Response Label="Covered by health insurance">78,81,80,76,84,69,100,0</Response>
+  <Response Label="Not covered by health insurance">21,19,18,23,15,29,0,100</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="Which of the following is your MAIN source of health insurance coverage? Is it a plan through your employer, a plan through your spouse’s employer, a plan you purchased yourself, are you covered by Medicare or Medicaid, some other government program, or do you get your health insurance from somewhere else? &lt;small class='muted'&gt;Base: Covered by health insurance&lt;/small&gt;">
+  <Response Label="Your employer">42,46,49,34,38,47,42,0</Response>
+  <Response Label="Spouse’s employer">15,12,11,19,17,12,15,0</Response>
+  <Response Label="Purchased yourself">7,4,7,6,9,3,7,0</Response>
+  <Response Label="Medicare">18,15,16,21,22,12,18,0</Response>
+  <Response Label="Medicaid">4,6,1,6,1,9,4,0</Response>
+  <Response Label="Some other government program">5,3,7,3,6,3,5,0</Response>
+  <Response Label="Somewhere else (SPECIFY)">7,13,7,7,5,12,7,0</Response>
+  <Response Label="Plan through your parents">2,1,1,3,2,2,2,0</Response>
+  <Response Label="N/A">0,0,0,0,0,0,0,100</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="Within the last twelve months, have you or a member of your family put off any sort of medical treatment because of the cost you would have to pay?">
+  <Response Label="Yes, self">11,9,7,14,13,7,8,21</Response>
+  <Response Label="Yes, family member">7,7,6,8,7,8,7,8</Response>
+  <Response Label="Yes, both">13,11,12,15,13,15,10,25</Response>
+  <Response Label="No">68,73,74,63,67,70,74,45</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="There’s been a lot of debate over the Affordable Care Act, sometimes called Obamacare, which seeks to provide more people with health insurance. Do you feel that you have a good understanding of how the Affordable Care Act will affect you and your family, or are you not very clear on how it will affect you and your family?">
+  <Response Label="Good understanding">37,32,42,32,40,33,41,23</Response>
+  <Response Label="Not very clear">62,68,57,67,59,67,58,77</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="Given what you know about the law, do you have a generally favorable or generally unfavorable opinion of it?">
+  <Response Label="Favorable">31,48,32,31,19,51,32,27</Response>
+  <Response Label="Unfavorable">57,40,56,59,72,34,56,63</Response>
+  <Response Label="Other">11,12,12,10,9,15,12,9</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="Overall, what do you think is the best approach to the health care law at this point?">
+  <Response Label="Repeal all of it">28,15,33,24,39,12,30,25</Response>
+  <Response Label="Repeal parts of it">21,23,20,22,25,15,23,15</Response>
+  <Response Label="Let it stand as it is">14,20,12,16,11,17,16,7</Response>
+  <Response Label="Wait and see before deciding what should be done">31,39,29,33,20,49,26,48</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="Starting Jan. 1, 2014, most Americans above a certain income level will be required by the Affordable Care Act to purchase health insurance or pay a fine. The government would provide subsidies for individuals earning less than $46,000 a year or a family of four earning less than $94,200. Do you support or oppose this requirement?">
+  <Response Label="Support">37,48,37,37,28,51,38,34</Response>
+  <Response Label="Oppose">54,43,57,51,62,43,53,60</Response>
+  <Response Label="Other">9,9,6,11,10,6,10,5</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="Part of this law would expand Medicaid to provide coverage to many low-income adults currently without coverage, such as single adults earning below $16,000 a year. The federal government would initially cover 100 percent of the entire cost of this expansion for the first few years. After that, the federal government would pay 90 percent, with the states paying 10 percent.  States have the right to refuse the expansion, and Georgia has decided against it, citing the cost. Do you think that Georgia SHOULD allow the expansion of Medicaid to cover low income uninsured adults, or should it refuse to participate?">
+  <Response Label="Yes, Georgia should allow expansion">60,72,60,60,46,81,56,77</Response>
+  <Response Label="No, Georgia should refuse to participate">31,24,30,33,44,12,36,15</Response>
+  <Response Label="Other">9,5,10,7,9,7,8,8</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="allowing children to stay on their parents’ insurance plans until they turn 26">
+  <Response Label="Favorable">71,82,62,80,70,73,72,66</Response>
+  <Response Label="Unfavorable">24,17,32,16,24,24,23,27</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="prohibiting health insurance companies from charging women higher premiums than men">
+  <Response Label="Favorable">38,43,32,42,39,36,37,41</Response>
+  <Response Label="Unfavorable">57,53,62,53,57,59,59,50</Response>
+ </myQuestion>
+ <myQuestion Qid="10" label="limiting the amount health insurance companies can charge older people">
+  <Response Label="Favorable">50,60,46,53,51,47,51,44</Response>
+  <Response Label="Unfavorable">44,36,47,42,43,47,43,50</Response>
+ </myQuestion>
+ <myQuestion Qid="11" label="requiring health insurance companies to provide insurance to anyone who applies, regardless of pre-existing conditions">
+  <Response Label="Favorable">66,68,61,70,66,65,65,68</Response>
+  <Response Label="Unfavorable">29,30,34,25,28,31,30,27</Response>
+ </myQuestion>
+ <myQuestion Qid="12" label="requiring insurance companies to cover birth control pills and contraceptive devices">
+  <Response Label="Favorable">58,73,45,71,57,59,57,63</Response>
+  <Response Label="Unfavorable">37,24,49,27,39,35,39,34</Response>
+ </myQuestion>
+</docbase>
