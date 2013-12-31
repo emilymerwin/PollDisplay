@@ -3,6 +3,7 @@ This ran 9/22/13 as an exclusive to myajc.com <a href="http://www.myajc.com/aca-
 It is part of our series on the Affordable Care Act and Georiga, found <a href="http://www.myajc.com/s/news/healthcare-georgia/">here</a>.
 ###To do
 [ ] jQuery library is outdated but broke stuff when I tried to update it. jQuery UI library is current (as of 9/20/13)
+[ ] add filter buttons to the bottom - they need to mirror the ones on the top but also be functional
 
 ###Building the XML
 - If you receive data from the polling company as a PDF, DON'T PANIC - they can give it to you in spreadsheet form (it's not the cleanest of spreadsheet templates but better than the PDF)
