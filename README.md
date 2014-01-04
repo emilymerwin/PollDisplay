@@ -2,8 +2,10 @@
 This ran 9/22/13 as an exclusive to myajc.com <a href="http://www.myajc.com/aca-georgia-poll/">here</a>. The stubbed version for ajc.com ran <a href="http://www.ajc.com/news/aca-georgia-poll-free/">here</a>.
 It is part of our series on the Affordable Care Act and Georiga, found <a href="http://www.myajc.com/s/news/healthcare-georgia/">here</a>.
 ###To do
-[ ] jQuery library is outdated but broke stuff when I tried to update it. jQuery UI library is current (as of 9/20/13)
+[ ] jQuery library is outdated but broke stuff when I tried to update it (I think it's because qTip needs to be upgraded). jQuery UI library is current (as of 9/20/13)
 [ ] add filter buttons to the bottom - they need to mirror the ones on the top but also be functional
+[ ] get rid of qTips
+[ ] filter with drop down instead of the pill buttons (allows for more filters)
 
 ###Building the XML
 - If you receive data from the polling company as a PDF, DON'T PANIC - they can give it to you in spreadsheet form (it's not the cleanest of spreadsheet templates but better than the PDF)
@@ -21,4 +23,3 @@ It is part of our series on the Affordable Care Act and Georiga, found <a href="
 
 - FYI the parser is set to replace "* ", "- " and " " with "0" because those characters were breaking stuff, and if the value is 0 that label won't show up anyway (because it won't have a pixel width, not because it's not added to the DOM, fix that maybe). I believe there are checks in the code to get rid of them but it was still breaking. The polling company uses those symbols to mean either 0 or not a large enough sample.
 
-	
