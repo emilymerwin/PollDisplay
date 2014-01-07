@@ -8,7 +8,7 @@ It is part of our series on the Affordable Care Act and Georiga, found <a href="
 [ ] filter with drop down instead of the pill buttons (allows for more filters)
 
 ###Building the XML
-- If you receive data from the polling company as a PDF, DON'T PANIC - they can give it to you in spreadsheet form (it's not the cleanest of spreadsheet templates but better than the PDF)
+- If you receive data from the polling company as a PDF, DON'T PANIC - they can give it to you in spreadsheet form (it's not the cleanest of spreadsheet templates but better than the PDF) - it starts in SPSS, John says it can be opened and read with R
 - set up spreadsheet like <a href="https://docs.google.com/spreadsheet/ccc?key=0AowdnjGpuk-idHpZZG9CZnEySGk4SkNtUFBOVUh4R1E&usp=sharing">this</a>
 
 - note that the demographic group title cells often have a few leading spaces, which could break your python parser if you don't know they are there
