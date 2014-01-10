@@ -69,12 +69,12 @@ function parseQuestions(xml){
 		}
 		qText += '</div></div>';
 		var myParent = '#qs';
-		if(Qid == 8){
-			$(myParent).append('<div class="question">Here are several elements of the Affordable Care Act. For each one, please tell me whether your view of the provision is favorable or unfavorable.</div><div id="groupQ"></div>');
+		/*if(Qid == 8){
+			$(myParent).append('<div class="question">Question group intro text</div><div id="groupQ"></div>');
 		}
 		if(Qid > 7){
 			myParent = '#groupQ';
-		}
+		}*/
 		$(myParent).append(qText);
 	}//startup
 
@@ -92,9 +92,9 @@ function parseQuestions(xml){
 	function drawBars(Qid, opts){
 		var multiplier = ($("#qs").width()-10)/100; //subtract 10 to give it enough buffer to prevent it overflowing its container when animating
 		for(var i=0; i<opts.length; i++){
-			if(Qid > 7){
+			/*if(Qid > 7){
 				multiplier = ($("#groupQ").width()-10)/100;
-			}
+			}*/
 			var t = multiplier*((100/bigArr[Qid].totalsArr[opts.id]).toFixed(2)); //scale it to account for rounding causing to be more or less than 100//not sure we need the .toFixed(2) anymore now that our data uses whole numbers, this may have been to get around the .float rounding error
 			var barWidth = opts[i]*t;
 			$('#opt'+i+'q'+Qid).delay(100).animate({'width':barWidth+'px'},'slow').hover(function () {
