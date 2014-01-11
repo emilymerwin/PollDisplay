@@ -2,7 +2,8 @@ body {
 	max-width:960px;
 }
 #filters .ui-button-text-only .ui-button-text {
-	padding: 5px 35px;
+	padding: 5px 10px;
+	width:75px;
 }
 #filters .ui-widget {
 	font-size:10px;
