@@ -1,20 +1,9 @@
-
-docs/2013_poll_results.pdf
-
-docs/2013_poll.xls.xlsx
-
-data/poll_legi.xml
-
-data/ACApoll.csv
-
-data/poll.xml
-
 poll_free.html
 
 js/poll_free.js
 
-data/poll_free.xml
-
 poll.tmproj
 
 /data
+
+/docs
