@@ -3,7 +3,7 @@ import csv
 from xml.dom.minidom import Document
 import decimal
 
-data = csv.DictReader (open("ACApoll.csv",'U'))
+data = csv.DictReader (open("pollLower.csv",'U'))
 #Create the XML doc
 doc = Document()
 #create the base element
