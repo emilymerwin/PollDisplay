@@ -15,7 +15,7 @@ It is part of our series on the Affordable Care Act and Georiga, found <a href="
 
 - numbers will come in as strings "100%" etc, need to convert before parsing (format --> normal), and python parser will convert to whole numbers (assuming they are only 2 digits percent representations, haven't tested with numbers that need rounding)
 
-- ACA poll is using a column of edited "response" fields separate from the defaults, which are in the original .csv - parser checks for this and removes those that do not have text in the edited response field
+- assumes response totals are in same row as response labels and that following row is the pct representation
 
 - make sure to remove "UNWEIGHTED BASE" and "TOTAL RESPONDENTS" from the file you give the parser, as these are not percentages but the actual number of people in each category
 
