@@ -25,83 +25,50 @@ body {
 	margin:2px 0 17px -5px;
 	margin-bottom:17px;
 }
-.opt0percent {
+.opt {
 	width:0px;
 	float:left;
 	display:inline-block;
 	height:30px;
+}
+.opt0percent {
+
 	background-color: #20567D;
 }
 .opt1percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
 	/*background-color: #A8CF37;*/
 	background-color: #3182bd;
 }
 .opt2percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
 	/*background-color:#657C24;*/
 	background-color: #9ecae1;
 }
 .opt3percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
 	/*background-color: #A6B985;*/
 	background-color: #e6550d;
 }
 .opt4percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
 /*	background-color:#9D8637;*/
 	background-color: #fdae6b;
 }
 .opt5percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
 	/*background-color:#D9BE62;*/
 	background-color: #fdd0a2;
 }
 .opt6percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
 	/*background-color: #F2DF9B;*/
 	background-color: #636363;
 }
 .opt7percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
 	/*background-color: #A8CF37;*/
 		background-color: #969696;
 
 }
 .opt8percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
 	/*background-color: #657C24;*/
 	background-color:  #bdbdbd;
 }
 .opt9percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
 	/*background-color: #A6B985;*/
 	background-color: #d9d9d9;
 }
