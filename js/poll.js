@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 function parseQuestions(xml){
 	var bigArr = [];
-	
+
 	//setup the radio button filters
 	var labelArr = ["Total", "Men", "Women", "Democrats", "Republicans", "Independents", "Support Deal", "Support Carter", "Whites", "Non-whites", "18-39", "40-64", "65+", "Under $50k", "$50k-$100k", "$100k or more", "Have children", "No children", "Atlanta metro", "Atlanta exurbs"];
 	var buttonHTML = "";	
@@ -30,7 +30,7 @@ function parseQuestions(xml){
 		this.totalsArr = [];
 		this.qLabel = $(this).attr("label");
 		var Qid = index;
-		
+
 		bigArr.push(this);
 
 		$(this).find("Response").each(function(){
@@ -57,9 +57,8 @@ function parseQuestions(xml){
 		}//for
 
 		startup(Qid);
-		
 	});//xml.find(myQuestion)
-	
+
 	$("#radio0").click(); //default to the first filter
 	
 	function startup(Qid){

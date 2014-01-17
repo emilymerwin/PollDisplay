@@ -8,7 +8,7 @@ body {
 #filters .ui-widget {
 	font-size:10px;
 }
-@media only screen and (max-width: 767px) { #filters .ui-button-text-only .ui-button-text { padding:5px 15px;; } }
+@media only screen and (max-width: 767px) { #filters .ui-button-text-only .ui-button-text { padding:5px 15px; } }
 #groupQ{
 	margin:10px 0 10px 40px;
 }
@@ -32,7 +32,6 @@ body {
 	height:30px;
 }
 .opt0percent {
-
 	background-color: #20567D;
 }
 .opt1percent {
@@ -48,7 +47,7 @@ body {
 	background-color: #e6550d;
 }
 .opt4percent {
-/*	background-color:#9D8637;*/
+	/*background-color:#9D8637;*/
 	background-color: #fdae6b;
 }
 .opt5percent {
@@ -61,8 +60,7 @@ body {
 }
 .opt7percent {
 	/*background-color: #A8CF37;*/
-		background-color: #969696;
-
+	background-color: #969696;
 }
 .opt8percent {
 	/*background-color: #657C24;*/
@@ -72,91 +70,13 @@ body {
 	/*background-color: #A6B985;*/
 	background-color: #d9d9d9;
 }
-/*.opt9percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
-	background-color: #FFFFFF;
-}
-.opt10percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
-	background-color: #F2DF9B;
-}
-.opt11percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
-	background-color: #A8CF37;
-}
-.opt12percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
-	background-color: #657C24;
-}
-.opt13percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
-	background-color: #A6B985;
-}
-.opt14percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
-	background-color:#9D8637;
-
-}
-.opt15percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
-	background-color:#D9BE62;
-}
-.opt16percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
-	background-color: #F2DF9B;
-}
-.opt17percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
-	background-color: #A8CF37;
-}
-.opt18percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
-	background-color: #657C24;
-}
-.opt19percent {
-	width:0px;
-	float:left;
-	display:inline-block;
-	height:30px;
-	background-color: #A6B985;
-}*/
-.innerlabel{
+.innerlabel {
 	color:#FFFFFF;
 	text-align:center;
 	padding:3px;
 	overflow:hidden;
 	font-size:11px;
 }
-.ttip{
+.ttip {
 	font-family:'Arial',sanserif;
 }
