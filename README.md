@@ -8,6 +8,7 @@ Legislative Poll 2014 ran <a href="http://www.myajc.com/legislativepoll2014/" ta
 - [ ] add filter buttons to the bottom - they need to mirror the ones on the top but also be functional
 - [ ] get rid of qTips
 - [ ] filter with drop down instead of the pill buttons (allows for more filters)
+- [ ] Add a way to compare historical responses to same question
 
 ###Building the XML
 - If you receive data from the polling company as a PDF, DON'T PANIC - they can give it to you in spreadsheet form (it's not the cleanest of spreadsheet templates but better than the PDF). It originates in SPSS, John says it can be read/manipulated with R
