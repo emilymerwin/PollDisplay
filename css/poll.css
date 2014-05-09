@@ -1,14 +1,15 @@
 body {
 	max-width:960px;
 }
-#filters .ui-button-text-only .ui-button-text {
+.btn {
 	padding: 5px 10px;
-	width:75px;
+	width:85px;
 }
-#filters .ui-widget {
+.btn {
 	font-size:10px;
+	font-family: 'Boomer';
 }
-@media only screen and (max-width: 767px) { #filters .ui-button-text-only .ui-button-text { padding:5px 15px; } }
+@media only screen and (max-width: 767px) { .btn { padding:5px 15px; } }
 #groupQ{
 	margin:10px 0 10px 40px;
 }
@@ -78,5 +79,8 @@ body {
 	font-size:11px;
 }
 .ttip {
-	font-family:'Arial',sanserif;
+	border: 0 none;
+	font-size: 100%;
+	line-height: 1.3;
+	margin: 8px;
 }
