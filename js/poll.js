@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$.ajax({
 		type: "GET",
-		url: "data/poll.xml",
+		url: "data/poll_leg2014.xml",
 		dataType: "xml",
 		success: parseQuestions
 	});
