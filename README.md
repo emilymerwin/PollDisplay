@@ -5,10 +5,13 @@ Legislative Poll 2014 ran <a href="http://www.myajc.com/legislativepoll2014/" ta
 
 ###To do
 - [ ] jQuery library is outdated but broke stuff when I tried to update it (I think it's because qTip needs to be upgraded). jQuery UI library is current (as of 9/20/13)
-- [ ] add filter buttons to the bottom - they need to mirror the ones on the top but also be functional
 - [ ] get rid of qTips
 - [ ] filter with drop down instead of the pill buttons (allows for more filters)
 - [ ] Add a way to compare historical responses to same question
+- [ ] Add answer base? eg. Likely voters vs undecided etc
+- [ ] Better capitalization script - should automatically capitalize 1st char in cell and 1st char after ". ". Maybe even fix common words like Georgia, Congress, U.S., Senate, America, Obama etc.
+- [ ] Build an editor to allow color selection - sometimes you want the color to mean something and this does them in order
+- [ ] Is there a fix for the awkward text wrapping? Maybe truncate with "..."?
 
 ###Building the XML
 - If you receive data from the polling company as a PDF, DON'T PANIC - they can give it to you in spreadsheet form (it's not the cleanest of spreadsheet templates but better than the PDF). It originates in SPSS, John says it can be read/manipulated with R
