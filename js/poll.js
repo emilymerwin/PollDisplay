@@ -8,20 +8,21 @@ $(document).ready(function(){
 });
 
 function parseQuestions(xml){
-	var bigArr = [], buttonHTML = "",
+	var bigArr = [], buttonHTML = "", button2HTML = "",
 	//setup the radio button filters
 	labelArr = ["Total", "Men", "Women", "Democrats", "Republicans", "Independents", "Support Deal", "Support Carter", "Whites", "Non-whites", "18-39", "40-64", "65+", "Under $50k", "$50k-$100k", "$100k or more", "Have children", "No children", "Atlanta metro", "Atlanta exurbs"];
 	for(var i=0; i<labelArr.length; i++){
-		buttonHTML += '<input type="radio" id="radio'+i+'" name="radio" /><label for="radio'+i+'">'+labelArr[i]+'</label>';
+		buttonHTML += '<label class="btn btn-default"><input type="radio" name="radio" value='+i+' id="radio'+i+'"> '+labelArr[i]+'</label>';
+		button2HTML += '<label class="btn btn-default"><input type="radio" name="radio2" value='+i+' id="radioB'+i+'"> '+labelArr[i]+'</label>';
 	}
-	$(document.getElementById('filters')).html(buttonHTML).buttonset(); //.buttonset() initializes the radio buttons for jQueryUI
-	for(var i=0; i < labelArr.length; i++) {
-		$('#radio'+i).click(function(num) {
-			return function () {
-				loadResults(num);
-			}
-		}(i));
-	}
+	$(document.getElementById('buttonsTop')).html(buttonHTML);
+	$(document.getElementById('buttonsBottom')).html(button2HTML);
+	$("input[name^='radio']").change(function(){
+		$("input[name^='radio']").not(this).parent().removeClass('active'); //make sure no other buttons are selected
+		var $otherRadioButtons = $("input[name^='radio'][value='" + this.value + "']").not(this); //select partner button
+		$otherRadioButtons.parent().addClass('active');
+		loadResults(this.value);
+	});
 
 	$(xml).find("myQuestion").each(function(index){
 		this.responseArr = [];
