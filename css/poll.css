@@ -2,15 +2,13 @@ body {
 	max-width:960px;
 }
 .btn {
-	padding: 5px 10px;
-	width:85px;
-}
-.btn {
 	font-size:10px;
 	font-family: 'Boomer';
 	color: #555555;
 	text-shadow: none;
 	box-shadow: none;
+	padding: 5px 10px;
+	width:87px;
 }
 @media only screen and (max-width: 767px) { .btn { padding:5px 15px; } }
 #groupQ{
