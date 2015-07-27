@@ -15,7 +15,7 @@ Legislative Poll 2014 ran <a href="http://www.myajc.com/legislativepoll2014/" ta
 
 ###Building the XML
 - If you receive data from the polling company as a PDF, DON'T PANIC - they can give it to you in spreadsheet form (it's not the cleanest of spreadsheet templates but better than the PDF). It originates in SPSS, John says it can be read/manipulated with R
-- Set up spreadsheet like <a href="https://docs.google.com/spreadsheet/ccc?key=0AowdnjGpuk-idHpZZG9CZnEySGk4SkNtUFBOVUh4R1E&usp=sharing">this</a>
+- Set up spreadsheet like <a href="https://docs.google.com/spreadsheets/d/1Jr_sDRJTEBg3BDvQ8JGH5IhBl34TaE2QP4ZGxD2C398/edit?usp=sharing">this</a>
 	1. move questions to their own column
 	2. delete redundant rows
 	3. remove "UNWEIGHTED BASE" and "TOTAL RESPONDENTS" from the file you give the parser, as these are not response tallies but the actual number of people in each category. "NUMBER OF ANSWERS IN THIS TABLE" or equivalent should be deleted also
