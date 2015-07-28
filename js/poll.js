@@ -62,9 +62,10 @@ function parseQuestions(xml){
 	$("#radio0").click(); //default to the first filter
 	
 	function startup(Qid){
+		var scale = chroma.scale('Blues').domain([11,0]);
 		var qText = '<div id=q'+Qid+'><div id="questionq'+Qid+'" class="question">'+bigArr[Qid].qLabel+'</div><div class="results">';
 		for (var i=0; i<bigArr[Qid].responseArr.length; i++){ //-1 from .length if you have totals as your final row (so that you don't have to calculate total responses - useful for making sure all bars are the same length despite rounding)
-			qText += '<div class="opt'+i+'percent opt" id="opt'+i+'q'+Qid+'"><div class="innerlabel">'+bigArr[Qid].responseArr[i].optlabel+'</div></div>'
+			qText += '<div class="opt'+i+'percent opt" id="opt'+i+'q'+Qid+'", style="background-color:'+scale(i)+'"><div class="innerlabel">'+bigArr[Qid].responseArr[i].optlabel+'</div></div>'
 		}
 		qText += '</div></div>';
 		var myParent = '#qs';
