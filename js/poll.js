@@ -68,12 +68,6 @@ function parseQuestions(xml){
 		}
 		qText += '</div></div>';
 		var myParent = '#qs';
-		/*if(Qid == 8){
-			$(myParent).append('<div class="question">Question group intro text</div><div id="groupQ"></div>');
-		}
-		if(Qid > 7){
-			myParent = '#groupQ';
-		}*/
 		$(myParent).append(qText);
 	}//startup
 
