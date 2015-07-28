@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="Class identification">
+  <Response Label="Upper Class">1,0,0,1,0,3,1,1,2,0,3,1,2,2,1,1,8,0,0,0,0,0,2,5,1,1,1,10,1,3,0,0</Response>
+  <Response Label="Upper-Middle Class">13,7,24,5,16,18,11,20,8,29,6,11,17,21,15,13,13,0,1,8,9,9,6,32,6,27,13,3,10,11,10,22</Response>
+  <Response Label="Middle Class">58,71,55,64,54,40,62,57,58,51,54,58,63,59,56,59,63,38,72,46,60,67,83,61,69,54,46,42,52,66,61,49</Response>
+  <Response Label="Middle-Lower Class">19,22,4,25,21,28,19,14,22,16,26,24,8,10,21,18,8,12,16,35,28,23,10,0,13,14,34,10,20,15,18,22</Response>
+  <Response Label="Lower Class">7,0,10,4,8,10,5,4,9,3,12,6,2,5,5,9,5,47,9,11,3,0,0,1,5,5,5,32,11,4,9,6</Response>
+  <Response Label="DK">2,0,7,2,1,0,3,3,2,1,0,1,8,3,3,1,3,3,2,0,0,1,0,1,6,0,1,3,6,1,2,1</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="Self-Description of Financial Situation">
+  <Response Label="Live Comfortably">25,36,21,14,34,27,29,27,22,14,27,17,32,34,25,25,37,9,2,13,9,21,35,74,24,30,25,16,13,31,29,22</Response>
+  <Response Label="Have a little left over">32,39,45,50,11,21,23,36,29,32,33,27,35,48,39,25,29,0,31,29,37,39,42,21,28,28,35,13,33,29,24,46</Response>
+  <Response Label="Just meeting expenses">24,26,17,14,18,40,34,17,31,19,24,31,22,11,17,34,26,19,28,36,45,27,23,1,29,20,22,26,25,17,33,22</Response>
+  <Response Label="Not meeting basic expenses">17,0,10,22,37,12,11,16,17,34,17,24,3,5,17,16,8,72,38,22,9,12,0,2,14,22,17,42,24,21,12,10</Response>
+  <Response Label="DK">2,0,7,0,0,0,4,3,1,1,0,1,8,2,3,1,0,0,1,0,0,0,0,1,5,1,1,3,5,2,2,1</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="Where Does &quot;Middle Class&quot; Income Start?">
+  <Response Label="$20,000">10,0,3,2,23,13,17,15,6,50,7,5,4,3,9,11,5,23,51,10,0,0,4,1,8,17,6,20,9,18,7,7</Response>
+  <Response Label="$30,000">15,30,11,17,12,12,17,13,17,3,23,17,13,5,14,18,16,13,4,58,15,11,8,5,25,6,16,17,10,12,24,17</Response>
+  <Response Label="$40,000">12,3,7,8,22,18,20,11,14,19,9,13,15,13,14,10,19,23,1,17,22,8,15,23,13,18,10,3,15,17,8,7</Response>
+  <Response Label="$50,000">25,29,23,44,13,21,17,22,28,0,26,35,18,43,28,20,35,3,37,7,42,40,28,18,23,20,27,17,28,24,26,25</Response>
+  <Response Label="$75,000">15,1,33,15,13,15,7,14,16,28,8,11,21,16,15,15,8,0,4,0,21,21,23,14,9,27,15,3,5,15,16,23</Response>
+  <Response Label="$100,000">9,15,12,9,7,8,4,11,6,0,7,12,12,10,6,15,5,0,0,0,0,16,11,31,11,4,11,0,9,6,14,8</Response>
+  <Response Label="$250,000 or more">4,3,1,4,2,9,0,5,3,0,4,1,3,7,2,8,0,13,0,8,0,0,9,7,3,3,1,20,6,2,3,3</Response>
+  <Response Label="Less than $20,000">1,0,0,0,5,0,0,0,3,0,4,0,1,0,2,0,0,23,0,0,0,0,0,0,0,1,3,0,5,1,0,0</Response>
+  <Response Label="DK">9,19,10,1,3,5,18,9,8,0,12,7,14,3,10,3,11,3,4,0,0,4,2,1,9,5,11,20,14,6,3,11</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="Where Does &quot;Upper Class&quot; Income Start?">
+  <Response Label="$20,000">1,0,0,0,5,0,0,0,2,0,4,0,0,0,1,0,0,22,0,0,0,0,0,0,0,0,3,0,5,0,0,0</Response>
+  <Response Label="$30,000">2,0,3,0,0,3,7,2,2,4,4,1,0,0,0,6,3,13,6,4,0,0,0,0,1,1,2,14,1,2,5,1</Response>
+  <Response Label="$40,000">7,0,3,1,25,6,4,10,5,35,6,4,2,2,8,7,3,19,33,4,3,2,0,1,2,16,6,7,5,14,1,5</Response>
+  <Response Label="$50,000">9,22,0,16,0,14,9,6,11,5,15,6,5,5,8,14,0,6,3,31,14,1,6,0,17,1,12,4,1,12,10,8</Response>
+  <Response Label="$75,000">13,4,13,20,15,9,16,15,11,3,12,20,15,8,14,11,14,3,6,28,18,27,9,6,20,12,13,11,19,8,17,11</Response>
+  <Response Label="$100,000">20,23,21,12,34,17,17,19,21,14,8,30,19,41,19,19,38,9,4,13,45,31,17,26,17,31,19,4,10,34,19,15</Response>
+  <Response Label="$250,000 or more">27,26,48,43,14,17,15,27,27,28,28,25,36,26,31,23,24,0,36,4,6,32,51,49,24,27,26,18,27,19,29,40</Response>
+  <Response Label="$500,000">4,0,1,5,2,17,2,3,5,0,4,2,5,12,3,7,0,13,0,1,1,0,9,13,4,4,3,0,6,3,5,3</Response>
+  <Response Label="One Million or more">3,3,2,0,3,3,1,4,2,3,1,1,5,3,1,5,5,3,0,8,1,1,4,4,3,1,2,21,4,2,3,3</Response>
+  <Response Label="Less than $20,000">2,0,0,2,0,2,6,2,1,7,2,1,0,0,0,2,0,0,6,0,4,0,0,0,1,0,0,0,3,1,3,0</Response>
+  <Response Label="DK">12,22,9,2,3,12,23,11,12,1,17,10,16,3,13,6,14,13,6,7,8,5,4,1,11,8,13,21,19,7,8,13</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="Working hard to improve my life is very important to me">
+  <Response Label="Strongly disagree">1,0,0,0,0,0,6,1,1,4,1,1,0,0,1,2,0,0,4,0,1,0,2,0,0,0,2,0,1,2,0,0</Response>
+  <Response Label="Disagree">4,0,1,1,8,8,4,4,4,0,2,7,2,5,5,2,3,6,1,7,1,4,2,6,2,8,3,0,6,4,1,1</Response>
+  <Response Label="Agree">46,55,39,50,55,30,46,49,42,77,53,41,38,30,56,26,43,34,77,51,23,40,42,38,44,51,40,33,50,42,42,55</Response>
+  <Response Label="Strongly agree">45,45,54,49,36,61,38,41,49,16,43,49,52,64,36,66,54,59,15,33,73,56,53,57,49,38,54,40,32,51,55,43</Response>
+  <Response Label="DK">4,0,7,0,1,2,6,6,3,3,1,3,8,2,4,5,0,0,4,8,1,0,2,0,5,3,1,27,12,1,2,1</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="Have things gotten better or worse for the middle class?">
+  <Response Label="Better">31,58,38,42,14,15,22,33,29,35,32,25,36,24,29,33,65,22,38,10,22,34,38,30,28,25,30,33,32,17,26,48</Response>
+  <Response Label="Worse">64,42,48,56,82,82,74,62,66,65,68,66,55,69,67,61,30,78,61,84,77,56,62,66,59,74,66,67,59,79,65,50</Response>
+  <Response Label="About the same">2,0,2,2,4,3,4,2,2,0,1,5,2,2,2,1,5,0,1,6,1,3,0,2,3,1,3,0,3,3,1,2</Response>
+  <Response Label="DK">4,0,13,1,0,0,1,3,4,0,0,5,7,5,3,5,0,0,0,1,0,7,0,2,10,0,1,0,7,1,8,1</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="Who or what is to blame for decline of middle class?*">
+  <Response Label="Government">58,45,45,47,69,67,73,57,58,88,68,57,38,26,68,38,46,46,80,69,48,36,44,72,45,88,41,65,56,63,66,48</Response>
+  <Response Label="Private corporations">13,3,14,29,10,7,12,14,12,0,4,19,21,26,8,20,9,8,2,7,10,46,16,6,20,2,14,0,19,8,12,16</Response>
+  <Response Label="Foreign competition">6,31,0,7,3,4,2,7,5,0,10,6,6,7,6,8,9,0,0,15,7,7,3,6,7,2,12,0,1,6,3,13</Response>
+  <Response Label="Price of oil">4,0,0,6,3,4,2,2,6,12,5,4,3,0,4,8,0,0,16,3,7,0,3,0,7,1,6,0,1,4,6,9</Response>
+  <Response Label="People themselves">10,17,23,6,11,6,9,12,8,0,6,10,11,28,10,9,9,21,0,0,25,5,13,9,7,6,21,5,11,12,2,10</Response>
+  <Response Label="Something else">6,3,16,6,2,11,2,7,6,0,4,4,16,12,2,17,9,25,2,0,3,4,19,7,11,2,5,25,7,7,8,3</Response>
+  <Response Label="DK">3,0,2,0,1,2,2,1,4,0,4,1,5,2,3,1,18,0,0,7,2,2,3,0,2,0,2,5,6,1,3,1</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="Will Next Generation's Standard of Living Be….">
+  <Response Label="Much better">8,0,14,6,6,5,10,7,10,0,10,9,9,3,7,10,16,13,12,22,5,6,4,6,12,5,6,43,9,8,17,5</Response>
+  <Response Label="Somewhat better">25,67,10,27,34,10,13,35,15,38,25,28,20,10,29,18,29,0,33,22,22,36,19,31,16,23,42,13,21,22,16,40</Response>
+  <Response Label="About the same">21,33,16,31,13,21,17,12,30,0,28,22,19,25,19,24,29,41,31,12,20,21,26,17,31,9,13,20,30,11,24,22</Response>
+  <Response Label="Somewhat worse">24,0,38,19,18,31,31,26,21,34,12,25,24,49,24,25,13,25,14,25,25,22,22,22,20,35,24,3,19,31,20,24</Response>
+  <Response Label="Much worse">18,0,14,16,29,27,25,16,19,26,23,12,18,10,17,19,13,22,10,19,27,12,26,22,15,26,13,13,15,26,21,6</Response>
+  <Response Label="DK">4,0,9,0,1,6,4,4,5,3,2,4,10,3,4,4,0,0,0,0,1,3,4,2,7,3,2,7,7,3,3,4</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="Middle Class People Live a Religious Lifestyle">
+  <Response Label="Strongly disagree">3,1,5,2,3,2,2,4,2,0,0,2,9,2,1,5,5,0,1,0,1,5,12,1,5,0,2,0,1,4,3,3</Response>
+  <Response Label="Disagree">36,47,42,45,18,30,25,35,37,41,43,33,26,28,39,31,24,31,56,14,37,33,21,36,29,35,43,39,37,24,34,52</Response>
+  <Response Label="Agree">50,51,47,43,71,42,51,53,47,58,44,52,44,66,51,47,61,44,41,72,51,56,42,50,50,56,49,52,47,60,53,36</Response>
+  <Response Label="Strongly agree">6,0,0,5,5,23,12,6,6,1,7,9,8,2,4,11,5,19,3,4,10,3,10,6,9,7,3,7,7,8,5,4</Response>
+  <Response Label="DK">6,0,6,5,4,3,10,2,9,0,6,4,13,3,5,6,5,6,0,10,0,3,15,7,8,2,3,3,8,4,5,5</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="Middle Class People Get Married Before Having Children">
+  <Response Label="Strongly disagree">4,0,0,5,7,11,1,1,7,0,8,4,3,2,3,3,13,38,0,0,1,3,2,4,4,3,5,13,7,3,2,5</Response>
+  <Response Label="Disagree">32,36,37,35,26,30,32,26,39,19,29,38,35,41,22,46,45,38,22,29,65,37,44,25,47,22,38,30,21,35,44,32</Response>
+  <Response Label="Agree">51,64,56,46,55,47,49,57,45,78,55,44,42,46,62,37,37,22,73,54,24,48,39,62,38,63,54,30,52,52,43,55</Response>
+  <Response Label="Strongly agree">6,0,1,4,8,11,11,8,4,0,6,6,7,5,5,9,3,3,1,17,3,4,10,5,4,9,3,23,7,8,3,5</Response>
+  <Response Label="DK">7,0,7,11,5,2,7,8,5,3,2,8,13,7,7,5,3,0,4,0,6,8,6,5,8,3,1,3,13,2,9,3</Response>
+ </myQuestion>
+ <myQuestion Qid="10" label="Middle Class People Keep Up Their Homes to Same Standard as Neighbors">
+  <Response Label="Strongly disagree">2,0,9,0,2,2,1,4,1,0,1,1,1,15,3,1,0,0,0,0,14,1,0,1,1,0,6,3,1,5,1,1</Response>
+  <Response Label="Disagree">19,3,34,12,29,20,20,22,16,49,19,12,20,8,21,17,11,55,16,11,17,7,23,22,13,41,6,31,21,19,15,24</Response>
+  <Response Label="Agree">66,89,55,70,58,65,61,59,72,47,72,71,65,61,67,66,68,39,81,75,58,77,57,62,79,49,81,38,62,64,74,66</Response>
+  <Response Label="Strongly agree">10,9,2,19,8,14,15,11,9,1,8,14,13,15,8,13,22,3,2,6,10,15,21,12,8,10,6,7,11,11,8,9</Response>
+  <Response Label="DK">3,0,1,0,3,0,4,3,2,3,0,2,2,2,1,4,0,3,1,8,1,0,0,2,0,1,1,21,5,1,2,1</Response>
+ </myQuestion>
+ <myQuestion Qid="11" label="Middle Class People Work Hard to Get Ahead">
+  <Response Label="Strongly disagree">0,0,0,0,1,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,0</Response>
+  <Response Label="Disagree">9,0,28,2,9,2,6,15,4,32,4,2,11,5,9,11,3,16,6,8,1,4,17,2,8,15,6,30,8,6,2,19</Response>
+  <Response Label="Agree">63,83,62,72,50,63,60,63,63,39,74,69,65,59,69,53,62,56,82,77,71,63,60,63,66,51,75,43,74,57,74,58</Response>
+  <Response Label="Strongly agree">26,17,10,27,38,35,30,21,30,26,20,28,22,34,22,35,27,28,12,15,27,32,23,32,26,33,19,17,15,35,23,21</Response>
+  <Response Label="DK">2,0,0,0,2,0,2,1,3,3,2,1,2,2,1,1,8,0,0,0,0,0,0,2,1,1,1,10,2,2,0,1</Response>
+ </myQuestion>
+ <myQuestion Qid="12" label="Middle Class People Stay Out of Trouble With the Law">
+  <Response Label="Strongly disagree">4,0,6,4,1,5,2,4,4,0,2,4,5,2,2,3,11,0,1,0,1,3,8,7,1,0,4,23,3,2,2,5</Response>
+  <Response Label="Disagree">21,43,38,11,20,19,5,17,25,5,26,24,17,30,17,25,32,47,11,24,38,14,23,21,33,6,30,33,10,16,36,28</Response>
+  <Response Label="Agree">56,57,33,64,62,57,70,54,57,64,59,51,57,53,60,50,49,41,85,53,53,57,36,61,48,61,60,13,69,64,47,40</Response>
+  <Response Label="Strongly agree">16,0,21,13,15,20,16,22,9,28,10,14,15,15,18,16,5,9,1,24,6,19,21,10,15,32,4,27,11,17,11,23</Response>
+  <Response Label="DK">4,0,3,8,2,0,7,3,6,3,2,7,5,2,3,6,3,3,1,0,1,7,13,1,4,1,1,3,6,1,5,5</Response>
+ </myQuestion>
+ <myQuestion Qid="13" label="Middle Class People Save Money to Send Their Children to College">
+  <Response Label="Strongly disagree">3,0,0,0,2,8,1,2,3,0,4,1,2,0,2,3,11,13,0,10,1,0,0,0,1,4,0,31,6,2,3,0</Response>
+  <Response Label="Disagree">23,41,24,15,24,28,16,19,26,8,32,23,18,15,21,24,11,50,6,26,24,19,8,36,21,15,32,14,25,9,27,32</Response>
+  <Response Label="Agree">60,51,74,58,60,49,63,61,59,88,57,48,64,69,63,56,71,34,90,58,58,53,70,52,67,69,49,45,51,72,60,53</Response>
+  <Response Label="Strongly agree">13,9,3,27,13,13,18,17,10,1,7,28,13,15,14,15,8,3,3,7,17,27,21,11,10,12,18,3,17,15,10,13</Response>
+  <Response Label="DK">1,0,0,0,1,2,2,1,2,3,0,1,3,2,1,1,0,0,1,0,0,1,2,1,1,0,1,7,1,2,1,2</Response>
+ </myQuestion>
+ <myQuestion Qid="14" label="Does the Shrinking of the Middle Class Make Respondent Feel…">
+  <Response Label="Very worried">31,7,24,36,37,37,43,27,34,43,28,34,27,31,31,31,13,46,40,43,35,24,32,17,34,39,18,27,30,34,43,22</Response>
+  <Response Label="Somewhat worried">31,30,41,19,37,27,29,37,25,56,23,31,28,36,35,23,37,0,15,33,38,35,39,39,26,52,32,13,14,39,27,42</Response>
+  <Response Label="A little worried">21,33,14,36,17,16,12,17,25,1,30,26,16,20,24,20,21,21,41,8,14,34,13,32,22,4,29,17,34,14,23,20</Response>
+  <Response Label="Not worried at all">16,30,15,9,8,19,13,16,15,0,19,9,21,13,7,25,29,30,5,16,13,6,15,13,13,5,20,40,16,14,8,16</Response>
+  <Response Label="DK">2,0,7,1,1,2,2,3,1,0,1,1,8,0,3,2,0,3,0,0,0,0,2,0,5,1,1,3,7,0,0,1</Response>
+ </myQuestion>
+</docbase>
