@@ -108,4 +108,12 @@ function parseQuestions(xml){
 			});//qtip
 		}//for(opts.length)
 	}//drawbars
+	$('[data-toggle="tooltip"]').qtip({
+		content: "* Asked only of those who said things have gotten worse for the middle class during their lifetimes.",
+		style: { classes: 'ui-tooltip-light ui-tooltip-shadow ttip' },
+		position: {
+			my: "bottom left",
+			at: "top center"
+		}
+	});
 };//parseQuestions

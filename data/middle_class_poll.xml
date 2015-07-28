@@ -52,7 +52,7 @@
   <Response Label="About the same">2,0,2,2,4,3,4,2,2,0,1,5,2,2,2,1,5,0,1,6,1,3,0,2,3,1,3,0,3,3,1,2</Response>
   <Response Label="DK">4,0,13,1,0,0,1,3,4,0,0,5,7,5,3,5,0,0,0,1,0,7,0,2,10,0,1,0,7,1,8,1</Response>
  </myQuestion>
- <myQuestion Qid="6" label="Who or what is to blame for decline of middle class?*">
+ <myQuestion Qid="6" label="Who or what is to blame for decline of middle class?&lt;span class=&apos;glyphicon glyphicon-asterisk small&apos; data-toggle='tooltip' aria-hidden=&apos;true&apos;&gt;&lt;/span&gt;">
   <Response Label="Government">58,45,45,47,69,67,73,57,58,88,68,57,38,26,68,38,46,46,80,69,48,36,44,72,45,88,41,65,56,63,66,48</Response>
   <Response Label="Private corporations">13,3,14,29,10,7,12,14,12,0,4,19,21,26,8,20,9,8,2,7,10,46,16,6,20,2,14,0,19,8,12,16</Response>
   <Response Label="Foreign competition">6,31,0,7,3,4,2,7,5,0,10,6,6,7,6,8,9,0,0,15,7,7,3,6,7,2,12,0,1,6,3,13</Response>
