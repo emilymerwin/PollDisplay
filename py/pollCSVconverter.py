@@ -28,16 +28,15 @@ for row in data:
 		myQuestion.setAttribute('label', row[1])
 		QuestionArray.append(myQuestion)
 	responses = row[2]
-	if responses != "": #data represented as pct in next row, skip over the actual number here (and add the answer label)
-		myResponse = doc.createElement('Response')
-		myResponse.setAttribute('Label', responses)
-		myQuestion.appendChild(myResponse)
-	else:
-		for i, v in enumerate(row):
-			if i > 2: #cols 0-2 are string fields
-				myAnswers.append(checkstring(v))
-		myString = "," #this will be the character that joins our list below
-		myResponse.appendChild(doc.createTextNode(myString.join(myAnswers)))
+	#if responses != "": #data represented as pct in next row, skip over the actual number here (and add the answer label)
+	myResponse = doc.createElement('Response')
+	myResponse.setAttribute('Label', responses)
+	myQuestion.appendChild(myResponse)
+	for i, v in enumerate(row):
+		if i > 2: #cols 0-2 are string fields
+			myAnswers.append(checkstring(v))
+	myString = "," #this will be the character that joins our list below
+	myResponse.appendChild(doc.createTextNode(myString.join(myAnswers)))
 
 	docbase.appendChild(myQuestion)
 
