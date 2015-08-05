@@ -11,7 +11,7 @@ function parseQuestions(xml){
 	var bigArr = [], buttonHTML = "", button2HTML = "",
 	//setup the radio button filters
 	// labelArr = ["Total", "Men", "Women", "Democrats", "Republicans", "Independents", "Support Deal", "Support Carter", "Whites", "Non-whites", "18-39", "40-64", "65+", "Under $50k", "$50k-$100k", "$100k or more", "Have children", "No children", "Atlanta metro", "Atlanta exurbs"];
-		labelArr = ["Total", "18-24", "25-34", "35-44", "45-54", "55-64", "65+", "Male", "Female", "No HS", "HS GED", "Some College", "BA", "Advanced Degree", "White", "Black", "Latino", "Other", "Under $15k", "$15k - $25k", "$25k - $35k", "$35k - $50k", "$50k - $75k", "$75k - $100k", "Over $100k", "Democrat", "Republican", "Independent", "Other party", "One person <span class='glyphicon glyphicon-home' aria-hidden='true'></span>", "Two person <span class='glyphicon glyphicon-home' aria-hidden='true'></span>", "Three person <span class='glyphicon glyphicon-home' aria-hidden='true'></span>", "Four or more <span class='glyphicon glyphicon-home' aria-hidden='true'></span>"];
+		labelArr = ["Total", "18-24", "25-34", "35-44", "45-54", "55-64", "65+", "Male", "Female", "No HS", "HS or GED", "Some College", "BA", "Advanced Degree", "White", "Black", "Latino", "Under $15k", "$15k - $25k", "$25k - $35k", "$35k - $50k", "$50k - $75k", "$75k - $100k", "Over $100k", "Democrat", "Republican", "Independent"];
 	for(var i=0; i<labelArr.length; i++){
 		buttonHTML += '<label class="btn btn-default"><input type="radio" name="radio" value='+i+' id="radio'+i+'"> '+labelArr[i]+'</label>';
 		button2HTML += '<label class="btn btn-default"><input type="radio" name="radio2" value='+i+' id="radioB'+i+'"> '+labelArr[i]+'</label>';

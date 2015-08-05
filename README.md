@@ -28,3 +28,6 @@ Legislative Poll 2014 ran <a href="http://www.myajc.com/legislativepoll2014/" ta
 
 - The parser replaces "*", "-" and "" with "0" because those characters were breaking stuff, and if the value is 0 that label won't show up anyway (because it won't have a pixel width, not because it's not added to the DOM, fix that maybe). I believe there are checks in the code to get rid of them but it was still breaking. The polling company uses those symbols to mean either 0 or not a large enough sample.
 
+##NOTES:
+- in middle class poll, replaced * with &lt;span class=&apos;glyphicon glyphicon-asterisk small&apos; data-toggle='tooltip' aria-hidden=&apos;true&apos;&gt;&lt;/span&gt;
+
