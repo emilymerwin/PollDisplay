@@ -1,7 +1,6 @@
 # Poll Display
-This ran 9/22/13 as an exclusive to myajc.com <a href="http://www.myajc.com/aca-georgia-poll/">here</a>. The stubbed version for ajc.com ran <a href="http://www.ajc.com/news/aca-georgia-poll-free/">here</a>.
-It is part of our series on the Affordable Care Act and Georiga, found <a href="http://www.myajc.com/s/news/healthcare-georgia/">here</a>.
-Legislative Poll 2014 ran <a href="http://www.myajc.com/legislativepoll2014/" target="_blank">here</a> on 3/11/14
+- [Demo](http://www.myajc.com/news/middle-class-poll/)
+- See branches for more examples
 
 ###To do
 - [ ] jQuery library is outdated but broke stuff when I tried to update it (I think it's because qTip needs to be upgraded). jQuery UI library is current (as of 9/20/13)
