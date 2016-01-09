@@ -3,7 +3,7 @@ import csv
 from xml.dom.minidom import Document
 import decimal
 
-data = csv.reader (open("../data/Middle_class_poll_July_2015.csv",'U'))
+data = csv.reader (open("../data/poll-jan82016.csv",'U'))
 #Create the XML doc
 doc = Document()
 #create the base element
@@ -20,6 +20,7 @@ def checkstring(n):
 		return str(dec)
 for row in data:
 	myAnswers = []
+	print row[0]
 	myID = int(row[0])
 	Qid= row[0]
 	if len(QuestionArray) <= myID:
@@ -28,18 +29,19 @@ for row in data:
 		myQuestion.setAttribute('label', row[1])
 		QuestionArray.append(myQuestion)
 	responses = row[2]
-	#if responses != "": #data represented as pct in next row, skip over the actual number here (and add the answer label)
-	myResponse = doc.createElement('Response')
-	myResponse.setAttribute('Label', responses)
-	myQuestion.appendChild(myResponse)
-	for i, v in enumerate(row):
-		if i > 2: #cols 0-2 are string fields
-			myAnswers.append(checkstring(v))
-	myString = "," #this will be the character that joins our list below
-	myResponse.appendChild(doc.createTextNode(myString.join(myAnswers)))
+	if responses != "": #data represented as pct in next row, skip over the actual number here (and add the answer label)
+		myResponse = doc.createElement('Response')
+		myResponse.setAttribute('Label', responses)
+		myQuestion.appendChild(myResponse)
+	else:
+		for i, v in enumerate(row):
+			if i > 2: #cols 0-2 are string fields
+				myAnswers.append(checkstring(v))
+		myString = "," #this will be the character that joins our list below
+		myResponse.appendChild(doc.createTextNode(myString.join(myAnswers)))
 
 	docbase.appendChild(myQuestion)
 
-f = open('../data/middle_class_poll.xml', 'w')
+f = open('../data/poll-jan82016.xml', 'w')
 doc.writexml(f, addindent=" ", newl="\n")
 f.close()
