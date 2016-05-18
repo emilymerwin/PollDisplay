@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$.ajax({
 		type: "GET",
-		url: "data/poll-jan82016.xml",
+		url: "data/pollfinal-may2016_2.xml",
 		dataType: "xml",
 		success: parseQuestions
 	});
@@ -11,7 +11,7 @@ function parseQuestions(xml){
 	var bigArr = [], buttonHTML = "", button2HTML = "",
 	//setup the radio button filters
 	// labelArr = ["Total", "Men", "Women", "Democrats", "Republicans", "Independents", "Support Deal", "Support Carter", "Whites", "Non-whites", "18-39", "40-64", "65+", "Under $50k", "$50k-$100k", "$100k or more", "Have children", "No children", "Atlanta metro", "Atlanta exurbs"];
-		labelArr = ["Male", "Female", "Democrat", "Republican", "Independent", "White", "Black", "Non-white", "18-39", "40-64", "65+", "White Protestant Evangelical", "North", "Atlanta exurbs", "Atlanta metro", "Southeast", "Southwest"];
+		labelArr = ["Registered voters", "Male",	"Female",	"Democrat",	"Republican",	"Independent",	"White", "Black",	"Non-white",	"18-39",	"40-64", "65+",	"White protestant evangelical",	"North",	"Atlanta exurbs",	"Atlanta metro",	"Southeast",	"Southwest",	"Under $50k",	"$50k - $100k",	"$100k+",	"No college degree",	"College grad"];
 	for(var i=0; i<labelArr.length; i++){
 		buttonHTML += '<label class="btn btn-default"><input type="radio" name="radio" value='+i+' id="radio'+i+'"> '+labelArr[i]+'</label>';
 		button2HTML += '<label class="btn btn-default"><input type="radio" name="radio2" value='+i+' id="radioB'+i+'"> '+labelArr[i]+'</label>';

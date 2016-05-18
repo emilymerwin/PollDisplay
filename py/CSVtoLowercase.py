@@ -1,9 +1,9 @@
 #! /usr/bin/env python
 import csv
 
-ifile  = open('../docs/30080 GA Poll Banner TableMay2014 - may2014.csv', "rb")
+ifile  = open('../data/May2016/May2016poll.csv', "rU")
 reader = csv.reader(ifile)
-ofile  = open('../docs/mayLower.csv', "wb")
+ofile  = open('../data/may2016Lower.csv', "wb")
 writer = csv.writer(ofile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
 for row in reader:
