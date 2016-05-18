@@ -17,7 +17,7 @@
 - Set up spreadsheet like <a href="https://docs.google.com/spreadsheets/d/1Jr_sDRJTEBg3BDvQ8JGH5IhBl34TaE2QP4ZGxD2C398/edit?usp=sharing">this</a>
 	1. move questions to their own column
 	2. delete redundant rows
-	3. remove "UNWEIGHTED BASE" and "TOTAL RESPONDENTS" from the file you give the parser, as these are not response tallies but the actual number of people in each category. "NUMBER OF ANSWERS IN THIS TABLE" or equivalent should be deleted also
+	3. remove "UNWEIGHTED BASE" and "TOTAL RESPONDENTS" from the file you give the parser, as these are not response tallies but the actual number of people in each category. "NUMBER OF ANSWERS IN THIS TABLE" or equivalent should be deleted also. DO NOT DELETE REGISTERED VOTERS COLUMN
 	4. numbers will come in as strings (eg. 100%"), need to convert before parsing (format --> normal), and python parser will convert to whole numbers (assuming they are only 2 digit percent representations, haven't tested with numbers that need rounding)
 	5. it comes over in all CAPS - run it through `py/CSVtoLowercase.py`, which will run `.capitalize()` on each string. Use the resulting CSV as the new source sheet. Go through and fix capitalization as necessary (proper nouns)
 
