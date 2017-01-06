@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$.ajax({
 		type: "GET",
-		url: "data/poll_may2014.xml",
+		url: "data/poll_oct2016.xml",
 		dataType: "xml",
 		success: parseQuestions
 	});
@@ -11,7 +11,7 @@ function parseQuestions(xml){
 	var bigArr = [], buttonHTML = "", button2HTML = "",
 	//setup the radio button filters
 	// labelArr = ["Total", "Men", "Women", "Democrats", "Republicans", "Independents", "Support Deal", "Support Carter", "Whites", "Non-whites", "18-39", "40-64", "65+", "Under $50k", "$50k-$100k", "$100k or more", "Have children", "No children", "Atlanta metro", "Atlanta exurbs"];
-		labelArr = ["Total", "Democrat", "Republican", "Independent", "White", "Black", "North Ga.", "Atlanta Exurbs", "Atlanta Metro", "Southeast Ga.", "Southwest Ga."];
+		labelArr = ["Likely voters", "Male", "Female", "Democrat", "Republican", "Independent", "White", "Black", "18-39", "40-64", "65+", "White Protestant Evangelical", "Atlanta Exurbs", "Atlanta Metro", "North Georgia", "Southeast Georgia", "Southwest Georgia"];
 	for(var i=0; i<labelArr.length; i++){
 		buttonHTML += '<label class="btn btn-default"><input type="radio" name="radio" value='+i+' id="radio'+i+'"> '+labelArr[i]+'</label>';
 		button2HTML += '<label class="btn btn-default"><input type="radio" name="radio2" value='+i+' id="radioB'+i+'"> '+labelArr[i]+'</label>';
@@ -64,6 +64,7 @@ function parseQuestions(xml){
 	//find the max number of potential responses to a question for color scale
 	function r_max(){
 		var max = 0;
+
 		for (var i=0; i< bigArr.length; i++){
 			var len = bigArr[i].responseArr.length;
 			if ( max < len ){

@@ -7,8 +7,8 @@ body {
 	color: #555555;
 	text-shadow: none;
 	box-shadow: none;
-	padding: 5px 10px;
-	width:87px;
+	padding: 5px 5px;
+	width: 157px;
 }
 @media only screen and (max-width: 767px) { .btn { padding:5px 15px; } }
 #groupQ{
