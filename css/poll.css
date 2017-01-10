@@ -8,7 +8,11 @@ body {
 	text-shadow: none;
 	box-shadow: none;
 	padding: 5px 10px;
-	width:87px;
+	width: 100px;
+  border-radius: 0;
+}
+#btn11, #btnB11 {
+  width: 200px;
 }
 @media only screen and (max-width: 767px) { .btn { padding:5px 15px; } }
 #groupQ{
