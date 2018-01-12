@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="Do you approve or disapprove of the way Nathan Deal is handling his job as governor?">
+  <Response Label="Approve">53,61,46,35,46,76,62,39,41,46,61,60,45,62,52,57,67,55,83,39</Response>
+  <Response Label="Disapprove">23,20,26,40,22,5,14,37,26,26,22,18,28,16,26,22,18,18,8,28</Response>
+  <Response Label="Don't know">24,19,29,25,32,19,24,24,33,28,17,22,27,22,23,21,15,27,8,32</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="Do you approve or disapprove of the way in which the Georgia Legislature is doing its job?">
+  <Response Label="Approve">46,47,44,32,36,63,51,38,40,43,50,50,38,53,48,47,57,55,75,31</Response>
+  <Response Label="Disapprove">36,38,36,52,43,18,29,46,42,33,35,34,43,31,32,34,31,36,17,47</Response>
+  <Response Label="Don't know">18,16,20,16,21,19,20,16,18,24,15,17,19,17,20,18,12,9,8,23</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="Do you approve or disapprove of the way Donald Trump is handling his job as president?">
+  <Response Label="Approve">37,44,30,1,26,81,58,3,16,35,41,52,22,50,44,45,41,30,17,21</Response>
+  <Response Label="Disapprove">59,51,65,97,69,13,38,94,74,63,56,43,74,43,54,51,57,70,83,70</Response>
+  <Response Label="Don't know">5,4,5,2,5,6,4,3,10,2,3,5,4,8,2,4,2,0,0,9</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="Do you have a favorable or unfavorable impression of the Democratic Party?">
+  <Response Label="Favorable">39,36,41,73,21,9,27,63,50,40,36,32,48,30,34,35,39,40,58,40</Response>
+  <Response Label="Unfavorable">48,55,43,16,46,84,63,22,33,49,50,61,39,57,52,55,46,30,33,44</Response>
+  <Response Label="Don't know">13,9,16,11,33,7,11,16,17,11,14,8,13,13,14,11,15,30,8,16</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="Do you have a favorable or unfavorable impression of the Republican Party?">
+  <Response Label="Favorable">34,36,32,5,17,71,49,7,23,28,38,45,22,44,39,41,32,46,25,16</Response>
+  <Response Label="Unfavorable">57,56,57,89,64,21,42,82,67,62,54,45,68,47,50,50,54,55,75,75</Response>
+  <Response Label="Don't know">10,8,11,6,19,8,9,11,10,10,9,9,10,10,11,9,14,0,0,9</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="How satisfied are you with the way things are going in Georgia today?">
+  <Response Label="Very satisfied">10,15,6,3,9,18,14,4,8,7,10,15,7,13,10,11,9,9,0,5</Response>
+  <Response Label="Somewhat satisfied">54,56,53,42,52,69,61,44,48,55,56,60,52,59,52,58,66,55,46,47</Response>
+  <Response Label="Somewhat dissatisfied">26,21,30,43,23,11,19,39,35,26,26,19,28,25,26,24,21,18,36,37</Response>
+  <Response Label="Very dissatisfied">8,5,10,12,14,1,5,12,9,9,8,6,11,4,10,6,4,18,9,8</Response>
+  <Response Label="Don't know">2,3,1,2,3,1,2,1,1,3,1,2,3,1,2,2,0,0,9,4</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="How satisfied are you with the way things are going in the U.S. today?">
+  <Response Label="Very satisfied">8,12,5,1,4,18,12,1,4,6,9,13,4,12,11,9,11,27,0,3</Response>
+  <Response Label="Somewhat satisfied">33,37,30,14,31,56,44,17,24,37,37,34,25,41,37,37,34,9,8,27</Response>
+  <Response Label="Somewhat dissatisfied">29,30,28,36,33,20,24,36,42,29,26,24,31,29,26,28,30,18,67,34</Response>
+  <Response Label="Very dissatisfied">28,19,36,48,31,5,19,45,30,27,28,27,38,18,26,24,24,46,25,34</Response>
+  <Response Label="Don't know">1,2,1,1,2,1,2,1,0,2,1,2,2,0,1,2,1,0,0,1</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="How would you describe the state of Georgia's economy?">
+  <Response Label="Excellent">6,9,4,2,6,11,8,2,6,5,4,10,7,7,3,6,6,10,0,5</Response>
+  <Response Label="Good">45,48,43,33,48,59,57,30,22,45,54,53,44,49,42,50,50,50,73,34</Response>
+  <Response Label="Fair">38,35,40,50,37,24,30,48,54,39,33,30,40,35,38,34,33,40,27,49</Response>
+  <Response Label="Poor">9,6,12,13,7,5,4,18,18,9,8,5,7,7,16,9,7,0,0,11</Response>
+  <Response Label="Don't know">2,2,2,2,3,2,2,2,2,1,1,2,2,2,1,2,3,0,0,1</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="What is the single most important issue facing Georgia today? ">
+  <Response Label="Economy/Jobs">15,15,15,14,18,16,15,17,15,17,15,14,10,19,19,17,15,0,8,14</Response>
+  <Response Label="Taxes">4,5,3,2,1,5,4,3,4,4,3,3,3,5,4,4,1,0,0,1</Response>
+  <Response Label="Education">32,30,33,36,35,27,30,34,41,34,29,25,37,28,28,28,26,36,67,43</Response>
+  <Response Label="Transportation">14,18,10,13,12,17,15,10,15,14,15,10,21,10,6,13,23,27,8,14</Response>
+  <Response Label="Crime/Public Safety">11,9,13,9,8,15,11,12,6,9,11,20,7,12,16,12,13,0,0,9</Response>
+  <Response Label="Health care">21,18,23,24,19,16,21,22,16,17,24,24,18,21,24,22,17,18,17,16</Response>
+  <Response Label="Other Issue">2,3,2,2,4,1,2,1,3,2,2,2,2,3,2,2,1,18,0,2</Response>
+  <Response Label="Don't know">2,2,2,1,3,2,2,1,0,2,2,3,3,2,1,1,4,0,0,2</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="The Georgia Legislature passed a law in 2017 that allows anyone with a concealed-weapon permit to carry firearms on all public college and university campuses, with some exceptions. Do you approve of this law?">
+  <Response Label="Approve">45,54,37,19,45,71,57,23,45,50,43,40,34,57,46,47,45,46,25,45</Response>
+  <Response Label="Dissaprove">53,44,61,80,53,26,40,76,55,49,55,55,64,41,51,52,53,55,75,52</Response>
+  <Response Label="Don't know">2,2,2,1,3,3,3,1,0,1,2,6,2,2,3,2,2,0,0,3</Response>
+ </myQuestion>
+ <myQuestion Qid="10" label="Do you think the state's medical marijuana law should be expanded to allow the harvesting and distribution of medical marijuana with strict controls within the state?">
+  <Response Label="Expand">77,78,75,87,75,65,73,82,91,84,71,63,85,70,71,72,78,90,83,90</Response>
+  <Response Label="Should not be Expanded">20,19,21,11,19,32,24,15,6,15,26,32,13,26,25,25,21,10,17,6</Response>
+  <Response Label="Don't know">3,3,4,2,7,4,3,3,3,1,4,5,3,4,4,3,1,0,0,5</Response>
+ </myQuestion>
+ <myQuestion Qid="11" label="Should the General Assembly in Georgia legalize the use of marijuana by adults for any purpose?">
+  <Response Label="Yes">50,56,46,65,54,31,41,65,78,63,41,24,62,41,43,41,54,70,42,70</Response>
+  <Response Label="No">46,43,50,32,44,66,56,33,22,36,54,71,35,55,54,56,44,30,58,28</Response>
+  <Response Label="Don't know">3,2,4,3,2,3,4,2,0,1,5,5,3,4,3,3,2,0,0,3</Response>
+ </myQuestion>
+ <myQuestion Qid="12" label="Do you approve or disapprove of a proposal to use dedicated state funds to expand mass transit in Georgia, starting with the metro-Atlanta area?">
+  <Response Label="Approve">72,73,72,87,66,62,67,82,77,77,75,59,80,71,60,70,77,91,75,81</Response>
+  <Response Label="Dissparove">22,23,21,9,25,32,26,16,21,17,20,32,15,23,33,26,16,9,25,12</Response>
+  <Response Label="Don't know">6,4,7,4,8,6,7,2,3,5,4,10,5,6,7,4,7,0,0,7</Response>
+ </myQuestion>
+ <myQuestion Qid="13" label="Should the Georgia Legislature agree to offer Amazon more than one billion dollars in incentives to locate its second headquarters to Georgia in order to create an estimated 50,000 jobs in the state?">
+  <Response Label="Yes">65,65,66,68,60,65,62,72,81,66,62,55,66,63,68,61,68,73,83,68</Response>
+  <Response Label="No">27,29,25,27,26,26,28,24,14,28,30,31,26,29,23,32,23,18,17,23</Response>
+  <Response Label="Don't know">8,7,10,5,13,9,10,4,5,6,9,14,9,7,9,8,10,9,0,8</Response>
+ </myQuestion>
+ <myQuestion Qid="14" label="Should city and county governments in Georgia be granted authority to relocate Confederate monuments?">
+  <Response Label="Yes">49,50,48,66,45,32,42,58,56,48,49,42,61,40,37,47,46,64,75,52</Response>
+  <Response Label="No">47,47,47,30,49,65,53,38,42,47,46,54,33,55,60,49,50,36,17,44</Response>
+  <Response Label="Don't know">5,4,5,4,6,3,5,3,3,5,4,5,6,4,3,4,4,0,8,4</Response>
+ </myQuestion>
+ <myQuestion Qid="15" label="Should Georgia expand eligibility for Medicaid, which provides health care to the poor?">
+  <Response Label="Yes">73,71,74,92,79,51,59,93,83,78,71,61,81,64,70,66,73,70,100,79</Response>
+  <Response Label="No">22,24,20,5,15,42,34,4,15,18,23,31,14,30,23,26,25,30,0,18</Response>
+  <Response Label="Don't know">6,4,7,3,7,7,7,3,2,4,6,9,5,6,7,8,2,0,0,3</Response>
+ </myQuestion>
+ <myQuestion Qid="16" label="Do you approve or disapprove of a proposal to tax phone lines, TV subscriptions and internet streaming services like Netflix to raise money for building internet lines in rural areas of Georgia?">
+  <Response Label="Yes">32,34,31,40,28,27,31,36,41,33,31,26,36,28,31,34,31,36,25,37</Response>
+  <Response Label="No">63,62,63,54,71,69,64,61,57,65,64,62,59,68,63,62,63,36,75,58</Response>
+  <Response Label="Don't know">5,4,6,7,2,4,6,3,2,3,5,12,6,4,6,5,5,27,0,5</Response>
+ </myQuestion>
+ <myQuestion Qid="17" label="The Georgia Public Service Commission recently gave Georgia Power permission to continue construction of two nuclear reactors at Plant Vogtle, despite delays and higher than projected costs. Georgia Power customers are currently paying a surcharge to help cover construction costs. Do you agree or disagree with Public Service Commission's decision?">
+  <Response Label="Agree">31,39,25,23,24,45,40,19,29,26,34,34,29,35,30,34,32,18,25,25</Response>
+  <Response Label="Disagree">61,54,67,71,64,49,50,76,65,64,59,58,64,58,61,59,61,73,75,66</Response>
+  <Response Label="Don't know">8,7,9,6,12,6,10,6,6,10,7,8,8,8,9,7,7,9,0,10</Response>
+ </myQuestion>
+ <myQuestion Qid="18" label="Do you approve or disapprove of the federal tax legislation just passed by Congress?">
+  <Response Label="Approve">36,43,30,8,29,70,51,13,23,32,40,45,28,44,37,41,38,36,25,22</Response>
+  <Response Label="Disapprove">46,44,48,76,47,15,32,69,55,44,45,40,57,36,41,41,48,64,75,57</Response>
+  <Response Label="Don't know">18,13,23,17,24,16,18,18,22,24,15,15,15,20,22,18,14,0,0,21</Response>
+ </myQuestion>
+ <myQuestion Qid="19" label="Under the new tax plan do you expect your taxes to go up, go down, or stay the same in 2018?">
+  <Response Label="Taxes will Increase">31,30,32,44,37,16,19,51,35,36,30,25,37,26,29,29,24,9,50,25</Response>
+  <Response Label="Taxes will decrease">29,36,23,20,17,43,37,17,26,28,35,23,28,33,26,30,26,73,17,28</Response>
+  <Response Label="Taxes will stay the same">32,27,36,31,35,34,34,28,32,28,29,42,29,33,37,33,44,18,33,35</Response>
+  <Response Label="Don't know">8,6,9,6,11,7,10,4,7,8,6,10,7,9,8,8,7,0,0,12</Response>
+ </myQuestion>
+ <myQuestion Qid="20" label="In your opinion, will the tax plan have a positive effect on the nation's economy, a negative effect, or won't it make much difference one way or the other?">
+  <Response Label="Positive">34,41,28,5,19,72,51,7,20,24,42,48,26,42,37,42,37,50,8,19</Response>
+  <Response Label="Negative">38,30,45,67,33,8,22,67,45,45,36,25,49,27,32,33,29,20,67,47</Response>
+  <Response Label="No difference">20,22,19,22,30,15,19,20,28,18,18,20,18,22,23,18,26,10,25,24</Response>
+  <Response Label="Don't know">8,7,9,6,18,5,9,6,8,13,4,7,7,9,9,8,9,20,0,10</Response>
+ </myQuestion>
+</docbase>
