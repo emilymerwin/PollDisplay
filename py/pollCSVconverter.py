@@ -3,7 +3,11 @@ import csv
 from xml.dom.minidom import Document
 import decimal
 
-data = csv.reader (open("../docs/30080 GA Poll Banner TableMay2014 - may2014XML.csv",'U'))
+infile = "../data/jan2018/poll11218.csv" #path to the source CSV
+outfile = "poll11218.xml" #filename for the generated XML to be used 
+
+data = csv.reader (open(infile,'U'))
+
 #Create the XML doc
 doc = Document()
 #create the base element
@@ -41,6 +45,6 @@ for row in data:
 
 	docbase.appendChild(myQuestion)
 
-f = open('../data/poll_may2014.xml', 'w')
+f = open('../dist/' + outfile, 'w')
 doc.writexml(f, addindent=" ", newl="\n")
 f.close()

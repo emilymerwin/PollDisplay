@@ -1,16 +1,30 @@
 body {
-	max-width:960px;
+	max-width:972px; /*Politically Georgia flatpage well width*/
 }
 .btn {
 	font-size:10px;
-	font-family: 'Boomer';
 	color: #555555;
 	text-shadow: none;
 	box-shadow: none;
 	padding: 5px 10px;
 	width:87px;
+  border-radius: 0;
 }
-@media only screen and (max-width: 767px) { .btn { padding:5px 15px; } }
+.btn-group .btn+.btn {
+  margin-left: 0;
+}
+/*#btn11, #btnB11 {
+  width: 200px;
+}*/
+@media only screen and (max-width: 767px) { 
+  .btn { 
+    padding: 5px 15px;
+    width: auto;
+  } 
+  .btn-group{
+    width: 100%;
+  }
+}
 #groupQ{
 	margin:10px 0 10px 40px;
 }

@@ -18,9 +18,14 @@
 	1. move questions to their own column
 	2. delete redundant rows
 	3. remove "UNWEIGHTED BASE" and "TOTAL RESPONDENTS" from the file you give the parser, as these are not response tallies but the actual number of people in each category. "NUMBER OF ANSWERS IN THIS TABLE" or equivalent should be deleted also. DO NOT DELETE REGISTERED VOTERS COLUMN
-	4. numbers will come in as strings (eg. 100%"), need to convert before parsing (format --> normal), and python parser will convert to whole numbers (assuming they are only 2 digit percent representations, haven't tested with numbers that need rounding)
-	5. it comes over in all CAPS - run it through `py/CSVtoLowercase.py`, which will run `.capitalize()` on each string. Use the resulting CSV as the new source sheet. Go through and fix capitalization as necessary (proper nouns)
+	4. numbers will come in as strings (eg. 100%"), need to convert before parsing (format --> normal in Google Sheets, format cells --> general in Excel). The python parser will convert to whole numbers later (assuming they are only 2 digit percent representations, haven't tested with numbers that need rounding)
+	5. Save as CSV if it's not a CSV already
+	6. it comes over in all CAPS (or at least it used to)- run it through `py/CSVtoLowercase.py`, which will run `.capitalize()` on each string. Use the resulting CSV as the new source sheet. Go through and fix capitalization as necessary (proper nouns, titles etc)
+	7. Create a new folder for your poll in the /data/ directory and save your CSV there
+	8. Open `py/pollCSVconverter.py`, replace `infile` and `outfile` (lines 6 and 7) and run the script ( `cmd` + `shift` + `r` in textmate, or `python `)
+	9. Open `js/poll.js`.  Replace the URL on line 4 with your new data file . Update `labelArr` on line 14 with your spreadsheet's column headers (they need to be in the same order as they appear in your CSV - all arrays are loaded by index so if your column name is in the wrong spot it will display the wrong data when the filter is clicked)
 
+####Troubleshooting
 - The demographic group title cells often have a few leading spaces, which will break python parser if not accounted for (when specifying column name dict lookups)
 
 - Assumes response totals are in same row as response labels and that following row is the pct representation
