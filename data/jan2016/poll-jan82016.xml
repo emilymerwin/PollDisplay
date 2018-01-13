@@ -1,0 +1,179 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="Do you approve or disapprove of the way Nathan Deal is handling his job as governor?">
+  <Response Label="Approve">51,50,38,73,46,56,40,42,51,51,48,67,65,51,39,53,50,0,0</Response>
+  <Response Label="Disapprove">32,37,49,17,36,29,44,43,29,36,40,21,28,33,49,26,31,0,0</Response>
+  <Response Label="No answer">17,13,13,10,17,15,16,15,20,13,12,11,8,16,11,21,20,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="Do you approve or disapprove of the way Johnny Isakson is handling his job in the U.S. Senate?">
+  <Response Label="Approve">38,32,28,45,36,38,28,31,26,39,39,51,37,38,30,30,38,0,0</Response>
+  <Response Label="Disapprove">30,32,36,25,30,27,37,36,31,32,28,25,30,28,40,29,26,0,0</Response>
+  <Response Label="No answer">32,37,36,29,34,35,35,33,43,29,32,24,33,34,30,41,36,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="Do you approve or disapprove of the way the Georgia legislature is doing its job?">
+  <Response Label="Approve">48,40,37,59,42,48,39,38,46,45,38,54,50,46,30,46,53,0,0</Response>
+  <Response Label="Disapprove">40,44,51,25,45,38,46,48,40,43,45,32,42,38,57,39,31,0,0</Response>
+  <Response Label="No answer">12,16,12,15,14,14,15,14,15,12,17,14,8,16,13,15,16,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="How satisfied are you with the way things are going in Georgia today?">
+  <Response Label="Very satisfied">12,4,6,11,7,10,4,6,6,9,11,11,8,12,4,9,7,0,0</Response>
+  <Response Label="Somewhat satisfied">52,47,42,63,51,56,43,41,52,49,47,54,50,58,39,49,51,0,0</Response>
+  <Response Label="Somewhat dissatisfied">21,32,35,16,25,24,32,30,26,27,28,28,30,19,33,26,31,0,0</Response>
+  <Response Label="Very dissatisfied">13,15,15,8,15,9,20,21,16,13,13,6,12,9,22,15,11,0,0</Response>
+  <Response Label="No answer">1,2,1,1,1,1,0,1,0,2,2,0,0,2,2,1,0,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="Would you describe the state of Georgia's economy these days?">
+  <Response Label="Excellent">4,1,3,3,2,3,2,3,2,2,4,4,3,3,3,2,2,0,0</Response>
+  <Response Label="Good">56,45,43,52,54,57,39,40,55,49,46,51,58,52,55,48,38,0,0</Response>
+  <Response Label="Not so good">29,40,44,31,31,30,46,42,32,36,36,37,27,34,33,34,46,0,0</Response>
+  <Response Label="Poor">9,13,9,11,13,8,12,14,10,11,12,7,12,9,9,14,11,0,0</Response>
+  <Response Label="No answer">2,1,1,2,1,2,1,1,1,2,2,0,0,2,0,2,3,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="What is the single most important issue facing Georgia today?">
+  <Response Label="Economy/jobs">30,28,30,29,30,30,28,28,27,32,27,32,28,36,21,24,36,0,0</Response>
+  <Response Label="Taxes">2,3,3,2,3,2,4,3,1,3,4,3,3,4,0,4,2,0,0</Response>
+  <Response Label="Workforce">5,3,3,7,3,4,3,4,5,3,3,2,2,3,2,6,8,0,0</Response>
+  <Response Label="Quality Of Public Schools/education">9,14,14,8,14,11,12,14,15,11,9,9,9,8,23,10,8,0,0</Response>
+  <Response Label="Transportation">7,3,5,8,5,5,5,5,6,5,4,4,8,7,7,3,0,0,0</Response>
+  <Response Label="Crime/public safety">6,11,13,6,6,5,17,14,8,9,9,7,6,4,12,13,11,0,0</Response>
+  <Response Label="Quality Of life">2,1,3,0,0,1,1,2,2,0,1,0,0,0,3,0,2,0,0</Response>
+  <Response Label="Moral issues">2,1,2,1,1,2,1,1,2,0,2,3,4,1,2,1,0,0,0</Response>
+  <Response Label="State leadership">2,1,0,1,2,1,2,2,2,1,2,2,0,3,1,0,1,0,0</Response>
+  <Response Label="Healthcare">4,6,5,5,5,6,2,4,3,7,6,5,5,7,4,6,2,0,0</Response>
+  <Response Label="Immigration/illegal immigration">7,4,2,8,7,8,4,3,6,6,4,6,9,8,6,3,2,0,0</Response>
+  <Response Label="Something else">20,19,18,21,19,21,19,17,14,21,25,23,20,16,17,19,28,0,0</Response>
+  <Response Label="No answer">4,6,2,5,6,6,2,4,10,2,3,4,7,4,3,11,0,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="Lawmakers are considering a religious liberty bill that supporters say will prevent state and local governments from interfering with an individual's right to  practice their religion. Supporters say the bill would protect people of any religion from government interference. Opponents worry it could lead to discrimination against gays and lesbians. Do you think the Georgia legislature should approve this religious liberty bill, or not?">
+  <Response Label=" Yes, should approve bill">52,54,43,65,50,53,49,54,56,53,47,61,60,56,44,52,54,0,0</Response>
+  <Response Label="No should not approve bill">40,39,50,25,46,39,44,41,39,39,44,30,36,38,49,40,33,0,0</Response>
+  <Response Label="No answer">8,7,7,10,4,8,6,6,5,8,10,8,4,6,7,8,13,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="What if the bill allowed businesses here in Georgia to refuse service or refuse to offer a job to gays or lesbians based on the business owner's religious beliefs?  Would you still approve of the religious liberty bill, or would you oppose it?">
+  <Response Label="(Still) approve">47,36,24,57,44,49,27,28,26,50,44,58,51,39,39,38,42,0,0</Response>
+  <Response Label="Would oppose">49,56,73,35,51,44,68,67,72,41,49,37,47,57,54,50,54,0,0</Response>
+  <Response Label="No answer">4,7,3,8,5,6,5,4,1,8,7,5,2,4,7,12,4,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="Do you favor or oppose allowing casino gambling in Georgia?">
+  <Response Label="Favor">69,55,67,57,61,58,67,67,69,61,50,46,62,61,65,55,63,0,0</Response>
+  <Response Label="Oppose">28,40,30,39,35,37,31,30,28,34,44,51,36,34,30,38,35,0,0</Response>
+  <Response Label="No answer">3,5,3,3,5,5,2,3,3,4,7,3,2,5,4,6,2,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="Lawmakers are considering merit-based pay for public school teachers, that is legislation that would tie public school teachers' pay and raises to student performance. Critics of the bill say this would be unfair, because teachers can't control who their students are. Supporters of the bill say that it would improve the quality of teaching by rewarding effective teaching. Do you favor or oppose merit-based pay for public school teachers?">
+  <Response Label="Favor">42,36,37,42,39,37,41,41,37,38,46,40,35,39,37,46,37,0,0</Response>
+  <Response Label="Oppose">52,60,60,54,56,57,54,55,57,58,50,58,61,57,58,51,54,0,0</Response>
+  <Response Label="No answer">5,4,4,4,5,5,5,4,6,4,4,3,3,5,5,3,9,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="10" label="Do you think the state's medical marijuana law should be expanded to allow the harvesting and distribution of medical marijuana with strict controls within the state, or not?">
+  <Response Label="Should be expanded">73,72,70,63,78,71,73,74,77,74,60,60,70,75,82,61,68,0,0</Response>
+  <Response Label="Should not be expanded">25,26,27,33,21,26,25,24,21,24,36,36,29,23,14,37,29,0,0</Response>
+  <Response Label="No answer">3,2,3,4,1,3,2,2,3,2,4,4,1,2,4,3,2,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="11" label="In the last year, do you think race relations in the United States have improved, grown worse or stayed about the same?">
+  <Response Label="Improved">10,8,11,6,9,7,11,11,11,8,10,7,6,7,11,10,11,0,0</Response>
+  <Response Label="Grown worse">62,61,52,74,66,66,55,55,59,63,63,73,58,65,60,59,65,0,0</Response>
+  <Response Label="Stayed about the same">25,31,37,19,25,25,34,33,28,29,26,18,33,27,27,30,25,0,0</Response>
+  <Response Label="No answer">2,0,1,1,0,2,0,1,2,1,1,2,3,1,2,1,0,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="12" label="Would you like the next president to be someone who has experience in how the political system works, or someone from outside the existing political establishment?">
+  <Response Label="Someone with experience">45,59,83,30,45,40,73,71,58,47,55,35,33,49,65,58,51,0,0</Response>
+  <Response Label="Someone from outside the existing establishment">48,34,13,61,49,52,22,23,33,46,40,59,61,44,30,34,38,0,0</Response>
+  <Response Label="No answer">7,7,4,9,6,8,6,6,9,7,5,6,5,8,5,8,11,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="13" label="What is the single most important issue in your choice for president: the economy, health care, immigration issues, tax policy or the threat of terrorism?">
+  <Response Label="Economy">33,32,34,27,36,27,37,40,37,33,24,30,33,30,41,23,35,0,0</Response>
+  <Response Label="Health care">12,19,22,11,12,13,23,20,16,14,19,10,12,17,15,18,15,0,0</Response>
+  <Response Label="Immigration issues">12,8,10,10,10,12,6,7,11,8,12,10,17,9,8,11,6,0,0</Response>
+  <Response Label="Tax policy">8,6,7,6,10,8,7,7,8,7,6,6,13,7,9,4,5,0,0</Response>
+  <Response Label="Threat of terrorism">18,22,15,30,17,22,15,15,14,23,21,28,13,22,15,24,23,0,0</Response>
+  <Response Label="Something else ">2,2,1,3,2,3,1,1,0,2,5,1,2,3,1,2,1,0,0</Response>
+  <Response Label="Two or more equally">12,10,8,12,12,13,9,9,13,10,12,13,11,10,8,17,13,0,0</Response>
+  <Response Label="None">2,0,2,0,0,1,2,1,0,2,1,0,0,1,2,0,1,0,0</Response>
+  <Response Label="No answer">1,1,1,2,1,1,1,1,2,1,1,1,0,1,1,2,1,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="14" label="Do you have a favorable or unfavorable impression of the Republican Party?">
+  <Response Label="Favorable">36,36,11,79,29,47,15,20,29,40,36,56,48,41,25,31,37,0,0</Response>
+  <Response Label="Unfavorable">56,56,83,18,59,46,77,71,63,52,57,40,39,51,68,60,60,0,0</Response>
+  <Response Label="No answer">8,8,7,3,12,7,8,9,9,8,7,4,13,8,7,9,4,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="15" label="Do you have a favorable or unfavorable impression of the Democratic Party?">
+  <Response Label="Favorable">39,48,85,8,35,28,73,67,54,37,43,16,28,39,55,49,45,0,0</Response>
+  <Response Label="Unfavorable">55,44,11,89,52,65,22,26,40,56,48,81,62,57,39,38,52,0,0</Response>
+  <Response Label="No answer">6,8,3,3,13,7,5,7,6,7,9,3,10,4,7,13,3,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="16" label="Do you have a favorable or unfavorable impression of Hillary Clinton?">
+  <Response Label="Favorable">35,51,84,7,31,22,80,75,51,37,44,14,21,37,61,45,47,0,0</Response>
+  <Response Label="Unfavorable">61,45,11,92,66,76,14,18,43,59,53,82,78,57,35,49,53,0,0</Response>
+  <Response Label="No answer">4,4,5,1,3,2,6,7,6,3,3,4,1,6,5,6,1,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="17" label="Do you have a favorable or unfavorable impression of Bernie Sanders?">
+  <Response Label="Favorable">37,40,58,14,42,31,53,51,50,34,31,17,30,40,43,36,39,0,0</Response>
+  <Response Label="Unfavorable">55,43,29,78,46,59,31,33,38,54,57,70,63,50,41,46,50,0,0</Response>
+  <Response Label="No answer">8,17,14,8,12,10,17,16,12,12,13,13,7,10,16,18,11,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="18" label="Do you have a favorable or unfavorable impression of Donald Trump?">
+  <Response Label="Favorable">39,26,8,60,32,44,12,14,23,38,33,53,52,33,20,24,39,0,0</Response>
+  <Response Label="Unfavorable">58,67,87,34,65,52,83,79,73,56,60,42,43,62,74,69,56,0,0</Response>
+  <Response Label="No answer">3,7,5,6,3,5,5,7,4,6,7,6,5,5,5,7,5,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="19" label="Do you have a favorable or unfavorable impression of Ted Cruz?">
+  <Response Label="Favorable">45,32,19,62,39,48,20,24,30,43,42,59,46,45,27,34,40,0,0</Response>
+  <Response Label="Unfavorable">45,46,64,26,47,39,57,55,51,45,40,28,43,36,57,48,48,0,0</Response>
+  <Response Label="No answer">10,22,17,11,14,13,23,21,19,13,18,13,11,19,16,18,12,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="20" label="Do you have a favorable or unfavorable impression of Marco Rubio ?">
+  <Response Label="Favorable">37,36,22,58,37,45,23,25,33,40,35,56,33,48,30,29,39,0,0</Response>
+  <Response Label="Unfavorable">51,41,55,31,50,42,52,51,47,45,46,36,52,37,52,49,43,0,0</Response>
+  <Response Label="No answer">11,23,23,10,13,13,25,24,20,15,19,8,15,15,18,22,18,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="21" label="Do you have a favorable or unfavorable impression of Ben Carson ?">
+  <Response Label="Favorable">48,35,27,58,37,49,27,30,42,43,36,59,53,49,23,38,47,0,0</Response>
+  <Response Label="Unfavorable">42,52,61,33,51,39,62,58,45,46,51,32,31,41,67,45,45,0,0</Response>
+  <Response Label="No answer">11,13,12,9,12,12,11,12,13,11,13,9,16,10,10,17,8,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="22" label="Do you have a favorable or unfavorable impression of Jeb Bush?">
+  <Response Label="Favorable">24,19,19,27,21,24,17,18,20,20,27,27,16,23,23,24,19,0,0</Response>
+  <Response Label="Unfavorable">70,72,74,68,72,70,74,73,72,72,67,68,81,71,67,66,73,0,0</Response>
+  <Response Label="No answer">6,8,7,5,7,7,9,8,7,7,7,5,3,6,10,10,7,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="23" label="Do you have a favorable or unfavorable impression of Chris Christie?">
+  <Response Label="Favorable">27,24,16,39,27,31,16,17,16,29,33,35,23,30,25,21,27,0,0</Response>
+  <Response Label="Unfavorable">63,56,66,51,61,58,61,61,66,57,52,55,69,56,55,61,59,0,0</Response>
+  <Response Label="No answer">10,20,18,10,12,11,23,21,18,13,15,10,8,15,20,18,13,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="24" label="Do you approve or disapprove of the way Barack Obama is handling his job as president?">
+  <Response Label="Approve">47,52,92,7,43,27,88,81,61,43,45,15,30,44,66,54,46,0,0</Response>
+  <Response Label="Disapprove">50,45,8,89,54,69,11,16,34,54,53,81,66,52,30,44,51,0,0</Response>
+  <Response Label="No answer">3,4,0,4,3,4,1,3,6,3,1,4,5,4,3,3,3,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="25" label="Do you approve or disapprove of the way Obama is handling the economy?">
+  <Response Label="Approve">48,49,85,13,42,29,82,77,54,46,45,13,33,43,66,49,45,0,0</Response>
+  <Response Label="Disapprove">50,49,14,85,56,69,17,21,43,52,53,85,66,55,30,50,52,0,0</Response>
+  <Response Label="No answer">2,2,1,2,2,2,1,2,3,2,3,2,1,2,4,2,2,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="26" label="Do you approve or disapprove of the way Obama is handling the threat of terrorism?">
+  <Response Label="Approve">41,44,80,7,34,25,73,68,52,37,40,16,31,34,52,51,45,0,0</Response>
+  <Response Label="Disapprove">57,52,19,91,61,72,26,30,46,60,56,83,67,64,42,46,55,0,0</Response>
+  <Response Label="No answer">2,4,0,2,4,3,1,2,2,3,4,1,1,2,6,3,0,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="27" label="Do you approve or disapprove of the way Obama is handling the extremist group known as the Islamic State, or ISIS?">
+  <Response Label="Approve">32,35,61,5,27,20,57,52,38,31,32,11,20,26,46,39,33,0,0</Response>
+  <Response Label="Disapprove">64,58,33,92,67,76,35,38,56,64,62,85,78,68,41,57,66,0,0</Response>
+  <Response Label="No answer">4,7,6,3,6,3,8,9,7,5,6,3,2,6,13,4,2,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="28" label="Do you think things in this country are generally going in the right direction or do you feel things have gotten pretty seriously off on the wrong track?">
+  <Response Label="Right direction">35,33,65,6,28,22,55,52,40,30,33,12,23,32,45,37,27,0,0</Response>
+  <Response Label="Wrong track">63,61,29,92,70,76,39,41,54,66,65,87,76,66,47,55,71,0,0</Response>
+  <Response Label="No answer">3,6,6,1,2,2,6,7,5,4,2,1,1,2,8,8,2,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="29" label="Would you support or oppose a ban on muslims entering the United States?">
+  <Response Label=" Support">33,31,20,48,31,36,21,24,22,35,39,40,40,31,20,30,43,0,0</Response>
+  <Response Label="Oppose">62,63,75,45,65,58,73,70,75,59,52,53,53,65,77,60,50,0,0</Response>
+  <Response Label="No answer">5,6,5,7,5,6,6,6,3,6,9,7,7,4,3,10,7,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="30" label="Would you support or oppose a law requiring background checks on people buying guns at gun shows or online?">
+  <Response Label=" Support">76,88,89,71,82,78,87,87,89,79,79,74,80,80,87,88,74,0,0</Response>
+  <Response Label="Oppose">21,10,11,24,16,18,13,12,10,18,18,23,19,16,12,10,22,0,0</Response>
+  <Response Label="No answer">3,2,0,5,2,4,0,1,2,3,3,3,1,4,2,2,3,0,0</Response>
+ </myQuestion>
+</docbase>
