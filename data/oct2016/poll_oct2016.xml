@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="If the 2016 presidential election were being held today and the candidates were Hillary Clinton and Tim kaine, the Democrats, Donald Trump and Mike Pence, the Republicans, and Gary Johnson and Bill Weld of the Libertarian Party, for whom would you vote, lean toward or have voted for?">
+  <Response Label="Hillary Clinton">42,35,48,91,4,38,20,88,41,44,37,12,34,63,23,44,38</Response>
+  <Response Label="Donald Trump">44,50,37,4,85,41,65,3,38,43,54,74,49,23,52,46,55</Response>
+  <Response Label="Gary Johnson">9,8,9,2,7,13,10,3,17,4,4,10,11,7,19,3,1</Response>
+  <Response Label="Other candidate">1,2,0,0,1,2,1,0,1,1,2,1,2,2,0,0,1</Response>
+  <Response Label="Neither">1,1,1,0,1,2,1,1,0,2,1,0,1,3,1,0,0</Response>
+  <Response Label="No answer">4,3,5,3,3,4,3,5,3,5,3,4,2,3,5,7,5</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="For Clinton supporters, would that be more a vote for Clinton or more a vote against Trump?">
+  <Response Label="Vote for Clinton">62,63,62,69,5,51,56,64,44,71,71,57,59,64,56,67,61</Response>
+  <Response Label="Vote against Trump">35,33,37,29,89,46,36,35,55,27,23,23,37,35,35,31,38</Response>
+  <Response Label="Other reason">1,3,0,2,0,0,4,0,0,2,0,13,0,1,7,0,0</Response>
+  <Response Label="No answer">1,2,1,1,6,3,4,0,1,0,6,7,4,0,2,1,1</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="For Trump supporters, would that be more a vote for Trump or more a vote against Clinton?">
+  <Response Label="Vote for Trump">47,48,46,28,51,36,47,32,39,47,57,42,43,47,45,41,60</Response>
+  <Response Label="Vote against Clinton">48,45,51,44,45,56,48,68,58,48,35,51,49,49,54,50,37</Response>
+  <Response Label="Other reason">3,5,1,18,2,7,4,0,2,3,5,5,6,4,0,6,1</Response>
+  <Response Label="No answer">2,2,1,10,2,2,2,0,1,1,3,1,2,0,2,3,2</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="If the 2016 Senate election in Georgia were being held today and the candidates were Jim Barksdale, the Democrat and Johnny Isakson, the Republican and Allen Buckley of the Libertarian Party, for whom would you vote, lean toward or have voted for?">
+  <Response Label="Jim Barksdale">32,28,35,70,3,26,17,63,32,32,32,15,29,42,20,33,32</Response>
+  <Response Label="Johnny Isakson">47,54,41,12,87,45,65,18,43,47,56,75,53,36,54,46,49</Response>
+  <Response Label="Allen Buckley">11,11,10,6,3,20,9,8,13,12,3,5,11,12,16,8,4</Response>
+  <Response Label="Other Candidate">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</Response>
+  <Response Label="Neither">0,0,0,0,1,1,0,0,0,0,2,1,1,0,1,0,1</Response>
+  <Response Label="Would Not Vote">2,2,3,4,1,1,2,2,4,2,1,0,1,2,2,6,2</Response>
+  <Response Label="No answer">7,4,10,8,5,7,6,8,8,8,6,4,4,8,8,6,12</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="Do you have a favorable or unfavorable impression of Hillary Clinton?">
+  <Response Label="Favorable">38,31,45,82,6,29,18,76,35,42,34,12,33,57,23,41,30</Response>
+  <Response Label="Unfavorable">58,66,52,14,93,65,79,20,63,54,62,86,63,39,75,58,65</Response>
+  <Response Label="No answer">4,3,4,3,1,6,3,4,2,4,4,1,4,5,2,2,5</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="Do you have a favorable or unfavorable impression of Tim Kaine?">
+  <Response Label="Favorable">32,29,34,51,15,33,24,48,22,37,36,15,35,39,21,36,24</Response>
+  <Response Label="Unfavorable">43,47,39,21,61,42,51,25,50,40,39,66,44,38,45,44,46</Response>
+  <Response Label="No answer">25,24,27,29,24,25,25,28,28,23,25,19,21,23,34,21,30</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="Do you have a favorable or unfavorable impression of Donald Trump?">
+  <Response Label="Favorable">37,42,32,2,68,37,53,5,30,38,47,58,35,18,50,40,51</Response>
+  <Response Label="Unfavorable">59,54,64,95,29,58,43,92,69,57,49,37,57,80,50,58,43</Response>
+  <Response Label="No answer">4,4,4,3,4,5,4,3,2,5,4,5,7,2,0,3,6</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="Do you have a favorable or unfavorable impression of Mike Pence?">
+  <Response Label="Favorable">51,58,46,18,85,49,67,21,42,56,58,80,55,42,57,51,56</Response>
+  <Response Label="Unfavorable">29,26,32,54,6,29,18,50,35,28,22,9,27,44,17,29,20</Response>
+  <Response Label="No answer">20,17,22,28,9,22,15,29,23,17,21,12,18,14,26,20,24</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="Do you have a favorable or unfavorable impression of Barack Obama?">
+  <Response Label="Favorable">50,44,56,91,12,50,28,92,55,50,41,18,45,68,37,50,44</Response>
+  <Response Label="Unfavorable">46,53,39,6,84,44,68,5,39,46,55,75,49,28,58,46,55</Response>
+  <Response Label="No answer">4,4,5,2,4,6,4,3,6,4,3,6,5,4,5,5,2</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="Do you have a favorable or unfavorable impression of Paul Ryan?">
+  <Response Label="Favorable">35,38,33,30,40,40,37,30,33,38,33,38,37,33,35,41,30</Response>
+  <Response Label="Unfavorable">41,43,40,42,36,40,41,44,38,44,39,42,41,46,38,39,39</Response>
+  <Response Label="No answer">24,19,28,28,24,20,22,26,29,17,28,20,22,21,27,20,30</Response>
+ </myQuestion>
+ <myQuestion Qid="10" label="Do you have a favorable or unfavorable impression of the Republican Party?">
+  <Response Label="Favorable">40,42,38,7,73,37,52,15,39,39,44,50,41,25,52,49,40</Response>
+  <Response Label="Unfavorable">53,50,56,88,21,51,41,78,53,55,47,38,53,68,42,42,51</Response>
+  <Response Label="No answer">7,8,7,5,6,13,7,7,8,6,9,12,6,8,6,8,10</Response>
+ </myQuestion>
+ <myQuestion Qid="11" label="Do you have a favorable or unfavorable impression of the Democratic Party?">
+  <Response Label="Favorable">41,33,49,90,6,33,23,81,42,41,40,14,32,60,28,45,35</Response>
+  <Response Label="Unfavorable">53,62,44,8,92,56,72,15,52,53,54,79,63,35,64,45,62</Response>
+  <Response Label="No answer">6,5,7,2,2,11,5,4,6,6,6,7,5,5,7,10,3</Response>
+ </myQuestion>
+ <myQuestion Qid="12" label="Do you approve or disapprove of the way Barack Obama is handling his job as president?">
+  <Response Label="Approve">49,43,55,92,9,50,27,93,56,48,41,17,45,67,37,49,43</Response>
+  <Response Label="Disapprove">48,55,41,4,90,48,71,5,42,49,55,82,54,29,59,50,54</Response>
+  <Response Label="No answer">3,2,3,3,2,2,3,2,2,2,4,1,1,4,4,2,3</Response>
+ </myQuestion>
+ <myQuestion Qid="13" label="Do you think the outcome of this election matters to the country's future, or do you think it doesn't make much difference whether Clinton or Trump wins?">
+  <Response Label="Matters, great deal">82,81,83,79,91,79,87,71,79,82,87,85,83,76,86,83,84</Response>
+  <Response Label="Matters, somewhat">9,9,8,11,5,8,8,11,11,7,8,9,7,10,10,6,9</Response>
+  <Response Label="Doesn't make much difference">8,9,7,8,4,13,5,14,10,9,3,6,9,12,4,8,5</Response>
+  <Response Label="No answer">1,1,2,2,0,1,1,4,0,2,1,0,1,2,0,2,2</Response>
+ </myQuestion>
+ <myQuestion Qid="14" label="Do you think Hillary Clinton is qualified to serve as president, or not?">
+  <Response Label="Yes">56,49,63,97,23,56,38,94,59,59,45,30,56,72,45,55,46</Response>
+  <Response Label="No">43,51,35,3,77,42,61,5,41,40,52,70,43,28,55,44,52</Response>
+  <Response Label="No answer">1,0,2,0,0,2,1,1,0,1,2,0,1,1,0,0,3</Response>
+ </myQuestion>
+ <myQuestion Qid="15" label="Do you think Hillary Clinton is honest and trustworthy, or not?">
+  <Response Label="Yes">30,25,35,69,2,26,16,62,26,33,31,11,22,42,21,31,32</Response>
+  <Response Label="No">65,73,57,23,98,70,83,28,71,61,64,88,74,51,76,63,64</Response>
+  <Response Label="No answer">5,2,8,8,0,4,2,11,3,6,6,1,3,7,3,6,5</Response>
+ </myQuestion>
+ <myQuestion Qid="16" label="Do you think Hillary Clinton has the kind of personality and temperament it takes to serve effectively as president, or not?">
+  <Response Label="Yes">55,49,60,95,22,55,37,91,57,58,45,28,58,70,39,57,42</Response>
+  <Response Label="No">44,50,38,4,78,44,63,6,42,41,54,72,41,29,61,40,55</Response>
+  <Response Label="No answer">1,1,2,2,0,2,1,3,0,2,2,0,1,1,0,3,3</Response>
+ </myQuestion>
+ <myQuestion Qid="17" label="Do you think Hillary Clinton knows enough about world affairs to serve effectively as president, or not?">
+  <Response Label="Yes">71,67,75,99,50,71,58,97,79,71,59,50,77,82,59,65,64</Response>
+  <Response Label="No">27,32,23,1,50,26,40,3,20,27,40,49,21,17,40,34,32</Response>
+  <Response Label="No answer">1,1,2,1,0,3,1,1,1,2,2,1,1,1,1,1,4</Response>
+ </myQuestion>
+ <myQuestion Qid="18" label="Do you think Donald Trump is qualified to serve as president, or not?">
+  <Response Label="Yes">44,52,37,7,81,45,65,7,40,45,50,76,49,23,55,47,56</Response>
+  <Response Label="No">54,48,60,93,18,53,34,91,60,53,48,23,49,76,42,53,41</Response>
+  <Response Label="No answer">2,0,3,0,1,2,1,2,0,2,3,1,1,1,3,0,3</Response>
+ </myQuestion>
+ <myQuestion Qid="19" label="Do you think Donald Trump is honest and trustworthy, or not?">
+  <Response Label="Yes">40,44,37,5,77,41,58,5,36,40,49,67,43,24,52,43,48</Response>
+  <Response Label="No">56,54,59,93,21,55,39,90,63,57,44,32,53,75,44,53,48</Response>
+  <Response Label="No answer">3,2,4,2,2,4,3,5,1,3,6,2,4,1,4,4,4</Response>
+ </myQuestion>
+ <myQuestion Qid="20" label="Do you think Donald Trump has the kind of personality and temperament it takes to serve effectively as president, or not?">
+  <Response Label="Yes">35,41,30,2,67,37,53,4,30,37,43,61,38,20,44,35,46</Response>
+  <Response Label="No">62,56,67,98,30,60,45,93,70,60,52,37,59,79,51,62,49</Response>
+  <Response Label="No answer">3,2,3,0,3,3,2,4,1,3,5,2,2,1,4,3,5</Response>
+ </myQuestion>
+ <myQuestion Qid="21" label="Do you think Donald Trump knows enough about world affairs to serve effectively as president, or not?">
+  <Response Label="Yes">41,45,37,4,78,42,58,8,38,41,45,68,43,22,54,41,52</Response>
+  <Response Label="No">58,54,61,95,21,57,41,90,62,56,54,31,56,77,43,58,46</Response>
+  <Response Label="No answer">2,1,2,0,1,1,1,3,0,3,1,1,2,1,3,1,2</Response>
+ </myQuestion>
+ <myQuestion Qid="22" label="Would you be more likely to vote for an elected official in Georgia who supports Donald Trump for president, less likely, or wouldn't it make much difference in your vote?">
+  <Response Label="More likely">21,24,19,2,44,16,31,4,16,20,32,34,20,10,29,22,31</Response>
+  <Response Label="Less likely">34,28,40,68,6,34,18,62,39,34,28,11,36,47,20,39,23</Response>
+  <Response Label="Wouldn't make much difference">43,47,38,29,49,45,49,32,44,44,38,55,42,41,50,38,43</Response>
+  <Response Label="No answer">2,1,3,1,1,4,2,3,1,2,3,1,3,2,1,1,3</Response>
+ </myQuestion>
+ <myQuestion Qid="23" label="Do you think Trump's treatment of women is or is not a legitimate issue in the presidential election?">
+  <Response Label="Legitimate issue">58,56,60,85,36,59,46,78,65,58,49,47,58,70,53,60,45</Response>
+  <Response Label="Not a legitimate issue">40,42,38,15,63,37,52,19,34,40,50,52,41,29,45,38,53</Response>
+  <Response Label="No answer">2,2,2,1,1,4,2,3,1,2,2,1,1,1,2,3,2</Response>
+ </myQuestion>
+ <myQuestion Qid="24" label="Do you think Bill Clinton's treatment of women is or is not a legitimate issue in the presidential election?">
+  <Response Label="Legitimate issue">31,38,25,14,44,36,37,17,36,26,37,44,32,25,35,34,33</Response>
+  <Response Label="Not a legitimate issue">66,60,72,82,56,61,62,78,63,72,59,56,66,73,64,65,60</Response>
+  <Response Label="No answer">2,2,3,4,0,2,1,5,1,3,4,0,2,1,1,1,7</Response>
+ </myQuestion>
+ <myQuestion Qid="25" label="How confident are you that your vote for president will be accurately counted this year: very confident, somewhat confident, not too confident or not confident at all?">
+  <Response Label="Very confident">45,47,42,54,39,45,42,53,32,50,53,37,50,53,33,44,36</Response>
+  <Response Label="Somewhat confident">33,30,36,39,30,31,30,35,41,31,26,37,35,33,28,32,35</Response>
+  <Response Label="Not too confident">13,14,13,3,20,11,17,6,16,12,11,17,7,7,26,15,17</Response>
+  <Response Label="Not confident at all">7,8,6,2,8,13,9,5,9,6,6,6,6,4,13,7,9</Response>
+  <Response Label="No answer">2,0,3,3,3,0,2,2,1,1,4,2,1,2,1,2,3</Response>
+ </myQuestion>
+ <myQuestion Qid="26" label="Are you willing to accept the outcome of the 2016 election if the candidate you support loses, or will you not accept the outcome?">
+  <Response Label="Will accept outcome">88,89,86,85,88,91,89,84,87,87,90,86,91,80,93,89,88</Response>
+  <Response Label="Will not accept outcome">10,7,12,14,9,6,8,14,11,10,6,10,7,15,6,9,10</Response>
+  <Response Label="No answer">3,3,2,1,3,2,3,2,2,3,3,4,2,5,1,2,2</Response>
+ </myQuestion>
+ <myQuestion Qid="27" label="Do you think things in this country are generally going in the right direction or do you feel things have gotten pretty seriously off on the wrong track?">
+  <Response Label="Right direction">28,28,27,57,9,24,19,47,27,28,28,8,31,38,17,24,23</Response>
+  <Response Label="Wrong track">67,68,67,35,89,70,78,46,66,68,67,90,64,57,81,68,74</Response>
+  <Response Label="No answer">5,4,6,8,2,6,3,8,7,4,5,2,6,5,3,8,3</Response>
+ </myQuestion>
+ <myQuestion Qid="28" label="The Georgia ballot includes a constitutional amendment that would allow the state to take control of persistently low performing schools. Supporters say the state  will improve student performance in these schools and will be more flexible than local districts. Opponents say the amendment would eliminate local decision-making and  create more bureaucracy. If the election was being held today, how would you vote, yes in favor of this amendment, or no against this amendment?">
+  <Response Label="Yes, in favor">34,37,31,34,28,38,34,32,34,33,34,30,32,31,33,39,35</Response>
+  <Response Label="No, against">59,56,61,59,60,56,57,61,61,58,57,62,62,63,58,53,53</Response>
+  <Response Label="No answer">8,7,8,7,11,6,8,8,4,10,9,8,6,6,8,8,12</Response>
+ </myQuestion>
+</docbase>
