@@ -1,0 +1,150 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="Do you approve or disapprove of the way Nathan Deal is handling his job as governor?">
+  <Response Label="Approve">52,53,52,51,58,47,55,44,47,50,54,52,57,57,57,51,53,40,49,54,58,49,59</Response>
+  <Response Label="Disapprove">33,35,31,38,28,39,29,41,37,29,35,35,35,37,29,34,28,38,35,34,28,34,29</Response>
+  <Response Label="Don't know/no answer">15,12,17,11,13,14,15,16,16,21,12,14,8,6,13,15,19,22,17,12,14,16,12</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="Do you approve or disapprove of the way Johnny Isakson is handling his job in the U.S. Senate?">
+  <Response Label="Approve">42,44,39,31,54,37,48,30,32,34,43,52,59,43,43,39,44,39,35,45,50,41,43</Response>
+  <Response Label="Disapprove">25,25,26,32,18,29,21,31,31,23,29,20,15,22,25,29,18,30,25,24,22,26,24</Response>
+  <Response Label="Don't know/no answer">33,31,35,36,28,34,31,39,37,44,28,28,26,35,32,32,38,30,39,31,27,33,34</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="In your opinion, does Senator Isakson deserve to be re-elected to the Senate, or not?">
+  <Response Label="Yes, deserves to be re-elected">42,47,38,32,54,36,48,33,34,35,44,51,60,46,45,36,46,42,38,46,47,44,39</Response>
+  <Response Label="No, does not deserve to be re-elected">32,30,34,43,23,35,27,42,39,32,35,26,20,29,30,41,27,31,35,30,28,32,33</Response>
+  <Response Label="Don't know/no answer">25,23,28,25,23,28,24,25,27,33,21,23,20,26,25,23,27,27,27,24,25,24,28</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="And do you approve or disapprove of the way the Georgia Legislature is doing its job?">
+  <Response Label="Approve">46,49,43,39,55,42,47,44,44,49,45,42,54,49,51,37,46,47,40,55,47,46,45</Response>
+  <Response Label="Disapprove">42,41,43,50,30,48,39,45,45,40,45,39,33,43,39,49,42,36,45,35,42,40,46</Response>
+  <Response Label="Don't know/no answer">13,10,15,11,15,11,14,10,10,11,11,19,13,9,10,14,13,17,14,10,11,14,9</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="Do you approve or disapprove of the way the U.S. Congress is doing its job?">
+  <Response Label="Approve">21,20,22,28,15,22,14,35,32,26,20,17,12,9,21,30,24,15,23,21,13,24,15</Response>
+  <Response Label="Disapprove">74,76,73,66,80,76,81,60,63,68,77,78,84,87,71,68,72,82,69,76,84,70,83</Response>
+  <Response Label="Don't know/no answer">5,4,5,6,6,2,5,5,4,6,4,5,4,4,8,2,4,3,7,2,3,6,2</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="And do you approve or disapprove of the way your representative in Congress is doing his job?">
+  <Response Label="Approve">49,51,48,48,56,44,47,53,51,49,50,47,53,42,52,56,45,43,44,58,47,51,44</Response>
+  <Response Label="Disapprove">40,41,39,41,34,46,41,38,40,41,41,37,34,49,38,33,46,43,46,32,41,39,44</Response>
+  <Response Label="Don't know/no answer">11,8,13,11,10,10,12,9,9,10,9,16,13,8,10,11,9,14,10,10,12,10,12</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="Overall, do you have a favorable or unfavorable impression of the Republican Party?">
+  <Response Label="Favorable">38,37,38,12,70,27,49,17,20,35,38,40,51,42,48,23,40,38,34,36,47,40,34</Response>
+  <Response Label="Unfavorable">56,56,57,80,27,65,46,77,73,58,56,54,45,58,44,73,52,54,60,57,4,6,6</Response>
+  <Response Label="Don't know/no answer">6,7,5,7,2,8,4,6,7,7,5,6,4,0,8,4,8,8,7,7,34,39,41</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="Overall, do you have a favorable or unfavorable impression of the Democratic Party?">
+  <Response Label="Favorable">40,40,39,87,4,38,20,75,71,48,37,34,15,21,27,65,42,34,42,41,62,55,53</Response>
+  <Response Label="Unfavorable">54,53,55,8,95,53,76,19,22,44,58,62,81,77,65,31,52,57,52,51,4,6,6</Response>
+  <Response Label="Don't know/no answer">6,6,5,4,1,9,4,6,7,8,5,4,4,2,8,4,6,8,6,8,33,41,42</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="If the 2016 presidential election were being held today and the candidates were (Hillary Clinton, the Democrat) and (Donald Trump, the Republican) for whom would you vote, (Clinton) or (Trump)?">
+  <Response Label="Clinton">41,39,44,86,6,39,19,81,76,44,43,33,16,24,28,68,39,40,46,41,58,45,44</Response>
+  <Response Label="Trump">45,48,42,7,85,38,67,9,12,37,47,52,74,65,56,19,45,50,38,45,0,1,2</Response>
+  <Response Label="Other candidate">1,2,1,0,1,1,2,0,1,3,1,0,0,0,4,0,0,0,2,1,6,7,8</Response>
+  <Response Label="Neither">7,7,8,3,4,13,7,7,8,10,5,9,4,6,6,10,7,8,8,8,1,2,2</Response>
+  <Response Label="Would not vote">2,1,2,0,2,2,2,0,1,1,1,4,4,2,3,1,1,0,2,2,1,4,2</Response>
+  <Response Label="Don't know/no answer">4,4,4,4,1,6,3,3,3,6,3,2,1,3,3,3,8,1,5,4,39,47,46</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="If the 2016 presidential election were being held today and the candidates were (Bernie Sanders, the Democrat) and (Donald Trump, the Republican) for whom would you vote, (Sanders) or (Trump)?">
+  <Response Label="Sanders">47,47,47,84,13,48,25,84,81,59,43,36,15,28,35,72,45,45,54,45,54,42,43</Response>
+  <Response Label="Trump">42,45,39,6,80,34,64,6,9,32,45,52,71,59,52,19,42,47,35,42,2,1,2</Response>
+  <Response Label="Other candidate">1,0,2,2,0,1,1,1,1,0,1,2,1,0,2,2,0,1,1,1,1,4,6</Response>
+  <Response Label="Neither">5,4,5,3,1,11,5,4,5,3,5,6,7,9,2,3,8,6,6,5,0,2,1</Response>
+  <Response Label="Would not vote">2,0,3,3,2,1,2,2,2,0,2,4,6,4,2,1,1,1,2,2,4,4,2</Response>
+  <Response Label="Don't know/no answer">4,4,3,3,4,4,3,3,3,5,4,1,0,1,7,3,4,1,2,5,28,36,33</Response>
+ </myQuestion>
+ <myQuestion Qid="10" label="Overall, do you have a favorable or unfavorable impression of Hillary Clinton?">
+  <Response Label="Favorable">35,31,38,80,6,26,15,72,66,32,39,32,11,19,21,58,38,32,41,32,71,61,63</Response>
+  <Response Label="Unfavorable">62,66,58,15,93,72,83,23,29,64,59,65,89,80,76,37,57,66,57,64,1,3,4</Response>
+  <Response Label="Don't know/no answer">3,3,3,4,1,2,2,4,5,4,2,3,0,1,2,5,5,1,3,4,41,47,49</Response>
+ </myQuestion>
+ <myQuestion Qid="11" label="Overall, do you have a favorable or unfavorable impression of Bernie Sanders?">
+  <Response Label="Favorable">48,47,49,72,22,50,33,72,70,63,40,39,27,37,43,60,48,44,53,46,56,45,43</Response>
+  <Response Label="Unfavorable">44,49,40,19,68,45,59,19,21,32,50,52,64,56,48,33,44,48,37,45,3,8,8</Response>
+  <Response Label="Don't know/no answer">8,5,11,9,9,5,8,9,9,5,10,9,9,7,9,7,8,9,10,8,44,37,34</Response>
+ </myQuestion>
+ <myQuestion Qid="12" label="Overall, do you have a favorable or unfavorable impression of Donald Trump?">
+  <Response Label="Favorable">36,40,33,7,68,30,54,7,10,27,39,46,57,53,45,18,37,36,32,36,53,58,59</Response>
+  <Response Label="Unfavorable">59,53,63,90,27,61,41,90,86,64,57,51,37,43,46,80,57,59,64,57,3,5,7</Response>
+  <Response Label="Don't know/no answer">5,7,4,3,5,9,5,3,3,9,4,3,6,4,9,2,5,6,4,6,30,42,37</Response>
+ </myQuestion>
+ <myQuestion Qid="13" label="I am going to read you a list of issues. Please listen as I read the list and tell me, for each one, whether you have more confidence in (Hillary Clinton) or (Donald Trump) to deal with this issue: the economy?">
+  <Response Label="Hillary Clinton">41,36,45,83,7,38,19,79,74,43,42,33,14,26,27,67,34,41,46,41,66,51,55</Response>
+  <Response Label="Donald Trump">52,57,48,12,89,50,73,18,22,49,52,58,81,69,67,25,55,53,46,52,0,1,0</Response>
+  <Response Label="Both equally">1,2,0,1,0,2,1,0,1,1,1,0,0,0,1,1,2,0,1,0,4,4,5</Response>
+  <Response Label="Neither">4,4,5,2,4,8,6,3,2,3,4,7,3,4,2,5,6,5,5,5,1,2,2</Response>
+  <Response Label="Don't know/no answer">2,2,2,2,0,3,2,0,1,4,1,2,2,1,3,1,4,1,2,2,32,44,38</Response>
+ </myQuestion>
+ <myQuestion Qid="14" label="I am going to read you a list of issues. Please listen as I read the list and tell me, for each one, whether you have more confidence in (Hillary Clinton) or (Donald Trump) to deal with this issue: taxes?">
+  <Response Label="Hillary Clinton">42,38,46,85,7,38,21,81,75,44,45,33,15,30,31,66,38,39,48,41,63,50,52</Response>
+  <Response Label="Donald Trump">50,54,47,10,88,50,70,15,20,47,50,57,79,66,63,25,52,54,43,52,0,1,0</Response>
+  <Response Label="Both equally">0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,4,4,8</Response>
+  <Response Label="Neither">5,5,6,2,5,10,6,4,3,7,4,7,4,3,5,6,6,6,6,6,1,2,2</Response>
+  <Response Label="Don't know/no answer">2,1,2,2,1,1,2,0,1,2,1,3,3,0,1,2,3,1,2,1,34,47,44</Response>
+ </myQuestion>
+ <myQuestion Qid="15" label="I am going to read you a list of issues. Please listen as I read the list and tell me, for each one, whether you have more confidence in (Hillary Clinton) or  (Donald Trump) to deal with this issue: health care?">
+  <Response Label="Hillary Clinton">47,43,50,90,9,46,25,85,80,54,45,35,16,25,36,70,47,42,52,47,58,44,45</Response>
+  <Response Label="Donald Trump">44,48,41,4,84,43,65,9,13,34,48,53,76,62,58,20,42,48,37,45,0,1,0</Response>
+  <Response Label="Both equally">1,0,1,0,0,1,1,0,0,0,0,1,0,0,1,0,2,0,1,0,6,7,7</Response>
+  <Response Label="Neither">7,7,7,4,6,9,8,6,5,8,6,8,6,10,4,8,6,9,9,7,2,1,3</Response>
+  <Response Label="Don't know/no answer">2,2,2,2,0,1,2,0,1,3,0,2,2,2,1,1,3,1,2,1,38,46,53</Response>
+ </myQuestion>
+ <myQuestion Qid="16" label="I am going to read you a list of issues. Please listen as I read the list and tell me, for each one, whether you have more confidence in (Hillary Clinton) or (Donald Trump) to deal with this issue: foreign affairs?">
+  <Response Label="Hillary Clinton">48,45,52,84,17,48,29,83,79,54,48,40,21,35,41,73,39,41,52,52,54,45,37</Response>
+  <Response Label="Donald Trump">42,46,39,12,75,35,60,12,17,33,45,52,68,57,50,18,50,47,38,37,1,1,1</Response>
+  <Response Label="Both equally">1,1,0,0,1,1,1,0,1,1,1,1,1,0,2,0,2,1,1,0,6,6,7</Response>
+  <Response Label="Neither">7,6,7,1,7,12,8,4,3,6,6,7,8,7,4,7,6,9,6,8,1,2,2</Response>
+  <Response Label="Don't know/no answer">2,2,2,2,1,3,2,1,1,5,1,1,1,1,3,1,3,1,2,2,31,39,42</Response>
+ </myQuestion>
+ <myQuestion Qid="17" label="I am going to read you a list of issues. Please listen as I read the list and tell me, for each one, whether you have more confidence in (Hillary Clinton) or (Donald Trump) to deal with this issue: terrorism?">
+  <Response Label="Hillary Clinton">40,36,44,77,8,41,21,78,70,41,42,35,11,22,28,69,36,36,45,41,63,54,49</Response>
+  <Response Label="Donald Trump">53,57,49,17,86,52,71,18,24,51,52,56,83,68,64,26,57,57,47,52,0,0,0</Response>
+  <Response Label="Both equally">0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,2,4,5</Response>
+  <Response Label="Neither">5,5,5,3,5,6,5,4,3,4,4,7,5,6,4,3,4,7,6,5,3,2,3</Response>
+  <Response Label="Don't know/no answer">2,2,2,2,1,2,2,0,1,4,2,1,2,3,4,2,3,0,3,2,39,51,47</Response>
+ </myQuestion>
+ <myQuestion Qid="18" label="I am going to read you a list of issues. Please listen as I read the list and tell me, for each one, whether you have more confidence in (Hillary Clinton) or (Donald Trump) to deal with this issue: fighting for the middle class?">
+  <Response Label="Hillary Clinton">49,46,52,92,11,50,27,88,84,57,49,37,15,35,35,74,49,47,59,45,52,40,41</Response>
+  <Response Label="Donald Trump">41,44,38,3,78,36,61,7,10,29,44,54,74,55,55,15,41,44,32,43,0,1,0</Response>
+  <Response Label="Both equally">1,1,0,0,1,0,1,1,1,1,0,0,0,2,0,1,1,0,1,0,9,7,10</Response>
+  <Response Label="Neither">8,6,9,3,8,11,10,4,4,9,6,8,10,7,7,9,6,9,7,9,0,2,2</Response>
+  <Response Label="Don't know/no answer">2,2,1,2,1,2,1,0,1,4,1,1,1,0,2,2,3,0,2,3,35,48,41</Response>
+ </myQuestion>
+ <myQuestion Qid="19" label="I am going to read you a list of issues. Please listen as I read the list and tell me, for each one, whether you have more confidence in (Hillary Clinton) or (Donald Trump) to deal with this issue: caring about people like you?">
+  <Response Label="Hillary Clinton">46,43,49,89,10,44,24,85,80,52,46,35,15,26,36,71,44,41,54,44,54,39,42</Response>
+  <Response Label="Donald Trump">40,44,36,4,80,32,59,7,11,28,44,51,72,52,52,18,38,44,31,39,0,1,0</Response>
+  <Response Label="Both equally">1,1,1,1,0,2,1,0,0,2,0,0,0,2,1,0,2,0,1,1,10,10,14</Response>
+  <Response Label="Neither">11,10,12,4,10,19,14,7,8,15,9,12,13,18,9,10,10,15,12,15,1,2,3</Response>
+  <Response Label="Don't know/no answer">2,3,2,2,1,4,2,1,1,4,1,2,0,3,3,1,5,0,2,2,37,46,47</Response>
+ </myQuestion>
+ <myQuestion Qid="20" label="I am going to read you a list of issues. Please listen as I read the list and tell me, for each one, whether you have more confidence in (Hillary Clinton) or (Donald Trump) to deal with this issue: immigration?">
+  <Response Label="Hillary Clinton">46,44,48,86,13,44,24,85,80,53,47,31,14,31,35,73,39,43,53,45,59,47,45</Response>
+  <Response Label="Donald Trump">46,48,45,12,81,42,67,10,15,38,47,60,77,65,57,23,47,49,38,47,0,0,0</Response>
+  <Response Label="Both equally">0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,0,3,4,6</Response>
+  <Response Label="Neither">5,5,5,0,4,11,6,3,3,4,4,7,5,3,4,3,9,5,5,6,1,3,2</Response>
+  <Response Label="Don't know/no answer">2,3,2,2,2,3,3,1,1,4,1,2,4,1,4,1,4,3,3,2,57,41,54</Response>
+ </myQuestion>
+ <myQuestion Qid="21" label="You may have heard that Governor Deal vetoed Georgia's religious liberty bill. Supporters say the bill would protect people of any religion from government interference. Critics argued the bill would lead to discrimination against gays and lesbians. In your opinion, should Governor Deal have vetoed the religious liberty bill, or not?">
+  <Response Label="Yes, should have vetoed">45,45,45,55,32,50,43,51,51,55,38,45,34,41,46,59,33,37,43,44,38,48,37</Response>
+  <Response Label="No, should not have vetoed">44,45,43,35,58,39,46,41,41,34,53,39,53,50,45,33,50,50,47,45,5,11,10</Response>
+  <Response Label="Don't know/no answer">11,9,12,11,10,11,12,8,8,11,8,17,13,9,9,9,16,13,11,11,40,41,36</Response>
+ </myQuestion>
+ <myQuestion Qid="22" label="Would you support or oppose Georgia lawmakers attempting to pass the religious liberty bill again?">
+  <Response Label="Support">40,42,37,29,57,33,42,35,35,31,47,39,51,42,40,32,46,43,33,48,54,49,56</Response>
+  <Response Label="Oppose">51,49,53,61,33,61,48,57,57,60,47,46,36,46,54,58,44,45,56,46,6,10,8</Response>
+  <Response Label="Don't know/no answer">9,8,10,10,10,6,10,8,8,9,7,15,13,12,6,9,11,12,11,6,60,53,63</Response>
+ </myQuestion>
+ <myQuestion Qid="23" label="Governor Deal has vetoed a bill that would have allowed anyone age 21 and older with a weapons license to carry a concealed gun in most places on college campuses. In your opinion, should Governor Deal have vetoed this bill or not?">
+  <Response Label="Yes, should have vetoed">56,49,62,78,37,57,49,69,69,47,57,70,48,45,48,70,60,52,54,56,38,44,36</Response>
+  <Response Label="No, should not have vetoed">41,47,36,21,59,41,47,31,31,51,40,29,48,51,49,29,37,45,44,43,2,3,2</Response>
+  <Response Label="Don't know/no answer">3,4,2,2,4,1,3,0,1,2,3,2,4,4,2,1,3,4,2,1,40,38,34</Response>
+ </myQuestion>
+ <myQuestion Qid="24" label="Would you support or oppose Georgia lawmakers attempting to pass this bill again?">
+  <Response Label="Support">37,46,29,17,59,31,45,24,25,40,38,30,47,45,50,25,28,36,32,41,58,59,64</Response>
+  <Response Label="Oppose">60,52,68,80,38,68,52,76,74,58,60,66,48,48,49,74,69,60,65,58,2,3,2</Response>
+  <Response Label="Don't know/no answer">3,2,3,3,3,1,4,1,1,3,2,4,5,7,2,1,3,4,4,1,0,0,0</Response>
+ </myQuestion>
+</docbase>
