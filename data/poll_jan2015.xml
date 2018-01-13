@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="Do you approve or disapprove of the way Nathan Deal is handling his job as governor?">
+  <Response Label="Approve">47,50,44,33,72,44,59,29,70,57,48,40,47,46</Response>
+  <Response Label="Disapprove">28,28,28,46,14,30,20,46,18,28,23,38,22,31</Response>
+  <Response Label="Don't know/no answer">24,21,27,21,14,26,21,26,12,15,29,22,31,23</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="And do you approve or disapprove of the way the Georgia legislature is doing its job?">
+  <Response Label="Approve">39,40,38,30,56,40,46,29,51,47,40,32,44,33</Response>
+  <Response Label="Disapprove">42,38,45,56,28,41,34,54,37,38,35,52,34,49</Response>
+  <Response Label="Don't know/no answer">20,22,18,14,17,20,20,17,12,15,25,17,22,17</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="What is the single most important issue facing Georgia today?">
+  <Response Label="Economy/jobs">35,33,37,29,36,41,36,33,40,34,31,34,43,36</Response>
+  <Response Label="Taxes">3,4,3,1,4,7,4,2,6,4,5,4,2,1</Response>
+  <Response Label="Workforce">2,1,3,3,2,2,2,2,0,2,2,0,2,5</Response>
+  <Response Label="Quality of public schools/education">12,10,13,11,17,11,14,10,11,14,11,15,7,10</Response>
+  <Response Label="Transportation">4,6,2,3,5,4,5,3,4,0,7,6,1,1</Response>
+  <Response Label="Crime/public safety">5,5,6,7,6,4,3,10,5,2,5,3,10,10</Response>
+  <Response Label="Healthcare">7,5,9,14,5,4,7,9,9,5,4,8,9,10</Response>
+  <Response Label="Something else (specify)">21,23,18,20,18,18,20,20,20,23,23,20,18,18</Response>
+  <Response Label="Don't know/no answer">9,10,8,11,6,7,7,10,2,10,10,9,8,7</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="In general, how satisfied are you with the way things are going in Georgia today?">
+  <Response Label="Very satisfied">8,13,4,6,11,8,7,8,7,11,10,7,10,3</Response>
+  <Response Label="Somewhat satisfied">49,51,47,43,63,46,56,40,66,54,56,40,48,47</Response>
+  <Response Label="Somewhat dissatisfied">26,24,29,31,17,34,23,32,20,20,24,33,25,27</Response>
+  <Response Label="Very dissatisfied">15,10,19,19,8,11,11,20,8,14,9,18,16,17</Response>
+  <Response Label="Don't know/no answer">2,2,2,0,1,2,2,0,0,1,1,1,2,5</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="In general, how would you rate the job public schools in Georgia are doing?">
+  <Response Label="Excellent">5,5,5,6,6,4,5,3,2,2,7,3,6,8</Response>
+  <Response Label="Good">25,26,25,31,23,19,26,26,30,34,26,17,26,27</Response>
+  <Response Label="Fair">38,37,38,39,39,39,37,39,36,39,35,42,37,34</Response>
+  <Response Label="Poor">30,29,30,22,32,33,30,30,31,23,27,35,31,31</Response>
+  <Response Label="Don't know/no answer">3,4,2,3,0,4,2,3,1,2,5,3,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="How important is improving transportation in Georgia?">
+  <Response Label="One of the single most important issues">14,16,13,17,14,11,15,13,15,9,20,21,6,10</Response>
+  <Response Label="Very important issue">43,42,45,53,33,46,37,56,34,34,45,57,33,39</Response>
+  <Response Label="Somewhat important issue">27,24,30,22,37,27,30,22,30,37,21,14,39,34</Response>
+  <Response Label="Less important than that">13,15,11,8,15,14,16,7,18,17,13,6,18,14</Response>
+  <Response Label="Don't know/no answer">2,3,2,0,1,3,3,2,2,3,1,1,3,3</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="Would you support or oppose paying a higher gasoline tax if the money is used for transportation projects?">
+  <Response Label="Support">36,35,38,50,29,34,33,43,27,31,38,47,24,38</Response>
+  <Response Label="Oppose">59,61,57,47,68,58,63,53,70,64,60,46,73,58</Response>
+  <Response Label="Depends on what it's used for">3,4,3,2,2,6,4,1,1,6,2,4,2,4</Response>
+  <Response Label="Don't know/no answer">1,0,2,0,1,1,1,2,1,0,0,4,1,1</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="In addition to expanding and building more roads, do you think government efforts to improve transportation in Georgia should include providing more public transportation options, such as trains or buses, or not?">
+  <Response Label="Should">69,65,73,82,55,69,60,83,58,62,72,76,65,66</Response>
+  <Response Label="Should not">29,33,24,17,43,28,37,16,39,37,27,22,32,30</Response>
+  <Response Label="Don't know/no answer">2,2,3,1,2,3,3,2,3,1,2,2,4,4</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="Should the general assembly in Georgia legalize the use of marijuana by adults, or not?">
+  <Response Label="Yes, should legalize">49,54,45,54,37,53,49,53,33,48,49,53,47,48</Response>
+  <Response Label="No, should not legalize">48,43,53,43,61,43,50,45,65,48,49,42,52,51</Response>
+  <Response Label="Don't know/no answer">3,3,2,3,2,4,1,2,2,4,2,6,1,1</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="Should the general assembly in Georgia legalize the use of a marijuana-based medication to treat certain medical conditions, or not?">
+  <Response Label="Yes, should legalize">84,84,85,88,79,89,84,87,81,88,81,89,84,79</Response>
+  <Response Label="No, should not legalize">14,14,15,10,21,11,15,13,18,11,17,9,15,20</Response>
+  <Response Label="Don't know/no answer">1,2,0,2,1,1,1,0,1,1,2,2,1,1</Response>
+ </myQuestion>
+ <myQuestion Qid="10" label="Would you support or oppose lowering the state income tax in exchange for paying higher sales taxes and paying a new sales tax on groceries?">
+  <Response Label="Support">34,40,28,23,44,35,40,24,49,30,41,30,36,30</Response>
+  <Response Label="Oppose">62,57,66,75,55,59,57,73,49,64,58,66,59,65</Response>
+  <Response Label="Don't know/no answer">4,3,5,2,0,6,4,2,2,6,1,3,6,5</Response>
+ </myQuestion>
+ <myQuestion Qid="11" label="The general assembly is being asked to create more metro Atlanta cities this session. Some say new cities would improve local control of government and make  government more efficient. Others say new cities would increase bureaucracy and fracture the region. In your opinion, should state lawmakers create more cities, or not?">
+  <Response Label="Yes, should create more cities">25,26,24,28,21,25,22,28,20,20,25,33,23,20</Response>
+  <Response Label="No, should not create more cities">69,67,70,69,73,66,71,66,74,75,67,63,70,73</Response>
+  <Response Label="Don't know/no answer">6,7,6,3,6,9,7,5,6,5,8,4,7,7</Response>
+ </myQuestion>
+ <myQuestion Qid="12" label="Which of these statements comes closer to your own opinion on creating more metro Atlanta cities:">
+  <Response Label="It is unnecessary government growth">60,59,61,53,69,56,68,47,69,70,63,51,62,56</Response>
+  <Response Label="It is necessary to bring government closer to the people">35,35,35,45,27,37,26,51,28,24,32,45,33,40</Response>
+  <Response Label="Don't know/no answer">5,6,4,2,3,7,6,2,3,6,5,5,5,4</Response>
+ </myQuestion>
+ <myQuestion Qid="13" label="Should the legislature change Georgia law to allow cities and counties to raise the minimum wage if they so choose, or not?">
+  <Response Label="Yes, allow cities and counties to raise the minimum wage">77,74,81,86,60,84,70,88,63,77,72,83,80,75</Response>
+  <Response Label="No, do not allow">21,25,18,12,39,13,28,11,35,20,26,16,20,23</Response>
+  <Response Label="Don't know/no answer">2,2,1,2,1,2,2,1,2,3,2,1,0,2</Response>
+ </myQuestion>
+ <myQuestion Qid="14" label="As you may know, some Georgia counties offered early voting on Sundays in the November 2014 election. Do you support or oppose early voting on Sundays in Georgia?">
+  <Response Label="Support">70,68,71,80,56,69,66,76,54,66,69,78,68,64</Response>
+  <Response Label="Oppose">27,30,25,18,43,28,31,21,45,32,26,20,28,34</Response>
+  <Response Label="Depends">1,1,1,0,0,2,1,1,1,1,1,0,2,1</Response>
+  <Response Label="Don't know/no answer">2,1,3,2,1,1,2,2,1,1,4,1,2,1</Response>
+ </myQuestion>
+ <myQuestion Qid="15" label="Some believe Georgia lawmakers should make early voting a uniform law across the state by either banning it in all counties or mandating it in all counties. How about you, do you support a uniform, statewide law banning early voting, a uniform, statewide law mandating early voting, or should no statewide changes be made to  early voting?">
+  <Response Label="Support uniform law banning early voting">8,8,8,7,11,11,10,7,13,15,4,5,9,12</Response>
+  <Response Label="Support uniform law mandating early voting">35,36,35,42,31,34,30,43,26,26,39,45,30,31</Response>
+  <Response Label="No statewide changes">52,51,53,48,57,49,55,45,55,58,51,45,57,52</Response>
+  <Response Label="Don't know/no answer">5,5,4,3,2,5,4,5,6,2,7,5,3,4</Response>
+ </myQuestion>
+</docbase>
