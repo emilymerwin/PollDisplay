@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="If the 2014 Senate election in Georgia were being held today and the candidates were Michelle Nunn, the Democrat, David Perdue, the Republican and Amanda  Swafford, the Libertarian, for whom would you vote?  (Includes undecided voters who are leaning toward a candidate and people who have already voted)">
+  <Response Label=" Nunn">42,35,49,92,6,31,23,83,29,33,65,36,38</Response>
+  <Response Label=" Perdue">44,51,36,2,87,43,63,5,57,48,27,48,44</Response>
+  <Response Label=" Swafford">6,5,7,1,4,16,8,3,8,10,3,5,6</Response>
+  <Response Label=" Other candidate">0,0,0,0,0,0,0,0,0,0,0,0,0</Response>
+  <Response Label=" Neither">1,2,1,1,1,2,1,2,1,1,1,1,4</Response>
+  <Response Label=" Would not vote">1,1,1,1,0,1,1,1,0,1,0,2,0</Response>
+  <Response Label=" Don't know/no answer">6,6,6,3,2,7,4,6,5,7,4,9,7</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="If the 2014 Senate election in Georgia were being held today and the candidates were Michelle Nunn, the Democrat, David Perdue, the Republican and Amanda  Swafford, the Libertarian, for whom would you vote?  (Includes undecided voters who are leaning toward a candidate.)">
+  <Response Label=" Nunn">42,35,49,92,6,32,24,82,31,34,65,37,36</Response>
+  <Response Label=" Perdue">43,51,35,2,88,41,62,5,56,47,26,47,45</Response>
+  <Response Label=" Swafford">7,6,8,1,4,17,8,3,8,10,3,4,6</Response>
+  <Response Label=" Other candidate">0,0,0,0,0,0,0,0,0,0,0,0,0</Response>
+  <Response Label=" Neither">1,2,1,1,1,2,1,2,1,1,1,1,5</Response>
+  <Response Label=" Would not vote">1,1,1,1,0,1,1,1,1,1,0,2,0</Response>
+  <Response Label=" Don't know/no answer">6,6,6,3,1,7,3,6,3,7,4,9,7</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="How enthusiastic are you about supporting a Senate candidate?">
+  <Response Label="   Very enthusiastic">38,34,42,52,34,25,33,49,37,34,44,31,42</Response>
+  <Response Label="   Somewhat enthusiastic">51,54,48,42,55,59,54,43,52,58,45,55,41</Response>
+  <Response Label="   Not so enthusiastic">6,7,5,2,8,8,8,1,5,5,4,6,11</Response>
+  <Response Label="   Not enthusiastic at all">4,5,4,3,3,7,4,5,4,2,4,7,6</Response>
+  <Response Label=" Don't know/no answer">1,0,1,1,0,0,0,2,1,0,2,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="If you support Michelle Nunn, how enthusiastic are you about the candidate?">
+  <Response Label="   Very enthusiastic">45,44,47,53,5,28,37,51,46,43,48,35,52</Response>
+  <Response Label="   Somewhat enthusiastic">44,47,43,41,50,56,48,41,43,52,41,52,37</Response>
+  <Response Label="   Not so enthusiastic">3,3,4,2,16,6,7,1,3,1,4,6,3</Response>
+  <Response Label="   Not enthusiastic at all">6,6,5,3,28,9,8,4,8,4,4,7,8</Response>
+  <Response Label=" Don't know/no answer">1,0,2,1,0,1,0,2,0,0,3,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="If you support David Perdue, how enthusiastic are you about the candidate?">
+  <Response Label="   Very enthusiastic">34,30,39,10,37,27,34,27,33,31,39,29,40</Response>
+  <Response Label="   Somewhat enthusiastic">56,59,53,68,55,60,56,60,58,62,52,63,37</Response>
+  <Response Label="   Not so enthusiastic">8,9,6,0,8,9,8,0,7,6,6,5,18</Response>
+  <Response Label="   Not enthusiastic at all">2,2,2,16,1,4,1,13,1,1,2,3,4</Response>
+  <Response Label=" Don't know/no answer">0,0,0,6,0,0,0,0,0,0,0,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="If you support Amanda Swafford, how enthusiastic are you about the candidate?">
+  <Response Label="   Very enthusiastic">19,16,22,46,33,15,20,19,33,23,0,19,0</Response>
+  <Response Label="   Somewhat enthusiastic">59,53,63,54,52,64,53,81,49,63,73,3,100</Response>
+  <Response Label="   Not so enthusiastic">8,13,4,0,0,10,9,0,0,11,3,22,0</Response>
+  <Response Label="   Not enthusiastic at all">11,16,8,0,15,11,14,0,9,3,24,49,0</Response>
+  <Response Label=" Don't know/no answer">3,2,3,0,0,0,3,0,9,0,0,7,0</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="If the election for governor were being held today and the candidates were Nathan Deal, the  Republican, Jason Carter, the Democrat and Andrew Hunt the Libertarian for whom would you vote?  (Includes undecided voters who are leaning toward a candidate and people who have already voted)">
+  <Response Label=" Deal">46,53,39,3,87,52,66,6,62,50,29,48,46</Response>
+  <Response Label=" Carter">41,33,48,91,5,30,22,81,26,34,62,33,40</Response>
+  <Response Label=" Hunt">5,6,5,1,4,10,7,2,5,9,2,6,5</Response>
+  <Response Label=" Other candidate">0,0,0,0,0,0,0,0,0,0,0,1,0</Response>
+  <Response Label=" Neither">1,1,1,1,1,1,1,1,0,0,2,1,0</Response>
+  <Response Label=" Would not vote">0,1,0,1,0,0,0,1,0,0,0,2,0</Response>
+  <Response Label=" Don't know/no answer">7,6,7,2,2,6,4,8,5,6,5,9,8</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="If the election for governor were being held today and the candidates were Nathan Deal, the  Republican, Jason Carter, the Democrat and Andrew Hunt the Libertarian for whom would you vote?  (Includes undecided voters who are leaning toward a candidate)">
+  <Response Label=" Deal">46,53,38,4,87,50,66,7,63,50,28,48,47</Response>
+  <Response Label=" Carter">41,33,48,90,5,31,22,80,28,34,62,33,39</Response>
+  <Response Label=" Hunt">6,6,5,2,5,11,7,2,5,10,2,6,5</Response>
+  <Response Label=" Other candidate">0,0,0,0,0,0,0,0,0,0,0,1,0</Response>
+  <Response Label=" Neither">1,1,1,1,1,1,1,2,0,0,3,1,0</Response>
+  <Response Label=" Would not vote">0,1,0,1,0,0,0,1,1,0,0,2,0</Response>
+  <Response Label=" Don't know/no answer">6,6,7,2,2,6,3,8,4,6,5,10,9</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="If the election for governor were being held today and the candidates were Nathan Deal, the  Republican, Jason Carter, the Democrat and Andrew Hunt the Libertarian for whom would you vote?">
+  <Response Label=" Nathan Deal">44,51,37,3,85,49,64,6,60,49,28,47,42</Response>
+  <Response Label=" Jason Carter">38,32,45,84,4,31,21,74,28,34,57,29,34</Response>
+  <Response Label=" Andrew Hunt">6,6,5,2,5,10,7,2,5,10,2,6,5</Response>
+  <Response Label=" Other candidate">0,0,0,0,0,0,0,0,0,0,0,1,1</Response>
+  <Response Label=" Neither">1,0,2,2,0,1,1,2,0,1,3,0,1</Response>
+  <Response Label=" Would not vote">0,0,0,0,0,0,0,0,1,0,0,0,0</Response>
+  <Response Label=" Don't know/no answer">10,10,11,9,5,9,7,15,6,7,10,17,17</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="How enthusiastic are you about supporting a candidate for governor?">
+  <Response Label="   Very enthusiastic">43,39,47,54,40,33,39,52,48,35,51,37,44</Response>
+  <Response Label="   Somewhat Enthusiastic">47,51,44,37,54,51,51,38,44,57,39,48,46</Response>
+  <Response Label="   Not So Enthusiastic">7,7,6,6,4,12,7,7,4,7,7,10,6</Response>
+  <Response Label="   Not enthusiastic at all">3,3,3,3,1,3,3,3,2,1,3,4,3</Response>
+  <Response Label=" Don't know/no answer">0,1,0,0,1,1,0,0,1,0,0,1,1</Response>
+ </myQuestion>
+ <myQuestion Qid="10" label="If you support Nathan Deal, how enthusiastic are you about the candidate?">
+  <Response Label="   Very enthusiastic">39,35,45,28,42,33,39,33,44,31,48,36,40</Response>
+  <Response Label="   Somewhat enthusiastic">51,53,49,31,53,48,52,34,46,59,42,56,49</Response>
+  <Response Label="   Not so enthusiastic">7,8,5,7,4,15,6,25,6,8,8,6,5</Response>
+  <Response Label="   Not enthusiastic at all">2,3,2,33,1,2,2,8,2,2,2,1,4</Response>
+  <Response Label=" Don't know/no answer">1,1,0,0,1,1,0,0,2,0,0,0,2</Response>
+ </myQuestion>
+ <myQuestion Qid="11" label="If you support Jason Carter, how enthusiastic are you about the candidate?">
+  <Response Label="   Very enthusiastic">50,47,53,56,19,35,44,54,62,45,54,44,47</Response>
+  <Response Label="   Somewhat enthusiastic">41,46,37,37,64,53,44,38,34,49,37,38,44</Response>
+  <Response Label="   Not so enthusiastic">6,5,8,5,7,10,9,5,0,5,7,12,8</Response>
+  <Response Label="   Not enthusiastic at all">2,2,3,2,8,2,2,2,3,1,3,4,1</Response>
+  <Response Label=" Don't know/no answer">0,1,0,0,2,0,1,0,1,0,0,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="12" label="If you support Andrew Hunt, how enthusiastic are you about the candidate?">
+  <Response Label="   Very enthusiastic">22,28,16,0,32,28,23,27,19,23,9,8,54</Response>
+  <Response Label="   Somewhat enthusiastic">59,50,70,55,68,56,64,25,76,70,52,38,28</Response>
+  <Response Label="   Not so enthusiastic">8,14,0,37,0,3,2,29,0,6,0,27,0</Response>
+  <Response Label="   Not enthusiastic at all">11,8,14,8,0,13,10,19,5,0,39,27,18</Response>
+ </myQuestion>
+ <myQuestion Qid="13" label="If the race for governor is  not decided on November 4th, how likely would you be to return to vote in a runoff election on December 2, 2014? ">
+  <Response Label="   Definitely not vote">1,0,2,2,1,0,1,2,1,0,2,2,0</Response>
+  <Response Label="   Probably not vote">2,3,1,2,2,1,2,1,1,3,0,3,3</Response>
+  <Response Label=" May or may not vote">5,4,6,7,3,3,4,6,3,4,8,2,4</Response>
+  <Response Label="   Probably vote">13,13,13,13,12,15,13,14,10,13,14,16,12</Response>
+  <Response Label="   Definitely vote">79,80,78,75,82,80,81,76,84,80,75,77,80</Response>
+  <Response Label=" Don't know/no answer">1,0,1,1,0,0,0,1,0,0,1,0,2</Response>
+ </myQuestion>
+ <myQuestion Qid="14" label="If the race for U.S. Senate  is not decided on November 4th, how likely would you be to return to vote in a runoff election on January 6, 2015? ">
+  <Response Label="   Definitely not vote">2,1,2,2,2,1,2,1,1,2,2,1,1</Response>
+  <Response Label="   Probably not vote">2,2,2,2,3,1,2,2,2,3,1,1,3</Response>
+  <Response Label=" May or may not vote">5,4,5,8,2,4,3,8,2,5,7,1,8</Response>
+  <Response Label="   Probably vote">16,15,16,12,15,20,17,11,13,17,17,21,8</Response>
+  <Response Label="   Definitely vote">75,77,74,74,78,75,75,77,81,74,72,75,78</Response>
+  <Response Label=" Don't know/no answer">1,0,1,1,0,0,0,1,1,0,1,0,2</Response>
+ </myQuestion>
+</docbase>
