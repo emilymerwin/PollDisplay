@@ -1,0 +1,203 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="If the special election for the U.S. House of Representatives were being held today and the candidates were  Jon Ossoff, the Democrat and Karen Handel, the Republican, for whom would you vote, lean toward or have voted for?">
+  <Response Label="Jon Ossoff">51,41,60,96,13,50,44,78,61,51,41,13,61,49,53,43,53,0</Response>
+  <Response Label="Karen Handel">44,52,36,3,85,44,52,13,37,44,51,84,33,46,44,49,43,0</Response>
+  <Response Label="Other candidate">0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0</Response>
+  <Response Label="Don't know/no answer">5,6,4,1,2,4,3,8,2,4,7,1,6,5,1,8,4,0</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="Will Jon Ossoff's residence outside of the 6th Congressional District borders be a major factor in your vote, a minor factor or not a factor?">
+  <Response Label="Major factor">32,35,28,6,58,32,36,14,15,33,44,58,24,31,30,42,29,0</Response>
+  <Response Label="Minor factor">19,22,16,14,25,19,20,14,27,18,14,27,22,19,19,21,18,0</Response>
+  <Response Label="Not a factor">49,42,55,80,17,48,43,70,57,49,41,15,54,47,51,35,52,0</Response>
+  <Response Label="Don't know/no answer">1,1,1,0,0,1,1,1,1,1,1,0,0,2,0,2,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="Will Karen Handel's lack of a college degree be a major factor in your vote, a minor factor or not a factor?">
+  <Response Label="Major factor">11,10,12,19,2,13,10,12,15,10,13,4,7,7,14,10,11,0</Response>
+  <Response Label="Minor factor">21,22,21,22,19,23,20,27,22,24,12,16,19,25,20,15,23,0</Response>
+  <Response Label="Not a factor">66,67,65,58,78,63,69,57,62,65,72,79,73,65,65,73,64,0</Response>
+  <Response Label="Don't know/no answer">1,1,2,1,1,1,0,4,1,1,2,1,1,2,1,2,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="Will one reason for your vote for congress be to express support for President Trump, opposition to President Trump, or is President Trump not a factor in your choice?">
+  <Response Label="Support for Trump">14,15,14,1,35,11,17,5,6,13,26,31,13,19,12,19,13,0</Response>
+  <Response Label="Opposition to Trump">39,31,46,77,10,37,34,59,43,39,36,11,50,34,42,33,40,0</Response>
+  <Response Label="Trump not a factor">45,53,38,21,55,52,48,34,51,47,37,57,36,47,45,48,45,0</Response>
+  <Response Label="Don't know/no answer">1,1,1,1,1,0,1,1,0,1,1,0,0,0,1,0,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="If a candidate for U.S. congress has experience in public elected office, would that make you more likely to support that candidate,  more likely to oppose that candidate or wouldn't it make much difference in your vote?">
+  <Response Label="More likely to support">24,27,22,20,37,19,25,24,31,22,27,31,26,22,26,33,22,0</Response>
+  <Response Label="More likely to oppose">4,4,4,3,3,4,4,4,5,3,4,1,6,4,3,4,4,0</Response>
+  <Response Label="Wouldn't make much difference">71,68,74,77,59,75,70,72,63,74,66,66,65,72,71,63,72,0</Response>
+  <Response Label="Don't know/no answer">1,2,1,1,1,1,1,0,0,1,3,2,3,2,0,1,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="How important will the issue of healthcare be in your vote?">
+  <Response Label="Very important">81,74,88,94,76,76,78,94,78,81,83,72,85,87,78,83,81,0</Response>
+  <Response Label="Less important">18,26,12,6,24,23,22,6,22,18,16,28,15,13,22,16,19,0</Response>
+  <Response Label="Don't know/no answer">0,0,0,0,1,0,0,0,0,0,1,1,0,1,0,1,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="How important will the issue of taxes be in your vote?">
+  <Response Label="Very important">67,64,70,54,80,66,65,75,68,68,65,81,69,66,66,72,66,0</Response>
+  <Response Label="Less important">32,35,30,46,20,34,35,24,31,31,35,19,29,34,34,28,33,0</Response>
+  <Response Label="Don't know/no answer">1,1,0,0,0,1,0,0,0,1,1,0,2,0,0,0,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="how important will the issue of traffic and transportation be in your vote?">
+  <Response Label="Very important">46,42,50,51,41,48,41,59,40,45,54,44,47,45,45,47,45,0</Response>
+  <Response Label="Less important">53,58,50,49,57,52,58,41,60,54,45,56,53,54,54,53,54,0</Response>
+  <Response Label="Don't know/no answer">1,1,1,0,1,1,1,0,0,1,1,0,0,1,1,0,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="How important will the issue of abortion be in your vote?">
+  <Response Label="Very important">47,41,51,63,43,35,47,51,52,44,52,51,51,47,47,54,45,0</Response>
+  <Response Label="Less important">52,56,47,35,55,63,51,48,45,55,46,48,47,51,51,44,53,0</Response>
+  <Response Label="Don't know/no answer">2,2,2,2,2,1,2,1,3,1,3,1,2,2,2,3,2,0</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="How important will the issue of government spending be in your vote?">
+  <Response Label="Very important">70,68,72,60,75,71,69,73,75,69,70,75,66,70,70,71,70,0</Response>
+  <Response Label="Less important">30,31,28,40,24,28,31,27,25,30,29,25,32,30,29,29,30,0</Response>
+  <Response Label="Don't know/no answer">1,1,0,0,0,1,0,0,0,1,1,0,2,0,0,0,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="10" label="Have you personally been contacted by a representative of the Ossoff campaign in-person asking you for your support, or not?">
+  <Response Label="Yes">54,52,57,75,32,57,54,58,55,56,50,37,48,48,61,49,56,0</Response>
+  <Response Label="No">44,46,42,24,64,41,44,40,45,42,48,58,48,51,38,49,42,0</Response>
+  <Response Label="Don't know/no answer">2,2,2,1,3,2,2,2,0,3,2,5,4,2,1,1,2,0</Response>
+ </myQuestion>
+ <myQuestion Qid="11" label="Have you personally been contacted by a representative of the Handel campaign in-person asking you for your support, or not?">
+  <Response Label="Yes">25,30,20,10,36,28,28,15,19,23,35,34,19,22,27,23,25,0</Response>
+  <Response Label="No">74,69,79,90,62,71,72,83,81,76,63,63,81,77,72,77,74,0</Response>
+  <Response Label="Don't know/no answer">1,2,1,0,2,1,1,3,0,2,2,2,0,1,1,1,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="12" label="Have in person phone calls or visits from campaign volunteers influenced your decision to vote for a candidate in the upcoming election?">
+  <Response Label="Yes">16,13,19,24,11,14,15,25,23,15,15,13,17,18,18,18,16,0</Response>
+  <Response Label="No">83,86,80,75,88,85,84,75,75,84,84,87,80,82,81,82,83,0</Response>
+  <Response Label="Don't know/no answer">1,0,2,1,0,1,1,0,2,1,1,0,3,0,1,1,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="13" label="How much did in person phone calls or visits from campaign volunteers influence your decision?">
+  <Response Label="Great deal">17,25,11,20,19,15,15,21,27,11,23,6,11,14,22,23,15,0</Response>
+  <Response Label="Good amount">41,29,49,42,38,41,41,41,23,53,26,24,46,49,35,29,44,0</Response>
+  <Response Label="Less than that">42,46,40,39,43,44,44,39,50,36,51,70,43,37,43,48,41,0</Response>
+  <Response Label="Don't know/no answer">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="14" label="Have campaign ads influenced your decision to vote for a candidate in the upcoming election?">
+  <Response Label="Yes">28,26,30,31,26,29,26,38,26,28,27,23,34,27,29,25,28,0</Response>
+  <Response Label="No">72,74,70,69,74,70,74,62,74,71,73,77,66,73,70,75,71,0</Response>
+  <Response Label="Don't know/no answer">0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="15" label="How much did campaign ads influence your decision?">
+  <Response Label="Great deal">13,16,11,12,18,12,15,10,19,12,14,10,11,12,17,14,13,0</Response>
+  <Response Label="Good amount">45,46,44,39,42,48,39,61,42,44,46,50,49,56,39,57,42,0</Response>
+  <Response Label="Less than that">42,37,45,49,39,40,46,29,39,43,39,39,40,31,44,29,44,0</Response>
+  <Response Label="Don't know/no answer">0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="16" label="Have endorsements influenced your decision to vote for a candidate in the upcoming election?">
+  <Response Label="Yes">16,13,19,18,18,13,15,21,16,15,18,11,17,12,18,17,16,0</Response>
+  <Response Label="No">83,86,80,82,81,85,84,79,83,84,80,85,78,88,82,83,83,0</Response>
+  <Response Label="Don't know/no answer">1,1,1,0,2,2,1,0,1,1,1,3,5,0,0,0,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="17" label="How much did endorsements influence your decision?">
+  <Response Label="Great deal">23,28,21,17,27,27,21,28,18,24,27,35,26,38,21,18,25,0</Response>
+  <Response Label="Good amount">42,40,43,47,38,41,40,46,51,40,38,36,50,52,36,53,39,0</Response>
+  <Response Label="Less than that">34,32,36,36,35,32,39,26,31,36,34,27,24,10,44,28,36,0</Response>
+  <Response Label="Don't know/no answer">0,0,0,0,1,0,0,0,0,0,1,3,0,0,0,1,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="18" label="Have the opinions of friends and neighbors influenced your decision to vote for a candidate in the upcoming election?">
+  <Response Label="Yes">14,13,15,13,15,15,15,13,21,13,13,20,20,15,14,13,14,0</Response>
+  <Response Label="No">85,86,84,87,83,84,84,87,78,86,87,79,77,85,85,86,85,0</Response>
+  <Response Label="Don't know/no answer">1,1,1,0,1,1,1,0,0,1,1,1,3,0,1,1,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="19" label="How much did the opinions of friends and neighbors influence your decision?">
+  <Response Label="Great deal">10,11,9,2,13,12,10,14,10,7,20,16,8,14,10,13,9,0</Response>
+  <Response Label="Good amount">38,29,45,30,37,39,30,73,47,40,15,23,44,52,30,30,39,0</Response>
+  <Response Label="Less than that">52,60,45,68,50,48,60,13,43,53,63,61,48,34,59,55,51,0</Response>
+  <Response Label="Don't know/no answer">0,0,1,0,0,1,0,0,0,0,2,0,0,0,1,2,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="20" label="Do you feel the special election is more important than past elections, less important or as important as past elections?">
+  <Response Label="More important">52,48,57,65,50,45,54,49,53,50,58,56,53,50,55,51,53,0</Response>
+  <Response Label="Less important">3,3,2,0,4,3,2,5,4,2,1,2,2,5,2,5,2,0</Response>
+  <Response Label="As important">45,49,41,35,45,52,44,46,42,47,40,42,45,45,42,44,45,0</Response>
+  <Response Label="Don't know/no answer">0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="21" label="Do you have a favorable or unfavorable impression of Donald Trump?">
+  <Response Label="Favorable">35,38,32,2,68,33,41,12,19,35,48,65,30,39,32,41,33,0</Response>
+  <Response Label="Unfavorable">57,52,63,95,26,59,52,79,73,57,45,27,65,58,60,49,59,0</Response>
+  <Response Label="Don't know/no answer">8,10,6,3,6,8,7,9,8,7,7,8,5,3,8,10,8,0</Response>
+ </myQuestion>
+ <myQuestion Qid="22" label="Do you have a favorable or unfavorable impression of Mike Pence?">
+  <Response Label="Favorable">44,53,36,4,84,44,51,21,33,44,54,83,33,47,42,45,44,0</Response>
+  <Response Label="Unfavorable">48,39,56,92,8,49,41,72,59,48,39,14,58,48,51,41,49,0</Response>
+  <Response Label="Don't know/no answer">8,8,8,4,7,7,8,7,8,8,7,2,9,5,7,14,7,0</Response>
+ </myQuestion>
+ <myQuestion Qid="23" label="Do you have a favorable or unfavorable impression of Karen Handel?">
+  <Response Label="Favorable">42,48,37,6,84,40,50,17,27,44,50,80,33,43,43,49,40,0</Response>
+  <Response Label="Unfavorable">50,42,57,89,12,51,45,70,61,49,43,16,61,46,53,43,52,0</Response>
+  <Response Label="Don't know/no answer">8,10,6,5,4,9,6,13,11,7,8,4,7,11,4,8,8,0</Response>
+ </myQuestion>
+ <myQuestion Qid="24" label="Do you have a favorable or unfavorable impression of Jon Ossoff?">
+  <Response Label="Favorable">52,43,60,94,12,53,45,79,58,53,41,16,61,50,53,42,54,0</Response>
+  <Response Label="Unfavorable">42,49,35,3,84,39,50,13,34,41,53,80,33,44,42,50,40,0</Response>
+  <Response Label="Don't know/no answer">6,8,4,3,4,7,5,7,8,6,6,3,6,6,4,8,6,0</Response>
+ </myQuestion>
+ <myQuestion Qid="25" label="Do you have a favorable or unfavorable impression of the Democratic Party?">
+  <Response Label="Favorable">43,35,50,87,9,38,37,66,45,45,34,17,60,43,41,42,43,0</Response>
+  <Response Label="Unfavorable">48,57,40,7,85,50,55,23,45,47,55,78,32,50,49,50,48,0</Response>
+  <Response Label="Don't know/no answer">9,9,10,5,6,12,8,11,9,9,11,5,9,7,9,8,9,0</Response>
+ </myQuestion>
+ <myQuestion Qid="26" label="Do you have a favorable or unfavorable impression of the Republican Party?">
+  <Response Label="Favorable">35,41,30,3,78,26,41,12,29,33,47,71,33,40,30,49,32,0</Response>
+  <Response Label="Unfavorable">55,49,61,93,15,60,51,76,63,57,43,25,60,54,59,46,58,0</Response>
+  <Response Label="Don't know/no answer">10,11,9,4,6,13,8,12,7,10,10,4,7,5,11,6,11,0</Response>
+ </myQuestion>
+ <myQuestion Qid="27" label="Do you have a favorable or unfavorable impression of Nancy Pelosi?">
+  <Response Label="Favorable">31,24,37,71,4,24,25,55,30,31,30,10,34,34,30,23,33,0</Response>
+  <Response Label="Unfavorable">58,65,51,16,91,64,65,32,54,59,60,89,50,55,61,64,56,0</Response>
+  <Response Label="Don't know/no answer">11,10,12,13,5,11,10,14,16,10,10,1,16,10,10,13,11,0</Response>
+ </myQuestion>
+ <myQuestion Qid="28" label="Do you have a favorable or unfavorable impression of the House GOP Obamacare replacement bill?">
+  <Response Label="Favorable">25,28,22,4,51,19,29,9,20,25,29,42,19,27,24,26,24,0</Response>
+  <Response Label="Unfavorable">62,57,67,93,30,66,57,85,71,63,54,38,68,59,64,56,64,0</Response>
+  <Response Label="Don't know/no answer">13,15,11,3,19,15,14,7,10,13,17,20,14,13,12,18,12,0</Response>
+ </myQuestion>
+ <myQuestion Qid="29" label="Do you think things in this country are generally going in the right direction or do you feel things have gotten pretty seriously off on the wrong track?">
+  <Response Label="Right direction">30,36,25,3,60,29,36,12,27,29,38,50,32,34,27,37,29,0</Response>
+  <Response Label="Wrong track">64,58,70,95,36,65,59,85,69,65,58,46,65,62,69,58,66,0</Response>
+  <Response Label="Don't know/no answer">5,6,5,1,5,6,5,3,4,6,4,4,3,4,4,4,6,0</Response>
+ </myQuestion>
+ <myQuestion Qid="30" label="How concerned are you about healthcare costs?">
+  <Response Label="Very or somewhat concerned">94,92,96,97,91,95,94,95,98,94,92,90,96,96,93,92,94,0</Response>
+  <Response Label="Not too or not at all concerned">6,8,3,3,9,5,5,5,2,6,8,10,4,4,7,8,5,0</Response>
+  <Response Label="Don't know/no answer">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="31" label="How concerned are you about government spending?">
+  <Response Label="Very or somewhat concerned">91,89,92,84,93,94,91,91,94,91,88,95,93,90,91,95,90,0</Response>
+  <Response Label="Not too or not at all concerned">8,10,7,14,7,6,8,7,6,7,12,4,7,9,9,4,9,0</Response>
+  <Response Label="Don't know/no answer">1,1,1,1,0,0,0,2,0,1,0,0,0,2,0,1,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="32" label="How concerned are you about the threat of terrorism?">
+  <Response Label="Very or somewhat concerned">87,86,88,87,95,82,89,84,83,87,93,92,85,90,87,90,87,0</Response>
+  <Response Label="Not too or not at all concerned">12,14,11,13,5,18,11,16,17,13,7,8,13,10,13,10,13,0</Response>
+  <Response Label="Don't know/no answer">0,0,1,0,0,1,0,0,0,1,0,0,2,0,0,0,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="33" label="How concerned are you about the job market?">
+  <Response Label="Very or somewhat concerned">72,65,78,77,71,69,71,76,78,71,72,75,80,78,68,79,71,0</Response>
+  <Response Label="Not too or not at all concerned">26,32,21,21,28,29,28,22,21,27,26,24,17,21,31,18,28,0</Response>
+  <Response Label="Don't know/no answer">2,2,1,2,0,2,1,3,1,2,1,1,3,1,1,3,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="34" label="How concerned are you about climate change?">
+  <Response Label="Very or somewhat concerned">66,56,75,95,43,66,62,84,81,64,60,32,70,75,65,63,67,0</Response>
+  <Response Label="Not too or not at all concerned">32,43,23,4,57,33,38,13,19,34,39,67,27,24,35,33,32,0</Response>
+  <Response Label="Don't know/no answer">1,1,1,1,1,1,1,1,0,1,1,1,2,1,0,2,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="35" label="How concerned are you about illegal immigration?">
+  <Response Label="Very or somewhat concerned">67,67,67,45,87,66,67,64,63,65,74,83,74,67,64,73,65,0</Response>
+  <Response Label="Not too or not at all concerned">32,32,33,53,13,33,32,35,37,34,25,17,24,33,36,25,34,0</Response>
+  <Response Label="Don't know/no answer">1,1,1,2,0,0,0,1,0,1,0,0,2,0,0,2,0,0</Response>
+ </myQuestion>
+ <myQuestion Qid="36" label="How concerned are you about Russian intervention in U.S. affairs?">
+  <Response Label="Very or somewhat concerned">64,55,72,95,42,60,58,85,69,62,65,37,72,65,65,64,64,0</Response>
+  <Response Label="Not too or not at all concerned">34,44,26,5,56,39,41,13,30,36,34,61,26,34,35,35,34,0</Response>
+  <Response Label="Don't know/no answer">1,1,2,0,1,1,1,1,1,1,1,1,2,1,1,1,1,0</Response>
+ </myQuestion>
+ <myQuestion Qid="37" label="How concerned are you about the U.S. relationship with other nations?">
+  <Response Label="Very or somewhat concerned">86,82,91,97,80,85,86,90,87,89,81,76,88,88,87,82,87,0</Response>
+  <Response Label="Not too or not at all concerned">13,17,9,3,20,14,14,10,13,11,18,24,12,12,12,18,12,0</Response>
+  <Response Label="Don't know/no answer">0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0</Response>
+ </myQuestion>
+</docbase>
