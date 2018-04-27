@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$.ajax({
 		type: "GET",
-		url: "poll11218.xml",
+		url: "poll_dem_42018.xml",
 		dataType: "xml",
 		success: parseQuestions
 	});
@@ -12,7 +12,7 @@ function parseQuestions(xml){
 	//setup the radio button filters
 	// labelArr = ["Total", "Men", "Women", "Democrats", "Republicans", "Independents", "Support Deal", "Support Carter", "Whites", "Non-whites", "18-39", "40-64", "65+", "Under $50k", "$50k-$100k", "$100k or more", "Have children", "No children", "Atlanta metro", "Atlanta exurbs"];
     // labelArr = ["Total", "Democrat", "Republican", "Independent", "White", "Black", "North Ga.", "Atlanta Exurbs", "Atlanta Metro", "Southeast Ga.", "Southwest Ga."];
-		labelArr = ["Total", "Male", "Female", "Democrat", "Independent", "Republican", "White", "Black", "18-30", "31-45", "46-64","65+", "Atlanta", "North GA", "South GA", "Protestant", "Catholic", "Jewish", "Muslim", "Secular/Atheist"];
+		labelArr = ["Total", "White", "Black", "Other", "Male", "Female", "Under $25k", "$25k - $49,999", "$50k - $74,999", "$75k - $99,999", "$100k - $149,999","Over $150k", "High School or Less", "Some College", "Vocational/Tech. School", "College Graduate", "Graduate Study", "18 - 30", "31 - 45", "46 - 64", "65+", "Democrat", "Independent", "Republican"];
 
 	for(var i=0; i<labelArr.length; i++){
 		buttonHTML += '<label class="btn btn-default"><input type="radio" name="radio" value='+i+' id="radio'+i+'"> '+labelArr[i]+'</label>';
