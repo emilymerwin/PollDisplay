@@ -3,8 +3,8 @@ import csv
 from xml.dom.minidom import Document
 import decimal
 
-infile = "../data/gop-lt-gov-runoff-2018/gop-runoff-poll-2.csv" #path to the source CSV
-outfile = "gop-runoff-poll.xml" #filename for the generated XML to be used 
+infile = "../data/sept2018/poll-sept-5.csv" #path to the source CSV
+outfile = "sept2018-poll.xml" #filename for the generated XML to be used 
 
 data = csv.reader (open(infile,'U'))
 
