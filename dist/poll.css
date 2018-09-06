@@ -7,15 +7,28 @@ body {
 	text-shadow: none;
 	box-shadow: none;
 	padding: 5px 6px;
-	width:120px;
+	width:106px;
   border-radius: 0;
+
 }
 .btn-group .btn+.btn {
   margin-left: 0;
 }
+.btn-group{
+  margin-top: 15px;
+  margin-bottom:15px;
+}
 /*#btn11, #btnB11 {
   width: 200px;
 }*/
+@media only screen and (max-width: 950px) { 
+  .btn { 
+    width: 11%;
+  }
+  .btn-group {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 767px) { 
   .btn { 
     padding: 5px 15px;
