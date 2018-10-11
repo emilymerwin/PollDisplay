@@ -1,77 +1,77 @@
 <?xml version="1.0" ?>
 <docbase>
  <myQuestion Qid="0" label="If the election for governor were being held today, and the candidates were Brian Kemp, the Republican, Stacy Abrams, the Democrat and Ted Metz, the Libertarian, for whom would you vote? ">
-  <Response Label="Brian Kemp">50,53,38,52,50,65,46,33,28,41,44,48,46,50,65,3,33,34,28,48,53,1,30,91</Response>
-  <Response Label="Stacey Abrams">40,39,49,36,41,27,45,55,50,51,47,41,46,39,26,85,45,44,61,42,39,90,45,3</Response>
-  <Response Label="Ted Metz">0,2,2,1,0,3,1,3,0,0,2,2,2,2,2,1,6,5,1,2,1,1,9,1</Response>
-  <Response Label="Don't know">10,5,9,8,8,3,6,7,20,6,5,6,5,6,6,9,15,15,8,6,5,7,14,4</Response>
+  <Response Label="Brian Kemp">45,53,38,52,50,65,46,33,28,41,44,48,46,50,65,3,33,34,28,48,53,1,30,91</Response>
+  <Response Label="Stacey Abrams">44,39,49,36,41,27,45,55,50,51,47,41,46,39,26,85,45,44,61,42,39,90,45,3</Response>
+  <Response Label="Ted Metz">2,2,2,1,0,3,1,3,0,0,2,2,2,2,2,1,6,5,1,2,1,1,9,1</Response>
+  <Response Label="Don't know">7,5,9,8,8,3,6,7,20,6,5,7,5,6,6,9,15,15,8,6,5,7,14,4</Response>
  </myQuestion>
  <myQuestion Qid="1" label="Is your opinion of Brian Kemp favorable, unfavorable, or do you have no opinion?">
-  <Response Label="Favorable">40,45,35,45,39,57,42,30,26,33,37,46,40,44,57,5,27,21,26,43,47,3,26,78</Response>
-  <Response Label="Unfavorable">30,28,34,19,25,14,32,45,26,30,31,30,33,35,25,45,32,28,40,32,28,59,41,5</Response>
-  <Response Label="No opinion">30,24,27,34,33,26,23,23,46,35,31,21,25,18,15,48,32,50,31,21,23,36,30,15</Response>
-  <Response Label="Don't know">0,1,2,0,2,1,1,0,0,0,0,1,1,1,1,0,7,0,1,2,0,0,1,1</Response>
+  <Response Label="Favorable">40,45,35,46,39,57,42,30,26,33,37,46,40,44,57,5,27,21,26,43,47,3,26,78</Response>
+  <Response Label="Unfavorable">32,28,34,19,25,14,32,45,26,30,31,30,33,35,25,45,32,28,40,32,28,59,41,5</Response>
+  <Response Label="No opinion">26,24,27,34,33,26,23,23,46,35,31,21,25,18,15,48,32,50,31,21,23,36,30,15</Response>
+  <Response Label="Don't know">1,1,2,0,2,1,1,0,0,0,0,1,1,1,1,0,7,0,1,2,0,0,1,1</Response>
  </myQuestion>
  <myQuestion Qid="2" label="Is your opinion of Stacey Abrams favorable, unfavorable, or do you have no opinion?">
-  <Response Label="Favorable">42,37,47,31,42,20,40,58,42,50,48,40,43,38,26,77,44,38,56,39,40,81,48,6</Response>
-  <Response Label="Unfavorable">30,31,21,25,25,32,27,23,15,20,22,29,30,32,39,0,15,14,18,29,29,1,10,54</Response>
-  <Response Label="No opinion">0,29,28,42,28,44,29,17,42,28,28,28,23,26,31,21,32,47,23,29,28,16,36,37</Response>
-  <Response Label="Don't know">0,1,2,1,2,2,1,0,0,0,0,1,2,2,1,1,7,0,1,2,1,0,4,1</Response>
+  <Response Label="Favorable">42,37,47,31,43,20,40,58,42,50,48,40,43,38,26,77,44,38,56,39,40,81,48,6</Response>
+  <Response Label="Unfavorable">26,31,22,25,26,33,28,23,16,21,22,30,31,32,39,0,15,14,19,29,29,2,11,54</Response>
+  <Response Label="No opinion">29,30,28,43,29,44,30,18,42,28,29,29,23,27,32,21,32,47,24,29,28,16,36,38</Response>
+  <Response Label="Don't know">2,2,3,1,2,2,2,1,0,1,1,2,2,3,2,1,8,0,1,2,2,1,4,2</Response>
  </myQuestion>
  <myQuestion Qid="3" label="Do you approve or disapprove of the way Donald Trump is handling his job as president?">
-  <Response Label="Approve">40,50,35,47,48,59,43,28,28,38,38,45,41,49,60,4,32,35,28,44,48,2,24,85</Response>
-  <Response Label="Disapprove">50,43,57,45,46,33,51,61,61,55,56,47,49,46,33,89,52,60,65,48,44,93,63,9</Response>
-  <Response Label="Don't know">10,5,7,6,4,6,5,9,9,5,5,7,8,3,5,6,15,4,5,7,6,3,12,5</Response>
+  <Response Label="Approve">42,51,35,48,49,60,43,29,29,39,38,46,42,49,60,4,33,35,29,44,49,2,25,85</Response>
+  <Response Label="Disapprove">51,44,57,46,46,34,51,62,62,56,56,47,49,47,34,89,53,61,66,49,44,94,63,9</Response>
+  <Response Label="Don't know">7,6,7,7,5,6,5,9,10,6,6,7,9,4,6,6,15,4,5,7,7,4,12,6</Response>
  </myQuestion>
  <myQuestion Qid="4" label="Do you approve or disapprove of the way Nathan Deal is handling his job as governor?">
-  <Response Label="Approve">60,67,59,69,63,59,62,63,48,59,64,63,64,69,71,50,45,46,56,67,68,45,63,82</Response>
-  <Response Label="Disapprove">20,20,22,13,23,22,21,21,28,25,22,21,20,18,15,32,29,26,27,20,17,35,23,6</Response>
-  <Response Label="Don't know">20,12,17,16,13,18,15,14,23,15,12,15,14,11,12,17,25,26,16,11,14,18,13,10</Response>
+  <Response Label="Approve">63,68,60,70,63,59,63,64,48,59,65,63,65,70,72,50,46,46,56,68,68,45,64,83</Response>
+  <Response Label="Disapprove">21,20,22,14,24,23,22,22,29,26,23,22,21,19,15,32,29,27,28,21,18,36,23,7</Response>
+  <Response Label="Don't know">15,12,18,16,13,18,16,14,23,15,13,15,14,12,13,18,25,27,16,12,14,19,13,11</Response>
  </myQuestion>
  <myQuestion Qid="5" label="In general, how satisfied are you with the way things are going in Georgia today?">
-  <Response Label="Very satisfied">10,21,9,12,17,8,17,11,3,9,13,17,16,21,19,3,12,12,8,19,14,2,15,27</Response>
-  <Response Label="Somewhat satisfied">60,58,56,57,57,59,55,60,45,62,53,63,58,55,59,55,46,49,56,56,61,52,57,62</Response>
-  <Response Label="Somewhat dissatisfied">20,14,24,26,18,12,19,21,33,16,27,13,19,19,14,31,23,30,25,18,16,33,19,7</Response>
+  <Response Label="Very satisfied">15,22,9,13,17,8,18,11,4,10,14,18,16,21,20,4,13,13,9,20,15,2,16,27</Response>
+  <Response Label="Somewhat satisfied">57,58,56,57,57,60,56,60,45,63,53,63,59,55,59,56,46,49,56,56,62,53,58,62</Response>
+  <Response Label="Somewhat dissatisfied">20,14,25,27,18,13,19,21,34,17,27,13,19,20,15,31,24,31,25,19,16,33,19,7</Response>
+  <Response Label="Very dissatisfied">5,4,6,2,6,10,5,5,15,7,4,4,5,2,4,7,8,6,6,5,4,9,4,1</Response>
+  <Response Label="Don't know">3,2,3,1,1,10,3,2,2,3,2,1,1,2,2,2,10,1,4,1,3,2,3,2</Response>
  </myQuestion>
- <myQuestion Qid="6" label="">
-  <Response Label="Very dissatisfied">10,3,6,2,5,9,4,5,15,7,4,4,5,1,4,7,7,5,5,4,4,9,4,1</Response>
-  <Response Label="Don't know">0,2,3,0,1,9,2,1,1,3,1,1,0,1,2,2,10,1,3,1,2,2,2,1</Response>
-  <Response Label="Excellent">10,21,7,14,9,6,15,14,9,4,9,15,14,24,18,4,8,16,10,15,12,4,14,22</Response>
-  <Response Label="Good">50,50,49,37,55,47,52,51,19,48,43,56,62,53,56,38,41,28,46,54,55,44,44,58</Response>
-  <Response Label="Fair ">30,21,31,34,27,29,23,27,50,35,35,21,18,19,20,40,32,38,31,22,26,37,35,15</Response>
+ <myQuestion Qid="6" label="How would you describe the state of Georgia 's economy?">
+  <Response Label="Excellent">14,21,7,15,10,7,16,15,10,4,9,15,14,24,18,4,9,17,10,16,12,4,14,23</Response>
+  <Response Label="Good">50,51,50,38,55,48,52,51,20,48,43,57,62,53,57,39,42,28,47,55,55,45,45,58</Response>
+  <Response Label="Fair ">27,21,32,35,28,30,23,28,51,35,36,22,19,19,20,40,33,38,31,23,26,37,36,16</Response>
+  <Response Label="Poor ">6,4,8,12,7,13,6,3,18,10,10,4,2,2,3,14,10,15,9,6,3,11,1,2</Response>
+  <Response Label="Don't know">3,3,3,1,0,3,3,3,2,2,2,3,2,1,2,2,6,1,3,1,3,2,4,1</Response>
  </myQuestion>
- <myQuestion Qid="7" label="">
-  <Response Label="Poor ">10,3,8,12,7,13,5,2,17,9,10,3,2,2,2,13,10,15,8,6,2,11,0,2</Response>
-  <Response Label="Don't know">0,2,2,0,0,3,3,2,1,2,2,2,2,1,2,2,6,1,2,1,3,2,4,0</Response>
-  <Response Label="Taxes">10,6,3,3,7,1,6,3,5,6,5,3,4,4,5,4,3,5,5,5,3,2,7,6</Response>
-  <Response Label="Gun laws">10,6,8,7,7,21,7,5,9,9,8,9,7,5,8,5,7,8,7,8,8,8,5,7</Response>
-  <Response Label="Religious Liberty">0,4,3,5,3,4,3,3,0,4,3,3,5,1,5,0,1,2,2,4,4,0,0,7</Response>
-  <Response Label="Traffic/Transportation">10,6,3,2,4,4,4,7,3,1,5,5,4,7,5,5,3,1,3,4,7,3,7,5</Response>
-  <Response Label="Healthcare">20,13,18,21,13,14,15,18,26,16,15,12,15,19,13,25,9,10,15,19,14,25,15,7</Response>
-  <Response Label="Economy/Jobs">20,29,21,18,23,21,30,20,13,15,23,26,31,30,26,20,26,32,25,27,18,19,18,31</Response>
-  <Response Label="Immigration">10,11,9,13,15,16,7,8,7,15,10,11,6,10,13,2,12,8,4,7,17,5,7,17</Response>
-  <Response Label="Public schools">20,10,20,16,15,3,11,25,16,24,15,15,16,14,12,24,14,24,25,12,13,22,24,7</Response>
-  <Response Label="Other">10,5,4,5,1,8,6,5,11,4,4,7,4,2,4,5,9,1,6,4,6,5,9,3</Response>
-  <Response Label="Don't know">10,4,6,6,7,3,5,2,5,4,5,3,2,3,5,4,10,4,3,4,6,4,4,4</Response>
+ <myQuestion Qid="7" label="What is the single most important issue in determining your vote in November? ">
+  <Response Label="Taxes">5,7,4,3,8,2,7,3,6,6,5,4,5,4,5,5,4,6,6,6,3,3,7,7</Response>
+  <Response Label="Gun laws">8,7,8,7,7,21,8,5,9,10,9,10,8,6,9,6,7,9,7,8,9,9,5,8</Response>
+  <Response Label="Religious Liberty">4,5,3,6,4,5,4,3,0,4,4,4,5,1,6,1,1,3,2,5,4,1,0,7</Response>
+  <Response Label="Traffic/Transportation">5,7,4,2,5,5,4,7,4,2,6,5,5,7,5,5,4,1,4,5,8,4,8,6</Response>
+  <Response Label="Healthcare">16,13,19,21,14,15,15,18,26,16,16,13,15,19,13,25,10,10,15,20,14,26,16,8</Response>
+  <Response Label="Economy/Jobs">25,29,21,19,24,21,31,20,13,15,23,27,32,31,26,21,27,33,26,27,18,20,18,32</Response>
+  <Response Label="Immigration">10,11,10,13,15,16,8,9,8,15,11,11,7,11,14,3,12,9,5,8,18,6,7,18</Response>
+  <Response Label="Public schools">16,11,20,16,16,3,12,25,17,24,16,16,17,14,13,24,15,24,25,12,13,23,25,8</Response>
+  <Response Label="Other">5,6,5,6,1,8,6,5,11,4,5,7,5,3,4,6,10,1,6,4,6,5,10,4</Response>
+  <Response Label="Don 't know">6,5,7,7,7,3,5,3,6,4,6,4,2,4,6,4,11,4,3,4,7,5,4,4</Response>
  </myQuestion>
  <myQuestion Qid="8" label="In the 2016 presidential election which candidate did you vote for?">
-  <Response Label="Donald Trump">40,50,38,50,48,65,44,33,34,38,41,47,45,51,64,2,31,28,26,47,54,0,26,90</Response>
-  <Response Label="Hillary Clinton">40,33,48,36,40,26,41,52,46,46,44,39,44,37,23,80,47,42,59,38,37,86,35,2</Response>
-  <Response Label="Gary Johnson">0,3,1,0,1,1,3,1,1,3,3,1,2,1,2,2,1,4,3,2,0,1,11,0</Response>
-  <Response Label="Other candidate">0,1,3,0,0,0,3,4,5,0,2,2,2,3,3,1,1,4,1,3,2,1,8,2</Response>
-  <Response Label="Did not vote">0,5,2,4,5,4,3,1,9,5,4,5,1,2,2,6,6,18,3,2,1,4,7,1</Response>
-  <Response Label="Don't know">10,4,6,8,3,1,3,7,1,5,3,3,2,4,4,6,12,2,4,5,3,4,10,2</Response>
+  <Response Label="Donald Trump">44,51,39,51,49,66,44,33,35,38,41,48,46,51,65,2,31,28,27,48,55,1,26,91</Response>
+  <Response Label="Hillary Clinton">42,34,48,36,40,26,41,52,46,47,45,39,44,37,24,81,48,42,59,39,37,86,36,3</Response>
+  <Response Label="Gary Johnson">2,4,1,0,1,2,4,2,2,3,3,1,3,2,2,2,1,4,4,2,1,2,11,0</Response>
+  <Response Label="Other candidate">3,2,3,0,1,0,4,4,6,1,2,3,2,3,3,2,1,4,1,4,2,2,9,2</Response>
+  <Response Label="Did not vote">4,5,3,5,5,5,4,1,10,6,5,5,2,2,2,6,6,18,4,3,2,5,7,2</Response>
+  <Response Label="Don't know">5,4,6,8,4,2,3,7,2,6,4,4,3,4,4,7,13,3,5,6,4,5,11,2</Response>
  </myQuestion>
  <myQuestion Qid="9" label="Since President Trump's election, have you become more politically active, less politically active, or has your level of political activity stayed the same? ">
-  <Response Label="More active">30,29,36,28,28,34,33,39,23,32,34,37,35,34,31,36,41,40,31,32,34,45,28,23</Response>
-  <Response Label="Less active">10,5,4,5,4,8,5,4,13,7,7,1,5,3,4,7,3,2,4,4,7,6,7,3</Response>
-  <Response Label="The same">60,63,57,63,65,57,60,55,61,59,57,60,59,61,64,54,47,56,63,62,56,47,63,71</Response>
-  <Response Label="Don't know">0,0,1,3,0,0,0,0,1,0,0,0,0,0,0,1,7,0,0,0,1,0,0,0</Response>
+  <Response Label="More active">33,30,36,28,29,34,33,39,23,33,34,37,36,35,31,36,41,41,31,33,35,46,29,24</Response>
+  <Response Label="Less active">5,5,5,6,5,8,5,5,13,7,8,1,5,3,4,8,4,3,5,5,8,6,7,4</Response>
+  <Response Label="The same">60,64,57,63,66,57,61,56,62,59,58,61,59,61,64,55,48,56,63,62,56,47,63,72</Response>
+  <Response Label="Don 't know">1,1,1,3,1,0,1,0,2,1,0,1,0,1,1,1,8,0,0,1,1,0,1,1</Response>
  </myQuestion>
  <myQuestion Qid="10" label="If a candidate for any office strongly embraces President Trump and his view on issues, does that make you more likely to vote for that candidate, less likely to vote for that candidate, or would it have no effect either way?">
-  <Response Label="More likely">20,27,18,22,26,37,21,17,17,22,19,23,23,23,32,2,15,12,11,22,32,1,10,46</Response>
-  <Response Label="Less likely">40,33,49,26,36,21,45,55,38,44,44,41,46,40,29,71,40,39,59,39,37,83,43,4</Response>
-  <Response Label="No effect">30,37,29,47,35,39,32,25,42,31,35,33,29,35,37,23,33,46,26,36,28,12,43,48</Response>
-  <Response Label="Don't know">0,1,2,3,0,1,1,1,1,1,1,1,1,0,0,2,11,1,2,1,1,1,1,1</Response>
+  <Response Label="More likely">22,27,18,23,27,38,22,17,17,22,19,23,23,24,32,2,15,13,11,22,32,2,11,46</Response>
+  <Response Label="Less likely">42,34,49,27,37,21,45,56,38,45,44,42,46,40,30,72,40,39,60,40,37,84,44,4</Response>
+  <Response Label="No effect">33,37,30,48,36,39,32,26,42,31,36,34,29,36,37,24,34,46,27,37,29,12,44,48</Response>
+  <Response Label="Don 't know">2,2,2,3,1,2,1,1,2,2,1,1,1,0,1,2,11,1,2,1,2,2,2,1</Response>
  </myQuestion>
 </docbase>
