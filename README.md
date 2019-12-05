@@ -2,17 +2,17 @@
 - [Demo](http://www.myajc.com/news/middle-class-poll/)
 - See branches for more examples
 
-###To do
-- [ ] jQuery library is outdated but broke stuff when I tried to update it (I think it's because qTip needs to be upgraded). jQuery UI library is current (as of 9/20/13)
-- [ ] get rid of qTips
-- [ ] filter with drop down instead of the pill buttons (allows for more filters)
-- [ ] Add a way to compare historical responses to same question
-- [ ] Add answer base? eg. Likely voters vs undecided etc
-- [ ] Better capitalization script - should automatically capitalize 1st char in cell and 1st char after ". ". Maybe even fix common words like Georgia, Congress, U.S., Senate, America, Obama etc.
-- [ ] Build an editor to allow color selection - sometimes you want the color to mean something and this does them in order
-- [ ] Is there a fix for the awkward text wrapping? Maybe truncate with "..."?
+### To do
+- jQuery library is outdated but broke stuff when I tried to update it (I think it's because qTip needs to be upgraded). jQuery UI library is current (as of 9/20/13)
+- get rid of qTips
+- filter with drop down instead of the pill buttons (allows for more filters)
+- Add a way to compare historical responses to same question
+- Add answer base? eg. Likely voters vs undecided etc
+- Better capitalization script - should automatically capitalize 1st char in cell and 1st char after ". ". Maybe even fix common words like Georgia, Congress, U.S., Senate, America, Obama etc.
+- Build an editor to allow color selection - sometimes you want the color to mean something and this does them in order
+- Is there a fix for the awkward text wrapping? Maybe truncate with "..."?
 
-###Building the XML
+### Building the XML
 - If you receive data from the polling company as a PDF, DON'T PANIC - they can give it to you in spreadsheet form (it's not the cleanest of spreadsheet templates but better than the PDF). It originates in SPSS, John says it can be read/manipulated with R
 - Set up spreadsheet like <a href="https://docs.google.com/spreadsheets/d/1Jr_sDRJTEBg3BDvQ8JGH5IhBl34TaE2QP4ZGxD2C398/edit?usp=sharing">this</a>
 	1. move questions to their own column
@@ -29,7 +29,7 @@
 	12. Add to Methode via iFrame on a flatpage
 
 
-####Troubleshooting
+#### Troubleshooting
 - The demographic group title cells often have a few leading spaces, which will break python parser if not accounted for (when specifying column name dict lookups)
 
 - Assumes response totals are in same row as response labels and that following row is the pct representation
