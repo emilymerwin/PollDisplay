@@ -24,7 +24,7 @@
 	7. Create a new folder for your poll in the /data/ directory and save your CSV there
 	8. Open `py/pollCSVconverter.py`, replace `infile` and `outfile` (lines 6 and 7) and run the script ( `cmd` + `shift` + `r` in textmate, or `python `)
 	9. Open `dist/poll.js`.  Replace the URL on line 4 with your new data file . Update `labelArr` on line 14 with your spreadsheet's column headers (they need to be in the same order as they appear in your CSV - all arrays are loaded by index so if your column name is in the wrong spot it will display the wrong data when the filter is clicked)
-	10. Check locally using `python -m simpleHTTPServer`
+	10. Check locally using `python -m simpleHTTPServer`. Note if there are odd characters displayed and fix if necessary.
 	11. Upload to AWS, make public `aws s3 cp ./dist s3://ajcnewsapps.myajc.com/2019/polls/[your-poll] --recursive --acl public-read`
 	12. Add to Methode via iFrame on a flatpage
 
