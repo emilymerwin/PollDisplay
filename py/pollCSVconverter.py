@@ -4,8 +4,8 @@ import csv
 from xml.dom.minidom import Document
 import decimal
 
-infile = "../data/april2019/poll-april-2019-good.csv" #path to the source CSV
-outfile = "april2019-poll.xml" #filename for the generated XML to be used 
+infile = "../data/nov2019/poll-nov-2019.csv" #path to the source CSV
+outfile = "nov2019-poll.xml" #filename for the generated XML to be used 
 
 #Create the XML doc
 doc = Document()
