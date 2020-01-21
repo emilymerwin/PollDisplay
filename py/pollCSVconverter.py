@@ -22,7 +22,7 @@ def checkstring(n):
 		dec = round(decimal.Decimal(n)*100,1)
 		return str(dec)
 
-with open(infile, 'rU', encoding='latin') as data:
+with open(infile, 'rU', encoding='latin-1') as data:
 	reader = csv.reader(data, dialect='excel')
 	next(reader)
 	for row in reader:
@@ -32,7 +32,7 @@ with open(infile, 'rU', encoding='latin') as data:
 		if len(QuestionArray) <= myID:
 			myQuestion = doc.createElement('myQuestion')
 			myQuestion.setAttribute('Qid', Qid)
-			myQuestion.setAttribute('label', row[1])
+			myQuestion.setAttribute('label', row[1].replace('Õ','\'').replace('Ê',' '))
 			QuestionArray.append(myQuestion)
 		responses = row[2]
 		if responses != "": #data represented as pct in next row, skip over the actual number here (and add the answer label)
