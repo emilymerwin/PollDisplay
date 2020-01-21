@@ -19,7 +19,7 @@ def checkstring(n):
 	if "-" == stripped or "*" == stripped or "" == stripped:
 		return "0"
 	else:
-		dec = int(decimal.Decimal(n)*100)
+		dec = round(decimal.Decimal(n)*100,1)
 		return str(dec)
 
 with open(infile, 'rU', encoding='latin') as data:
