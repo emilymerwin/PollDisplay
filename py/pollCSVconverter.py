@@ -16,7 +16,7 @@ QuestionArray = []
 
 def checkstring(n):
 	stripped = n.strip() #sometimes the fields we're checking for below come through with whitespace attatched
-	if "-" == stripped or "*" == stripped or "" == stripped:
+	if "-" == stripped or "*" == stripped or "" == stripped: #fix non-character nulls
 		return "0"
 	else:
 		dec = round(decimal.Decimal(n)*100,1)

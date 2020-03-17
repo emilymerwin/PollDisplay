@@ -1,16 +1,7 @@
 # Poll Display
 - [Demo](http://www.myajc.com/news/middle-class-poll/)
-- See branches for more examples
+- Create a new branch off of `master` for each poll, and merge your branch into master when finished. Push both branches to BitBucket.
 
-### To do
-- jQuery library is outdated but broke stuff when I tried to update it (I think it's because qTip needs to be upgraded). jQuery UI library is current (as of 9/20/13)
-- get rid of qTips
-- filter with drop down instead of the pill buttons (allows for more filters)
-- Add a way to compare historical responses to same question
-- Add answer base? eg. Likely voters vs undecided etc
-- Better capitalization script - should automatically capitalize 1st char in cell and 1st char after ". ". Maybe even fix common words like Georgia, Congress, U.S., Senate, America, Obama etc.
-- Build an editor to allow color selection - sometimes you want the color to mean something and this does them in order
-- Is there a fix for the awkward text wrapping? Maybe truncate with "..."?
 
 ### Building the XML
 - If you receive data from the polling company as a PDF, DON'T PANIC - they can give it to you in spreadsheet form (it's not the cleanest of spreadsheet templates but better than the PDF). It originates in SPSS, John says it can be read/manipulated with R
@@ -22,11 +13,13 @@
 	5. Save as CSV if it's not a CSV already
 	6. it comes over in all CAPS (or at least it used to)- run it through `py/CSVtoLowercase.py`, which will run `.capitalize()` on each string. Use the resulting CSV as the new source sheet. Go through and fix capitalization as necessary (proper nouns, titles etc)
 	7. Create a new folder for your poll in the /data/ directory and save your CSV there
-	8. Open `py/pollCSVconverter.py`, replace `infile` and `outfile` (lines 6 and 7) and run the script ( `cmd` + `shift` + `r` in textmate, or `python `)
+	8. Open `py/pollCSVconverter.py`, replace `infile` and `outfile` (lines 6 and 7) and run the script ( `cmd` + `shift` + `r` in textmate, or `cd py` `python pollCSVconverter.py`)
+
+### Replacing the data
 	9. Open `dist/poll.js`.  Replace the URL on line 4 with your new data file . Update `labelArr` on line 14 with your spreadsheet's column headers (they need to be in the same order as they appear in your CSV - all arrays are loaded by index so if your column name is in the wrong spot it will display the wrong data when the filter is clicked)
 	10. Check locally using `python -m simpleHTTPServer`. Note if there are odd characters displayed and fix if necessary.
-	11. Upload to AWS, make public `aws s3 cp ./dist s3://ajcnewsapps.myajc.com/2019/polls/[your-poll] --recursive --acl public-read`
-	12. Add to Methode via iFrame on a flatpage
+	11. Upload to AWS, make public `aws s3 cp ./dist s3://ajcnewsapps/[year]/polls/[your-poll] --recursive --acl public-read`
+	12. Add to Arc via asyncrhonous pym (see dist/iframe.html) flatpage (your s3 URL will look like: https://ajcnewsapps.s3.amazonaws.com/2020/polls/oct2020/index.html)
 
 
 #### Troubleshooting
@@ -36,3 +29,13 @@
 
 - The parser replaces "*", "-" and "" with "0" because those characters were breaking stuff, and if the value is 0 that label won't show up anyway (because it won't have a pixel width, not because it's not added to the DOM, fix that maybe). I believe there are checks in the code to get rid of them but it was still breaking. The polling company uses those symbols to mean either 0 or not a large enough sample.
 
+
+### To do
+- jQuery library is outdated but broke stuff when I tried to update it (I think it's because qTip needs to be upgraded). jQuery UI library is current (as of 9/20/13)
+- get rid of qTips
+- filter with drop down instead of the pill buttons (allows for more filters)
+- Add a way to compare historical responses to same question
+- Add answer base? eg. Likely voters vs undecided etc
+- Better capitalization script - should automatically capitalize 1st char in cell and 1st char after ". ". Maybe even fix common words like Georgia, Congress, U.S., Senate, America, Obama etc.
+- Build an editor to allow color selection - sometimes you want the color to mean something and this does them in order
+- Is there a fix for the awkward text wrapping? Maybe truncate with "..."?
