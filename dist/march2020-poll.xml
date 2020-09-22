@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="Which candidate have you voted for or are planning to vote for in Georgia's Democratic presidential primary election?">
+  <Response Label="Joe Biden">66.0,65.0,66.0,75.0,57.0,63.0,65.0,68.0,70.0,62.0,66.0,68.0,62.0,58.0,71.0,53.0,34.0,51.0,77.0,78.0,36.0,69.0,43.0</Response>
+  <Response Label="Bernie Sanders">22.0,26.0,19.0,13.0,31.0,22.0,25.0,19.0,19.0,28.0,16.0,26.0,25.0,32.0,16.0,30.0,58.0,38.0,9.0,10.0,36.0,21.0,21.0</Response>
+  <Response Label="Tulsi Gabbard">1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,2.0,2.0,1.0,1.0,2.0,0.0,0.0,0.0,1.0,2.0,1.0,12.0,0.0,7.0</Response>
+  <Response Label="Other">0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0</Response>
+  <Response Label="Undecided">12.0,7.0,14.0,11.0,11.0,14.0,10.0,14.0,10.0,8.0,16.0,5.0,12.0,7.0,13.0,17.0,8.0,11.0,12.0,11.0,16.0,9.0,30.0</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="The state Democratic primary election in May will decide which candidate will challenge Republican Senator David Perdue. If the election were held today, for whom would you vote? ">
+  <Response Label="Teresa Tomlinson">15.0,14.0,17.0,16.0,19.0,12.0,18.0,9.0,26.0,17.0,15.0,16.0,13.0,14.0,17.0,10.0,14.0,25.0,13.0,13.0,17.0,16.0,16.0</Response>
+  <Response Label="Jon Ossoff">29.0,33.0,30.0,23.0,31.0,37.0,36.0,22.0,26.0,36.0,27.0,34.0,49.0,42.0,26.0,28.0,34.0,29.0,34.0,28.0,33.0,32.0,21.0</Response>
+  <Response Label="Sarah Riggs Amico">14.0,20.0,11.0,20.0,11.0,11.0,15.0,21.0,23.0,13.0,18.0,11.0,13.0,13.0,16.0,14.0,31.0,20.0,12.0,8.0,6.0,15.0,16.0</Response>
+  <Response Label="Undecided">37.0,33.0,42.0,41.0,39.0,40.0,31.0,48.0,26.0,34.0,40.0,39.0,26.0,32.0,42.0,48.0,21.0,27.0,40.0,51.0,44.0,38.0,47.0</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="Related to the Democratic presidential nominee, which is more important to you personally?">
+  <Response Label="Strong chance of beating Trump">57.0,58.0,56.0,59.0,47.0,58.0,63.0,58.0,55.0,55.0,62.0,58.0,67.0,63.0,54.0,55.0,29.0,54.0,60.0,70.0,42.0,59.0,40.0</Response>
+  <Response Label="Shares position on major issues">32.0,33.0,31.0,32.0,40.0,30.0,25.0,33.0,32.0,36.0,30.0,30.0,20.0,27.0,34.0,29.0,62.0,36.0,27.0,20.0,46.0,30.0,42.0</Response>
+  <Response Label="Both equally important">11.0,8.0,13.0,9.0,13.0,13.0,11.0,9.0,13.0,8.0,7.0,11.0,12.0,9.0,12.0,10.0,10.0,9.0,13.0,10.0,8.0,11.0,16.0</Response>
+  <Response Label="Don't know">1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,7.0,0.0,1.0,0.0,1.0,4.0,0.0,2.0</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="Would you rather see the Democratic presidential nominee?">
+  <Response Label="Advocate for big policy changes">33.0,35.0,32.0,36.0,36.0,31.0,30.0,48.0,33.0,35.0,33.0,28.0,39.0,30.0,34.0,42.0,53.0,44.0,31.0,18.0,52.0,33.0,32.0</Response>
+  <Response Label="Advocate for policies that could become law">58.0,58.0,58.0,51.0,58.0,63.0,62.0,41.0,59.0,55.0,63.0,68.0,57.0,62.0,57.0,39.0,44.0,55.0,61.0,62.0,44.0,58.0,57.0</Response>
+  <Response Label="Don't know">9.0,7.0,10.0,14.0,6.0,6.0,9.0,11.0,9.0,9.0,5.0,5.0,4.0,8.0,9.0,19.0,3.0,1.0,8.0,21.0,4.0,9.0,11.0</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="Regardless of who you may support, which Democratic candidate for president do you think has the best chance of beating Donald Trump in the 2020 presidential election?">
+  <Response Label="Biden">78.0,75.0,79.0,79.0,73.0,77.0,80.0,76.0,73.0,76.0,84.0,79.0,79.0,73.0,82.0,57.0,64.0,64.0,85.0,86.0,56.0,79.0,71.0</Response>
+  <Response Label="Gabbard">0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,5.0</Response>
+  <Response Label="Sanders">14.0,18.0,11.0,9.0,18.0,14.0,16.0,14.0,13.0,16.0,8.0,17.0,14.0,22.0,8.0,27.0,32.0,28.0,4.0,7.0,28.0,13.0,16.0</Response>
+  <Response Label="Unsure">7.0,4.0,9.0,11.0,6.0,6.0,4.0,10.0,11.0,7.0,7.0,4.0,1.0,4.0,8.0,13.0,2.0,7.0,9.0,6.0,16.0,6.0,7.0</Response>
+  <Response Label="Don't know">2.0,1.0,2.0,1.0,3.0,3.0,0.0,0.0,4.0,1.0,0.0,1.0,5.0,1.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,2.0,2.0</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="Regardless of who you may support, which Democratic candidate for president do you think has the best chance of helping elect other Democrats on the ballot in Georgia?">
+  <Response Label="Biden">74.0,72.0,75.0,80.0,67.0,71.0,75.0,83.0,63.0,81.0,70.0,77.0,78.0,74.0,74.0,73.0,56.0,61.0,82.0,83.0,72.0,76.0,49.0</Response>
+  <Response Label="Gabbard">1.0,2.0,1.0,0.0,3.0,2.0,0.0,0.0,0.0,0.0,1.0,2.0,4.0,1.0,1.0,0.0,2.0,1.0,1.0,1.0,0.0,1.0,7.0</Response>
+  <Response Label="Sanders">14.0,18.0,12.0,11.0,17.0,14.0,20.0,4.0,24.0,14.0,15.0,14.0,12.0,16.0,14.0,10.0,31.0,26.0,8.0,7.0,20.0,14.0,19.0</Response>
+  <Response Label="Unsure">8.0,6.0,9.0,7.0,10.0,10.0,3.0,7.0,6.0,5.0,11.0,6.0,5.0,7.0,7.0,13.0,7.0,7.0,6.0,9.0,4.0,7.0,16.0</Response>
+  <Response Label="Don't know">3.0,3.0,3.0,3.0,4.0,3.0,2.0,6.0,8.0,1.0,3.0,1.0,1.0,2.0,3.0,3.0,4.0,6.0,2.0,1.0,4.0,3.0,9.0</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="Regardless of who you may support, which Democratic candidate for president do you think has the best chance of uniting the country?">
+  <Response Label="Biden">73.0,72.0,73.0,81.0,67.0,69.0,72.0,79.0,77.0,69.0,71.0,74.0,71.0,67.0,78.0,55.0,44.0,59.0,85.0,84.0,76.0,75.0,48.0</Response>
+  <Response Label="Gabbard">1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,2.0,1.0,1.0,1.0,2.0,0.0,0.0,0.0,1.0,1.0,0.0,12.0,0.0,7.0</Response>
+  <Response Label="Sanders">16.0,19.0,15.0,12.0,22.0,16.0,20.0,11.0,12.0,21.0,13.0,19.0,17.0,21.0,13.0,29.0,50.0,28.0,6.0,7.0,8.0,16.0,18.0</Response>
+  <Response Label="Unsure">7.0,5.0,8.0,5.0,9.0,10.0,4.0,9.0,6.0,7.0,10.0,5.0,5.0,7.0,6.0,13.0,7.0,6.0,5.0,9.0,4.0,6.0,16.0</Response>
+  <Response Label="Don't know">3.0,3.0,3.0,1.0,2.0,5.0,4.0,1.0,4.0,1.0,4.0,2.0,6.0,4.0,3.0,3.0,0.0,7.0,3.0,0.0,0.0,3.0,11.0</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="When it comes to the November election, which of these statements best describes you?">
+  <Response Label="Will vote for any Dem against Trump">84.0,77.0,88.0,81.0,83.0,83.0,89.0,78.0,84.0,86.0,82.0,84.0,92.0,83.0,85.0,84.0,78.0,79.0,87.0,87.0,58.0,88.0,48.0</Response>
+  <Response Label="Depending who Dem candidate is, I may not vote">4.0,6.0,3.0,9.0,4.0,2.0,1.0,10.0,4.0,5.0,1.0,5.0,1.0,6.0,4.0,0.0,13.0,7.0,0.0,5.0,0.0,5.0,7.0</Response>
+  <Response Label="Depending who Dem candidate is, I may vote third-party candidate">6.0,9.0,5.0,5.0,5.0,10.0,4.0,6.0,10.0,4.0,9.0,6.0,3.0,6.0,7.0,6.0,7.0,10.0,8.0,2.0,8.0,6.0,21.0</Response>
+  <Response Label="Depending who Dem candidate is, I may vote for Trump">3.0,4.0,2.0,2.0,5.0,3.0,4.0,3.0,1.0,3.0,4.0,4.0,3.0,6.0,2.0,3.0,2.0,3.0,3.0,4.0,35.0,1.0,18.0</Response>
+  <Response Label="Don't know">2.0,3.0,2.0,3.0,3.0,1.0,2.0,4.0,1.0,1.0,3.0,2.0,1.0,1.0,3.0,6.0,0.0,2.0,2.0,3.0,0.0,1.0,7.0</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="How do you feel about the 2020 presidential election? ">
+  <Response Label="Very optimistic">33.0,33.0,32.0,42.0,35.0,26.0,22.0,41.0,39.0,32.0,27.0,24.0,25.0,20.0,40.0,20.0,19.0,19.0,39.0,41.0,52.0,33.0,18.0</Response>
+  <Response Label="Somewhat optimistic">42.0,40.0,44.0,35.0,41.0,48.0,46.0,38.0,36.0,44.0,40.0,52.0,45.0,46.0,40.0,53.0,42.0,51.0,40.0,39.0,28.0,43.0,39.0</Response>
+  <Response Label="Somewhat pessimistic">15.0,17.0,14.0,10.0,17.0,17.0,23.0,19.0,9.0,14.0,23.0,18.0,21.0,24.0,11.0,10.0,32.0,20.0,13.0,7.0,8.0,15.0,21.0</Response>
+  <Response Label="Very pessimistic">8.0,9.0,7.0,10.0,6.0,8.0,8.0,3.0,10.0,10.0,8.0,6.0,9.0,8.0,8.0,10.0,8.0,10.0,8.0,7.0,12.0,7.0,21.0</Response>
+  <Response Label="Don't know">2.0,2.0,2.0,3.0,1.0,1.0,1.0,0.0,6.0,1.0,2.0,0.0,0.0,2.0,2.0,7.0,0.0,1.0,0.0,6.0,0.0,2.0,2.0</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="As of right now, what do you think the chances are that Donald Trump gets reelected in November? ">
+  <Response Label="Definitely reelected">5.0,5.0,4.0,5.0,6.0,5.0,1.0,5.0,9.0,5.0,3.0,2.0,3.0,5.0,5.0,3.0,8.0,4.0,5.0,4.0,36.0,3.0,12.0</Response>
+  <Response Label="Probably reelected">26.0,25.0,27.0,23.0,27.0,28.0,28.0,31.0,22.0,30.0,25.0,26.0,25.0,28.0,25.0,29.0,29.0,42.0,20.0,19.0,20.0,25.0,47.0</Response>
+  <Response Label="Probably lose">38.0,38.0,38.0,28.0,35.0,44.0,51.0,24.0,34.0,40.0,46.0,45.0,43.0,46.0,34.0,39.0,43.0,39.0,41.0,32.0,28.0,40.0,28.0</Response>
+  <Response Label="Definitely lose ">23.0,26.0,21.0,36.0,22.0,15.0,14.0,36.0,24.0,19.0,17.0,16.0,22.0,10.0,31.0,16.0,13.0,7.0,29.0,34.0,16.0,25.0,9.0</Response>
+  <Response Label="Don't know">8.0,6.0,10.0,7.0,11.0,9.0,6.0,5.0,11.0,6.0,9.0,10.0,7.0,12.0,6.0,13.0,8.0,8.0,5.0,11.0,0.0,8.0,5.0</Response>
+ </myQuestion>
+</docbase>
