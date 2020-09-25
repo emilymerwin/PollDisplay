@@ -4,8 +4,8 @@ import csv
 from xml.dom.minidom import Document
 import decimal
 
-infile = "../data/march2020/dem-poll-3-16-2020.csv" #path to the source CSV
-outfile = "march2020-poll.xml" #filename for the generated XML to be used 
+infile = "../data/sept2020/poll-sept-2020.csv" #path to the source CSV
+outfile = "sept2020-poll.xml" #filename for the generated XML to be used 
 
 #Create the XML doc
 doc = Document()
@@ -22,6 +22,9 @@ def checkstring(n):
 		dec = round(decimal.Decimal(n)*100,1)
 		return str(dec)
 
+# def fixChars(myStr):
+# 	mycharlist = {"Õ":"\'"}
+	
 with open(infile, 'rU', encoding='latin-1') as data:
 	reader = csv.reader(data, dialect='excel')
 	next(reader)

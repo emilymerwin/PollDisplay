@@ -1,0 +1,16 @@
+labelArr = ["Total", "Male", "Female", "High School or less", "Some college", "Vocational/Tech. School", "College Graduate", "Graduate Study", "Under $25k", "$25-49,999", "$50-74,999", "$75-99,999", "$100-149,999", "Over $150k", "White", "Black", "Other race", "18 - 29", "30 - 44", "45 - 64", "65+", "Democrat", "Independent", "Republican", "2016 presidential vote: Trump", "2016 presidential vote: Clinton", "2016 presidential vote: Johnson", "2016 presidential vote: other", "2016 presidential vote: Did not vote"];
+
+{
+  infile: "poll-jan-2020",
+  fieldnames: ,
+  fieldDisplayNames: ["Total", "Male", "Female", "High School or less", "Some college", "College Graduate", "Graduate Study", "Under $25,000","$25-49,999","$50-74,999","$75-99,999", "$100-149,999", "Over $150,000", "White", "Black", "Other race", "18-29", "30-44", "45-64", "65+", "Republican", "Democrat", "Independent"]
+  {"Total", "Male", "Female", "High School or less", "Some college", "College Graduate", "Graduate Study", "Under $25k", "$25-49,999", "$50-74,999", "$75-99,999", "$100-149,999", "Over $150k", "White", "Black", "Other race", "18 - 29", "30 - 44", "45 - 64", "65+", "Republican", "Democrat", "Independent"}
+}
+
+outfile - maybe do this programmatically based on infile?
+
+#Readme
+
+# settingup
+- Save your spreadsheet to the `/data/` directory as a CSV and name it [month]-[year]-poll.csv. Most importantly, no spaces are allowed in the URL.
+- Open `/dist/settings.json` and fill in your values. The fieldnames MUST be in the same order as the spreadsheet. If you do not want a column to appear in the results, delete the column in Excel, save it, and save again as CSV. If you change the order or skip a column, the data will display with the wrong demographic group.

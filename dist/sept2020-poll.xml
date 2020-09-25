@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="If the election for president were being held today, and the candidates were Republican Donald Trump, Democrat Joe Biden, Libertarian Jo Jorgenson, for whom would you vote?">
+  <Response Label="Trump">47.3,53.5,42.3,54.1,49.0,45.2,31.1,25.8,38.6,56.9,60.1,47.9,43.4,67.0,5.0,42.4,37.0,46.0,48.0,53.8,95.5,30.4,1.9</Response>
+  <Response Label="Biden">47.0,40.6,51.9,40.6,45.5,48.1,63.2,62.9,54.9,41.3,35.5,47.3,52.6,29.4,84.9,51.5,55.2,47.9,46.4,42.9,1.6,43.1,94.5</Response>
+  <Response Label="Jorgenson">1.4,1.8,1.1,0.0,2.2,1.9,2.6,1.1,2.0,1.4,1.6,1.1,2.9,1.2,1.8,0.0,1.3,2.7,1.4,0.4,0.6,6.9,0.6</Response>
+  <Response Label="Don't know">4.4,4.1,4.7,5.3,3.2,4.8,3.1,10.1,4.6,0.5,2.7,3.7,1.1,2.4,8.3,6.1,6.5,3.4,4.2,2.9,2.3,19.6,2.9</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="If the election for U.S. Senate were being held today, and the candidates were Republican David Perdue, Democrat John Ossoff, Libertarian Shane Hazel, for whom would you vote?">
+  <Response Label="Perdue">47.0,56.0,40.0,53.1,48.4,44.2,34.0,31.8,37.5,51.8,59.0,49.5,48.0,65.1,9.7,34.3,42.6,43.5,48.6,50.9,91.6,31.4,4.9</Response>
+  <Response Label="Ossoff">44.6,34.1,53.0,36.0,45.2,46.6,61.8,45.5,57.9,41.3,36.6,43.6,48.0,28.9,77.9,52.2,47.7,49.6,41.7,42.2,2.5,31.4,90.3</Response>
+  <Response Label="Hazel">3.6,4.1,3.0,5.6,1.9,2.4,2.6,10.2,1.3,1.4,1.6,3.7,2.9,1.6,7.7,4.5,5.8,1.9,5.8,0.7,0.8,22.5,2.5</Response>
+  <Response Label="Don't know">4.8,5.7,4.0,5.3,4.5,6.7,1.6,12.5,3.3,5.5,2.7,3.2,1.1,4.4,4.7,9.0,3.9,5.0,3.9,6.2,5.1,14.7,2.3</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="There will also be a special U.S. Senate election on the ballot this November to fill the vacancy created when Senator Isakson resigned. In this race candidates from all parties will run against one another. If the election for U.S. Senate were being held today, and the candidates were Republican Kelly Loeffler, Republican Doug Collins, Democrat Raphael Warnock, Democrat Matt Lieberman, Democrat Ed Tarver, Libertarian Brian Slowinski, for whom would you vote?">
+  <Response Label="Loeffler">23.5,26.8,20.9,24.5,24.1,25.6,17.6,18.0,20.4,26.1,25.8,29.4,26.9,32.9,4.4,15.4,12.3,21.1,27.7,25.1,46.7,19.6,1.0</Response>
+  <Response Label="Collins">20.5,23.7,17.9,26.9,20.0,17.9,9.8,16.9,17.8,22.9,28.0,11.8,17.1,27.0,7.4,13.8,23.2,16.9,19.6,25.1,39.6,18.6,1.2</Response>
+  <Response Label="Warnock">20.3,15.8,24.0,15.3,21.3,24.2,26.4,13.5,25.0,24.3,20.3,18.7,20.6,12.3,39.1,13.8,25.2,17.2,19.9,21.8,0.8,7.8,43.0</Response>
+  <Response Label="Lieberman">10.6,9.9,11.2,8.8,11.1,9.7,14.5,18.0,7.9,5.5,7.1,16.6,14.9,7.4,17.6,10.8,5.2,16.9,9.7,8.4,0.6,9.8,21.4</Response>
+  <Response Label="Tarver">4.6,2.2,6.6,7.2,2.2,2.9,5.2,10.1,8.6,5.0,2.7,1.6,1.7,2.1,10.3,4.6,0.6,5.0,5.3,5.1,0.2,3.9,9.3</Response>
+  <Response Label="Slowinski">2.9,4.7,1.4,3.0,1.3,2.9,5.7,9.0,1.3,4.1,2.2,1.6,2.9,2.7,2.4,7.7,8.4,3.4,2.5,0.4,2.3,12.7,1.6</Response>
+  <Response Label="Other Candidate">1.1,1.0,1.1,1.2,1.6,0.5,0.5,5.6,2.0,0.0,1.1,1.1,0.0,0.8,2.1,0.0,1.3,0.8,1.4,0.7,0.0,3.9,1.6</Response>
+  <Response Label="Don't know">16.5,16.0,16.8,13.2,18.4,16.4,20.2,9.0,17.1,11.9,12.6,19.3,16.0,14.8,16.8,33.8,23.9,18.8,13.9,13.5,9.8,23.5,21.0</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="Do you strongly approve, somewhat approve, somewhat disapprove, or strongly disapprove of the way Donald Trump is handling his job as president?">
+  <Response Label="Strongly approve">38.9,42.7,35.9,48.5,38.1,33.7,24.5,27.0,33.6,46.8,52.7,36.7,32.4,55.7,3.8,28.8,29.0,31.6,41.3,48.4,80.2,20.4,1.6</Response>
+  <Response Label="Somewhat approve">9.5,13.0,6.7,8.4,10.2,12.0,8.3,5.6,3.9,6.4,8.2,13.8,9.1,11.8,5.0,7.6,12.3,13.7,6.9,8.4,14.5,18.4,1.6</Response>
+  <Response Label="Somewhat disapprove">4.5,4.7,4.4,3.0,6.0,6.7,2.6,6.7,5.3,5.0,3.8,3.7,6.3,4.0,4.1,10.6,5.8,5.3,5.1,2.2,3.3,7.8,4.5</Response>
+  <Response Label="Stronly disapprove">46.0,39.1,51.3,38.3,45.4,46.6,64.1,55.1,54.6,41.7,35.3,44.7,52.3,28.2,84.0,51.5,52.9,49.0,45.0,39.6,1.8,47.6,91.4</Response>
+  <Response Label="Don't know">1.2,0.4,1.7,1.9,0.3,1.0,0.5,5.6,2.6,0.0,0.0,1.1,0.0,0.3,3.0,1.5,0.0,0.4,1.6,1.5,0.2,5.8,1.0</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="Regardless of how you intend to vote, who do you think would do a better job of handling the economy?">
+  <Response Label="Trump ">53.6,64.5,45.1,61.7,54.6,50.7,37.0,35.2,43.1,57.6,63.6,57.4,50.0,71.3,15.6,50.0,54.5,53.4,53.0,55.6,97.5,55.9,8.6</Response>
+  <Response Label="Biden">42.4,32.9,49.9,33.9,41.6,45.5,60.4,56.8,52.9,41.9,33.2,37.2,47.7,26.4,77.1,43.9,40.4,43.9,44.0,41.5,1.4,31.4,86.7</Response>
+  <Response Label="Don't know">4.0,2.6,5.0,4.4,3.8,3.8,2.6,8.0,3.9,0.5,3.3,5.3,2.3,2.3,7.4,6.1,5.1,2.7,3.0,2.9,1.2,12.7,4.7</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="Regardless of how you intend to vote, who do you think would do a better job of responding to the coronavirus pandemic?">
+  <Response Label="Trump ">45.6,52.7,40.0,53.8,47.1,41.3,29.7,22.5,37.9,55.0,56.3,46.8,41.7,63.8,7.4,37.3,42.3,42.0,46.4,50.5,91.4,35.0,2.1</Response>
+  <Response Label="Biden">48.3,40.2,54.8,38.3,48.1,52.4,66.7,65.2,56.9,43.1,39.3,48.9,56.0,31.8,83.5,53.7,48.7,52.3,48.7,44.0,3.3,44.7,94.5</Response>
+  <Response Label="Don't know">6.1,7.1,5.1,7.9,4.8,6.3,3.6,12.4,5.2,1.8,4.4,4.3,2.3,4.4,9.1,9.0,9.0,5.7,4.9,5.5,5.3,20.4,3.3</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="Regardless of how you intend to vote, who do you think would do a better job of addressing racial inequality?">
+  <Response Label="Trump ">41.1,43.7,39.1,48.0,43.5,38.9,24.5,23.6,38.8,51.8,55.7,36.2,34.3,58.4,5.0,31.8,27.1,37.0,43.8,48.7,82.6,29.4,1.6</Response>
+  <Response Label="Biden">50.5,45.3,54.7,42.2,49.8,52.9,68.2,64.0,55.9,43.6,39.9,52.7,58.3,33.0,87.0,60.6,59.4,52.3,50.5,45.5,6.1,51.0,96.1</Response>
+  <Response Label="Don't know">8.3,11.0,6.2,9.7,6.7,8.2,7.3,12.4,5.3,4.6,4.4,11.2,7.4,8.6,8.0,7.6,13.5,10.7,5.8,5.8,11.3,19.6,2.3</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="How do you plan to vote in this election: absentee by mail, early in-person, or in-person on election-day?">
+  <Response Label="Absentee by mail">26.7,24.3,28.5,30.4,25.0,23.4,25.0,35.2,32.2,26.6,25.1,21.8,21.1,21.9,35.7,33.3,33.5,16.4,21.8,39.6,10.0,28.4,43.5</Response>
+  <Response Label="Early">36.8,32.3,40.3,32.5,36.7,34.9,47.9,35.2,29.6,40.4,36.1,33.5,43.4,37.3,35.1,37.9,31.0,43.9,37.3,34.5,40.0,36.3,33.3</Response>
+  <Response Label="Electon Day">33.9,41.2,28.1,34.1,36.1,39.2,25.0,25.0,30.9,32.1,37.7,43.1,33.1,38.8,25.7,22.7,35.5,38.2,36.8,23.6,48.4,34.3,19.3</Response>
+  <Response Label="Don't know">2.7,2.2,3.1,3.0,2.2,2.4,2.1,4.5,7.2,0.9,1.1,1.6,2.3,2.0,3.5,6.1,0.0,1.5,4.2,2.2,1.6,1.0,3.9</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="Overall, how confident are you that the November election will be conducted fairly and accurately? ">
+  <Response Label="Very confident">21.9,25.2,19.3,27.8,14.3,19.7,24.0,19.3,27.6,20.2,20.2,22.3,22.3,22.1,24.2,7.5,16.8,19.9,22.7,24.7,21.7,34.3,19.6</Response>
+  <Response Label="Somewhat confident">43.6,42.4,44.5,41.0,45.7,46.2,43.2,34.1,48.0,38.1,54.6,45.2,40.0,41.6,47.8,43.3,45.2,44.8,44.9,41.1,40.6,35.3,48.2</Response>
+  <Response Label="Not so confident">22.4,20.7,23.6,18.8,26.3,25.0,21.4,9.1,18.4,32.1,17.5,20.7,28.0,24.3,17.1,28.4,32.3,26.1,18.1,20.0,24.4,9.8,23.2</Response>
+  <Response Label="Not at all confident">11.0,10.5,11.5,11.8,11.7,9.1,9.9,33.0,5.9,8.7,6.6,11.7,9.1,10.9,10.0,17.9,5.8,8.0,13.9,12.0,11.9,19.6,8.6</Response>
+  <Response Label="Don't know">1.2,1.2,1.1,0.7,1.9,0.0,1.6,4.5,0.0,0.9,1.1,0.0,0.6,1.1,0.9,3.0,0.0,1.1,0.5,2.2,1.4,1.0,0.4</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="Do you support or oppose the protests held around the country responding to the death of George Floyd and other black people at the hands of police?">
+  <Response Label="Strongly support">40.2,37.9,42.1,32.2,41.7,45.7,50.5,37.1,52.6,34.1,36.8,42.2,44.0,26.8,68.2,46.2,56.1,46.4,38.4,26.9,9.4,49.0,70.5</Response>
+  <Response Label="Somewhat support">16.5,16.6,16.5,13.9,15.6,19.7,20.3,10.1,12.5,13.4,20.9,18.7,20.6,15.6,19.4,12.3,23.2,13.7,17.6,14.9,14.6,18.6,18.0</Response>
+  <Response Label="Somewhat oppose">10.4,11.6,9.3,13.0,9.6,9.1,7.3,20.2,6.6,15.2,8.2,9.6,10.9,13.6,4.7,4.6,11.6,10.3,11.3,9.1,17.8,10.8,2.7</Response>
+  <Response Label="Strongly oppose">28.6,29.2,28.2,36.3,29.9,22.1,16.7,27.0,23.7,35.9,33.0,27.3,20.0,39.9,5.0,23.1,4.5,25.9,29.2,44.0,53.9,16.7,4.9</Response>
+  <Response Label="Don't know">4.3,4.7,3.9,4.6,3.2,3.4,5.2,5.6,4.6,1.4,1.1,2.1,4.6,4.2,2.6,13.8,4.5,3.8,3.5,5.1,4.3,4.9,3.9</Response>
+ </myQuestion>
+ <myQuestion Qid="10" label="Which concerns you more, the actions of police against George Floyd and others, or protests that have turned violent?">
+  <Response Label="Police">36.8,34.3,38.8,28.8,37.1,39.9,51.0,47.7,43.4,28.4,38.6,35.8,42.0,22.8,65.0,48.5,60.0,46.0,33.3,20.4,5.5,46.1,66.9</Response>
+  <Response Label="Protests">46.1,47.8,44.9,53.4,47.6,43.3,30.7,37.5,42.1,60.1,47.8,43.9,38.6,60.1,17.1,37.9,20.6,42.2,50.9,56.7,78.3,39.2,16.1</Response>
+  <Response Label="Both">14.0,15.0,13.2,13.9,12.7,14.9,15.6,8.0,12.5,9.2,12.5,19.8,16.5,13.8,15.6,9.1,18.1,11.0,13.2,15.6,13.3,13.7,14.0</Response>
+  <Response Label="Don't know">3.0,3.0,3.1,3.9,2.5,1.9,2.6,6.8,2.0,2.3,1.1,0.5,2.8,3.2,2.4,4.5,1.3,0.8,2.5,7.3,2.9,1.0,2.9</Response>
+ </myQuestion>
+ <myQuestion Qid="11" label="How confident are you that the police in this country treat white and black people equally? ">
+  <Response Label="Very confident">22.6,24.9,20.8,32.0,17.1,17.9,15.5,10.1,13.7,34.9,25.1,25.7,16.7,31.1,4.7,18.2,5.8,23.6,26.1,25.8,43.2,10.7,4.1</Response>
+  <Response Label="Somewhat confident">29.0,27.8,29.9,29.2,33.0,29.5,21.2,42.7,30.7,27.5,25.1,27.8,25.3,36.1,15.3,18.2,30.3,20.9,28.4,37.5,42.6,28.2,15.4</Response>
+  <Response Label="Not so confident">16.9,17.0,16.8,14.2,17.8,17.4,21.8,12.4,13.7,15.1,18.6,15.0,24.1,17.2,14.5,25.8,29.0,18.3,13.2,14.5,7.4,13.6,27.3</Response>
+  <Response Label="Not at all confident">29.4,29.0,29.7,22.5,29.8,33.3,39.9,34.8,39.2,21.6,27.9,29.9,32.8,12.8,65.2,34.8,34.8,36.1,29.6,19.3,4.5,40.8,52.2</Response>
+  <Response Label="Don't know">2.1,1.4,2.8,2.1,2.2,1.9,1.6,0.0,2.6,0.9,3.3,1.6,1.1,2.8,0.3,3.0,0.0,1.1,2.8,2.9,2.3,6.8,1.0</Response>
+ </myQuestion>
+ <myQuestion Qid="12" label="Do you approve or disapprove of the way Donald Trump is handling the coronavirus outbreak?">
+  <Response Label="Strongly approve">37.1,39.8,35.0,47.3,35.6,30.8,24.4,23.6,31.4,44.0,49.2,35.3,30.9,52.9,4.7,24.2,27.9,28.5,39.6,47.4,76.7,17.5,1.9</Response>
+  <Response Label="Somewhat approve">11.2,16.0,7.5,8.8,14.3,14.9,7.8,4.5,7.2,10.6,11.5,15.5,10.9,13.5,5.0,16.7,15.6,16.7,9.5,6.6,17.0,28.2,0.8</Response>
+  <Response Label="Somewhat disapprove">5.1,4.1,5.9,4.6,5.7,6.3,4.1,3.4,11.1,3.2,3.3,7.5,3.4,3.6,7.4,10.6,9.1,6.1,4.6,3.6,2.2,8.7,7.4</Response>
+  <Response Label="Strongly disapprove">44.1,36.7,49.9,35.0,43.5,47.1,62.2,57.3,49.7,41.7,35.0,41.2,53.7,28.3,79.3,42.4,41.6,47.9,44.7,39.8,2.2,37.9,88.1</Response>
+  <Response Label="Don't know">2.4,3.4,1.7,4.2,1.0,1.0,1.6,11.2,0.7,0.5,1.1,0.5,1.1,1.6,3.6,6.1,5.8,0.8,1.6,2.6,2.0,7.8,1.8</Response>
+ </myQuestion>
+ <myQuestion Qid="13" label="Do you approve or disapprove of Governor Brian Kemp's handling of the coronavirus in Georgia?">
+  <Response Label="Strongly approve">33.4,40.7,27.6,42.6,29.8,30.6,21.2,13.6,26.8,37.6,43.7,37.6,32.6,45.9,8.0,21.2,25.6,33.8,34.9,35.6,66.0,22.3,2.7</Response>
+  <Response Label="Somewhat approve">16.3,15.6,16.9,16.4,20.3,13.4,13.5,26.1,13.7,16.1,14.2,16.1,12.6,19.3,10.9,9.1,11.5,13.7,16.9,21.5,23.4,20.4,8.2</Response>
+  <Response Label="Somewhat disapprove">9.6,8.7,10.4,5.1,13.0,12.9,10.9,9.1,7.2,5.5,10.4,11.8,11.4,7.5,13.3,15.2,7.1,10.6,9.7,9.5,4.1,10.7,14.6</Response>
+  <Response Label="Strongly disapprove">37.2,29.9,42.9,30.6,34.9,40.2,52.8,50.0,50.3,39.4,29.0,32.8,41.7,24.3,63.1,51.5,43.6,41.4,36.5,30.2,3.9,31.1,72.8</Response>
+  <Response Label="Don't know">3.4,5.1,2.2,5.3,1.9,2.9,1.6,1.1,2.0,1.4,2.7,1.6,1.7,3.0,4.7,3.0,12.2,0.4,2.1,3.3,2.5,15.5,1.8</Response>
+ </myQuestion>
+ <myQuestion Qid="14" label="How worried are you that you or someone in your family will be exposed to the coronavirus (COVID-19)? ">
+  <Response Label="Very worried">28.1,20.2,34.4,25.3,25.1,31.3,36.5,39.3,36.2,21.1,21.9,23.4,26.9,20.7,45.1,24.2,20.5,24.3,34.5,27.0,10.2,35.3,44.5</Response>
+  <Response Label="Somewhat worried">36.4,39.5,33.9,37.4,38.7,33.2,34.4,33.7,34.9,39.4,34.4,41.5,36.0,35.4,35.4,53.0,44.9,44.1,27.8,37.2,32.3,35.3,40.6</Response>
+  <Response Label="Not too worried">17.3,16.3,18.2,16.9,17.5,18.8,16.1,14.6,14.5,20.2,20.8,17.0,16.0,22.3,8.8,4.5,12.2,12.2,20.8,19.7,28.2,11.8,7.8</Response>
+  <Response Label="Not worried at all">16.4,21.6,12.3,18.1,17.1,16.3,11.5,11.2,13.8,19.3,22.4,16.5,17.1,19.6,9.4,15.2,17.9,18.6,16.0,14.2,27.0,15.7,6.1</Response>
+  <Response Label="Don't know">1.7,2.4,1.2,2.3,1.6,0.5,1.6,1.1,0.7,0.0,0.5,1.6,4.0,2.0,1.2,3.0,4.5,0.8,0.9,1.8,2.3,2.0,1.0</Response>
+ </myQuestion>
+</docbase>
