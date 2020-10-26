@@ -93,6 +93,8 @@ function parseQuestions(xml){
 	}//startup
 
 	function loadResults (val){
+		var pymChild = new pym.Child();
+
 		for(var i=0; i<bigArr.length; i++){
 			var opts = [];
 			for(var j=0; j<bigArr[i].responseArr.length; j++){ //-1 from .length if you have totals as your final row
@@ -101,6 +103,7 @@ function parseQuestions(xml){
 			}
 			drawBars(i, opts);
 		}
+    pymChild.sendHeight();
 	}//loadResults
 	
 	function drawBars(Qid, opts){
