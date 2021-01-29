@@ -120,7 +120,7 @@ function parseQuestions(xml){
 				$('#opt'+i+'q'+Qid).find("span:last").remove();
 				$(this).css({'opacity':'1.0'});
 			}).qtip({
-				content: bigArr[Qid].responseArr[i].optlabel+': <strong>' + opts[i] +'%</strong>',
+				content: bigArr[Qid].responseArr[i].optlabel+': <strong>' + Math.round(opts[i]) +'%</strong>',
 				position: {
 					my: 'top right',
 					target: 'mouse',
