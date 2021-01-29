@@ -35,12 +35,12 @@ with open(infile, 'rU', encoding='latin-1') as data:
 		if len(QuestionArray) <= myID:
 			myQuestion = doc.createElement('myQuestion')
 			myQuestion.setAttribute('Qid', Qid)
-			myQuestion.setAttribute('label', row[1].replace('Õ','\'').replace('Ê',' '))
+			myQuestion.setAttribute('label', row[1].replace('Õ','\'').replace('Ê',' ').replace('â', "'"))
 			QuestionArray.append(myQuestion)
 		responses = row[2]
 		if responses != "": #data represented as pct in next row, skip over the actual number here (and add the answer label)
 			myResponse = doc.createElement('Response')
-			myResponse.setAttribute('Label', responses)
+			myResponse.setAttribute('Label', responses.replace('â', "'"))
 			myQuestion.appendChild(myResponse)
 		else:
 			for i, v in enumerate(row):
@@ -54,3 +54,4 @@ with open(infile, 'rU', encoding='latin-1') as data:
 f = open('../dist/' + outfile, 'w')
 doc.writexml(f, addindent=" ", newl="\n")
 f.close()
+print (outfile + " file written")
