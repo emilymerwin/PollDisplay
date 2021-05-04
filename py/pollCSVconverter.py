@@ -38,7 +38,7 @@ with open(infile, 'rU', encoding='latin-1') as data:
 			myQuestion.setAttribute('label', row[1].replace('Õ','\'').replace('Ê',' ').replace('â', "'"))
 			QuestionArray.append(myQuestion)
 		responses = row[2]
-		if responses != "": #data represented as pct in next row, skip over the actual number here (and add the answer label)
+		if responses.strip() != "": #data represented as pct in next row, skip over the actual number here (and add the answer label)
 			myResponse = doc.createElement('Response')
 			myResponse.setAttribute('Label', responses.replace('â', "'"))
 			myQuestion.appendChild(myResponse)
