@@ -35,7 +35,7 @@ with open(infile, 'rU', encoding='latin-1') as data:
 		if len(QuestionArray) <= myID:
 			myQuestion = doc.createElement('myQuestion')
 			myQuestion.setAttribute('Qid', Qid)
-			myQuestion.setAttribute('label', row[1].replace('Õ','\'').replace('Ê',' ').replace('â', "'"))
+			myQuestion.setAttribute('label', row[1].replace('Õ','\'').replace('Ê',' ').replace('â', "'").replace('Â',''))
 			QuestionArray.append(myQuestion)
 		responses = row[2]
 		if responses.strip() != "": #data represented as pct in next row, skip over the actual number here (and add the answer label)
