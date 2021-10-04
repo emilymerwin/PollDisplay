@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="If the election for mayor were being held today, and the candidates were [read candidate names], for whom would you vote? ">
+  <Response Label="Antonio Brown">3.5,4.5,2.8,8.9,1.7,1.4,6.9,3.4,1.7,2.2,12.0,0.8,2.8,3.4,8.2,9.3,3.8,1.3,0.7,4.0,2.1,0.6,3.9,3.8,0.0</Response>
+  <Response Label="Andre Dickens">5.2,5.8,4.8,2.1,4.7,7.1,0.0,2.2,5.2,5.4,4.6,6.7,3.9,5.7,9.8,6.6,5.1,5.8,2.0,5.7,5.9,3.7,1.0,5.6,8.4</Response>
+  <Response Label="Sharon Gay">5.7,6.8,4.8,2.1,2.3,9.0,0.0,12.4,2.6,4.3,4.6,7.9,8.1,3.1,3.3,0.0,5.1,8.9,8.8,6.2,5.5,6.2,10.8,4.6,6.0</Response>
+  <Response Label="Felicia Moore">20.4,18.1,22.0,15.7,14.0,25.1,20.7,12.4,16.4,21.7,25.0,25.5,25.9,15.1,11.5,17.2,16.8,25.0,24.5,20.0,24.6,18.6,29.4,18.4,28.9</Response>
+  <Response Label="Kasim Reed">23.5,25.7,21.6,39.4,23.8,14.7,49.4,30.3,25.0,21.7,19.4,17.2,13.9,36.0,19.7,19.9,26.7,23.2,19.7,16.2,25.8,35.4,19.6,25.6,10.8</Response>
+  <Response Label="Kirsten Dunn">0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0</Response>
+  <Response Label="Nolan English">0.4,0.3,0.4,0.8,0.0,0.2,2.3,0.0,0.0,0.0,0.9,0.0,0.2,0.0,3.3,0.0,0.3,0.9,0.0,0.2,0.8,0.0,0.0,0.5,0.0</Response>
+  <Response Label="Kenny Hill">0.1,0.3,0.2,0.0,0.6,0.2,0.0,1.1,0.9,0.0,0.0,0.0,0.0,0.3,1.6,0.0,0.0,0.4,0.7,0.2,0.0,0.0,0.0,0.2,0.0</Response>
+  <Response Label="Rebecca L. King">0.3,0.5,0.2,0.0,0.0,0.5,0.0,0.0,0.0,1.1,0.0,0.8,0.5,0.3,0.0,0.0,0.3,0.9,0.0,0.0,0.4,0.6,1.0,0.2,1.2</Response>
+  <Response Label="Walter Reeves">0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0</Response>
+  <Response Label="Roosevelt Searles III">0.1,0.0,0.2,0.0,0.0,0.2,0.0,0.0,0.0,0.0,0.0,0.4,0.2,0.0,0.0,0.0,0.0,0.4,0.0,0.0,0.0,0.6,1.0,0.0,0.0</Response>
+  <Response Label="Richard N. Wright">0.2,0.3,0.2,0.0,0.6,0.2,0.0,0.0,0.9,0.0,0.0,0.4,0.0,0.6,0.0,0.0,0.3,0.4,0.0,0.0,0.0,1.2,1.0,0.2,0.0</Response>
+  <Response Label="Don't know">40.6,37.8,42.8,30.9,52.3,41.2,20.7,38.2,47.4,43.5,33.3,40.2,44.4,35.4,42.6,47.0,41.4,32.6,43.5,47.4,34.7,32.9,32.4,41.0,44.6</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="In your opinion, which of the following is the most pressing issue currently facing the City of Atlanta? ">
+  <Response Label="Crime">43.7,48.8,39.3,34.0,37.3,51.4,18.2,36.4,53.4,42.9,38.9,55.9,48.6,39.6,31.1,30.5,42.5,49.1,46.9,33.6,54.4,56.2,79.4,37.2,48.1</Response>
+  <Response Label="Increasing affordable housing">17.3,16.3,18.0,20.4,15.4,16.4,30.7,17.0,11.2,18.7,26.9,16.9,16.0,18.8,18.0,22.5,24.7,11.3,9.5,23.9,13.5,5.6,2.9,20.3,17.3</Response>
+  <Response Label="Corruption at City Hall">3.8,5.8,2.4,3.0,4.1,4.1,1.1,3.4,0.0,3.3,2.8,4.7,3.2,3.1,11.5,6.0,3.1,1.8,5.4,2.5,3.0,9.9,6.9,2.9,3.7</Response>
+  <Response Label="Income inequality ">7.2,6.3,8.0,2.1,9.5,9.0,4.5,9.1,8.6,16.5,8.3,5.1,10.2,3.4,8.2,6.6,10.3,6.3,4.1,12.9,3.0,0.6,1.0,8.5,7.4</Response>
+  <Response Label="Traffic congestion">3.8,3.7,3.9,6.4,3.0,2.8,10.2,2.3,7.8,2.2,4.6,0.8,2.8,5.4,1.6,8.6,2.1,2.7,4.8,3.7,1.7,7.4,1.0,4.5,2.5</Response>
+  <Response Label="The Coronavirus pandemic">13.8,10.5,16.7,19.1,17.2,9.7,31.8,12.5,12.9,12.1,11.1,8.9,11.1,15.7,21.3,21.9,9.2,14.4,12.9,14.4,14.3,8.6,7.8,14.9,16.0</Response>
+  <Response Label="Other">5.9,4.7,6.7,5.5,7.1,5.5,2.3,11.4,3.4,4.4,4.6,5.1,3.7,8.5,6.6,1.3,6.8,7.2,7.5,4.7,5.5,9.3,1.0,6.5,4.9</Response>
+  <Response Label="Don't know">4.6,3.9,5.0,9.4,6.5,1.2,1.1,8.0,2.6,0.0,2.8,2.5,4.4,5.4,1.6,2.6,1.4,7.2,8.8,4.2,4.6,2.5,0.0,5.3,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="All in all, do you think things in the City of Atlanta are generally headed in the right direction, or do you think things are off on the wrong track?">
+  <Response Label="Right direction">32.2,35.2,29.5,23.7,35.3,35.3,16.1,31.5,29.3,44.6,44.4,31.5,31.1,33.2,33.3,41.7,34.2,23.8,32.0,42.3,24.2,20.4,11.9,35.6,30.9</Response>
+  <Response Label="Wrong track">53.1,54.9,51.8,55.9,49.4,53.2,64.4,49.4,54.3,41.3,38.9,60.5,57.1,47.7,56.7,52.3,54.8,58.3,40.8,42.5,62.7,67.3,84.2,46.6,61.7</Response>
+  <Response Label="Mixed">9.5,7.3,11.3,13.1,5.9,9.0,13.8,9.0,10.3,12.0,13.0,4.6,7.9,11.9,6.7,4.0,9.6,8.5,18.4,9.5,9.3,10.5,4.0,11.2,7.4</Response>
+  <Response Label="Don't know">5.2,2.6,7.4,7.2,9.4,2.5,5.7,10.1,6.0,2.2,3.7,3.4,3.9,7.1,3.3,2.0,1.4,9.4,8.8,5.7,3.8,1.9,0.0,6.7,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="Do you think the City of Atlanta is generally headed in the right direction, or do you think things are off on the wrong track in terms of affordable housing?">
+  <Response Label="Right direction">20.7,26.8,15.8,14.4,22.9,23.3,2.3,25.0,21.7,17.2,25.0,24.4,23.7,18.2,13.3,27.0,15.1,21.5,23.1,21.9,17.8,27.3,31.4,19.0,15.7</Response>
+  <Response Label="Wrong track">55.5,49.1,60.6,54.2,61.8,53.7,73.3,50.0,62.6,63.4,49.1,51.3,47.8,62.1,73.3,46.1,66.7,52.0,49.0,55.5,61.0,44.7,34.3,59.4,57.8</Response>
+  <Response Label="Mixed">8.4,11.5,5.8,18.6,0.6,5.8,18.6,5.7,4.3,8.6,16.7,5.9,9.7,7.4,3.3,10.5,10.0,5.4,8.8,10.4,5.5,9.3,5.9,8.9,4.8</Response>
+  <Response Label="Don't know">15.4,12.6,17.7,12.7,14.7,17.3,5.8,19.3,11.3,10.8,9.3,18.5,18.8,12.3,10.0,16.4,8.2,21.1,19.0,12.2,15.7,18.6,28.4,12.6,21.7</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="Do you think the City of Atlanta is generally headed in the right direction, or do you think things are off on the wrong track in terms of solving traffic congestion?">
+  <Response Label="Right direction">24.4,27.7,21.6,23.7,30.0,22.6,9.2,28.1,26.1,30.1,36.1,21.0,22.5,24.1,40.0,38.0,17.9,23.8,23.0,23.1,30.5,22.2,30.7,23.3,28.0</Response>
+  <Response Label="Wrong track">60.0,56.0,63.2,60.2,54.7,62.2,69.0,56.2,65.2,54.8,51.9,62.6,58.9,63.9,45.0,54.7,68.4,56.5,54.7,60.4,55.9,64.8,58.4,61.2,53.7</Response>
+  <Response Label="Mixed">7.5,10.7,5.0,10.2,5.9,6.7,13.8,6.7,5.2,8.6,4.6,7.1,10.0,5.1,3.3,4.7,10.0,6.7,7.4,9.0,5.9,4.9,4.0,7.8,4.9</Response>
+  <Response Label="Don't know">8.0,5.5,10.2,5.9,9.4,8.5,8.0,9.0,3.5,6.5,7.4,9.2,8.6,6.8,11.7,2.7,3.8,13.0,14.9,7.5,7.6,8.0,6.9,7.7,13.4</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="Do you think the City of Atlanta is generally headed in the right direction, or do you think things are off on the wrong track in terms of dealing with crime?">
+  <Response Label="Right direction">15.7,14.7,16.5,15.3,17.5,15.2,12.8,19.1,20.7,16.3,24.1,12.1,14.2,17.1,18.6,15.1,19.2,9.4,18.9,19.4,14.0,8.7,5.9,18.1,13.3</Response>
+  <Response Label="Wrong track">70.2,71.9,68.9,69.1,67.3,71.9,62.8,59.6,70.7,66.3,62.0,80.3,73.5,66.7,67.8,78.3,67.4,77.1,58.1,61.7,78.0,85.7,93.1,65.2,73.5</Response>
+  <Response Label="Mixed">7.1,6.3,7.6,12.7,4.1,5.3,18.6,13.5,2.6,8.7,5.6,2.9,5.6,9.4,3.4,0.7,6.2,5.4,16.9,9.0,3.4,3.1,1.0,8.3,7.2</Response>
+  <Response Label="Don't know">7.0,7.1,7.0,3.0,11.1,7.6,5.8,7.9,6.0,8.7,8.3,4.6,6.7,6.8,10.2,5.9,7.2,8.1,6.1,10.0,4.7,2.5,0.0,8.5,6.0</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="Do you think the City of Atlanta is generally headed in the right direction, or do you think things are off on the wrong track in terms of managing the coronavirus pandemic?">
+  <Response Label="Right direction">51.2,52.4,50.2,40.0,38.2,62.4,25.6,42.0,43.5,55.4,71.0,66.0,61.7,39.9,41.7,44.1,55.3,52.3,52.1,57.0,49.2,45.3,51.0,52.7,45.8</Response>
+  <Response Label="Wrong track">36.1,35.3,36.8,46.8,46.5,26.1,66.3,39.8,43.5,34.8,22.4,22.3,25.1,47.3,48.3,48.7,36.4,28.8,31.5,32.1,35.6,44.7,29.4,36.1,41.0</Response>
+  <Response Label="Mixed">5.3,4.7,5.8,3.8,7.1,5.5,3.5,8.0,7.0,6.5,1.9,2.9,4.9,5.1,10.0,3.9,3.8,7.2,6.8,3.7,9.3,3.7,6.9,4.3,7.2</Response>
+  <Response Label="Don't know">7.4,7.6,7.1,9.4,8.2,6.0,4.7,10.2,6.1,3.3,4.7,8.8,8.4,7.7,0.0,3.3,4.5,11.7,9.6,7.2,5.9,6.2,12.7,6.9,6.0</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="How would you rate the Atlanta Police Department's response to the rise in violent crime in the City?">
+  <Response Label="Excellent">3.3,1.6,4.8,3.4,1.2,3.9,0.0,1.1,3.4,5.4,1.9,2.5,3.7,2.6,3.3,1.3,1.7,3.2,7.5,1.5,5.1,4.9,6.9,2.2,7.3</Response>
+  <Response Label="Good">19.1,18.6,19.5,22.6,15.9,18.4,20.9,25.0,15.5,14.0,32.1,16.4,19.3,18.8,18.3,11.9,16.8,20.3,31.3,20.1,19.1,17.3,24.8,18.7,18.3</Response>
+  <Response Label="Fair ">41.6,42.1,41.1,47.2,31.2,42.4,45.3,43.2,43.1,47.3,37.7,42.9,38.2,44.7,48.3,39.1,42.3,41.4,40.1,45.9,39.1,35.2,30.7,43.8,35.4</Response>
+  <Response Label="Poor">30.8,33.0,28.8,24.7,43.5,29.5,30.2,26.1,34.5,25.8,22.6,32.8,32.9,29.1,26.7,45.7,34.0,27.0,19.0,26.6,32.8,38.3,33.7,29.4,35.4</Response>
+  <Response Label="Don't know">5.3,4.7,5.8,2.1,8.2,5.8,3.5,4.5,3.4,7.5,5.7,5.5,5.8,4.8,3.3,2.0,5.2,8.1,2.0,6.0,3.8,4.3,4.0,5.9,3.7</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="There has been some talk of allowing the Buckhead area of Atlanta to withdraw from the City of Atlanta to become its own separate, independent city. Do you support or oppose this effort? ">
+  <Response Label="Strongly support">14.8,15.5,14.1,17.9,14.0,13.6,33.3,10.1,14.7,12.0,9.3,14.2,14.0,16.5,11.5,22.4,13.1,15.3,7.4,6.2,24.2,24.1,36.3,9.7,18.3</Response>
+  <Response Label="Somewhat support">13.9,15.7,12.4,14.5,14.0,13.6,16.1,15.7,14.7,9.8,18.7,12.1,17.4,8.8,18.0,28.9,9.0,15.3,7.4,13.6,15.3,14.2,19.6,12.4,20.7</Response>
+  <Response Label="Somewhat oppose">14.3,9.7,18.0,13.6,14.0,14.7,16.1,12.4,23.3,21.7,15.0,10.5,12.3,16.8,13.1,12.5,17.2,10.8,16.9,13.9,14.4,17.9,18.6,14.5,9.8</Response>
+  <Response Label="Strongly oppose">43.8,48.3,40.1,39.6,39.0,47.7,28.7,39.3,37.9,44.6,50.5,53.6,45.3,42.7,39.3,19.1,47.2,49.5,52.7,57.6,30.9,30.2,17.6,51.5,26.8</Response>
+  <Response Label="Don't know">13.2,10.8,15.4,14.5,19.2,10.4,5.7,22.5,9.5,12.0,6.5,9.6,10.9,15.1,18.0,17.1,13.4,9.0,15.5,8.7,15.3,13.6,7.8,11.8,24.4</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="Regardless how you feel about Buckhead becoming an independent city, what do you think the motivation is behind this effort? ">
+  <Response Label="Crime">33.1,31.2,34.4,28.1,34.1,35.6,18.4,30.7,34.5,39.1,30.6,35.1,34.3,33.6,21.7,27.2,29.2,36.8,38.4,25.6,41.1,42.0,56.4,28.4,37.8</Response>
+  <Response Label="Race">20.8,19.4,21.9,20.9,20.6,20.8,28.7,17.0,25.0,17.4,23.1,21.3,20.1,20.2,28.3,17.2,22.0,21.5,21.9,26.9,14.8,14.2,4.0,25.2,12.2</Response>
+  <Response Label="Taxes">13.6,20.5,8.0,12.3,20.0,11.8,5.7,18.2,18.1,12.0,13.9,13.0,16.7,10.0,11.7,16.6,16.8,11.7,6.8,16.2,10.6,11.7,10.9,14.0,12.2</Response>
+  <Response Label="City services">3.1,2.4,3.7,3.4,0.6,3.7,6.9,3.4,0.9,2.2,2.8,4.6,2.8,3.4,3.3,2.0,3.8,4.0,2.1,2.7,3.0,4.9,9.9,2.2,2.4</Response>
+  <Response Label="Planning and zoning">6.6,6.3,6.9,11.1,4.7,4.8,13.8,4.5,3.4,3.3,14.8,3.8,5.8,7.4,8.3,18.5,5.2,3.1,3.4,8.0,6.4,4.3,3.0,8.1,1.2</Response>
+  <Response Label="Multiple reasons">18.2,15.7,20.3,16.6,17.6,19.4,20.7,23.9,14.7,16.3,13.9,17.6,17.4,20.2,13.3,11.3,20.6,18.4,19.9,17.4,20.8,16.7,13.9,17.4,26.8</Response>
+  <Response Label="Don't know">4.7,4.5,4.8,7.7,2.4,3.9,5.7,2.3,3.4,9.8,0.9,4.6,3.0,5.1,13.3,7.3,2.4,4.5,7.5,3.2,3.4,6.2,2.0,4.6,7.3</Response>
+ </myQuestion>
+ <myQuestion Qid="10" label="Do you  approve or disapprove of the way Keisha Lance Bottoms is handling her job as the current mayor of Atlanta? ">
+  <Response Label="Strongly approve">27.0,24.3,29.0,34.3,31.4,21.2,25.3,49.4,31.0,22.6,35.5,17.6,17.0,38.2,32.8,25.0,24.2,30.5,29.3,26.7,23.3,31.7,14.9,30.4,13.3</Response>
+  <Response Label="Somewhat approve">29.7,27.7,31.4,29.2,31.4,29.6,36.8,27.0,27.6,40.9,25.2,26.8,29.8,30.8,23.0,21.1,33.1,24.7,40.1,39.2,22.5,14.3,4.0,34.7,24.1</Response>
+  <Response Label="Somewhat disapprove">13.4,15.2,12.1,11.0,8.9,16.4,10.3,5.6,13.8,16.1,18.7,16.7,16.3,8.8,19.7,16.4,16.4,9.9,10.9,15.7,14.4,8.1,18.8,11.7,24.1</Response>
+  <Response Label="Strongly disapprove">25.5,29.1,22.5,24.6,19.5,28.4,26.4,13.5,23.3,17.2,17.8,37.2,33.3,17.4,18.0,29.6,23.2,30.5,15.6,14.7,33.5,44.7,61.4,19.5,30.1</Response>
+  <Response Label="Don't know">4.3,3.7,5.0,0.8,8.9,4.4,1.1,4.5,4.3,3.2,2.8,1.7,3.7,4.8,6.6,7.9,3.1,4.5,4.1,3.7,6.4,1.2,1.0,3.8,8.4</Response>
+ </myQuestion>
+ <myQuestion Qid="11" label="Do you have a favorable or unfavorable impression of Antonio Brown?">
+  <Response Label="Favorable ">19.7,21.5,18.2,26.3,20.6,15.9,20.7,29.2,22.6,22.8,30.8,14.2,16.7,23.4,20.0,33.8,24.4,11.7,11.6,19.2,20.0,19.9,12.9,20.9,18.1</Response>
+  <Response Label="Unfavorable">17.5,21.0,14.8,20.3,10.0,18.9,13.8,13.5,20.9,18.5,14.0,21.8,16.0,19.9,15.0,12.6,17.2,18.4,19.0,13.4,26.0,16.8,28.7,15.8,16.9</Response>
+  <Response Label="Don't know ">62.7,57.5,67.0,53.4,69.4,65.2,65.5,57.3,56.5,58.7,55.1,64.0,67.3,56.7,65.0,53.6,58.4,70.0,69.4,67.4,54.0,63.4,58.4,63.3,65.1</Response>
+ </myQuestion>
+ <myQuestion Qid="12" label="Do you have a favorable or unfavorable impression of Andre Dickens?">
+  <Response Label="Favorable ">20.0,25.4,15.6,18.6,17.1,22.1,6.9,25.8,23.5,28.3,19.4,21.4,16.0,24.7,21.7,15.2,24.5,19.7,15.5,19.7,24.6,16.0,10.9,21.0,25.3</Response>
+  <Response Label="Unfavorable">7.7,7.3,8.0,7.2,5.9,8.5,0.0,6.7,13.0,5.4,8.3,8.4,5.1,11.1,6.7,4.0,6.9,9.0,12.2,3.7,10.2,13.6,13.9,6.2,7.2</Response>
+  <Response Label="Don't know ">72.3,67.3,76.4,74.2,77.1,69.4,93.1,67.4,63.5,66.3,72.2,70.2,78.9,64.2,71.7,80.8,68.6,71.3,72.3,76.6,65.3,70.4,75.2,72.8,67.5</Response>
+ </myQuestion>
+ <myQuestion Qid="13" label="Do you have a favorable or unfavorable impression of Sharon Gay?">
+  <Response Label="Favorable ">23.8,28.3,20.2,23.3,22.4,24.7,11.5,25.0,26.7,30.1,18.5,28.2,25.8,21.7,23.0,18.5,21.3,26.9,27.7,22.4,25.4,29.2,27.7,23.2,23.2</Response>
+  <Response Label="Unfavorable">11.1,10.8,11.3,9.7,11.2,12.0,5.7,12.5,12.9,14.0,11.1,12.2,9.7,12.5,13.1,9.3,10.0,12.1,13.5,10.2,12.3,11.2,17.8,11.3,3.7</Response>
+  <Response Label="Don't know ">65.1,60.9,68.5,66.9,66.5,63.4,82.8,62.5,60.3,55.9,70.4,59.7,64.5,65.8,63.9,72.2,68.7,61.0,58.8,67.4,62.3,59.6,54.5,65.5,73.2</Response>
+ </myQuestion>
+ <myQuestion Qid="14" label="Do you have a favorable or unfavorable impression of Felicia Moore?">
+  <Response Label="Favorable ">44.0,47.0,41.6,44.7,38.2,45.9,34.1,36.0,45.2,45.2,51.9,46.6,48.6,40.3,32.8,52.6,32.2,53.4,48.3,43.0,45.8,51.2,52.0,44.6,41.5</Response>
+  <Response Label="Unfavorable">10.1,10.5,9.5,14.0,10.6,7.8,14.8,16.9,15.7,4.3,4.6,9.7,8.1,12.5,9.8,4.6,14.7,10.3,5.4,9.0,13.1,8.0,11.8,9.9,8.5</Response>
+  <Response Label="Don't know ">45.9,42.5,48.8,41.3,51.2,46.3,51.1,47.2,39.1,50.5,43.5,43.7,43.3,47.2,57.4,42.8,53.1,36.3,46.3,48.0,41.1,40.7,36.3,45.5,50.0</Response>
+ </myQuestion>
+ <myQuestion Qid="15" label="Do you have a favorable or unfavorable impression of Kasim Reed">
+  <Response Label="Favorable ">33.6,30.4,36.2,47.9,37.6,24.2,46.0,48.3,37.9,30.1,29.0,26.8,17.9,54.5,23.3,26.3,34.9,38.1,32.0,23.9,35.2,54.0,32.7,35.8,14.5</Response>
+  <Response Label="Unfavorable">43.9,47.2,41.2,33.9,37.1,52.3,26.4,27.0,39.7,49.5,47.7,55.2,55.0,29.3,51.7,30.9,44.5,48.4,49.0,49.4,47.5,32.3,48.5,41.5,62.7</Response>
+  <Response Label="Don't know ">22.4,22.3,22.6,18.2,25.3,23.5,27.6,24.7,22.4,20.4,23.4,18.0,27.1,16.2,25.0,42.8,20.5,13.5,19.0,26.7,17.4,13.7,18.8,22.7,22.9</Response>
+ </myQuestion>
+ <myQuestion Qid="16" label="Kasim Reed was mayor of Atlanta from 2010 to 2018 and is currently running for mayor again this November. In an ongoing federal investigation, a number of officials from his previous mayoral administration have been indicted on corruption charges. Does this fact make you less likely to vote for Kasim Reed as mayor, or does it have no effect on your vote?">
+  <Response Label="Less likely">61.2,64.3,58.6,37.4,65.9,72.4,24.1,45.5,60.0,66.7,76.9,73.9,84.5,33.5,55.0,67.8,63.2,61.9,51.7,72.6,58.5,47.2,65.3,58.5,80.5</Response>
+  <Response Label="No effect">33.7,32.0,34.9,53.2,28.8,24.9,59.8,54.5,37.4,28.0,22.2,24.4,14.4,57.7,31.7,25.7,32.0,35.4,40.8,24.4,33.9,48.4,32.7,35.5,18.3</Response>
+  <Response Label="Don't know ">5.2,3.7,6.5,9.4,5.3,2.8,16.1,0.0,2.6,5.4,0.9,1.7,1.2,8.8,13.3,6.6,4.8,2.7,7.5,3.0,7.6,4.3,2.0,6.1,1.2</Response>
+ </myQuestion>
+</docbase>
