@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$.ajax({
 		type: "GET",
-		url: "sept2021-poll.xml", // TODO: Update with infile from settings
+		url: "oct2021-poll.xml", // TODO: Update with infile from settings
 		dataType: "xml",
 		success: parseQuestions
 	});
