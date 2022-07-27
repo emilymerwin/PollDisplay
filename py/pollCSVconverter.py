@@ -22,9 +22,6 @@ def checkstring(n):
 		dec = round(decimal.Decimal(n)*100,1)
 		return str(dec)
 
-# def fixChars(myStr):
-# 	mycharlist = {"Õ":"\'"}
-	
 with open(infile, 'rU', encoding='latin-1') as data:
 	reader = csv.reader(data, dialect='excel')
 	next(reader)

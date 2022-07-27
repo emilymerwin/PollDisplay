@@ -12,6 +12,8 @@
   
 ### Creating the graphic (Emily DiRico usually does this)
 - Open file from Isaac in Excel. Double check that the numbers are strings (format --> normal in Google Sheets, or [select columns] --> [right click] --> `Format Cells...` --> `General` in Excel). Save as CSV in new folder for your poll (`data/[monthYear]/`)
+- if you haven't set this up before, create a virtual environment for this project (`$ virtualenv venv`)
+- activate your virtualenv `$ source venv/bin/activate` (when you are finished using python, run `$ deactivate`)
 - Open `py/pollCSVconverter.py`, replace `infile` and `outfile` (lines 7 and 8) and run the script ( `cmd` + `shift` + `r` from the open file in textmate, or from your console cd into the `py` directory and run `python pollCSVconverter.py`)
 - Open `dist/poll.js` in a text editor.
     * Replace the URL on line 4 with your new data file
