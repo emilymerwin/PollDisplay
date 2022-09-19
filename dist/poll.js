@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$.ajax({
 		type: "GET",
-		url: "july2022-poll.xml", // TODO: Update with infile from settings
+		url: "sept2022-poll.xml", // TODO: Update with infile from settings
 		dataType: "xml",
 		success: parseQuestions
 	});
@@ -12,7 +12,7 @@ function parseQuestions(xml){
 	//setup the radio button filters
 	// labelArr = ["Total", "Men", "Women", "Democrats", "Republicans", "Independents", "Support Deal", "Support Carter", "Whites", "Non-whites", "18-39", "40-64", "65+", "Under $50k", "$50k-$100k", "$100k or more", "Have children", "No children", "Atlanta metro", "Atlanta exurbs"];
     // labelArr = ["Total", "Democrat", "Republican", "Independent", "White", "Black", "North Ga.", "Atlanta Exurbs", "Atlanta Metro", "Southeast Ga.", "Southwest Ga."];
-		labelArr = ["Total","Male","Female","High School or less","Some college","College graduate","Under $25,000","$25-49,999","$50-74,999","$75-99,999","$100-149,999","Over $150,000","White","Black","Other race","18-29","30-44","45-64","65+","Liberal","Moderate","Conservative","Democrat","Republican","Independent"];
+		labelArr = ["Total","Male","Female","High School or less","Some college","College graduate","Under $25,000","$25-49,999","$50-74,999","$75-99,999","$100-149,999","Over $150,000","White","Black","Other race","18-29","30-44","45-64","65+","Liberal","Moderate","Conservative","Republican","Democrat","Independent"];
 
 	for(var i=0; i<labelArr.length; i++){
 		buttonHTML += '<label class="btn btn-default"><input type="radio" name="radio" value='+i+' id="radio'+i+'"> '+labelArr[i]+'</label>';
