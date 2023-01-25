@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+# coding=latin-1>
 # NOTE: This code is python 3 - change the path above if your path to python 3 is different
 import csv
 from xml.dom.minidom import Document
@@ -22,7 +23,7 @@ def checkstring(n):
 		dec = round(decimal.Decimal(n)*100,1)
 		return str(dec)
 
-with open(infile, 'rU', encoding='latin-1') as data:
+with open(infile, 'rU') as data:
 	reader = csv.reader(data, dialect='excel')
 	next(reader)
 	for row in reader:
