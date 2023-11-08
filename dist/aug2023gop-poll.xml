@@ -1,0 +1,169 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="If the 2024 Republican primary for president were being held today, for whom would you vote?">
+  <Response Label="Donald Trump">56.5,54.5,57.9,68.5,64.1,39.0,63.2,76.0,57.0,57.5,60.8,35.5,56.8,47.2,59.2,44.3,55.4,59.8,30.0,40.8,59.8,59.6,4.3,36.1</Response>
+  <Response Label="Ron DeSantis ">14.6,16.1,13.2,12.0,13.1,18.5,0.0,12.5,11.7,16.8,9.6,23.5,14.7,11.1,12.2,11.3,17.9,13.9,5.0,14.6,15.3,15.3,0.0,5.6</Response>
+  <Response Label="Mike Pence ">3.6,2.6,4.5,2.2,2.0,5.9,2.6,3.1,3.1,6.2,4.0,3.0,3.5,8.3,0.0,0.0,3.6,5.0,2.5,6.8,3.2,3.6,4.3,5.6</Response>
+  <Response Label="Nikki Haley ">2.5,3.4,1.9,1.9,1.6,3.8,0.0,0.0,3.1,1.8,4.8,4.2,2.5,2.8,10.2,4.1,2.1,1.4,17.5,4.9,1.2,1.5,26.1,8.3</Response>
+  <Response Label="Tim Scott ">2.8,3.1,2.4,0.0,4.4,3.8,2.6,1.0,3.9,3.5,3.2,3.6,2.7,5.6,0.0,5.2,2.9,2.5,0.0,5.8,2.5,2.6,4.3,5.6</Response>
+  <Response Label="Chris Christe ">2.4,3.1,1.7,1.9,0.4,4.5,0.0,1.0,0.8,2.7,1.6,6.0,2.3,2.8,0.0,5.2,2.5,1.9,12.5,7.8,1.1,1.5,21.7,5.6</Response>
+  <Response Label="Asa Hutchinson ">0.1,0.0,0.2,0.0,0.0,0.3,0.0,0.0,0.0,0.0,0.0,0.6,0.1,0.0,0.0,0.0,0.4,0.0,0.0,0.0,0.2,0.1,0.0,0.0</Response>
+  <Response Label="Larry Elder ">0.1,0.3,0.0,0.0,0.0,0.3,0.0,0.0,0.8,0.0,0.0,0.0,0.1,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.2,0.1,0.0,0.0</Response>
+  <Response Label="Will Hurd ">0.2,0.5,0.0,0.0,0.4,0.3,0.0,0.0,0.0,0.0,0.8,0.6,0.3,0.0,0.0,1.0,0.4,0.0,2.5,0.0,0.2,0.0,4.3,2.8</Response>
+  <Response Label="Vivek Ramaswamy ">2.8,4.2,1.7,0.0,1.2,7.0,0.0,0.0,3.9,0.0,2.4,7.2,2.8,2.8,6.1,6.2,2.9,1.9,2.5,5.8,2.5,3.0,0.0,2.8</Response>
+  <Response Label="Francis Suarez ">0.5,0.0,0.9,1.1,0.0,0.3,0.0,0.0,0.0,0.0,2.4,0.6,0.5,0.0,0.0,0.0,0.4,0.8,0.0,1.0,0.5,0.6,0.0,0.0</Response>
+  <Response Label="Undecided">13.9,12.2,15.6,12.4,12.7,16.0,31.6,6.2,15.6,11.5,10.4,15.1,13.6,19.4,12.2,21.6,11.8,12.7,27.5,12.6,13.6,12.0,34.8,27.8</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="(Asked for respondents who report they are voting for Trump). Are you considering voting for other candidates in the primary or are you only considering voting for Donald Trump?">
+  <Response Label="Other candidates ">33.2,34.8,32.1,39.9,24.4,34.8,33.3,28.8,31.5,39.4,34.2,41.4,33.5,29.4,42.9,40.9,36.5,27.8,58.3,50.0,31.7,32.6,0.0,30.8</Response>
+  <Response Label="Only Trump ">63.7,63.3,63.8,59.0,70.6,61.6,66.7,68.5,65.8,57.6,64.5,58.6,63.6,64.7,53.6,54.5,60.3,69.4,33.3,47.6,65.2,64.1,100.0,69.2</Response>
+  <Response Label="Undecided">3.1,1.9,4.1,1.1,5.0,3.6,0.0,2.7,2.7,3.0,1.3,0.0,3.0,5.9,3.6,4.5,3.2,2.8,8.3,2.4,3.1,3.2,0.0,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="(Asked for respondents who report they are voting for a candidate other than Trump). Are you considering voting for Donald Trump in the primary or are you not considering voting for Donald Trump in the primary?">
+  <Response Label="Considering Trump ">28.3,24.6,32.1,29.4,43.1,21.7,100.0,41.2,25.7,25.7,27.0,23.5,29.1,16.7,26.7,15.6,33.0,29.6,0.0,6.4,36.4,32.0,0.0,8.3</Response>
+  <Response Label="Not considering Trump ">64.5,68.3,60.7,66.7,48.3,70.5,0.0,52.9,65.7,68.6,70.3,66.7,63.9,75.0,46.7,81.2,62.6,62.2,100.0,85.1,56.1,59.7,100.0,91.7</Response>
+  <Response Label="Undecided">7.2,7.1,7.1,3.9,8.6,7.8,0.0,5.9,8.6,5.7,2.7,9.9,7.0,8.3,26.7,3.1,4.4,8.2,0.0,8.5,7.5,8.3,0.0,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="If the Republican party primary were down to two choices, Ron DeSantis and Donald Trump, who would you choose to run for president in 2024 among the two?">
+  <Response Label="Trump">60.4,57.1,63.4,69.9,67.2,46.0,84.6,74.7,59.8,60.2,65.1,40.0,60.4,60.0,62.5,46.9,61.1,62.9,35.0,43.7,63.9,63.0,4.5,47.2</Response>
+  <Response Label="DeSantis">27.4,31.2,23.9,19.5,22.0,39.0,5.1,15.8,26.0,30.1,24.6,44.8,27.4,25.7,29.2,37.5,29.3,23.8,40.0,40.8,25.1,26.2,68.2,25.0</Response>
+  <Response Label="Undecided">12.2,11.7,12.8,10.5,10.8,15.0,10.3,9.5,14.2,9.7,10.3,15.2,12.2,14.3,8.3,15.6,9.6,13.3,25.0,15.5,10.9,10.8,27.3,27.8</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="Regardless of whether you currently support Donald Trump, which of the following statements comes closest to your view about which Republican has the best chance to win in 2024: Donald Trump is definitely the strongest candidate to beat Joe Biden, Donald Trump is probably the strongest candidate to beat Joe Biden, another Republican would probably be a stronger candidate than Trump, or another Republican would definitely be a stronger candidate than Trump?">
+  <Response Label="Trump definitely the strongest">50.0,45.1,54.5,60.8,56.0,35.2,63.2,64.6,46.9,45.1,59.2,28.0,50.3,45.7,55.1,32.3,48.2,55.5,27.5,37.3,52.8,52.3,27.3,27.8</Response>
+  <Response Label="Trump probably the strongest">19.2,16.9,21.3,17.4,22.8,18.1,26.3,19.8,22.7,21.2,14.4,21.3,19.5,14.3,22.4,21.9,17.9,19.6,12.5,21.6,19.4,19.9,0.0,25.0</Response>
+  <Response Label="Another Republican would probably be stronger">12.9,14.6,11.4,5.3,13.2,19.2,7.9,3.1,20.3,16.8,11.2,18.3,12.7,17.1,16.3,15.6,16.8,9.1,32.5,13.7,11.7,11.9,27.3,19.4</Response>
+  <Response Label="Another Republican would definitely be stronger">12.1,14.8,9.5,7.5,5.2,22.3,2.6,5.2,7.8,14.2,9.6,22.0,11.7,20.0,4.1,20.8,12.5,10.8,25.0,23.5,9.8,10.5,45.5,25.0</Response>
+  <Response Label="Undecided">5.8,8.6,3.3,9.1,2.8,5.2,0.0,7.3,2.3,2.7,5.6,10.4,5.8,2.9,2.0,9.4,4.6,5.0,2.5,3.9,6.3,5.5,0.0,2.8</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="Do you think abortion should be legal in all cases, legal in most cases, illegal in most cases, or illegal in all cases?">
+  <Response Label="Legal in all	">5.9,5.7,6.2,5.2,5.2,7.3,5.1,4.1,4.7,4.4,10.4,7.3,5.7,11.1,16.3,4.1,6.1,4.7,32.5,9.7,3.7,4.3,45.5,10.8</Response>
+  <Response Label="Legal in most">20.8,19.2,22.3,16.9,21.1,24.7,15.4,23.7,19.4,20.4,21.6,24.8,21.0,16.7,12.2,28.6,24.6,18.0,42.5,41.7,16.0,19.2,45.5,40.5</Response>
+  <Response Label="Illegal in most">45.7,49.5,42.2,43.4,45.4,47.7,38.5,40.2,44.2,52.2,46.4,49.7,45.8,44.4,40.8,43.9,45.4,47.4,20.0,27.2,50.2,47.9,9.1,27.0</Response>
+  <Response Label="Illegal in all">18.6,15.8,21.3,22.8,20.7,12.5,35.9,22.7,25.6,14.2,19.2,10.3,18.7,16.7,24.5,16.3,15.4,21.3,0.0,8.7,21.4,19.9,0.0,13.5</Response>
+  <Response Label="Undecided">8.9,9.8,8.1,11.6,7.6,7.7,5.1,9.3,6.2,8.8,2.4,7.9,8.8,11.1,6.1,7.1,8.6,8.6,5.0,12.6,8.6,8.7,0.0,8.1</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="Do you support or oppose Georgia’s state law banning abortions after about six weeks of pregnancy?">
+  <Response Label="Strongly support">52.7,50.5,54.5,56.7,54.8,46.5,73.7,55.8,51.9,49.6,55.6,47.9,52.5,54.3,47.9,45.8,51.6,56.0,10.0,26.2,59.5,55.1,4.5,36.1</Response>
+  <Response Label="Somewhat support">10.1,12.2,8.3,8.6,11.5,10.5,10.5,4.2,8.5,21.2,10.3,10.9,10.2,8.6,20.8,6.2,11.0,9.1,15.0,10.7,9.8,10.3,4.5,11.1</Response>
+  <Response Label="Somewhat oppose">9.1,9.3,9.0,6.0,11.9,9.8,0.0,13.7,11.6,8.0,5.6,9.7,9.2,8.6,8.3,14.6,8.9,8.6,15.0,15.5,7.8,9.0,13.6,13.9</Response>
+  <Response Label="Strongly oppose">20.3,19.9,20.6,18.7,16.7,25.2,15.8,23.2,17.1,18.6,23.0,24.8,20.3,20.0,16.7,25.0,22.1,18.6,60.0,40.8,14.3,17.5,77.3,33.3</Response>
+  <Response Label="Undecided">7.8,8.0,7.6,10.1,5.2,8.0,0.0,3.2,10.9,2.7,5.6,6.7,7.8,8.6,6.2,8.3,6.4,7.8,0.0,6.8,8.5,8.1,0.0,5.6</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="Do you support or oppose a federal law banning abortions after 15 weeks of pregnancy?">
+  <Response Label="Strongly support">53.3,52.3,54.3,57.9,53.2,49.0,57.9,50.5,51.2,64.0,57.1,47.6,53.2,57.1,61.2,49.5,56.1,52.1,22.5,31.1,58.9,56.3,9.1,36.1</Response>
+  <Response Label="Somewhat support">9.3,10.2,8.5,6.4,13.2,9.1,10.5,3.2,11.8,7.9,11.1,16.5,9.3,8.6,18.4,12.4,8.9,8.0,17.5,22.3,6.9,9.2,4.5,19.4</Response>
+  <Response Label="Somewhat oppose">6.3,5.7,6.9,3.8,6.8,8.0,5.3,7.4,4.7,7.0,4.8,7.9,6.6,0.0,0.0,13.4,5.4,6.4,12.5,7.8,5.5,6.1,22.7,5.6</Response>
+  <Response Label="Strongly oppose">23.3,24.5,22.3,21.4,22.0,25.9,18.4,32.6,22.0,20.2,22.2,22.0,23.3,22.9,10.2,14.4,24.3,26.0,40.0,29.1,21.0,21.7,63.6,27.8</Response>
+  <Response Label="Undecided">7.8,7.3,8.1,10.5,4.8,8.0,7.9,6.3,10.2,0.9,4.8,6.1,7.6,11.4,10.2,10.3,5.4,7.5,7.5,9.7,7.7,6.8,0.0,11.1</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="Do you support or oppose allowing gay and lesbian people to marry?">
+  <Response Label="Strongly support">21.7,20.1,23.2,10.5,23.2,30.8,15.8,8.3,14.1,23.0,25.6,33.1,21.9,17.1,52.1,33.7,23.3,14.2,48.7,52.4,15.7,18.8,77.3,44.4</Response>
+  <Response Label="Somewhat support">13.4,12.0,14.7,8.6,14.8,16.4,13.2,12.5,12.5,19.5,8.8,16.3,13.5,11.4,4.2,17.9,14.0,13.1,5.1,12.6,14.0,14.2,0.0,13.9</Response>
+  <Response Label="Somewhat oppose">6.8,6.8,6.9,6.4,9.2,5.2,0.0,5.2,12.5,5.3,8.8,4.2,7.0,2.9,4.2,12.6,5.7,5.8,5.1,9.7,6.6,7.0,0.0,0.0</Response>
+  <Response Label="Strongly oppose">41.2,41.7,40.7,56.2,36.8,30.8,55.3,54.2,50.8,39.8,39.2,26.5,40.6,51.4,33.3,23.2,39.1,48.9,23.1,13.6,45.6,43.5,4.5,27.8</Response>
+  <Response Label="Undecided">17.0,19.5,14.7,18.4,16.0,16.8,15.8,19.8,10.2,12.4,17.6,19.9,17.1,17.1,6.2,12.6,17.9,18.1,17.9,11.7,18.0,16.4,18.2,13.9</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="Do you support or oppose providing additional economic and military support to Ukraine?">
+  <Response Label="Strongly support">20.6,21.2,20.1,21.7,15.6,24.0,34.2,12.6,15.7,15.9,27.2,24.2,20.2,27.8,30.6,10.5,17.6,24.7,37.5,35.9,17.5,19.3,63.6,28.6</Response>
+  <Response Label="Somewhat support">16.7,16.1,17.3,9.7,18.4,21.3,10.5,20.0,22.8,15.9,13.6,18.2,17.0,11.1,14.3,15.8,18.3,16.4,22.5,18.4,16.5,17.1,13.6,14.3</Response>
+  <Response Label="Somewhat oppose">9.8,11.4,8.3,6.4,11.2,11.8,7.9,6.3,7.9,17.7,9.6,9.7,9.8,8.3,20.4,7.4,10.4,8.9,7.5,3.9,11.1,10.3,4.5,2.9</Response>
+  <Response Label="Strongly oppose">42.9,42.2,43.4,50.2,43.2,36.2,39.5,50.5,45.7,38.9,40.8,41.2,42.7,47.2,28.6,52.6,47.7,39.4,22.5,33.0,44.8,44.1,0.0,48.6</Response>
+  <Response Label="Undecided">10.0,9.1,10.9,12.0,11.6,6.6,7.9,10.5,7.9,11.5,8.8,6.7,10.2,5.6,6.1,13.7,6.1,10.6,10.0,8.7,10.2,9.1,18.2,5.7</Response>
+ </myQuestion>
+ <myQuestion Qid="10" label="Do you support or oppose a comprehensive immigration reform bill that provides a pathway to citizenship for all undocumented immigrants currently living in the United States?">
+  <Response Label="Strongly support">20.1,17.2,17.5,12.0,14.0,24.7,25.6,9.4,13.3,10.6,19.8,27.9,17.1,22.2,16.0,25.0,21.0,13.3,27.5,38.5,13.6,14.6,39.1,38.9</Response>
+  <Response Label="Somewhat support">17.3,13.3,17.3,10.9,14.8,20.2,0.0,15.6,17.2,20.4,15.9,18.2,15.4,13.9,18.0,27.1,18.5,9.4,25.0,22.1,14.0,15.3,26.1,16.7</Response>
+  <Response Label="Somewhat oppose">8.3,10.9,12.1,12.0,13.6,9.4,0.0,16.7,14.1,17.7,9.5,9.7,11.5,13.9,26.0,11.5,10.3,10.5,20.0,11.5,10.6,12.0,26.1,2.8</Response>
+  <Response Label="Strongly oppose">43.4,53.6,44.8,56.4,52.0,39.7,53.8,49.0,51.6,47.8,49.2,42.4,49.0,47.2,20.0,32.3,44.5,61.2,27.5,20.2,55.1,51.2,8.7,36.1</Response>
+  <Response Label="Undecided">10.9,4.9,8.3,8.6,5.6,5.9,20.5,9.4,3.9,3.5,5.6,1.8,6.9,2.8,20.0,4.2,5.7,5.5,0.0,7.7,6.6,6.8,0.0,5.6</Response>
+ </myQuestion>
+ <myQuestion Qid="11" label="Which of these two Republicans would you be more likely to support in a Republican primary for president: A candidate who focuses on defeating radical “woke” ideology in our schools, media and culture, or a candidate who focuses on restoring law and order in our streets and at the border.">
+  <Response Label="Defeating woke ideology">18.5,17.2,19.7,19.2,18.7,17.8,34.2,20.8,20.3,24.8,15.1,18.8,18.5,20.0,36.7,24.0,17.5,15.8,10.0,16.5,19.4,18.8,13.6,22.2</Response>
+  <Response Label="Restoring law and order">65.3,65.1,65.6,62.4,67.7,66.2,42.1,70.8,68.0,66.4,67.5,66.7,65.3,65.7,59.2,63.5,66.1,66.8,80.0,70.9,63.1,66.3,77.3,55.6</Response>
+  <Response Label="Undecided">16.2,17.7,14.7,18.4,13.5,16.0,23.7,8.3,11.7,8.8,17.5,14.5,16.2,14.3,4.1,12.5,16.4,17.5,10.0,12.6,17.4,14.9,9.1,22.2</Response>
+ </myQuestion>
+ <myQuestion Qid="12" label="Do you believe there was widespread voter fraud in the 2020 presidential election, or not?">
+  <Response Label="Yes">61.0,56.4,65.0,63.9,71.2,49.5,71.1,74.0,71.9,52.6,61.9,45.5,60.9,64.7,46.9,51.6,62.6,63.6,41.5,30.1,66.3,63.2,22.7,42.9</Response>
+  <Response Label="No">30.6,34.8,26.7,26.7,20.8,42.9,18.4,17.7,24.2,36.8,27.8,46.7,30.6,29.4,53.1,36.8,28.8,28.1,58.5,62.1,24.5,28.0,77.3,51.4</Response>
+  <Response Label="Undecided">8.5,8.8,8.3,9.4,8.0,7.7,10.5,8.3,3.9,10.5,10.3,7.9,8.5,5.9,0.0,11.6,8.5,8.3,0.0,7.8,9.2,8.8,0.0,5.7</Response>
+ </myQuestion>
+ <myQuestion Qid="13" label="As you may know, Donald Trump has been indicted by a federal grand jury and a Fulton County grand jury on charges related to efforts to overturn the 2020 election. Do you think the charges against Donald Trump in these cases are: ">
+  <Response Label="Very serious">26.7,28.1,25.5,26.1,23.1,30.1,13.5,18.8,24.4,28.1,27.8,30.5,26.7,25.7,30.0,32.3,25.0,26.0,72.5,35.9,21.7,24.0,90.9,45.7</Response>
+  <Response Label="Somewhat serious">22.5,24.2,21.0,18.7,25.9,23.4,18.9,28.1,29.9,22.8,16.7,23.2,22.8,14.3,12.0,16.7,21.1,27.1,10.0,21.4,23.4,23.7,0.0,14.3</Response>
+  <Response Label="Not too serious">12.7,13.5,12.1,12.7,13.9,11.5,10.8,4.2,9.4,14.0,17.5,14.0,12.7,11.4,14.0,9.4,15.7,11.4,7.5,9.7,13.6,13.5,0.0,8.6</Response>
+  <Response Label="Not serious at all">31.0,28.8,32.9,31.3,32.7,29.4,32.4,29.2,31.5,29.8,33.3,29.3,30.8,37.1,26.0,34.4,35.0,27.7,7.5,29.1,33.3,32.1,4.5,31.4</Response>
+  <Response Label="Undecided">7.1,5.5,8.5,11.2,4.4,5.6,24.3,19.8,4.7,5.3,4.8,3.0,7.0,11.4,18.0,7.3,3.2,7.8,2.5,3.9,8.0,6.6,4.5,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="14" label="How big a role, if at all, do you think politics played into the decision to indict Trump in Georgia?">
+  <Response Label="Big role">83.7,85.7,81.8,86.2,86.1,78.7,78.9,89.6,86.7,83.2,80.0,80.0,84.2,71.4,51.0,75.8,86.4,87.5,45.0,61.2,89.2,86.9,9.1,61.1</Response>
+  <Response Label="Somewhat of a role">10.0,8.1,11.8,7.1,10.4,12.5,21.1,9.4,8.6,11.5,9.6,11.5,10.1,8.6,30.6,14.7,9.3,6.6,20.0,22.3,7.7,9.7,22.7,16.7</Response>
+  <Response Label="No role">4.9,5.2,4.5,4.5,3.2,7.0,0.0,1.0,3.9,4.4,10.4,6.7,4.4,14.3,12.2,8.4,3.6,4.2,32.5,13.6,2.0,2.1,63.6,22.2</Response>
+  <Response Label="Undecided">1.4,1.0,1.9,2.2,0.4,1.7,0.0,0.0,0.8,0.9,0.0,1.8,1.3,5.7,6.1,1.1,0.7,1.7,2.5,2.9,1.1,1.4,4.5,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="15" label="How confident are you that the U.S. Justice Department is handling its investigation of Hunter Biden in a fair and nonpartisan manner? ">
+  <Response Label="Very confident">4.4,5.5,3.3,6.4,2.0,4.9,2.6,4.2,0.8,4.4,10.4,3.6,4.3,5.7,10.2,9.3,2.5,3.9,33.3,7.8,2.2,2.3,65.2,8.3</Response>
+  <Response Label="Somewhat confident">6.8,4.7,8.8,3.4,8.0,9.4,5.3,11.6,7.8,6.1,4.0,10.8,6.6,11.4,18.4,12.4,5.3,5.3,17.9,23.3,3.7,5.5,21.7,25.0</Response>
+  <Response Label="Not so confident">13.3,12.2,14.2,14.6,12.4,12.8,21.1,10.5,17.1,14.9,8.8,12.7,13.6,5.7,20.4,14.4,12.5,13.1,10.3,10.7,14.2,14.4,0.0,5.6</Response>
+  <Response Label="Not confident at all">72.6,75.3,70.4,73.0,75.7,69.4,71.1,73.7,69.8,69.3,73.6,71.7,72.7,71.4,40.8,59.8,76.5,76.1,33.3,55.3,77.4,75.1,8.7,58.3</Response>
+  <Response Label="Undecided">2.9,2.3,3.3,2.6,2.0,3.5,0.0,0.0,4.7,5.3,3.2,1.2,2.8,5.7,10.2,4.1,3.2,1.7,5.1,2.9,2.6,2.6,4.3,2.8</Response>
+ </myQuestion>
+ <myQuestion Qid="16" label="How concerned are you that the criminal indictments against Donald Trump would make him a weaker candidate against Joe Biden in the general election? ">
+  <Response Label="Very concerned">13.1,16.1,10.4,12.0,11.2,15.6,15.8,12.5,9.4,8.8,10.4,17.0,13.0,17.1,0.0,13.4,12.9,14.4,7.5,11.8,13.2,13.5,13.0,8.1</Response>
+  <Response Label="Somewhat concerned">22.5,20.5,24.2,20.3,28.8,18.8,13.2,18.8,26.8,20.4,24.0,23.6,22.7,17.1,24.0,18.6,24.3,22.2,32.5,22.5,22.0,22.6,34.8,16.2</Response>
+  <Response Label="Not too concerned">20.2,19.7,20.6,19.5,20.0,21.2,21.1,17.7,21.3,23.0,21.6,19.4,20.1,22.9,28.0,28.9,18.9,18.6,7.5,18.6,20.9,20.6,8.7,21.6</Response>
+  <Response Label="Not at all concerned">42.0,40.8,42.9,45.5,40.0,40.6,50.0,47.9,39.4,45.1,43.2,37.6,42.2,37.1,44.0,39.2,42.5,42.1,45.0,43.1,42.0,41.8,34.8,54.1</Response>
+  <Response Label="Undecided">2.3,2.9,1.9,2.6,0.0,3.8,0.0,3.1,3.1,2.7,0.8,2.4,2.1,5.7,4.0,0.0,1.4,2.8,7.5,3.9,1.8,1.5,8.7,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="17" label="If all other things were equal, would you vote for a political candidate who has been convicted of a felony crime by a jury?">
+  <Response Label="Yes">40.6,44.5,36.9,44.4,45.0,33.3,76.9,44.8,42.2,40.7,39.7,36.6,41.0,31.4,40.0,36.5,42.5,41.3,27.5,33.3,41.8,41.9,18.2,42.9</Response>
+  <Response Label="No">37.1,37.5,36.9,30.5,34.7,45.1,7.7,35.4,36.7,31.9,39.7,45.7,36.8,42.9,46.0,46.9,37.5,33.0,62.5,52.0,33.7,35.1,77.3,48.6</Response>
+  <Response Label="Undecided">22.3,18.0,26.2,25.2,20.3,21.5,15.4,19.8,21.1,27.4,20.6,17.7,22.2,25.7,14.0,16.7,20.0,25.8,10.0,14.7,24.5,23.1,4.5,8.6</Response>
+ </myQuestion>
+ <myQuestion Qid="18" label="Do you think that Donald Trump behaved appropriately or not by calling officials in Georgia to ask them to change the 2020 election outcome in the state?">
+  <Response Label="Yes, behaved appropriately">31.5,33.3,30.0,33.3,36.4,25.8,60.5,48.4,37.5,24.8,35.4,21.8,31.1,40.0,44.0,30.2,34.2,29.2,17.5,20.4,34.2,32.8,4.5,27.0</Response>
+  <Response Label="No, did not behave appropriately ">41.2,41.1,41.1,32.6,40.0,50.2,15.8,32.6,35.2,50.4,47.2,51.5,41.5,34.3,36.0,43.8,39.9,42.2,65.0,64.1,36.8,38.6,90.9,51.4</Response>
+  <Response Label="Undecided">27.3,25.5,28.8,34.1,23.6,24.0,23.7,18.9,27.3,24.8,17.3,26.7,27.5,25.7,20.0,26.0,26.0,28.6,17.5,15.5,29.0,28.6,4.5,21.6</Response>
+ </myQuestion>
+ <myQuestion Qid="19" label="How much do you agree or disagree with the following statement: I have already made up my mind about whether Donald Trump is guilty or innocent when it comes to the events of January 6th. ">
+  <Response Label="Strongly agree">63.9,60.0,67.5,72.7,61.8,58.0,84.2,75.8,65.4,54.0,70.6,52.7,63.4,74.3,61.2,50.0,63.6,68.1,77.5,54.4,64.2,63.2,78.3,66.7</Response>
+  <Response Label="Somewhat agree">6.9,6.8,7.1,5.2,8.8,7.0,2.6,4.2,11.8,15.0,2.4,9.1,7.0,5.7,14.3,9.4,6.1,6.1,7.5,8.7,6.9,7.4,4.3,2.8</Response>
+  <Response Label="Somewhat disagree">12.0,10.4,13.5,8.6,14.3,12.9,5.3,10.5,16.5,8.8,10.3,15.2,12.2,8.6,12.2,17.7,11.1,11.7,15.0,13.6,11.8,11.7,8.7,11.1</Response>
+  <Response Label="Strongly disagree">11.2,14.8,7.8,6.7,10.4,15.7,2.6,7.4,4.7,12.4,11.1,17.6,11.3,8.6,8.2,16.7,13.2,8.1,0.0,19.4,10.8,11.4,4.3,16.7</Response>
+  <Response Label="Undecided">6.0,8.1,4.0,6.7,4.8,6.3,5.3,2.1,1.6,9.7,5.6,5.5,6.1,2.9,4.1,6.2,6.1,6.1,0.0,3.9,6.3,6.2,4.3,2.8</Response>
+ </myQuestion>
+ <myQuestion Qid="20" label="All in all, do you think things in the nation are generally headed in the right direction, or do you think things are off on the wrong track?">
+  <Response Label="Headed in the right direction">3.3,2.3,4.3,1.1,3.2,5.6,0.0,4.2,1.6,5.3,4.0,4.2,3.2,5.6,8.2,6.2,3.2,2.2,7.5,14.6,1.4,2.2,22.7,13.9</Response>
+  <Response Label="Off on the wrong track">93.7,93.8,93.8,94.4,96.8,90.3,100.0,92.6,96.1,92.1,94.4,90.9,94.0,88.9,85.7,90.6,94.6,95.6,75.0,77.7,97.2,96.1,54.5,80.6</Response>
+  <Response Label="Mixed">1.5,2.3,0.7,1.9,0.0,2.8,0.0,0.0,0.8,2.6,0.8,4.2,1.4,2.8,4.1,3.1,1.4,0.8,10.0,4.9,0.5,1.0,18.2,2.8</Response>
+  <Response Label="Undecided">1.4,1.6,1.2,2.6,0.0,1.4,0.0,3.2,1.6,0.0,0.8,0.6,1.3,2.8,2.0,0.0,0.7,1.4,7.5,2.9,0.9,0.7,4.5,2.8</Response>
+ </myQuestion>
+ <myQuestion Qid="21" label="Do you approve or disapprove of the way Joe Biden is handling his job as president? ">
+  <Response Label="Strongly approve">1.6,2.1,1.2,1.9,0.8,2.1,0.0,1.1,0.8,1.8,4.0,1.8,1.4,5.9,10.2,2.1,1.4,0.6,17.1,3.9,0.3,0.6,36.4,0.0</Response>
+  <Response Label="Somewhat approve">3.3,2.9,3.6,2.2,2.0,5.2,0.0,3.2,3.9,1.8,4.0,6.0,3.1,5.9,2.0,9.4,2.1,2.8,19.5,15.5,0.5,1.5,36.4,22.9</Response>
+  <Response Label="Somewhat disapprove">5.1,5.2,5.0,4.1,4.8,6.3,5.3,6.3,3.9,7.0,7.1,4.2,5.2,2.9,14.3,10.4,4.6,2.8,22.0,7.8,3.7,4.6,18.2,2.9</Response>
+  <Response Label="Strongly disapprove">88.9,88.5,89.3,91.8,90.8,84.6,94.7,88.4,90.6,87.7,84.9,87.3,89.4,82.4,69.4,77.1,90.7,93.4,41.5,71.8,94.5,92.3,9.1,74.3</Response>
+  <Response Label="Undecided">1.1,1.3,0.9,0.0,1.6,1.7,0.0,1.1,0.8,1.8,0.0,0.6,0.9,2.9,4.1,1.0,1.1,0.6,0.0,1.0,1.1,1.1,0.0,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="22" label="Do you approve or disapprove of the way Brian Kemp is handling his job as governor? ">
+  <Response Label="Strongly approve">49.4,54.7,44.7,46.1,44.0,57.1,34.2,37.9,53.9,53.1,42.1,64.2,49.5,45.7,25.0,40.6,49.3,55.7,20.0,55.9,50.8,50.9,8.7,35.1</Response>
+  <Response Label="Somewhat approve">30.3,27.9,32.6,25.1,38.4,27.9,21.1,33.7,28.1,33.6,37.3,26.1,30.3,28.6,39.6,43.8,34.3,23.3,47.5,31.4,28.8,30.1,47.8,32.4</Response>
+  <Response Label="Somewhat disapprove">5.3,4.4,5.9,4.9,5.2,5.9,7.9,1.1,6.2,3.5,8.7,3.0,5.3,5.7,4.2,7.3,3.9,5.3,7.5,4.9,4.9,4.6,17.4,10.8</Response>
+  <Response Label="Strongly disapprove">10.3,9.1,11.3,17.2,9.2,4.9,15.8,20.0,5.5,7.1,11.1,4.8,10.1,14.3,12.5,6.2,8.9,11.6,20.0,2.9,10.9,9.7,26.1,18.9</Response>
+  <Response Label="Undecided">4.8,3.9,5.4,6.7,3.2,4.2,21.1,7.4,6.2,2.7,0.8,1.8,4.8,5.7,18.8,2.1,3.6,4.2,5.0,4.9,4.5,4.8,0.0,2.7</Response>
+ </myQuestion>
+ <myQuestion Qid="23" label="Do you approve or disapprove of the way Burt Jones is handling his job as lieutenant governor?">
+  <Response Label="Strongly approve">17.3,20.5,14.2,14.6,16.0,20.8,12.8,8.4,14.8,17.5,16.7,20.9,17.1,20.0,2.0,13.4,18.9,18.5,10.0,15.7,18.3,18.0,9.1,16.2</Response>
+  <Response Label="Somewhat approve">26.3,30.1,22.9,21.0,33.6,25.0,7.7,24.2,31.2,32.5,27.8,27.0,26.2,28.6,30.6,32.0,32.4,20.2,22.5,25.5,26.7,26.2,13.6,32.4</Response>
+  <Response Label="Somewhat disapprove">4.5,4.2,5.0,2.2,4.8,6.6,7.7,2.1,6.2,3.5,5.6,4.3,4.5,5.7,0.0,3.1,5.3,5.0,7.5,4.9,4.3,4.3,4.5,8.1</Response>
+  <Response Label="Strongly disapprove">6.5,6.8,6.1,10.1,4.4,4.9,7.7,10.5,5.5,3.5,4.8,9.8,6.5,8.6,0.0,8.2,9.3,5.2,2.5,6.9,6.6,6.2,9.1,13.5</Response>
+  <Response Label="Undecided">45.4,38.4,51.8,52.1,41.2,42.7,64.1,54.7,42.2,43.0,45.2,38.0,45.7,37.1,67.3,43.3,34.2,51.1,57.5,47.1,44.1,45.3,63.6,29.7</Response>
+ </myQuestion>
+ <myQuestion Qid="24" label="Do you approve or disapprove of the way Brad Raffensperger is handling his job as secretary of state? ">
+  <Response Label="Strongly approve">21.0,23.1,19.1,13.9,19.6,28.9,21.1,15.6,17.2,20.4,16.7,30.3,20.9,25.0,6.1,20.8,19.9,24.3,35.9,44.7,16.9,19.3,45.5,42.9</Response>
+  <Response Label="Somewhat approve">25.0,29.6,20.8,22.2,27.2,25.8,23.7,18.8,25.0,31.9,23.0,28.5,25.0,22.2,22.4,26.0,28.5,22.4,17.9,14.6,27.6,25.2,18.2,17.1</Response>
+  <Response Label="Somewhat disapprove">9.7,8.8,10.4,8.6,12.8,8.0,0.0,14.6,10.9,9.7,9.5,8.5,9.7,8.3,12.2,8.3,11.0,8.0,5.1,10.7,9.2,10.2,0.0,8.6</Response>
+  <Response Label="Strongly disapprove">21.2,19.5,22.9,24.4,21.2,18.5,26.3,30.2,21.9,14.2,22.2,16.4,21.1,25.0,0.0,16.7,22.4,24.6,5.1,9.7,24.0,22.1,0.0,22.9</Response>
+  <Response Label="Undecided">23.1,19.0,26.7,30.8,19.2,18.8,28.9,20.8,25.0,23.9,28.6,16.4,23.3,19.4,59.2,28.1,18.1,20.7,35.9,20.4,22.2,23.2,36.4,8.6</Response>
+ </myQuestion>
+</docbase>
