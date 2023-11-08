@@ -1,5 +1,5 @@
 body {
-	max-width:972px; /*Politically Georgia flatpage well width*/
+	max-width:750px; /* no-right-rail well width as of 11/8/23 */
 }
 .btn {
 	font-size:10px;
@@ -7,7 +7,7 @@ body {
 	text-shadow: none;
 	box-shadow: none;
 	padding: 5px 6px;
-	width:176px;
+	width:147px;
   border-radius: 0;
 
 }
@@ -23,13 +23,13 @@ body {
 }*/
 @media only screen and (max-width: 950px) { 
   .btn { 
-    width: 11%;
+    width: 20%;
   }
   .btn-group {
     width: 100%;
   }
 }
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 749px) { 
   .btn { 
     padding: 5px 15px;
     width: auto;
