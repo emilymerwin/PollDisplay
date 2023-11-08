@@ -1,0 +1,181 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="If the election were held today and the candidates for president were Democrat Joe Biden and Republican Donald Trump, for whom would you vote? ">
+  <Response Label="Joe Biden">43.5,35.7,49.9,31.9,43.0,53.3,58.4,35.8,46.5,50.0,38.8,41.7,27.2,78.4,45.9,64.2,42.6,35.0,44.2,83.9,54.3,15.6,2.3,92.9,29.6</Response>
+  <Response Label="Donald Trump">45.4,53.6,38.7,62.3,43.7,32.5,31.2,52.0,43.0,40.1,53.3,40.1,61.8,11.7,36.5,22.3,42.6,55.3,48.2,7.2,24.4,76.7,90.1,2.6,33.3</Response>
+  <Response Label="Other">2.5,2.5,2.5,2.2,1.0,4.2,0.0,2.7,0.5,3.9,2.4,4.3,2.7,1.0,8.1,1.4,4.7,1.9,2.0,2.1,5.6,1.1,1.4,1.2,8.3</Response>
+  <Response Label="Would not vote">2.2,2.5,2.0,0.0,3.6,2.9,0.0,0.0,2.5,2.6,4.2,3.2,2.7,1.4,1.4,0.0,3.8,2.9,1.2,1.7,3.6,1.9,2.0,0.7,8.3</Response>
+  <Response Label="Don't know">2.2,5.8,6.8,3.5,8.7,7.1,10.4,9.5,7.5,3.3,1.2,10.7,5.7,7.6,8.1,12.2,6.4,4.9,4.4,5.1,12.2,4.7,4.3,2.6,20.4</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="If the election were held today and the candidates for president were Democrat Joe Biden and Republican Ron DeSantis, for whom would you vote? ">
+  <Response Label="Joe Biden">43.4,36.1,49.3,33.2,43.5,51.8,59.2,36.5,46.2,46.4,40.6,42.2,26.1,79.7,48.6,65.1,40.2,35.4,43.4,84.3,55.3,14.6,1.4,93.9,26.9</Response>
+  <Response Label="Ron DeSantis">41.8,48.9,36.2,55.0,38.6,33.7,25.0,37.2,44.2,44.4,49.1,38.0,58.9,6.5,33.8,14.1,43.2,50.0,47.0,8.9,21.3,69.8,82.8,1.9,35.2</Response>
+  <Response Label="Other">4.8,5.6,4.0,3.8,5.8,4.5,2.6,13.5,1.5,2.0,5.5,5.9,5.8,2.7,2.7,4.7,4.3,6.8,3.6,1.0,8.6,5.5,7.5,0.7,10.2</Response>
+  <Response Label="Would not vote">1.9,3.1,0.9,1.6,2.6,1.6,0.0,0.7,1.5,1.3,1.8,4.3,2.2,1.0,2.7,0.0,3.4,2.3,1.2,0.3,1.0,2.3,1.8,0.5,3.7</Response>
+  <Response Label="Don't know">8.1,6.3,9.7,6.4,9.4,8.4,13.2,12.2,6.5,5.9,3.0,9.6,6.9,10.0,12.2,16.1,9.0,5.5,4.8,5.5,13.7,7.8,6.6,3.1,24.1</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="If the election were held today and the candidates for president were Democrat Joe Biden and Republican Nikki Haley, for whom would you vote? ">
+  <Response Label="Joe Biden">40.9,34.5,45.9,34.6,38.3,48.0,59.2,39.5,43.7,41.8,36.1,38.2,25.0,75.3,40.5,59.5,38.9,33.7,41.4,80.1,50.0,13.9,1.8,88.5,22.2</Response>
+  <Response Label="Nikki Haley">43.4,47.8,40.0,51.9,42.2,37.3,28.9,39.5,45.7,45.1,49.4,41.4,58.0,11.6,43.2,28.4,38.0,51.5,47.8,10.3,28.8,69.8,83.3,4.9,36.1</Response>
+  <Response Label="Other">4.5,6.7,2.7,5.8,4.2,3.7,2.6,10.9,2.5,2.0,4.2,6.5,5.2,2.4,6.8,0.0,9.0,4.9,2.0,0.3,4.5,5.9,5.4,0.9,11.1</Response>
+  <Response Label="Would not vote">1.9,2.7,1.1,1.3,2.3,2.1,0.0,0.0,2.5,1.3,3.0,2.2,2.5,0.7,1.4,0.0,3.8,1.6,1.2,0.3,2.5,2.7,2.0,0.2,7.4</Response>
+  <Response Label="Don't know">9.4,8.3,10.3,6.4,13.0,8.9,9.2,10.2,5.5,9.8,7.2,11.8,9.3,9.9,8.1,12.2,10.3,8.4,7.6,8.9,14.1,7.6,7.4,5.4,23.1</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="Do you think things in the nation are generally headed in the right direction, or do you think things are off on the wrong track?">
+  <Response Label="Right direction">22.2,21.3,22.8,15.7,20.5,28.9,14.5,23.8,18.1,28.1,22.4,23.0,14.8,39.9,16.2,18.8,19.1,19.2,30.0,43.5,31.8,5.7,0.9,47.1,14.8</Response>
+  <Response Label="Wrong track">69.7,73.5,66.7,81.7,67.8,61.7,75.0,73.5,70.4,64.1,71.5,66.3,79.4,47.4,74.3,63.8,72.3,75.0,63.6,43.5,54.0,92.0,97.3,42.6,71.3</Response>
+  <Response Label="Mixed">5.8,2.2,8.6,2.6,8.5,6.0,10.5,2.7,9.5,3.9,3.0,7.0,3.5,10.2,8.1,17.4,4.3,3.2,4.4,10.3,9.6,1.5,0.7,7.5,10.2</Response>
+  <Response Label="Don't know">2.3,2.9,1.8,0.0,3.3,3.4,0.0,0.0,2.0,3.9,3.0,3.7,2.4,2.4,1.4,0.0,4.3,2.6,2.0,2.7,4.5,0.8,1.1,2.8,3.7</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="Do you approve or disapprove of the way Joe Biden is handling his job as president? ">
+  <Response Label="Strongly approve">15.9,13.9,17.5,15.7,12.0,19.7,14.3,16.4,12.0,15.7,13.9,17.2,9.3,32.5,6.8,6.8,8.5,15.3,27.6,30.6,23.4,3.8,0.9,34.7,7.3</Response>
+  <Response Label="Somewhat approve">23.6,18.7,27.6,16.3,23.7,29.4,42.9,20.5,21.0,30.1,20.6,22.6,17.3,37.7,23.3,39.9,30.8,18.2,16.0,44.7,26.4,10.1,1.6,46.9,25.7</Response>
+  <Response Label="Somewhat disapprove">10.1,10.6,9.5,7.4,11.4,11.0,10.4,9.6,13.5,10.5,7.3,10.2,9.0,8.9,24.7,15.5,12.0,7.1,8.4,12.0,14.2,7.4,8.4,10.6,12.8</Response>
+  <Response Label="Strongly disapprove">45.8,52.4,40.7,58.0,46.8,34.9,29.9,49.3,48.5,41.2,53.9,40.9,62.3,10.6,42.5,27.0,43.6,55.8,46.4,8.2,24.4,77.2,88.5,3.1,43.1</Response>
+  <Response Label="Don't know">4.6,4.5,4.7,2.6,6.2,5.0,2.6,4.1,5.0,2.6,4.2,9.1,2.2,10.3,2.7,10.8,5.1,3.6,1.6,4.5,11.7,1.5,0.7,4.7,11.0</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="Would you say that you are financially better off now than you were a year ago, about the same, or are you financially worse off now?">
+  <Response Label="Better off">14.3,14.3,14.2,8.7,14.3,18.7,6.6,10.9,10.1,21.7,18.2,16.6,10.0,24.7,9.6,15.4,20.9,9.7,14.1,25.7,17.8,5.1,1.8,26.7,14.8</Response>
+  <Response Label="About the same">35.9,33.2,38.2,27.9,37.1,41.8,25.0,25.2,39.2,37.5,33.9,44.4,30.8,43.8,49.3,38.9,25.6,40.1,39.4,47.3,49.2,24.4,21.4,49.1,38.9</Response>
+  <Response Label="Worse off">48.8,51.6,46.7,63.5,47.9,37.6,68.4,63.9,50.8,39.5,47.9,35.8,58.4,29.8,41.1,43.0,52.6,49.5,46.2,25.0,32.0,70.1,76.1,22.9,46.3</Response>
+  <Response Label="Don't know">1.0,0.9,0.9,0.0,0.7,1.8,0.0,0.0,0.0,1.3,0.0,3.2,0.8,1.7,0.0,2.7,0.9,0.6,0.4,2.1,1.0,0.4,0.7,1.4,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="How important is the issue of jobs and the economy to you?">
+  <Response Label="Very important">85.8,84.5,86.9,90.4,84.4,83.4,96.1,82.3,87.4,86.8,88.5,80.6,84.8,89.7,80.8,75.2,86.8,90.0,83.6,78.1,83.7,90.9,90.5,83.0,84.1</Response>
+  <Response Label="Somewhat important">12.2,12.6,11.9,7.7,12.7,15.5,3.9,12.9,9.5,13.2,10.9,18.3,13.8,9.6,8.2,21.5,10.3,8.7,15.2,19.2,13.3,8.2,7.7,15.4,14.0</Response>
+  <Response Label="Not too important">0.9,0.7,1.1,0.0,2.3,0.5,0.0,0.0,3.0,0.0,0.0,0.5,0.3,0.7,6.8,3.4,0.4,0.6,0.4,2.7,0.0,0.2,0.2,1.7,0.0</Response>
+  <Response Label="Not at all important">0.8,1.8,0.2,1.9,0.0,0.5,0.0,4.8,0.0,0.0,0.6,0.0,0.9,0.0,2.7,0.0,2.6,0.3,0.4,0.0,3.1,0.4,1.4,0.0,1.9</Response>
+  <Response Label="Don't know">0.2,0.4,0.0,0.0,0.6,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.2,0.0,1.4,0.0,0.0,0.3,0.4,0.0,0.0,0.2,0.2,0.0,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="How important is the issue of taxes and government spending to you?">
+  <Response Label="Very important">77.7,80.5,75.4,86.9,77.3,70.5,82.9,81.8,77.5,81.6,78.2,67.9,77.7,79.5,70.3,57.7,76.6,85.1,81.1,58.2,73.7,90.7,90.5,63.3,85.2</Response>
+  <Response Label="Somewhat important">18.5,14.6,21.7,12.1,17.9,24.5,15.8,16.2,17.0,16.4,15.8,26.7,18.5,19.2,16.2,33.6,17.9,13.3,17.7,34.6,24.2,7.2,7.9,30.6,12.0</Response>
+  <Response Label="Not too important">1.9,3.6,0.5,0.3,0.6,4.2,0.0,0.7,1.5,2.0,4.2,3.2,2.4,0.3,4.1,5.4,3.0,1.3,0.0,4.5,1.0,0.6,0.5,3.5,0.9</Response>
+  <Response Label="Not at all important">1.3,1.1,1.6,0.0,3.9,0.3,0.0,0.7,4.0,0.0,1.2,1.1,0.9,0.7,6.8,3.4,2.6,0.3,0.4,2.1,1.0,1.3,0.9,1.6,1.9</Response>
+  <Response Label="Don't know">0.5,0.2,0.7,0.6,0.3,0.5,1.3,0.7,0.0,0.0,0.6,1.1,0.5,0.3,2.7,0.0,0.0,0.0,0.8,0.7,0.0,0.2,0.2,0.9,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="How important is the issue of immigration to you?">
+  <Response Label="Very important">62.3,58.4,65.4,74.6,62.7,52.0,80.3,59.5,66.3,61.8,57.0,53.5,66.1,52.6,68.9,55.4,48.5,68.8,71.2,41.8,42.4,82.9,81.1,44.5,54.1</Response>
+  <Response Label="Somewhat important">25.5,24.9,25.9,16.1,23.4,34.9,15.8,22.3,18.1,30.3,30.9,35.3,21.1,35.7,23.0,24.3,36.6,21.4,19.6,39.0,41.9,11.2,12.4,37.9,28.4</Response>
+  <Response Label="Not too important">7.9,10.1,6.1,4.8,10.4,8.4,1.3,12.8,11.6,5.9,7.3,6.4,9.8,4.5,5.4,18.2,7.7,6.8,4.0,14.7,10.6,3.2,4.7,12.2,5.5</Response>
+  <Response Label="Not at all important">3.2,4.7,2.2,3.2,2.3,4.2,1.3,2.7,4.0,1.3,3.6,3.7,1.9,6.2,2.7,2.0,6.4,2.3,2.4,3.8,3.0,1.9,0.9,4.2,10.1</Response>
+  <Response Label="Don't know">1.1,1.8,0.5,1.3,1.3,0.5,1.3,2.7,0.0,0.7,1.2,1.1,1.1,1.0,0.0,0.0,0.9,0.6,2.8,0.7,2.0,0.8,0.9,1.2,1.8</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="How important is the issue of climate change to you?">
+  <Response Label="Very important">43.2,32.8,51.7,37.6,43.2,48.2,71.4,39.5,49.0,36.6,37.6,40.1,30.8,65.9,60.0,64.2,39.4,36.4,40.0,75.7,42.6,24.5,15.1,73.3,47.2</Response>
+  <Response Label="Somewhat important">21.4,22.7,20.4,18.0,22.1,23.7,3.9,21.1,24.0,22.2,20.0,28.3,20.9,23.5,16.0,20.9,26.3,21.8,18.0,21.9,28.9,18.0,20.1,20.8,22.2</Response>
+  <Response Label="Not too important">15.8,15.3,16.2,20.6,14.0,13.4,14.3,16.3,14.5,21.6,18.2,9.6,20.4,7.2,10.7,5.4,17.4,15.3,20.4,1.7,17.8,23.0,27.8,4.5,13.0</Response>
+  <Response Label="Not at all important">18.5,27.0,11.5,21.9,19.8,14.5,10.4,22.4,11.0,17.6,23.0,21.9,26.3,3.1,13.3,9.5,16.9,23.7,20.8,0.3,10.7,32.3,35.0,1.2,17.6</Response>
+  <Response Label="Don't know">1.1,2.2,0.2,1.9,1.0,0.3,0.0,0.7,1.5,2.0,1.2,0.0,1.6,0.3,0.0,0.0,0.0,2.9,0.8,0.3,0.0,2.1,2.0,0.2,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="10" label="How important is the issue of abortion to you?">
+  <Response Label="Very important">63.0,53.6,70.7,62.5,62.7,63.8,80.3,63.9,70.4,62.1,51.5,53.5,60.6,67.8,64.9,78.5,56.8,57.1,68.8,82.2,47.5,58.1,51.7,78.7,57.4</Response>
+  <Response Label="Somewhat important">20.3,26.2,15.6,22.4,18.8,19.9,14.5,24.5,16.1,13.1,30.9,25.7,21.4,18.8,16.2,18.1,21.6,23.7,14.8,11.0,30.3,22.0,26.4,13.0,20.4</Response>
+  <Response Label="Not too important">9.4,10.8,8.3,10.9,8.8,8.7,3.9,6.1,9.0,15.0,10.9,9.6,10.4,6.5,13.5,3.4,12.7,11.7,6.4,4.8,11.6,12.1,13.5,4.7,11.1</Response>
+  <Response Label="Not at all important">5.1,7.6,3.1,2.2,6.8,6.3,0.0,4.1,4.5,5.2,5.5,9.1,5.4,4.8,4.1,0.0,6.8,5.8,6.0,2.1,6.6,6.6,6.8,2.4,9.3</Response>
+  <Response Label="Don't know">2.1,1.8,2.3,1.9,2.9,1.3,1.3,1.4,0.0,4.6,1.2,2.1,2.2,2.1,1.4,0.0,2.1,1.6,4.0,0.0,4.0,1.3,1.6,1.2,1.9</Response>
+ </myQuestion>
+ <myQuestion Qid="11" label="How important is the issue of foreign policy to you?">
+  <Response Label="Very important">63.5,65.5,62.0,55.0,68.3,66.6,60.5,54.8,62.2,65.4,69.7,64.9,66.9,53.8,72.6,47.7,58.3,64.9,75.6,59.8,58.6,68.5,70.7,57.3,66.7</Response>
+  <Response Label="Somewhat important">29.0,26.7,30.8,34.2,24.9,27.9,35.5,27.4,25.4,32.7,28.5,29.2,27.0,35.6,19.2,43.0,31.5,28.9,18.8,33.7,30.3,25.4,21.6,35.4,24.1</Response>
+  <Response Label="Not too important">5.0,3.8,5.9,7.0,4.2,3.9,3.9,13.0,8.0,0.0,1.2,3.2,4.2,7.2,2.7,9.4,6.0,2.6,4.0,4.5,6.6,4.2,5.4,5.9,0.9</Response>
+  <Response Label="Not at all important">2.0,3.6,0.7,3.8,1.6,0.8,0.0,4.8,3.0,1.3,0.6,2.2,1.6,2.1,5.5,0.0,4.3,2.6,0.8,1.4,3.5,1.7,2.0,0.7,7.4</Response>
+  <Response Label="Don't know">0.6,0.4,0.5,0.0,1.0,0.8,0.0,0.0,1.5,0.7,0.0,0.5,0.3,1.4,0.0,0.0,0.0,1.0,0.8,0.7,1.0,0.2,0.2,0.7,0.9</Response>
+ </myQuestion>
+ <myQuestion Qid="12" label="Congress and the president need to enact a new budget by November 17th or the federal government will shut down. Who will you hold the most responsible if there is a shutdown– President Biden, the Democrats in Congress, or the Republicans in Congress? ">
+  <Response Label="President Biden">20.3,21.5,19.2,26.8,22.7,12.9,10.5,27.0,27.1,17.6,19.4,14.4,26.1,7.9,18.9,19.6,13.2,24.4,20.8,4.8,13.6,32.5,36.9,4.5,15.9</Response>
+  <Response Label="Democrats in Congress">25.6,24.4,26.6,35.1,23.1,19.9,48.7,29.1,18.1,22.2,24.2,24.1,29.4,16.1,31.1,33.8,25.1,24.0,25.6,5.5,13.6,43.5,43.9,7.8,16.8</Response>
+  <Response Label="Republicans in Congress">39.7,36.3,42.3,24.0,43.2,49.9,31.6,33.8,40.2,46.4,38.2,44.4,28.5,63.7,41.9,36.5,37.4,37.7,44.8,75.3,54.5,12.2,7.0,75.8,39.3</Response>
+  <Response Label="Don't know">14.4,17.7,11.9,14.1,11.0,17.3,9.2,10.1,14.6,13.7,18.2,17.1,16.0,12.3,8.1,10.1,24.3,14.0,8.8,14.4,18.2,11.8,12.2,12.0,28.0</Response>
+ </myQuestion>
+ <myQuestion Qid="13" label="How confident are you that the U.S Congress can respond effectively to a crisis?">
+  <Response Label="Very confident">8.0,9.6,6.8,8.7,7.1,8.2,9.2,9.5,4.5,9.2,9.6,6.4,6.3,12.3,6.8,4.7,3.4,10.1,11.6,7.2,6.6,8.4,6.5,11.1,3.7</Response>
+  <Response Label="Somewhat confident">32.8,30.3,34.8,39.7,28.9,30.5,55.3,34.5,35.2,28.1,30.7,21.4,27.6,43.5,35.1,39.2,30.6,26.3,36.0,30.0,29.4,34.8,30.0,37.5,27.8</Response>
+  <Response Label="Not too confident">33.8,30.9,35.9,29.8,35.1,35.8,17.1,32.4,40.2,39.2,30.7,36.4,37.0,26.7,35.1,35.1,38.7,33.1,31.6,38.2,33.5,31.9,35.4,34.9,25.0</Response>
+  <Response Label="Not at all confident">23.2,28.5,19.0,19.9,24.0,25.3,13.2,23.6,19.6,20.9,26.5,31.6,27.1,14.7,23.0,15.5,26.0,28.6,18.8,24.6,25.4,22.8,25.5,16.5,42.6</Response>
+  <Response Label="Don't know">2.2,0.7,3.4,1.9,4.9,0.3,5.3,0.0,0.5,2.6,2.4,4.3,2.0,2.7,0.0,5.4,1.3,1.9,2.0,0.0,5.1,2.1,2.5,0.0,0.9</Response>
+ </myQuestion>
+ <myQuestion Qid="14" label="Which comes closer to your line of thinking: supporting Israel is in the national interest of the United States or supporting Israel is not in the national interest of the United States?">
+  <Response Label="In national interest">66.7,69.9,64.2,67.6,64.9,67.4,45.5,59.5,61.8,78.3,67.7,66.8,77.7,47.9,45.9,34.2,55.3,76.3,85.5,52.6,58.1,78.2,82.8,54.0,58.7</Response>
+  <Response Label="Not in national interest">23.4,21.6,24.8,24.0,21.4,24.2,51.9,27.7,25.6,17.1,22.6,19.3,13.8,40.8,37.8,49.0,25.1,18.2,10.8,36.5,24.7,16.1,9.5,37.0,31.2</Response>
+  <Response Label="Don't know">9.9,8.5,11.0,8.3,13.6,8.4,2.6,12.8,12.6,4.6,9.8,13.9,8.5,11.3,16.2,16.8,19.6,5.5,3.6,10.9,17.2,5.7,7.7,9.0,10.1</Response>
+ </myQuestion>
+ <myQuestion Qid="15" label="How concerned are you that the war between Israel and Hamas will escalate into a wider war in the Middle East?">
+  <Response Label="Very concerned">53.1,51.5,54.3,57.4,56.8,46.6,36.4,58.2,58.8,58.8,46.7,50.0,56.4,47.3,48.6,27.0,46.6,58.4,66.8,51.4,54.0,55.9,60.0,50.6,44.4</Response>
+  <Response Label="Somewhat concerned">35.7,33.6,37.4,33.0,32.5,40.5,53.2,25.3,32.7,32.0,42.4,35.5,34.4,38.7,35.1,65.5,35.0,31.8,26.8,35.6,33.3,35.2,32.5,39.1,31.5</Response>
+  <Response Label="Not so concerned">5.8,6.5,5.4,3.2,5.5,8.2,7.8,7.5,4.0,3.9,5.5,8.1,6.0,5.8,4.1,4.7,7.7,6.2,2.8,7.2,7.1,4.9,4.7,5.4,12.0</Response>
+  <Response Label="Not at all concerned">3.9,6.9,1.4,5.1,2.6,3.9,0.0,4.8,4.0,3.3,4.2,6.5,2.2,5.8,10.8,2.7,8.5,2.3,2.0,4.5,3.5,2.7,2.3,2.8,11.1</Response>
+  <Response Label="Don't know">1.5,1.6,1.4,1.3,2.6,0.8,2.6,4.1,0.5,2.0,1.2,0.0,1.1,2.4,1.4,0.0,2.1,1.3,1.6,1.4,2.0,1.3,0.5,2.1,0.9</Response>
+ </myQuestion>
+ <myQuestion Qid="16" label="On another matter, do you think the number of migrants seeking sanctuary in the United States is a crisis; a problem, but not a crisis; or not a problem at all?">
+  <Response Label="A crisis">48.0,52.6,44.4,55.4,47.7,42.1,40.3,52.0,44.5,50.0,49.7,47.6,58.0,28.4,39.7,18.1,35.3,56.7,65.9,22.9,39.6,67.7,74.5,22.2,42.6</Response>
+  <Response Label="A problem">35.4,32.7,37.6,38.5,32.8,35.3,46.8,33.1,34.0,34.2,33.9,33.2,30.3,45.5,39.7,40.9,42.6,34.9,28.1,42.8,42.6,27.3,23.2,48.6,39.8</Response>
+  <Response Label="Not a problem">15.3,13.9,16.4,6.1,17.2,21.3,11.7,12.8,21.0,14.5,15.2,17.6,10.1,25.0,20.5,40.9,20.0,7.5,4.8,32.5,15.2,4.9,1.4,27.8,15.7</Response>
+  <Response Label="Don't know">1.2,0.9,1.6,0.0,2.3,1.3,1.3,2.0,0.5,1.3,1.2,1.6,1.6,1.0,0.0,0.0,2.1,1.0,1.2,1.7,2.5,0.2,0.9,1.4,1.9</Response>
+ </myQuestion>
+ <myQuestion Qid="17" label="As you may know, Donald Trump has been indicted by a federal grand jury and a Fulton County grand jury on charges related to efforts to overturn the 2020 election. Do you think the charges against Donald Trump in this case are:  ">
+  <Response Label="Very serious">52.0,43.2,59.0,40.7,52.3,61.1,64.5,41.5,58.0,52.0,43.9,58.6,37.8,81.2,57.3,70.3,50.4,44.8,51.6,83.3,66.8,28.7,17.1,87.7,53.7</Response>
+  <Response Label="Somewhat serious">16.6,17.4,15.8,17.9,14.6,17.1,11.8,21.8,16.0,17.1,16.5,17.7,18.4,12.7,16.0,14.2,16.7,17.5,16.0,11.3,17.3,19.8,21.6,11.6,17.6</Response>
+  <Response Label="Not too serious">7.4,8.9,6.1,8.3,8.1,5.8,2.6,9.5,5.0,13.2,7.3,4.8,10.0,2.1,6.7,2.0,6.8,8.4,8.4,1.4,6.6,11.0,14.4,0.2,6.5</Response>
+  <Response Label="Not serious at all ">20.9,26.2,16.5,26.9,22.7,14.5,17.1,23.8,16.5,14.5,31.1,15.6,29.2,4.1,14.7,13.5,19.2,27.9,19.2,4.1,7.7,35.4,40.5,0.5,22.2</Response>
+  <Response Label="Don't know">3.2,4.3,2.5,6.1,2.3,1.6,3.9,3.4,4.5,3.3,1.2,3.2,4.6,0.0,5.3,0.0,6.8,1.3,4.8,0.0,1.5,5.1,6.3,0.0,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="18" label="How big a role, if at all, do you think politics played into the decision to indict Trump in Georgia? ">
+  <Response Label="Big role ">58.8,59.7,58.1,74.8,54.9,49.2,80.3,62.2,55.3,54.6,63.0,45.7,67.9,39.4,58.1,60.1,52.6,64.3,55.4,23.5,44.9,86.3,91.2,29.2,51.4</Response>
+  <Response Label="Somewhat of a role ">18.6,15.9,20.7,8.9,23.1,22.6,10.5,18.2,23.6,17.8,15.2,24.2,15.9,24.0,20.3,33.8,20.9,13.0,15.3,34.1,24.7,7.0,6.5,29.4,17.4</Response>
+  <Response Label="No role">20.3,22.4,18.7,11.5,20.8,27.1,9.2,14.2,20.1,24.3,21.2,26.9,14.3,32.9,21.6,6.1,23.9,20.8,26.1,40.6,27.3,5.7,2.0,38.1,27.5</Response>
+  <Response Label="Don't know">2.3,2.0,2.5,4.8,1.3,1.1,0.0,5.4,1.0,3.3,0.6,3.2,1.9,3.8,0.0,0.0,2.6,1.9,3.2,1.7,3.0,1.1,0.2,3.3,3.7</Response>
+ </myQuestion>
+ <myQuestion Qid="19" label="How confident are you that the U.S. Justice Department is handling its investigation of Hunter Biden in a fair and nonpartisan manner? ">
+  <Response Label="Very confident">15.1,12.3,17.3,20.8,9.7,14.7,44.7,13.5,15.5,9.9,10.8,12.9,9.3,28.9,12.0,18.9,12.0,14.0,16.5,24.3,11.6,11.2,4.8,28.6,8.3</Response>
+  <Response Label="Somewhat confident">27.0,24.9,28.8,18.3,32.8,29.5,17.1,27.0,29.0,30.3,22.9,27.4,22.4,33.7,41.3,42.6,25.6,24.0,25.7,43.8,37.9,11.8,11.3,42.1,30.6</Response>
+  <Response Label="Not too confident">14.0,14.3,13.7,11.9,13.0,16.8,10.5,10.1,20.5,13.8,15.1,15.1,15.3,11.3,13.3,17.6,16.7,13.3,8.8,15.1,12.1,14.8,14.3,13.5,17.6</Response>
+  <Response Label="Not at all confident">37.8,45.1,32.1,42.9,39.3,32.4,26.3,41.2,30.0,37.5,48.8,38.2,49.0,15.8,28.0,14.9,37.2,46.1,41.8,12.0,27.3,58.4,65.8,9.5,35.2</Response>
+  <Response Label="Don't know">6.0,3.4,8.1,6.1,5.2,6.6,1.3,8.1,5.0,8.6,2.4,6.5,4.1,10.3,5.3,6.1,8.5,2.6,7.2,4.8,11.1,3.8,3.8,6.4,8.3</Response>
+ </myQuestion>
+ <myQuestion Qid="20" label="If all other things were equal, would you vote for a political candidate who has been convicted of a felony crime by a jury? ">
+  <Response Label="Yes">25.2,28.5,22.5,34.9,22.4,19.7,21.1,34.5,24.1,22.9,31.5,21.9,30.3,14.4,23.0,13.5,28.2,29.5,22.1,9.6,16.7,39.3,42.9,7.8,24.1</Response>
+  <Response Label="No">63.6,59.3,67.1,51.9,64.0,72.7,73.7,51.4,65.8,66.7,55.2,69.0,55.2,80.8,68.9,81.8,62.0,56.8,65.1,89.0,73.7,43.3,38.1,90.3,64.8</Response>
+  <Response Label="Don't know">11.2,12.1,10.4,13.1,13.6,7.6,5.3,14.2,10.1,10.5,13.3,9.1,14.5,4.8,8.1,4.7,9.8,13.6,12.9,1.4,9.6,17.3,19.0,1.9,11.1</Response>
+ </myQuestion>
+ <myQuestion Qid="21" label="Do you think the Donald Trump behaved appropriately or not by calling officials in Georgia to ask them to change the 2020 election outcome in the state? ">
+  <Response Label="Yes, behaved appropriately ">20.6,23.9,18.0,26.3,21.1,15.5,14.5,27.2,15.0,21.6,27.9,14.0,26.8,5.8,26.0,15.5,16.7,25.2,22.4,6.5,7.1,33.6,39.4,1.9,20.4</Response>
+  <Response Label="No, did not behave appropriately  ">68.2,62.4,72.7,60.6,65.3,76.9,75.0,59.2,76.0,69.9,65.5,68.8,58.1,90.4,67.1,77.0,70.9,61.5,65.6,93.2,80.7,49.0,40.8,98.1,71.3</Response>
+  <Response Label="Don't know">11.2,13.6,9.4,13.1,13.6,7.6,10.5,13.6,9.0,8.5,6.7,17.2,15.1,3.8,6.8,7.4,12.4,13.3,12.0,0.3,12.2,17.3,19.8,0.0,8.3</Response>
+ </myQuestion>
+ <myQuestion Qid="22" label="Do you have a favorable or unfavorable impression of Joe Biden?">
+  <Response Label="Favorable">39.5,32.3,45.3,30.0,39.8,47.1,55.3,33.8,37.7,44.1,32.7,43.0,23.4,75.8,33.3,50.7,36.2,32.9,43.4,73.3,54.0,13.5,2.5,82.3,24.1</Response>
+  <Response Label="Unfavorable">55.2,63.2,48.7,65.5,55.7,46.3,39.5,59.5,55.8,51.3,63.0,52.2,72.3,16.7,60.0,39.2,54.5,65.5,54.2,17.8,36.9,84.8,97.1,12.3,54.6</Response>
+  <Response Label="Don't know">5.3,4.5,5.9,4.5,4.5,6.6,5.3,6.8,6.5,4.6,4.2,4.8,4.2,7.5,6.7,10.1,9.4,1.6,2.4,8.9,9.1,1.7,0.5,5.4,21.3</Response>
+ </myQuestion>
+ <myQuestion Qid="23" label="Do you have a favorable or unfavorable impression of Donald Trump?">
+  <Response Label="Favorable">39.1,46.3,33.3,55.4,37.7,27.1,31.6,54.4,36.7,33.6,42.7,29.9,52.6,11.6,32.0,22.3,34.0,48.1,45.2,7.5,18.2,65.6,75.6,3.5,29.6</Response>
+  <Response Label="Unfavorable">56.5,50.3,61.4,41.0,54.5,70.8,68.4,40.1,57.3,63.8,53.0,63.1,44.3,80.5,65.3,72.3,59.1,48.7,54.0,90.8,70.2,30.8,20.8,94.8,60.2</Response>
+  <Response Label="Don't know">4.4,3.4,5.2,3.5,7.8,2.1,0.0,5.4,6.0,2.6,4.3,7.0,3.1,7.8,2.7,5.4,6.8,3.2,0.8,1.7,11.6,3.6,3.6,1.6,10.2</Response>
+ </myQuestion>
+ <myQuestion Qid="24" label="Do you have a favorable or unfavorable impression of Ron DeSantis?">
+  <Response Label="Favorable">39.4,47.3,33.0,48.2,39.2,32.5,28.9,39.5,37.7,41.2,46.3,38.5,54.9,7.6,32.4,12.8,34.5,49.7,45.6,7.9,20.3,65.8,74.3,5.4,31.8</Response>
+  <Response Label="Unfavorable">49.9,44.6,54.2,35.8,53.1,59.1,60.5,46.3,51.3,50.3,49.4,48.7,37.9,72.9,63.5,73.2,48.5,45.1,47.2,84.6,63.5,24.1,15.1,86.8,53.3</Response>
+  <Response Label="Don't know">10.7,8.1,12.7,16.0,7.8,8.4,10.5,14.3,11.1,8.5,4.3,12.8,7.2,19.6,4.1,14.1,17.0,5.2,7.2,7.5,16.2,10.1,10.6,7.8,15.0</Response>
+ </myQuestion>
+ <myQuestion Qid="25" label="Do you have a favorable or unfavorable impression of Nikki Haley?">
+  <Response Label="Favorable">38.4,42.0,35.4,36.2,41.4,37.6,24.0,32.4,37.7,46.1,36.4,42.8,47.2,19.9,35.1,18.2,34.2,41.6,46.0,17.1,35.0,53.4,59.7,18.8,30.6</Response>
+  <Response Label="Unfavorable">41.2,40.0,42.3,44.9,36.6,41.8,61.3,39.9,42.2,32.9,46.7,36.4,34.7,55.1,41.9,57.4,36.8,39.0,41.6,61.6,37.6,31.4,25.9,61.4,32.4</Response>
+  <Response Label="Don't know">20.4,18.0,22.3,18.9,22.0,20.5,14.7,27.7,20.1,21.1,17.0,20.9,18.1,25.0,23.0,24.3,29.1,19.5,12.4,21.2,27.4,15.2,14.4,19.8,37.0</Response>
+ </myQuestion>
+ <myQuestion Qid="26" label="Do you have a favorable or unfavorable impression of the U.S. Congress?">
+  <Response Label="Favorable">22.7,18.8,25.9,28.8,18.1,21.6,46.1,23.8,26.0,19.1,19.4,17.1,19.5,31.7,14.9,32.7,17.9,20.7,23.3,18.8,20.3,26.2,22.5,25.9,13.8</Response>
+  <Response Label="Unfavorable">68.6,73.8,64.4,61.7,71.8,71.6,52.6,65.3,62.0,78.3,75.2,72.2,73.4,54.9,81.1,56.5,71.5,70.6,70.7,75.0,68.0,65.6,70.5,66.8,76.1</Response>
+  <Response Label="Don't know">8.7,7.4,9.7,9.6,10.0,6.8,1.3,10.9,12.0,2.6,5.5,10.7,7.1,13.3,4.1,10.9,10.6,8.7,6.0,6.2,11.7,8.2,7.0,7.3,10.1</Response>
+ </myQuestion>
+ <myQuestion Qid="27" label="Do you have a favorable or unfavorable impression of Marjorie Taylor Greene?">
+  <Response Label="Favorable">24.9,27.4,23.0,34.0,26.3,16.3,49.4,27.7,24.0,13.2,30.3,18.3,29.3,15.4,24.3,23.0,18.3,28.2,27.2,7.9,7.1,43.8,40.6,10.8,18.3</Response>
+  <Response Label="Unfavorable">56.6,57.8,55.4,44.2,58.8,65.0,41.6,52.7,59.5,64.5,55.8,61.8,53.9,61.6,59.5,53.4,60.4,57.5,55.2,80.8,69.7,36.4,38.4,76.0,61.5</Response>
+  <Response Label="Don't know">18.5,14.8,21.6,21.8,14.9,18.7,9.1,19.6,16.5,22.4,13.9,19.9,16.9,22.9,16.2,23.6,21.3,14.3,17.6,11.3,23.2,19.9,21.0,13.2,20.2</Response>
+ </myQuestion>
+ <myQuestion Qid="28" label="Do you have a favorable or unfavorable impression of Kamala Harris?">
+  <Response Label="Favorable">37.4,27.4,45.5,26.0,40.3,44.5,56.6,29.1,41.2,38.2,32.7,37.1,23.1,70.5,29.7,60.8,33.8,28.9,36.5,74.0,46.5,12.9,3.2,77.1,22.2</Response>
+  <Response Label="Unfavorable">54.4,62.8,47.7,60.9,53.2,50.0,40.8,57.4,50.3,54.6,61.8,52.7,69.4,18.8,66.2,37.2,52.1,64.6,56.6,16.8,43.9,81.2,92.1,13.2,61.1</Response>
+  <Response Label="Don't know">8.2,9.9,6.8,13.1,6.5,5.5,2.6,13.5,8.5,7.2,5.5,10.2,7.5,10.6,4.1,2.0,14.1,6.5,6.8,9.2,9.6,5.9,4.7,9.7,16.7</Response>
+ </myQuestion>
+</docbase>
