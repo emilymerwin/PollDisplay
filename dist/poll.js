@@ -1,30 +1,100 @@
+var bigArr = [],
+		scale = {},
+//setup the filter buttons
+// labelArr = ["Total", "Men", "Women", "Democrats", "Republicans", "Independents", "Support Deal", "Support Carter", "Whites", "Non-whites", "18-39", "40-64", "65+", "Under $50k", "$50k-$100k", "$100k or more", "Have children", "No children", "Atlanta metro", "Atlanta exurbs"];
+  // labelArr = ["Total", "Democrat", "Republican", "Independent", "White", "Black", "North Ga.", "Atlanta Exurbs", "Atlanta Metro", "Southeast Ga.", "Southwest Ga."];
+	labelArr = ["Total","Male","Female","High School or less","Some college","College graduate","Under $25,000","$25-49,999","$50-74,999","$75-99,999","$100-149,999","Over $150,000","White","Black","Other race", "18 - 29", "30 - 44", "45 - 64", "65+", "Liberal", "Moderate", "Conservative", "Republican", "Democrat", "Independent"];
+
 $(document).ready(function(){
 	$.ajax({
 		type: "GET",
 		url: "nov2023-poll.xml", // TODO: Update with infile from settings
 		dataType: "xml",
-		success: parseQuestions
+		success: init
 	});
 });
 
-function parseQuestions(xml){
-	var bigArr = [], buttonHTML = "", button2HTML = "",
-	//setup the radio button filters
-	// labelArr = ["Total", "Men", "Women", "Democrats", "Republicans", "Independents", "Support Deal", "Support Carter", "Whites", "Non-whites", "18-39", "40-64", "65+", "Under $50k", "$50k-$100k", "$100k or more", "Have children", "No children", "Atlanta metro", "Atlanta exurbs"];
-    // labelArr = ["Total", "Democrat", "Republican", "Independent", "White", "Black", "North Ga.", "Atlanta Exurbs", "Atlanta Metro", "Southeast Ga.", "Southwest Ga."];
-		labelArr = ["Total","Male","Female","High School or less","Some college","College graduate","Under $25,000","$25-49,999","$50-74,999","$75-99,999","$100-149,999","Over $150,000","White","Black","Other race", "18 - 29", "30 - 44", "45 - 64", "65+", "Liberal", "Moderate", "Conservative", "Republican", "Democrat", "Independent"];
+function init(data) {
+	console.log("Data loaded ✅");
+	createButtons();
+	parseQuestions(data);
+	setupChart();
+}
 
-	for(var i=0; i<labelArr.length; i++){
-		buttonHTML += '<label class="btn btn-default"><input type="radio" name="radio" value='+i+' id="radio'+i+'"> '+labelArr[i]+'</label>';
-		button2HTML += '<label class="btn btn-default"><input type="radio" name="radio2" value='+i+' id="radioB'+i+'"> '+labelArr[i]+'</label>';
+
+function createButtons() {
+	console.log("Create buttons");
+
+	var topButtonsHtml = makeButtonsHtml('top');
+	var bottomButtonsHtml = makeButtonsHtml('bottom');
+
+	$(document.getElementById('buttonsTop')).html(topButtonsHtml);
+	$(document.getElementById('buttonsBottom')).html(bottomButtonsHtml);
+
+	function makeButtonsHtml(topOrBottom) {
+		var buttonHtml = ``;
+		for( var i=0; i<labelArr.length; i++ ){
+			var targetID = `${ topOrBottom }btn${ i }`;
+			// Note that these are checkboxes, not radio buttons, because we want to style the matching button on the other (top/bottom) button group to match the one on the active button group. We'll use javascript later to deselect everything other than the most recently clicked button (and it's matching sibling) later
+			buttonHtml += `<input type="checkbox" class="btn-check" id="${ targetID }" autocomplete="off" data-label-val="${ labelArr[i] }" data-index-val="${ i }" ${ i==0 ? 'checked' : '' }>
+										 <label class="btn btn-outline-primary" for="${ targetID }">${ labelArr[i] }</label>`;
+		}
+		return buttonHtml;
 	}
-	$(document.getElementById('buttonsTop')).html(buttonHTML);
-	$(document.getElementById('buttonsBottom')).html(button2HTML);
-	$("input[name^='radio']").change(function(){
-		$("input[name^='radio']").not(this).parent().removeClass('active'); //make sure no other buttons are selected
-		var $otherRadioButtons = $("input[name^='radio'][value='" + this.value + "']").not(this); //select partner button
-		$otherRadioButtons.parent().addClass('active');
-		loadResults(this.value);
+} // createButtons()
+
+function setupChart() {
+	scale = chroma.scale('Blues').domain([r_max(),0]); // color scale is based on the maximum number of potential responses to any question, so we can have a more limited range of colors if we don't need to have a lot, and there's no telling how many there could be
+
+	for (var i =0; i< bigArr.length; i++) {
+		buildQuestionsHtml(i);
+	}
+
+	$("#topbtn0").click(); //default to the first filter
+
+
+	//find the max number of potential responses to a question for color scale
+	function r_max(){
+		var max = 0;
+		for (var i=0; i< bigArr.length; i++){
+			var len = bigArr[i].responseArr.length;
+			if ( max < len ){
+				max = len;
+			}
+		}
+		return max;
+	} // r_max()
+} // setupChart()
+
+function buildQuestionsHtml(Qid){
+
+	var qText = '<div id=q'+Qid+'><div id="questionq'+Qid+'" class="question">'+bigArr[Qid].qLabel+'</div><div class="results">';
+	for (var i=0; i<bigArr[Qid].responseArr.length; i++){ //-1 from .length if you have totals as your final row (so that you don't have to calculate total responses - useful for making sure all bars are the same length despite rounding)
+		qText += '<div class="opt'+i+'percent opt" id="opt'+i+'q'+Qid+'", style="background-color:'+scale(i)+'"><div class="innerlabel">'+bigArr[Qid].responseArr[i].optlabel+'</div></div>'
+	}
+	qText += '</div></div>';
+	var myParent = '#qs';
+	/*if(Qid == 8){
+		$(myParent).append('<div class="question">Question group intro text</div><div id="groupQ"></div>');
+	}
+	if(Qid > 7){
+		myParent = '#groupQ';
+	}*/
+	$(myParent).append(qText);
+} // buildQuestionsHtml()
+
+function parseQuestions(xml){
+	console.log("Parse questions");
+
+	$("input[type^='checkbox']").change(function(){
+		let btnTxt = this.dataset.labelVal;
+
+		$("input[type^='checkbox']").not(this).prop('checked', false); //make sure no other buttons are selected
+		var $selectedCheckboxes = $(`input[type^='checkbox'][data-label-val='${ btnTxt }']`); //select this and partner button
+
+		//$otherRadioButtons.checked = true;
+		$selectedCheckboxes.prop('checked', true);
+		loadResults(this.dataset.indexVal);
 	});
 
 	$(xml).find("myQuestion").each(function(index){
@@ -58,39 +128,8 @@ function parseQuestions(xml){
 			}
 		}//for
 
-		startup(Qid);
 	});//xml.find(myQuestion)
 
-	$("#radio0").click(); //default to the first filter
-
-	//find the max number of potential responses to a question for color scale
-	function r_max(){
-		var max = 0;
-		for (var i=0; i< bigArr.length; i++){
-			var len = bigArr[i].responseArr.length;
-			if ( max < len ){
-				max = len;
-			}
-		}
-		return max;
-	}
-
-	function startup(Qid){
-		var scale = chroma.scale('Blues').domain([r_max(),0]);
-		var qText = '<div id=q'+Qid+'><div id="questionq'+Qid+'" class="question">'+bigArr[Qid].qLabel+'</div><div class="results">';
-		for (var i=0; i<bigArr[Qid].responseArr.length; i++){ //-1 from .length if you have totals as your final row (so that you don't have to calculate total responses - useful for making sure all bars are the same length despite rounding)
-			qText += '<div class="opt'+i+'percent opt" id="opt'+i+'q'+Qid+'", style="background-color:'+scale(i)+'"><div class="innerlabel">'+bigArr[Qid].responseArr[i].optlabel+'</div></div>'
-		}
-		qText += '</div></div>';
-		var myParent = '#qs';
-		/*if(Qid == 8){
-			$(myParent).append('<div class="question">Question group intro text</div><div id="groupQ"></div>');
-		}
-		if(Qid > 7){
-			myParent = '#groupQ';
-		}*/
-		$(myParent).append(qText);
-	}//startup
 
 	function loadResults (val){
 		var pymChild = new pym.Child();
