@@ -1,5 +1,6 @@
 var bigArr = [],
 		scale = {},
+		//menuType = "dropdown",
 //setup the filter buttons
 // labelArr = ["Total", "Men", "Women", "Democrats", "Republicans", "Independents", "Support Deal", "Support Carter", "Whites", "Non-whites", "18-39", "40-64", "65+", "Under $50k", "$50k-$100k", "$100k or more", "Have children", "No children", "Atlanta metro", "Atlanta exurbs"];
   // labelArr = ["Total", "Democrat", "Republican", "Independent", "White", "Black", "North Ga.", "Atlanta Exurbs", "Atlanta Metro", "Southeast Ga.", "Southwest Ga."];
@@ -16,32 +17,66 @@ $(document).ready(function(){
 
 function init(data) {
 	console.log("Data loaded ✅");
-	createButtons();
+	createMenus();
 	parseQuestions(data);
 	setupChart();
+	//console.log(menuType)
 }
 
+function createMenus() {
+	console.log("Create menus");
 
-function createButtons() {
-	console.log("Create buttons");
+	var topListGroupHtml = makeMenuHtml('top', 'Btn', makeListGroupHtml);
+	var bottomListGroupHtml = makeMenuHtml('bottom', 'Btn', makeListGroupHtml);
+	var topDropdownHtml = makeDropdownHtml('top');
+	var bottomDropdownHtml = makeDropdownHtml('bottom');
 
-	var topButtonsHtml = makeButtonsHtml('top');
-	var bottomButtonsHtml = makeButtonsHtml('bottom');
+	$('#listGroupTop').html(topListGroupHtml);
+	$('#listGroupBottom').html(bottomListGroupHtml);
 
-	$(document.getElementById('buttonsTop')).html(topButtonsHtml);
-	$(document.getElementById('buttonsBottom')).html(bottomButtonsHtml);
-
-	function makeButtonsHtml(topOrBottom) {
-		var buttonHtml = ``;
-		for( var i=0; i<labelArr.length; i++ ){
-			var targetID = `${ topOrBottom }btn${ i }`;
-			// Note that these are checkboxes, not radio buttons, because we want to style the matching button on the other (top/bottom) button group to match the one on the active button group. We'll use javascript later to deselect everything other than the most recently clicked button (and it's matching sibling) later
-			buttonHtml += `<input type="checkbox" class="btn-check" id="${ targetID }" autocomplete="off" data-label-val="${ labelArr[i] }" data-index-val="${ i }" ${ i==0 ? 'checked' : '' }>
-										 <label class="btn btn-outline-primary" for="${ targetID }">${ labelArr[i] }</label>`;
-		}
-		return buttonHtml;
+	if (labelArr.length > 12) {
+		$('#dropdownTop').html(topDropdownHtml);
+		$('#dropdownBottom').html(bottomDropdownHtml);
+	} else {
+		$('.list-group-horizontal').removeClass('d-none');
+		$('.form-select').addClass('d-none');
 	}
-} // createButtons()
+
+	function makeMenuHtml(topOrBottom, btnOrOption, callback) {
+		var menuHtml = ``;
+
+		for( var i=0; i<labelArr.length; i++ ){
+			menuHtml += callback(i, labelArr, `${ topOrBottom }${ btnOrOption }${ i }`);
+		}
+
+		return menuHtml;
+	} // makeMenuHtml
+
+	function makeDropdownHtml(topOrBottom) {
+		return `
+			<select class="form-select form-select-sm" id="${ topOrBottom }Dropdown" aria-label="Demographic selection dropdown">
+				${ makeMenuHtml(topOrBottom, 'Option', makeDropdownOption) }
+			</select>
+			<label for="${ topOrBottom }Dropdown">Select a demographic group to filter results</label>
+		`;
+	} // makeDropdownHtml ()
+
+	function makeDropdownOption(i, labelArr, targetID) {
+		return `<option value="${ labelArr[i] }" data-choice-index='${ i }'>${ labelArr[i] }</option>`;
+	}
+
+	function makeListGroupHtml(i, labelArr, targetID) {
+		return `
+				${ /* class="w-100" forces a break in the row - this is how we are displaying 5 columns, instead of using col-2 (6 columns) or col-3 (4 columns) - that div is wrapped in a div that will display:none at xs breakpoint so it won't interfere with wrapping there */ '' }
+				${ (i%5 === 0 && i>0) ? '<div class="w-100 d-none d-sm-block d-md-none"></div>' : '' }
+				<div class="col-4 col-sm col-md-2">
+					<button class="list-group-item list-group-item-action btn btn-sm ${ i==0 ? 'active' : '' }" data-choice-index='${ i }' id="${ targetID }">${ labelArr[i] }</button>
+				 </div>
+			`;
+	} // makeListGroupHtml
+
+} // createMenus()
+
 
 function setupChart() {
 	scale = chroma.scale('Blues').domain([r_max(),0]); // color scale is based on the maximum number of potential responses to any question, so we can have a more limited range of colors if we don't need to have a lot, and there's no telling how many there could be
@@ -50,7 +85,7 @@ function setupChart() {
 		buildQuestionsHtml(i);
 	}
 
-	$("#topbtn0").click(); //default to the first filter
+	$("#topBtn0").click(); //default to the first filter
 
 
 	//find the max number of potential responses to a question for color scale
@@ -86,16 +121,33 @@ function buildQuestionsHtml(Qid){
 function parseQuestions(xml){
 	console.log("Parse questions");
 
-	$("input[type^='checkbox']").change(function(){
-		let btnTxt = this.dataset.labelVal;
-
-		$("input[type^='checkbox']").not(this).prop('checked', false); //make sure no other buttons are selected
-		var $selectedCheckboxes = $(`input[type^='checkbox'][data-label-val='${ btnTxt }']`); //select this and partner button
-
-		//$otherRadioButtons.checked = true;
-		$selectedCheckboxes.prop('checked', true);
-		loadResults(this.dataset.indexVal);
+	var $listGroupChoices = $("button.list-group-item");
+	// $listGroupChoices.on("click change", function(e) {
+	// 	changeSelection(e.target);
+	// });
+	$listGroupChoices.click(function(e) {
+		changeSelection(e.target);
 	});
+	$(".form-select").change(function(e) {
+		changeSelection(e.target);
+	});
+
+	function changeSelection(target) {
+		// we have two different menu types (listGroup and dropdown) depending on viewport and they target properties differently so we'll be doing things twice here
+
+		let btnTxt = target.value || target.innerText; //select menu uses value, listGroup uses innerText
+		let $selectedOption = $(`option[value='${ btnTxt }']`); // we are intentionally selecting the option from both top and bottom menues
+		let choiceIndex = target.dataset.choiceIndex || $selectedOption.data().choiceIndex;
+
+		$listGroupChoices.not(target).removeClass('active'); //make sure no other buttons are selected
+
+		$selectedOption.prop('selected', true);
+		var $selectedChoice = $(`.list-group-item:contains(${ btnTxt })`); //select this and partner button
+		$('.dropdown-toggle').text(`${ btnTxt }`);
+
+		$selectedChoice.addClass('active');
+		loadResults(choiceIndex);
+	}
 
 	$(xml).find("myQuestion").each(function(index){
 		this.responseArr = [];
