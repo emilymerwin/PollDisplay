@@ -35,6 +35,11 @@ body {
   margin-bottom: 20px;
 }
 
+label {
+  color: rgba(33, 37, 41, 0.65);
+  font-size: 12px;
+}
+
 #groupQ{
 	margin:10px 0 10px 40px;
 }
