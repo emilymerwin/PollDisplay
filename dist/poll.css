@@ -6,11 +6,33 @@ body {
   margin-bottom: 15px;
 }
 
+.list-group-item-action:hover {
+  background: rgb(46 129 183 / .15);
+}
+
+.list-group-item-action.active {
+  background: rgb(46,129,183); /* AJC blue */
+}
+
 .list-group-item {
+  background: rgb(222 226 230 / .3);
   font-size: 10px;
   padding: 2px 0;
   text-align: center;
   text-wrap: nowrap;
+  /* prevent messy-looking overlapping borders,
+  we will fake these by add top and left borders
+  to .list-group */
+  border-top: none;
+  border-left: none;
+}
+
+/* prevent messy-looking overlapping borders */
+.list-group {
+  border-radius: 0;
+  border-top: 1px solid rgb(222, 226, 230);
+  border-left: 1px solid rgb(222, 226, 230);
+  margin-bottom: 20px;
 }
 
 #groupQ{
