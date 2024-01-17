@@ -1,0 +1,172 @@
+<?xml version="1.0" ?>
+<docbase>
+ <myQuestion Qid="0" label="All in all, do you think things in the nation are generally headed in the right direction, or do you think things are off on the wrong track?">
+  <Response Label="Right direction">15.0,14.7,15.3,5.4,16.4,22.0,16.7,10.3,13.2,13.1,17.4,23.0,12.4,19.7,13.7,3.8,11.7,18.6,24.1,29.3,20.1,4.8,3.4,31.3,15.7</Response>
+  <Response Label="Wrong track">73.9,74.9,73.0,86.6,72.0,65.1,73.8,79.3,73.5,69.7,75.8,68.9,79.2,64.1,78.1,85.1,73.4,72.6,66.7,58.2,59.1,90.9,94.7,50.0,65.4</Response>
+  <Response Label="Mixed">4.4,4.5,4.5,4.2,3.5,5.6,7.1,2.1,7.4,7.4,1.6,2.2,3.7,6.4,1.4,5.8,4.7,3.6,3.7,2.7,13.0,0.7,0.4,8.5,7.5</Response>
+  <Response Label="Don't know ">6.7,6.0,7.3,3.8,8.0,7.4,2.4,8.3,5.8,9.7,5.3,6.0,4.7,9.9,6.8,5.3,10.2,5.2,5.6,9.8,7.9,3.7,1.5,10.2,11.3</Response>
+ </myQuestion>
+ <myQuestion Qid="1" label="In reference to Georgia specifically, do you think things in the state are generally headed in the right direction, or do you think things are off on the wrong track?">
+  <Response Label="Right direction">37.9,40.1,35.9,29.3,38.6,44.1,25.6,26.2,33.9,42.3,43.4,47.8,41.1,34.6,27.8,28.4,35.9,42.0,41.2,32.2,43.5,40.2,42.2,32.5,37.7</Response>
+  <Response Label="Wrong track">43.0,40.3,45.4,47.5,43.4,39.3,55.8,45.5,51.3,38.9,36.5,37.4,38.5,49.7,48.6,53.8,43.4,42.0,36.6,54.1,34.4,39.1,38.4,44.4,54.7</Response>
+  <Response Label="Mixed">9.2,9.6,8.8,9.9,8.4,9.5,7.0,12.4,7.4,11.4,11.1,7.7,10.9,5.2,13.9,12.0,6.6,9.8,7.9,6.7,11.9,9.6,9.2,11.4,4.4</Response>
+  <Response Label="Don't know ">9.9,10.0,9.9,13.4,9.6,7.1,11.6,15.9,7.4,7.4,9.0,7.1,9.5,10.5,9.7,5.8,14.1,6.2,14.4,7.1,10.3,11.1,10.2,11.7,3.1</Response>
+ </myQuestion>
+ <myQuestion Qid="2" label="As you think about the next 12 months, do you expect the strength of the U.S. economy to be better or worse as compared to the way you see it now? ">
+  <Response Label="Better">35.6,35.1,35.9,31.8,30.9,42.7,27.9,31.9,26.1,38.6,39.7,44.0,32.2,44.2,23.3,32.7,27.3,41.6,38.1,43.7,46.9,24.4,22.4,55.0,33.5</Response>
+  <Response Label="Worse">51.9,49.6,54.0,51.9,58.8,45.9,62.8,50.0,60.6,50.0,49.7,45.6,53.6,45.6,68.5,50.5,60.5,48.4,49.8,48.0,42.1,60.3,61.2,38.3,53.8</Response>
+  <Response Label="Same">3.5,4.7,2.4,2.5,3.2,4.5,0.0,1.4,2.7,4.0,4.8,4.4,4.6,1.7,2.7,1.9,3.9,3.2,4.7,3.5,3.1,3.7,3.6,2.9,3.2</Response>
+  <Response Label="Don't know ">9.0,10.6,7.6,13.7,7.1,6.9,9.3,16.7,10.6,7.4,5.8,6.0,9.7,8.4,5.5,14.9,8.2,6.8,7.4,4.7,7.9,11.5,12.8,3.8,9.5</Response>
+ </myQuestion>
+ <myQuestion Qid="3" label="What is the single most important issue facing Georgia today? ">
+  <Response Label="Economy/jobs">27.1,24.4,29.6,30.8,28.2,22.8,23.3,39.3,22.2,29.7,24.1,24.2,28.2,27.0,18.9,19.8,39.8,25.1,23.3,22.0,24.9,30.7,32.6,21.7,26.6</Response>
+  <Response Label="Taxes">5.1,4.3,5.8,8.6,3.6,3.4,9.3,1.4,6.3,10.9,3.1,2.7,2.4,10.8,1.4,11.6,5.1,2.9,1.9,2.0,2.0,9.1,8.3,2.1,3.2</Response>
+  <Response Label="Public Education (K-12)">11.8,10.7,12.7,11.7,10.0,13.0,9.3,6.9,13.8,11.4,8.9,15.9,10.9,13.4,10.8,17.4,10.6,9.8,10.7,15.4,17.8,7.1,7.7,17.9,12.0</Response>
+  <Response Label="Transportation">2.1,1.9,2.2,0.6,2.9,2.7,0.0,1.4,1.1,1.1,5.8,1.1,2.2,0.9,8.1,3.4,2.0,2.0,0.5,4.7,1.2,1.3,1.3,2.3,3.8</Response>
+  <Response Label="Crime/public safety">12.3,14.1,11.0,14.3,11.3,11.7,14.0,10.3,10.1,13.7,11.0,15.4,13.4,9.6,17.6,10.1,6.3,16.9,13.5,9.1,11.1,14.5,14.7,9.4,9.5</Response>
+  <Response Label="Moral issues">5.3,7.3,3.5,5.1,5.8,5.0,11.6,4.8,4.8,4.0,7.3,6.0,4.9,5.5,6.8,1.0,6.3,5.9,7.0,7.5,4.0,4.1,4.7,5.9,5.1</Response>
+  <Response Label="Healthcare">9.4,8.3,10.4,4.1,10.4,13.3,11.6,11.0,11.6,6.9,11.0,8.8,9.8,9.6,5.4,8.2,9.8,8.8,11.2,17.7,9.1,5.0,4.3,16.1,8.9</Response>
+  <Response Label="Climate change/environment ">2.1,2.1,2.0,0.6,1.0,4.2,0.0,1.4,2.1,2.9,2.1,3.3,2.2,1.7,2.7,1.9,2.4,1.6,2.8,3.9,3.2,0.6,0.4,3.5,3.8</Response>
+  <Response Label="Elections and voting">12.2,14.7,9.9,13.0,12.9,11.1,7.0,10.3,13.2,10.9,15.7,13.2,14.8,8.1,9.5,8.2,8.3,16.6,15.3,5.5,13.0,15.8,14.7,10.3,9.5</Response>
+  <Response Label="Other">6.9,4.9,8.6,7.3,4.9,8.2,9.3,9.0,4.2,6.3,6.3,3.8,5.8,7.3,14.9,12.6,4.3,6.2,5.6,6.7,7.1,6.3,5.5,7.0,10.8</Response>
+  <Response Label="Don’t know">5.7,7.3,4.3,3.8,9.1,4.5,4.7,4.1,10.6,2.3,4.7,5.5,5.4,6.1,4.1,5.8,5.1,4.2,8.4,5.5,6.7,5.4,5.8,3.8,7.0</Response>
+ </myQuestion>
+ <myQuestion Qid="4" label="Do you approve or disapprove of the way Joe Biden is handling his job as president? ">
+  <Response Label="Strongly approve">14.9,13.6,16.0,10.5,13.5,19.5,14.0,9.7,20.6,9.7,14.1,21.0,11.5,22.3,6.9,1.4,12.5,18.6,25.1,27.6,20.8,5.0,2.4,35.1,11.3</Response>
+  <Response Label="Somewhat approve">16.9,12.2,21.0,8.3,17.7,23.5,7.0,15.9,8.5,18.3,19.4,20.4,13.1,23.2,18.1,21.6,14.1,16.6,14.9,29.5,29.0,4.1,2.6,33.3,25.8</Response>
+  <Response Label="Somewhat disapprove">10.3,11.5,9.3,9.6,11.0,10.6,4.7,15.2,18.5,8.6,7.9,5.0,8.3,14.2,8.3,18.3,10.6,7.8,5.6,13.0,9.0,10.2,7.7,14.0,10.1</Response>
+  <Response Label="Strongly disapprove">51.4,55.4,48.0,67.2,49.4,39.6,62.8,54.5,43.9,55.4,50.3,50.3,63.8,29.9,52.8,48.6,53.3,52.1,52.6,24.0,33.3,76.7,85.7,9.6,43.4</Response>
+  <Response Label="Don’t know">6.5,7.2,5.8,4.5,8.4,6.9,11.6,4.8,8.5,8.0,8.4,3.3,3.2,10.4,13.9,10.1,9.4,4.9,1.9,5.9,7.8,3.9,1.7,7.9,9.4</Response>
+ </myQuestion>
+ <myQuestion Qid="5" label="Do you approve or disapprove of the way Brian Kemp is handling his job as governor? ">
+  <Response Label="Strongly approve">24.1,28.7,20.1,26.8,26.9,19.6,14.0,15.2,20.0,30.3,31.6,21.9,32.4,10.2,23.6,9.6,22.7,26.7,34.4,10.2,18.1,33.8,38.7,8.2,15.7</Response>
+  <Response Label="Somewhat approve">33.1,33.6,32.7,27.8,30.1,40.2,32.6,30.3,37.9,27.4,31.1,43.7,37.5,29.1,16.7,25.4,36.9,38.4,30.7,23.1,44.5,34.4,35.5,30.2,36.5</Response>
+  <Response Label="Somewhat disapprove">14.3,10.9,17.3,8.9,18.1,15.1,23.3,21.4,8.9,13.1,14.2,9.8,12.5,14.8,26.4,24.4,9.8,9.1,18.1,26.7,12.6,9.5,7.5,21.4,19.5</Response>
+  <Response Label="Strongly disapprove">16.8,15.1,18.2,17.6,17.2,15.9,14.0,21.4,20.0,8.6,14.7,16.9,10.2,27.0,22.2,20.1,18.4,18.6,8.8,30.6,17.3,8.4,4.7,32.8,17.6</Response>
+  <Response Label="Don’t know">11.7,11.7,11.7,18.8,7.8,9.3,16.3,11.7,13.2,20.6,8.4,7.7,7.5,18.9,11.1,20.6,12.2,7.2,7.9,9.4,7.5,13.9,13.7,7.3,10.7</Response>
+ </myQuestion>
+ <myQuestion Qid="6" label="Do you approve or disapprove of the House of Representatives impeachment inquiry into President Joe Biden? ">
+  <Response Label="Strongly approve">33.1,36.5,30.1,49.2,32.7,20.1,50.0,28.5,29.1,44.6,32.8,24.3,43.8,13.0,39.7,33.8,24.3,36.7,38.4,9.0,21.3,53.7,62.2,4.4,14.5</Response>
+  <Response Label="Somewhat approve">13.3,16.4,10.6,18.4,9.7,11.9,7.1,26.4,13.8,9.7,12.7,7.2,13.5,13.6,9.6,25.6,12.5,8.8,8.8,9.4,12.6,16.5,16.0,9.7,13.8</Response>
+  <Response Label="Somewhat disapprove">11.7,8.5,14.5,8.3,15.5,11.6,2.4,14.6,6.9,8.0,14.3,15.5,8.5,17.4,12.3,15.9,12.5,11.4,6.9,12.1,17.7,8.9,7.3,15.8,16.4</Response>
+  <Response Label="Strongly disapprove">31.7,28.4,34.6,16.5,30.7,45.4,21.4,20.8,35.4,26.3,31.7,46.4,25.4,44.3,23.3,15.0,32.9,35.7,40.7,58.2,40.2,13.0,6.8,63.9,36.5</Response>
+  <Response Label="Don’t know">10.2,10.2,10.2,7.6,11.3,11.1,19.0,9.7,14.8,11.4,8.5,6.6,8.8,11.6,15.1,9.7,17.6,7.5,5.1,11.3,8.3,8.0,7.7,6.2,18.9</Response>
+ </myQuestion>
+ <myQuestion Qid="7" label="Should Georgia expand eligibility for Medicaid, which provides health care for some poor Georgians, to cover all the state’s uninsured poor?">
+  <Response Label="Yes">69.4,62.3,75.6,68.7,69.0,70.2,69.0,80.6,69.8,71.6,70.4,63.7,59.2,85.2,76.7,81.2,71.4,63.8,63.7,94.1,76.7,51.4,47.3,93.6,81.8</Response>
+  <Response Label="No ">22.1,28.4,16.6,23.0,22.3,21.4,16.7,14.6,26.5,18.2,21.7,24.7,28.6,12.2,15.1,17.8,19.6,23.8,26.5,4.7,13.8,36.4,39.0,3.5,11.3</Response>
+  <Response Label="Don’t know">8.6,9.4,7.8,8.3,8.7,8.4,14.3,4.9,3.7,10.2,7.9,11.5,12.2,2.6,8.2,1.0,9.0,12.4,9.8,1.2,9.5,12.1,13.6,2.9,6.9</Response>
+ </myQuestion>
+ <myQuestion Qid="8" label="Georgia’s abortion law bans most abortions after a fetal heartbeat is detected, as early as 6 weeks of pregnancy. Would you like to see the General Assembly make abortion harder to obtain, easier to obtain or would you like the current restrictions to remain?">
+  <Response Label="Harder to obtain">17.9,23.0,13.4,23.6,17.1,13.7,37.2,22.2,13.2,17.1,17.9,13.2,21.0,11.9,20.8,13.9,15.3,20.5,21.8,6.7,6.3,30.7,29.9,4.7,10.7</Response>
+  <Response Label="Easier to obtain ">44.4,33.0,54.4,36.3,36.8,57.5,30.2,48.6,41.1,42.3,45.8,49.5,38.5,53.5,50.0,51.4,47.1,40.9,38.4,81.6,54.9,17.4,16.0,80.1,54.7</Response>
+  <Response Label="Keep current restrictions">29.0,34.5,24.2,32.8,33.2,21.9,11.6,25.7,33.2,36.6,26.8,28.0,33.1,23.5,20.8,30.3,28.2,26.9,31.5,7.5,29.6,42.4,46.5,6.7,23.9</Response>
+  <Response Label="Don’t know">8.8,9.6,8.0,7.3,12.9,6.9,20.9,3.5,12.6,4.0,9.5,9.3,7.5,11.0,8.3,4.3,9.4,11.7,8.3,4.3,9.1,9.6,7.7,8.5,10.7</Response>
+ </myQuestion>
+ <myQuestion Qid="9" label="Since 2019 the state has been using a new voting system than uses touchscreens to print out paper ballots. Do you support or oppose replacing this system with paper ballots that would be filled out by hand? ">
+  <Response Label="Strongly support">24.7,34.3,16.4,31.6,26.5,17.5,40.5,15.3,21.1,33.7,28.3,15.4,28.6,16.3,31.9,27.4,18.8,25.7,27.3,11.4,16.6,37.3,35.5,12.0,17.7</Response>
+  <Response Label="Somewhat support">8.5,8.7,8.4,9.6,8.1,7.9,4.8,14.6,12.1,4.6,6.3,5.5,6.9,11.6,5.6,12.0,9.8,7.8,4.6,10.2,4.0,8.7,7.7,8.2,13.9</Response>
+  <Response Label="Somewhat oppose">18.7,15.7,21.2,12.8,23.6,19.3,4.8,18.1,23.2,11.4,21.5,21.4,20.8,14.5,22.2,15.9,21.9,16.0,22.2,22.0,23.3,15.6,18.8,18.1,19.0</Response>
+  <Response Label="Strongly oppose">36.5,31.7,40.7,31.9,32.0,44.2,38.1,33.3,33.2,43.4,34.6,44.5,30.3,47.7,33.3,32.7,35.5,39.4,36.6,42.5,44.7,29.3,25.9,48.8,41.1</Response>
+  <Response Label="Don’t know">11.6,9.6,13.4,14.1,9.7,11.1,11.9,18.8,10.5,6.9,9.4,13.2,13.2,9.9,6.9,12.0,14.1,11.1,9.3,13.8,11.5,9.1,12.2,12.9,8.2</Response>
+ </myQuestion>
+ <myQuestion Qid="10" label="How confident are you that the 2024 presidential election will be conducted fairly and accurately? ">
+  <Response Label="Very confident">26.3,27.9,24.9,17.8,25.8,33.6,9.3,31.2,23.3,23.9,30.5,34.3,25.5,28.4,20.8,28.8,23.5,24.4,30.1,43.5,28.1,17.4,13.7,43.0,28.9</Response>
+  <Response Label="Somewhat confident">30.7,28.7,32.3,28.3,30.3,33.1,32.6,36.1,25.9,31.2,26.3,36.5,29.1,33.0,31.9,32.2,34.5,30.9,23.6,32.9,35.2,27.2,28.0,33.6,28.3</Response>
+  <Response Label="Not so confident">16.6,17.0,16.2,17.2,16.5,15.9,30.2,13.9,24.9,15.9,14.7,10.5,19.5,11.9,15.3,11.1,14.1,16.3,25.0,6.3,12.3,23.7,25.0,7.0,13.8</Response>
+  <Response Label="Not at all confident ">23.3,24.5,22.3,30.3,24.2,16.9,27.9,16.7,25.4,20.5,26.3,17.7,23.9,20.9,30.6,19.2,26.3,26.7,18.5,16.9,20.6,27.6,28.2,14.9,27.7</Response>
+  <Response Label="Don’t know">3.2,1.9,4.3,6.4,3.2,0.5,0.0,2.1,0.5,8.5,2.1,1.1,2.0,5.8,1.4,8.7,1.6,1.6,2.8,0.4,4.0,4.1,5.1,1.5,1.3</Response>
+ </myQuestion>
+ <myQuestion Qid="11" label="Do you believe there was widespread voter fraud in the 2020 presidential election, or not? ">
+  <Response Label="Yes">46.4,48.6,44.5,61.8,50.3,30.4,83.7,54.2,45.7,59.1,39.7,29.7,54.7,34.6,35.6,54.8,38.8,45.5,50.7,12.5,36.0,71.1,76.5,12.9,31.4</Response>
+  <Response Label="No ">47.9,43.9,51.4,33.8,41.6,64.8,14.0,42.4,49.5,35.8,53.4,64.8,40.3,59.6,53.4,43.8,49.0,51.0,45.6,81.6,58.5,23.5,17.9,83.6,60.4</Response>
+  <Response Label="Don’t know">5.7,7.5,4.1,4.5,8.1,4.8,2.3,3.5,4.8,5.1,6.9,5.5,4.9,5.8,11.0,1.4,12.2,3.6,3.7,5.9,5.5,5.4,5.6,3.5,8.2</Response>
+ </myQuestion>
+ <myQuestion Qid="12" label="Which comes closer to your line of thinking: supporting Israel is in the national interest of the United States or supporting Israel is not in the national interest of the United States?">
+  <Response Label="In national interest">60.0,67.6,53.3,62.4,54.8,61.7,61.9,53.1,55.0,58.9,64.2,67.6,71.7,42.7,45.2,37.0,47.5,71.0,81.9,40.4,61.0,71.7,74.8,46.5,50.3</Response>
+  <Response Label="Not in national interest">30.7,23.2,37.2,35.0,31.3,26.6,23.8,41.4,38.1,28.6,26.3,23.6,20.0,46.8,41.1,56.2,40.4,19.2,12.1,49.8,26.8,22.0,21.4,41.5,35.2</Response>
+  <Response Label="Don’t know">9.3,9.2,9.5,2.5,13.9,11.6,14.3,5.5,6.9,12.6,9.5,8.8,8.3,10.5,13.7,6.7,12.2,9.8,6.0,9.8,12.2,6.3,3.8,12.0,14.5</Response>
+ </myQuestion>
+ <myQuestion Qid="13" label="The state constitution allows Georgia residents to attempt to change local laws by petitioning to get an issue on the ballot for citizens to vote on. Some officials say this creates the opportunity for groups to reverse governing decisions large and small; others say that citizens should have the opportunity to challenge government decisions if they can meet the high bar for getting them on the ballot. Do you approve or disapprove of this provision?">
+  <Response Label="Strongly approve">51.5,58.1,45.7,56.7,50.3,47.8,42.9,45.8,54.0,65.1,47.1,53.3,49.3,55.1,52.1,58.9,53.5,49.7,45.1,48.4,52.2,53.0,52.1,48.8,58.5</Response>
+  <Response Label="Somewhat approve">28.6,24.3,32.5,22.6,33.5,29.8,14.3,36.8,26.5,23.4,32.3,27.5,28.5,31.6,15.1,29.2,27.0,31.2,26.0,32.7,32.0,26.3,26.3,33.6,23.9</Response>
+  <Response Label="Somewhat disapprove">5.4,3.6,6.9,4.8,4.2,7.1,7.1,4.2,8.5,2.3,6.9,3.8,6.9,2.6,5.5,3.3,4.7,5.8,8.4,5.1,5.5,5.4,7.1,5.3,2.5</Response>
+  <Response Label="Strongly disapprove">4.8,4.7,4.9,5.4,3.5,5.3,2.4,3.5,6.9,1.1,4.2,6.0,4.6,4.3,8.2,1.9,5.1,4.2,7.4,5.5,3.2,3.9,5.8,3.2,5.0</Response>
+  <Response Label="Don’t know">9.7,9.4,10.1,10.5,8.4,10.0,33.3,9.7,4.2,8.0,9.5,9.3,10.7,6.4,19.2,6.7,9.8,9.1,13.0,8.3,7.1,11.3,8.8,9.1,10.1</Response>
+ </myQuestion>
+ <myQuestion Qid="14" label="The Georgia Legislature is considering legislation that would allow the use of taxpayer funds to pay for private schooling in some circumstances. Do you support or oppose the use of taxpayer money to support students who want a private education?">
+  <Response Label="Strongly approve">19.9,21.7,18.4,24.2,16.2,19.3,21.4,17.2,21.7,23.3,15.3,18.7,20.0,18.3,26.4,16.8,21.2,20.8,19.5,12.9,13.8,25.9,28.1,11.1,15.0</Response>
+  <Response Label="Somewhat approve">15.1,15.5,14.5,13.7,15.6,15.8,21.4,13.1,15.3,13.6,21.6,13.7,17.3,11.9,12.5,19.7,13.7,12.7,15.3,8.2,15.4,18.7,16.7,9.6,19.4</Response>
+  <Response Label="Somewhat disapprove">15.5,13.2,17.7,13.4,15.6,17.4,9.5,29.0,16.4,11.4,15.8,14.3,14.1,18.6,12.5,25.5,14.5,10.7,14.4,21.6,15.4,13.0,12.8,21.6,12.5</Response>
+  <Response Label="Strongly disapprove">44.0,43.6,44.2,43.6,46.1,42.2,33.3,37.9,40.7,48.3,43.2,46.2,43.1,46.2,40.3,33.2,45.9,50.5,43.7,53.3,48.2,37.2,37.3,52.3,46.9</Response>
+  <Response Label="Don’t know">5.6,6.0,5.2,5.1,6.5,5.3,14.3,2.8,5.8,3.4,4.2,7.1,5.6,4.9,8.3,4.8,4.7,5.2,7.0,3.9,7.1,5.2,5.1,5.3,6.2</Response>
+ </myQuestion>
+ <myQuestion Qid="15" label="How much you trust the schools in your district to ensure books in school libraries are appropriate for students?">
+  <Response Label="Completely trust">19.2,17.3,20.9,16.2,15.2,25.1,2.4,19.3,14.3,26.9,20.5,23.0,18.0,21.5,18.1,27.9,21.6,15.3,14.4,24.0,25.3,14.6,14.3,27.6,18.2</Response>
+  <Response Label="Mostly trust">48.3,43.7,52.3,44.9,52.6,47.9,45.2,60.7,45.0,45.1,43.2,48.6,47.6,51.5,38.9,43.8,48.6,52.4,47.2,55.1,47.4,45.7,43.7,53.1,50.9</Response>
+  <Response Label="Mostly distrust">15.1,17.3,13.0,14.6,17.4,12.7,31.0,8.3,15.9,14.3,17.4,15.3,16.9,11.9,13.9,13.5,13.7,14.0,18.1,10.2,8.7,21.7,21.0,6.7,16.4</Response>
+  <Response Label="Completely distrust">11.9,15.6,8.6,18.5,8.7,9.0,7.1,9.7,19.0,6.9,12.6,9.3,11.2,11.3,19.4,13.5,11.4,11.7,11.1,5.5,11.5,14.6,15.6,7.3,9.4</Response>
+  <Response Label="Don’t know">5.6,6.2,5.2,5.7,6.1,5.3,14.3,2.1,5.8,6.9,6.3,3.8,6.3,3.8,9.7,1.4,4.7,6.5,9.3,5.1,7.1,3.5,5.4,5.3,5.0</Response>
+ </myQuestion>
+ <myQuestion Qid="16" label="How much you trust the schools in your district to teach about racism in the United States?">
+  <Response Label="Completely trust">12.7,12.3,13.0,11.1,11.3,15.3,2.3,17.2,11.7,14.3,12.6,13.7,15.8,8.1,9.6,17.7,11.8,11.7,9.7,16.9,15.7,8.7,10.9,15.8,13.3</Response>
+  <Response Label="Mostly trust">31.5,31.9,31.0,20.7,36.9,36.0,32.6,25.5,30.9,31.4,33.7,36.6,34.7,24.0,39.7,23.4,34.9,30.8,37.5,37.4,29.9,29.8,28.0,36.3,28.5</Response>
+  <Response Label="Mostly distrust">23.1,24.3,21.9,18.5,25.6,24.3,23.3,26.9,18.1,21.7,24.7,23.0,22.9,24.9,15.1,24.9,19.6,22.1,25.5,16.9,27.2,25.4,26.5,19.3,25.3</Response>
+  <Response Label="Completely distrust">25.6,25.7,25.5,42.7,18.8,17.2,30.2,29.0,34.6,27.4,20.5,18.0,17.8,39.9,21.9,31.6,26.3,25.0,20.8,22.4,19.3,29.3,26.3,23.7,25.9</Response>
+  <Response Label="Don’t know">7.2,5.7,8.6,7.0,7.4,7.1,11.6,1.4,4.8,5.1,8.4,8.7,8.8,3.2,13.7,2.4,7.5,10.4,6.5,6.3,7.9,6.7,8.3,5.0,7.0</Response>
+ </myQuestion>
+ <myQuestion Qid="17" label="How much you trust the schools in your district to respond appropriately when a student poses a risk of doing something violent?">
+  <Response Label="Completely trust">18.5,15.8,20.9,24.2,15.8,16.1,9.3,20.1,16.9,27.4,17.4,16.5,18.6,18.0,19.2,24.2,15.7,17.9,17.1,12.6,22.8,20.4,22.2,16.4,13.9</Response>
+  <Response Label="Mostly trust">43.1,45.6,41.0,36.3,40.2,51.1,44.2,40.3,39.2,41.7,46.3,50.0,45.9,40.0,34.2,29.0,46.7,48.5,44.4,47.6,42.1,42.0,41.2,46.5,41.1</Response>
+  <Response Label="Mostly distrust">20.1,19.6,20.5,22.0,22.2,16.7,23.3,31.9,21.2,13.1,20.5,16.5,16.4,27.2,16.4,29.0,17.3,18.9,18.1,23.2,16.1,20.7,17.7,20.8,26.6</Response>
+  <Response Label="Completely distrust">10.1,10.0,10.2,9.9,11.6,9.0,4.7,2.8,12.7,10.9,11.1,8.8,9.3,9.0,21.9,14.5,10.2,8.5,8.3,9.8,6.3,10.4,10.9,9.1,8.2</Response>
+  <Response Label="Don’t know">8.2,9.0,7.4,7.6,10.3,7.1,18.6,4.9,10.1,6.9,4.7,8.2,9.7,5.8,8.2,3.4,10.2,6.2,12.0,6.7,12.6,6.5,7.9,7.3,10.1</Response>
+ </myQuestion>
+ <myQuestion Qid="18" label="How much confidence do you have in the Georgia Legislature?">
+  <Response Label="A great deal">7.4,13.0,2.4,13.0,4.5,5.0,2.3,2.1,11.2,12.0,7.9,7.1,8.6,5.8,4.2,11.1,5.1,7.2,6.9,2.7,4.3,12.2,14.1,1.2,1.9</Response>
+  <Response Label="Quite a lot">13.2,12.3,14.0,8.6,13.9,16.7,9.3,14.5,6.9,18.3,13.8,13.7,16.1,8.1,13.9,13.0,10.9,13.0,17.6,9.8,14.2,15.4,16.0,11.4,8.8</Response>
+  <Response Label="Some">53.7,50.2,56.8,50.8,57.6,52.8,58.1,52.4,59.6,50.9,56.1,50.5,54.4,55.7,40.3,48.1,60.9,54.4,48.1,48.6,55.5,55.7,55.2,49.7,58.5</Response>
+  <Response Label="Very little">23.9,21.7,25.7,26.7,21.4,23.6,30.2,29.0,22.3,17.7,20.6,25.8,19.0,29.6,36.1,27.9,19.9,24.1,25.0,37.3,24.4,15.0,13.4,35.4,28.9</Response>
+  <Response Label="None">0.7,0.9,0.6,0.0,1.0,0.8,0.0,0.0,0.0,1.1,1.1,0.5,0.7,0.3,1.4,0.0,0.8,1.0,0.5,0.8,0.8,0.7,0.4,0.9,1.3</Response>
+  <Response Label="Don’t know">1.1,1.9,0.6,1.0,1.6,1.1,0.0,2.1,0.0,0.0,0.5,2.2,1.2,0.6,4.2,0.0,2.3,0.3,1.9,0.8,0.8,1.1,0.9,1.5,0.6</Response>
+ </myQuestion>
+ <myQuestion Qid="19" label="How much confidence do you have in Georgia K-12 public schools?">
+  <Response Label="A great deal">10.0,10.0,10.0,11.2,11.0,7.9,7.1,16.6,10.6,12.5,9.0,5.6,10.9,8.7,8.3,13.5,5.9,13.0,7.4,10.2,9.9,10.2,10.4,12.3,5.7</Response>
+  <Response Label="Quite a lot">19.1,19.8,18.4,8.3,20.6,26.7,7.1,22.8,17.5,13.6,24.9,23.3,21.6,15.1,18.1,13.9,20.5,20.5,21.3,25.4,20.2,16.5,17.7,22.2,18.2</Response>
+  <Response Label="Some">48.8,47.2,50.0,57.8,44.5,45.0,57.1,43.4,50.8,56.8,47.6,45.0,45.0,58.7,33.3,54.8,47.6,44.5,50.0,51.6,48.6,47.9,47.1,50.6,50.9</Response>
+  <Response Label="Very little">17.8,17.9,17.7,17.6,18.4,17.5,19.0,15.9,17.5,10.8,13.8,23.3,17.5,14.2,37.5,15.9,20.5,18.5,15.3,11.7,16.6,20.0,18.6,12.6,23.3</Response>
+  <Response Label="None">2.0,2.8,1.5,2.6,2.6,1.1,0.0,0.0,2.6,4.0,2.6,1.1,2.4,1.7,0.0,1.9,3.9,1.6,0.5,0.4,2.8,2.6,3.6,0.0,1.9</Response>
+  <Response Label="Don’t know">2.3,2.3,2.4,2.6,2.9,1.9,9.5,1.4,1.1,2.3,2.1,1.7,2.7,1.5,2.8,0.0,1.6,1.9,5.6,0.8,2.0,2.8,2.6,2.3,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="20" label="How much confidence do you have in Georgia’s colleges and universities?">
+  <Response Label="A great deal">21.6,23.7,19.9,25.8,13.9,24.5,15.9,20.8,15.4,33.7,19.5,24.0,20.5,25.0,15.3,25.4,20.7,22.7,18.2,24.0,29.7,16.5,17.5,27.9,20.9</Response>
+  <Response Label="Quite a lot">29.1,28.6,29.6,23.6,33.0,30.5,9.1,29.2,29.8,26.9,35.3,35.5,32.1,24.1,29.2,28.2,33.2,27.3,27.1,33.1,26.2,29.1,27.5,30.5,32.3</Response>
+  <Response Label="Some">37.8,33.5,41.5,35.7,41.1,36.8,54.5,43.1,41.5,30.9,36.8,28.4,35.0,44.2,30.6,34.4,36.3,39.3,41.6,36.6,41.0,37.0,39.0,36.4,39.9</Response>
+  <Response Label="Very little">8.7,11.7,6.0,13.4,7.1,5.8,9.1,6.9,9.6,5.1,6.3,11.5,9.2,5.2,19.4,11.0,6.6,8.8,8.9,4.3,2.3,14.1,12.4,2.6,6.3</Response>
+  <Response Label="None">0.5,0.6,0.4,0.0,0.3,1.1,2.3,0.0,0.0,1.7,0.0,0.5,0.7,0.0,1.4,0.0,0.8,1.0,0.0,0.0,0.4,0.7,1.1,0.0,0.0</Response>
+  <Response Label="Don’t know">2.3,1.9,2.6,1.6,4.5,1.3,9.1,0.0,3.7,1.7,2.1,0.0,2.5,1.5,4.2,1.0,2.3,1.0,4.2,2.0,0.4,2.6,2.6,2.6,0.6</Response>
+ </myQuestion>
+ <myQuestion Qid="21" label="How much confidence do you have in Georgia’s election system?">
+  <Response Label="A great deal">16.1,18.7,13.8,10.5,14.5,21.6,9.5,9.7,12.6,14.3,20.0,25.7,16.5,16.3,12.3,6.2,17.3,19.5,18.1,26.0,19.4,9.3,9.4,24.0,20.0</Response>
+  <Response Label="Quite a lot">23.3,23.6,23.1,15.3,28.4,25.9,16.7,20.1,21.1,26.3,25.3,26.2,24.6,22.7,15.1,26.0,23.5,20.8,24.1,32.3,25.7,18.3,17.1,29.5,23.8</Response>
+  <Response Label="Some">37.2,34.7,39.5,44.3,33.2,34.8,28.6,52.8,36.8,42.3,32.6,29.5,36.2,39.2,37.0,47.1,37.3,36.7,30.1,28.7,32.8,44.8,44.2,31.0,32.5</Response>
+  <Response Label="Very little">19.9,20.4,19.4,23.2,21.0,16.1,42.9,14.6,24.2,15.4,19.5,15.3,19.5,18.3,30.1,20.7,16.5,20.5,22.2,11.0,20.9,23.7,25.9,12.0,20.6</Response>
+  <Response Label="None">1.8,1.5,2.0,1.9,2.9,1.1,2.4,2.8,2.1,1.7,1.1,0.5,1.9,1.7,1.4,0.0,2.7,1.9,2.3,1.2,0.0,3.0,1.7,1.5,3.1</Response>
+  <Response Label="Don’t know">1.7,1.1,2.2,4.8,0.0,0.5,0.0,0.0,3.2,0.0,1.6,2.7,1.4,1.7,4.1,0.0,2.7,0.6,3.2,0.8,1.2,0.9,1.7,2.0,0.0</Response>
+ </myQuestion>
+ <myQuestion Qid="22" label="How much confidence do you have in Georgia law enforcement?">
+  <Response Label="A great deal">20.6,24.5,17.3,23.5,19.4,19.0,21.4,12.4,15.3,33.0,21.2,20.2,24.4,15.7,13.9,21.5,14.1,20.8,27.3,13.3,17.3,27.3,30.6,11.4,11.2</Response>
+  <Response Label="Quite a lot">28.3,31.3,25.9,28.3,27.7,29.0,21.4,17.2,31.1,29.5,31.7,30.1,37.8,15.1,13.9,19.6,29.0,30.2,32.9,17.2,25.6,35.8,40.0,17.9,15.0</Response>
+  <Response Label="Some">32.7,27.9,36.9,26.7,33.5,37.2,28.6,42.8,37.4,23.3,34.9,33.9,29.3,37.5,37.5,29.2,37.6,34.7,27.8,40.6,35.4,28.4,23.3,41.6,43.8</Response>
+  <Response Label="Very little">15.9,14.1,17.3,19.0,16.1,12.9,21.4,27.6,11.6,9.1,12.2,15.3,6.8,27.9,33.3,26.3,16.5,12.3,10.6,24.6,19.7,7.8,5.1,24.9,26.9</Response>
+  <Response Label="None">1.2,1.7,0.7,1.0,2.3,0.5,7.1,0.0,1.6,2.8,0.0,0.5,1.0,1.7,0.0,1.4,2.4,0.6,0.0,2.7,0.0,0.2,0.9,2.3,0.6</Response>
+  <Response Label="Don’t know">1.2,0.4,1.9,1.6,1.0,1.3,0.0,0.0,3.2,2.3,0.0,0.0,0.7,2.0,1.4,1.9,0.4,1.3,1.4,1.6,2.0,0.4,0.2,1.8,2.5</Response>
+ </myQuestion>
+ <myQuestion Qid="23" label="If the election were held today and the candidates for president were Democrat Joe Biden and Republican Donald Trump, for whom would you vote? ">
+  <Response Label="Joe Biden">36.9,26.4,46.2,23.6,39.0,46.6,20.9,40.3,31.9,30.3,37.9,43.7,24.9,58.6,33.3,34.9,33.1,37.7,40.9,74.4,50.0,9.8,3.0,84.3,38.4</Response>
+  <Response Label="Donald Trump	">44.7,55.4,35.6,61.5,43.2,31.7,62.8,38.9,42.6,58.3,45.8,38.8,59.2,20.4,43.1,47.8,42.5,44.5,46.0,8.3,26.4,75.0,82.5,2.3,27.7</Response>
+  <Response Label="Other candidate ">6.5,7.9,5.2,6.7,5.8,7.1,4.7,7.6,6.9,6.9,5.8,7.7,8.3,2.6,9.7,6.7,8.3,6.5,5.1,6.7,10.2,4.8,6.6,4.7,9.4</Response>
+  <Response Label="Will not vote for president ">5.7,4.9,6.3,6.4,5.2,5.6,0.0,6.9,10.1,2.3,4.2,7.1,3.2,10.2,4.2,3.3,10.6,5.2,3.3,7.5,6.3,4.1,3.4,4.1,13.8</Response>
+  <Response Label="Don’t know">6.1,5.3,6.7,1.9,6.8,9.0,11.6,6.2,8.5,2.3,6.3,2.7,4.4,8.2,9.7,7.2,5.5,6.2,4.7,3.1,7.1,6.3,4.5,4.7,10.7</Response>
+ </myQuestion>
+</docbase>
