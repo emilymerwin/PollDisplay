@@ -20,10 +20,10 @@
     * Update `labelArr` on line 15 with your spreadsheet's column headers; they MUST be in the same order as they appear in your CSV - all arrays are loaded by index so if your column name is in the wrong spot it will display the wrong data when the filter is clicked
 - Check locally using `python -m simpleHTTPServer` (then open your browser to localhost:8000/dist/)
     * Read through the questions and answers and double-check that there are no strange characters, typos or proper nouns that should have been capitalized (the data comes to Isaac in ALL CAPS and I think he retypes them by hand). If you find odd characters you may wish to add them to the list of replacements in  `py/pollCSVconverter.py` on line 36 and/or 41 as appropriate.
-- Upload to AWS and make public (see instructions [here](https://bitbucket.org/ajcnewsapp/news-apps-team-wiki/wiki/Setting%20up%20deployment%20credentials%20for%20our%20ajcnewsapp%20AWS%20s3%20account) if you don't have your credentials set up): `aws s3 cp ./dist s3://ajcnewsapps/[year]/polls/[your-poll] --recursive --acl public-read`
+- Upload to AWS and make public (see instructions [here](https://bitbucket.org/ajcnewsapp/news-apps-team-wiki/wiki/Setting%20up%20deployment%20credentials%20for%20our%20ajcnewsapp%20AWS%20s3%20account) if you don't have your credentials set up): `aws s3 cp ./dist s3://ajcnewsapps/2024/polls/jan2024 --recursive --acl public-read`
 - Isaac usually creates the flatpage in Arc and we just need to add the embed code. Your embed code will look like this (see dist/iframe.html to preview it): 
 ```
-      <div data-pym-src="https://ajcnewsapps.s3.amazonaws.com/[year]/polls/[your-poll]/index.html" id="poll-graphic"></div>
+      <div data-pym-src="https://ajcnewsapps.s3.amazonaws.com/2024/polls/jan2024/index.html" id="poll-graphic"></div>
       <script type="text/javascript" src="https://pym.nprapps.org/pym-loader.v1.min.js"></script>
 ```
 
